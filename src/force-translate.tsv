@@ -1,0 +1,57 @@
+# 强制替换表：不受上下文判断限制
+# 用于撤销/重做描述、状态栏等由字符串拼接产生的片段
+# 格式：英文原文<TAB>中文译文（行尾空格必须保留）
+
+Change ceiling height	更改天花板高度
+Change floor height	更改地板高度
+Change sector index	更改扇区索引
+Change thing index	更改物件索引
+Change vertex index	更改顶点索引
+Change linedef index	更改线段索引
+Edit linedef	编辑线段
+Edit selection	编辑选择
+Edit thing	编辑物件
+Remove comment	移除注释
+Split Linedef	分割线段
+Split 	分割 
+Align 	对齐 
+Aligned 	已对齐 
+Align linedefs of 	对齐线段：
+Aligned linedefs of 	已对齐线段：
+Flip 	翻转 
+Flipped 	已翻转 
+Flip linedefs of 	翻转线段：
+Flipped linedefs of 	已翻转线段：
+Rotate 	旋转 
+Rotated 	已旋转 
+Clone-drag 	克隆拖动 
+Created 	已创建 
+Delete 	删除 
+Deleted 	已删除 
+Dissolve 	溶解 
+Dissolved 	已溶解 
+Drag 	拖动 
+Snapped 	已吸附 
+Toggled Slope for 	切换斜面：
+Wall scale changed to 	墙面缩放更改为 
+Matched brightness for 	已匹配亮度：
+Auto-align textures 	自动对齐贴图 
+Auto-align textures to selected sidedefs 	自动对齐贴图到选中侧面 
+Ceiling Brightness	天花板亮度
+Floor Brightness	地板亮度
+Pasted sector properties.	已粘贴扇区属性。
+Pasted thing properties.	已粘贴物件属性。
+Pasted vertex properties.	已粘贴顶点属性。
+Pasted texture offsets 	已粘贴贴图偏移 
+Texture offsets reset.	贴图偏移已重置。
+Thing scale reset.	物件缩放已重置。
+Thing scale, pitch and roll reset.	物件缩放、俯仰和翻滚已重置。
+Local texture offsets, scale and brightness reset.	局部贴图偏移、缩放和亮度已重置。
+Created middle texture.	已创建中部贴图。
+Deleted a texture.	已删除贴图。
+Cleared vertex height offset.	已清除顶点高度偏移。
+Changed slope.	坡度已更改。
+Set lower-unpegged setting.	已设置下部不钉住。
+Set upper-unpegged setting.	已设置上部不钉住。
+Removed lower-unpegged setting.	已移除下部不钉住设置。
+Removed upper-unpegged setting.	已移除上部不钉住设置。

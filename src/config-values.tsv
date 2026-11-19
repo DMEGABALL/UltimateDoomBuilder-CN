@@ -1,0 +1,408 @@
+# 游戏配置中的标志 / 选项显示文本（UDMF 标志、泛化动作与效果等）
+# 格式：英文原文<TAB>中文译文
+1 Second	1 秒
+10 per second	每秒 10
+10 Seconds	10 秒
+16 Map Pixels	16 地图像素
+20 per second	每秒 20
+24 Map Pixels	24 地图像素
+24 Map Pixels (relative)	24 地图像素（相对）
+3 Seconds	3 秒
+30 Seconds	30 秒
+32 Map Pixels (relative)	32 地图像素（相对）
+4 Map Pixels	4 地图像素
+4 Seconds	4 秒
+5 per second	每秒 5
+5 Seconds	5 秒
+8 Map Pixels	8 地图像素
+9 Seconds	9 秒
+Actors drop with instantly moving floors	地面瞬间移动时物件随之落下
+All	全部
+Ambush players	伏击玩家
+Any	任意
+At different texture	在不同贴图时
+Block everything	阻挡一切
+Block floating monsters	阻挡漂浮怪物
+Block hitscans	阻挡即时命中攻击
+Block land monsters	阻挡地面怪物
+Block monster line of sight	阻挡怪物视线
+Block monsters	阻挡怪物
+Block players	阻挡玩家
+Block projectiles	阻挡飞弹
+Block sound	阻挡声音
+Block use actions	阻挡使用动作
+Blue Keycard	蓝色钥匙卡
+Blue Skullkey	蓝色骷髅钥匙
+Carry East Fast	向东推动（快）
+Carry East Med.Fast	向东推动（中快）
+Carry East Med.Slow	向东推动（中慢）
+Carry East Medium	向东推动（中）
+Carry East Slow	向东推动（慢）
+Carry North Fast	向北推动（快）
+Carry North Med.Fast	向北推动（中快）
+Carry North Med.Slow	向北推动（中慢）
+Carry North Medium	向北推动（中）
+Carry North Slow	向北推动（慢）
+Carry player by tag	按标签推动玩家
+Carry South Fast	向南推动（快）
+Carry South Med.Fast	向南推动（中快）
+Carry South Med.Slow	向南推动（中慢）
+Carry South Medium	向南推动（中）
+Carry South Slow	向南推动（慢）
+Carry West Fast	向西推动（快）
+Carry West Med.Fast	向西推动（中快）
+Carry West Med.Slow	向西推动（中慢）
+Carry West Medium	向西推动（中）
+Carry West Slow	向西推动（慢）
+Ceiling	天花板
+Change Texture and Effect	改变贴图与效果
+Change Texture and Remove Effect	改变贴图并移除效果
+Change Texture Only	仅改变贴图
+Class 1	类别 1
+Class 2	类别 2
+Class 3	类别 3
+Class 4	类别 4
+Class 5	类别 5
+Clip middle texture	裁剪中间贴图
+Close Only	仅关闭
+Close Wait Open	关闭-等待-开启
+Cooperative	合作模式
+Count as secret	计为秘密
+Damage -5% health (no protection)	伤害 -5% 生命值（无防护）
+Damage -8% health (no protection)	伤害 -8% 生命值（无防护）
+Damage and exit level when < 10%	生命值低于 10% 时受伤并退出关卡
+Damage disables god mode cheat	伤害会禁用无敌作弊
+Damage End Level -20% health	伤害并结束关卡 -20% 生命值
+Damage Hellslime -10% health	伤害 地狱粘液 -10% 生命值
+Damage Nukage -5% health	伤害 核废液 -5% 生命值
+Damage Sludge -4% health	伤害 污泥 -4% 生命值
+Damage Super Hellslime -20% health	伤害 超级地狱粘液 -20% 生命值
+Death exit (normal)	死亡退出（普通）
+Death exit (secret)	死亡退出（秘密）
+Deathmatch	死亡竞赛
+Delayed damage strong (hazardcount +4/16 per second)	延迟强伤害（hazardcount +4/16 每秒）
+Delayed damage weak (hazardcount +2/16 per second)	延迟弱伤害（hazardcount +2/16 每秒）
+Disabled	禁用
+Door Once	门（单次）
+Door Repeatable	门（可重复）
+Dormant	休眠
+Doublesided	双面
+Down	向下
+Enabled	启用
+Fast	快
+Floor	地面
+floor/ceiling normal	地面/天花板正常
+floor/ceiling silent	地面/天花板静音
+Friendly (MBF logic)	友方（MBF 逻辑）
+Friendly (Strife logic)	友方（Strife 逻辑）
+Gunfire Once	枪声（单次）
+Gunfire Repeatable	枪声（可重复）
+Healing Sector	治疗扇区
+Hidden Sector (automap)	隐藏扇区（自动地图）
+Highest Adjacent Ceiling	最高相邻天花板
+Highest Adjacent Floor	最高相邻地面
+Impassable	不可通行
+Initially shown on map	初始在地图上显示
+Instant death	立即死亡
+Invisible	隐形
+Jump-over railing	可跳过的栏杆
+Keycard and Skullkey are same	钥匙卡与骷髅钥匙相同
+Kill Monsters	杀死怪物
+Kill player	杀死玩家
+Kill unprotected player	杀死无防护玩家
+Light Fire Flicker	灯光火焰闪烁
+Light Flicker	灯光闪烁
+Light Glow	灯光辉光
+Light Phased	灯光相位
+Light Sequence Special 1	灯光序列特殊 1
+Light Sequence Special 2	灯光序列特殊 2
+Light Sequence Start	灯光序列开始
+Light Strobe Fast	灯光频闪（快）
+Light Strobe Hurt -20% health	灯光伤害频闪 -20% 生命值
+Light Strobe Slow	灯光频闪（慢）
+Light StrobeFastSync	灯光频闪快同步
+Light StrobeSlowSync	灯光频闪慢同步
+Low Friction	低摩擦
+Lower part copies backsector's portal	下部复制背面扇区的传送门
+Lower unpegged	下部不钉
+Lowest Adjacent Ceiling	最低相邻天花板
+Lowest adjacent Ceiling	最低相邻天花板
+Lowest adjacent Floor	最低相邻地面
+Lowest Adjacent Floor	最低相邻地面
+Monster activates	怪物激活
+Next Adjacent Ceiling	下一个相邻天花板
+Next adjacent Floor	下一个相邻地面
+Next Adjacent Floor	下一个相邻地面
+No	否
+No (each is a different key)	否（每把都是不同的钥匙）
+No completion count	不计入完成数
+No falling damage	无坠落伤害
+None	无
+Normal	普通
+Not shown on automap	不在自动地图显示
+Not shown on map	不在地图上显示
+Numeric	数值
+Open Only	仅开启
+Open Wait Close	开启-等待-关闭
+Perpetual Lowest and Highest Floors	持续使用最低与最高地面
+Players can't respawn in this sector	玩家无法在此扇区重生
+Projectile shoot-through middle texture	飞弹可穿透中间贴图
+Red Keycard	红色钥匙卡
+Red Skullkey	红色骷髅钥匙
+Scroll East (fast)	向东滚动（快）
+Scroll East (medium)	向东滚动（中）
+Scroll East (slow)	向东滚动（慢）
+Scroll east + -2 or -5% health (no protection)	向东滚动 + -2 或 -5% 生命值（无防护）
+Scroll North (fast)	向北滚动（快）
+Scroll North (medium)	向北滚动（中）
+Scroll North (slow)	向北滚动（慢）
+Scroll NorthEast (fast)	向东北滚动（快）
+Scroll NorthEast (medium)	向东北滚动（中）
+Scroll NorthEast (slow)	向东北滚动（慢）
+Scroll NorthWest (fast)	向西北滚动（快）
+Scroll NorthWest (medium)	向西北滚动（中）
+Scroll NorthWest (slow)	向西北滚动（慢）
+Scroll South (fast)	向南滚动（快）
+Scroll South (medium)	向南滚动（中）
+Scroll South (slow)	向南滚动（慢）
+Scroll SouthEast (fast)	向东南滚动（快）
+Scroll SouthEast (medium)	向东南滚动（中）
+Scroll SouthEast (slow)	向东南滚动（慢）
+Scroll SouthWest (fast)	向西南滚动（快）
+Scroll SouthWest (medium)	向西南滚动（中）
+Scroll SouthWest (slow)	向西南滚动（慢）
+Scroll West (fast)	向西滚动（快）
+Scroll West (medium)	向西滚动（中）
+Scroll West (slow)	向西滚动（慢）
+Secret	秘密
+Sector Door Close (30 sec)	扇区门关闭（30 秒）
+Sector Door Raise (5 min)	扇区门升起（5 分钟）
+Sector is under water and swimmable	扇区位于水下且可游泳
+Shortest Lower Texture	最短下部贴图
+Shown as 1-sided on map	在地图上显示为单面
+Silent	静音
+Singleplayer	单人游戏
+Skill 1	技能 1
+Skill 2	技能 2
+Skill 3	技能 3
+Skill 4	技能 4
+Skill 5	技能 5
+sLight_Strobe_Hurt	灯光频闪伤害
+Slow	慢
+Sound zone boundary	声音区域边界
+sounds in sector are normal	扇区内的声音正常
+sounds in sector are suppressed	扇区内的声音被抑制
+Spawn terrain splashes on damage	受伤时生成地形溅射
+Stairs Special 1	楼梯特殊 1
+Stairs Special 2	楼梯特殊 2
+Stand still	原地不动
+Strife damage model	Strife 伤害模型
+Switch Once	开关（单次）
+Switch Repeatable	开关（可重复）
+Translucent (25%)	半透明（25%）
+Translucent (obsolete)	半透明（已弃用）
+Transparent (25% opacity)	透明（25% 不透明度）
+Trigger	触发
+Turbo	加速
+Up	向上
+Upper part copies backsector's portal	上部复制背面扇区的传送门
+Upper unpegged	上部不钉
+Visual Mode camera	视觉模式摄像机
+Walk Over Once	走过（单次）
+Walk Over Repeatable	走过（可重复）
+Walkable middle texture	中间贴图可行走
+Wind East medium	东风（中）
+Wind East strong	东风（强）
+Wind East weak	东风（弱）
+Wind North medium	北风（中）
+Wind North strong	北风（强）
+Wind North weak	北风（弱）
+Wind South medium	南风（中）
+Wind South strong	南风（强）
+Wind South weak	南风（弱）
+Wind West medium	西风（中）
+Wind West strong	西风（强）
+Wind West weak	西风（弱）
+Wrap middle texture	中间贴图环绕
+Yellow Keycard	黄色钥匙卡
+Yellow Skullkey	黄色骷髅钥匙
+Yes	是
+20% dmg. per sec. When player dies, level ends	每秒 20% 伤害。玩家死亡时关卡结束
+5% damage every 32 tics + light blink 0.5 sec.	每 32 个 tic 造成 5% 伤害 + 灯光闪烁 0.5 秒
+Airless	无空气
+Blue Hue	蓝色色调
+Blue Hue (Swimmable)	蓝色色调（可游泳）
+Ceiling closes 30 seconds after level start	关卡开始 30 秒后天花板关闭
+Ceiling opens 5 minutes after level start	关卡开始 5 分钟后天花板打开
+Damage (4 Points, Slow, Normal)	伤害（4 点，缓慢，普通）
+Damage (5 Points, Fast, Fire)	伤害（5 点，快速，火焰）
+Damage (5 Points, Fast, Fire), Light Blinks (0.5s), Scroll East (Fast)	伤害（5 点，快速，火焰），灯光闪烁（0.5 秒），向东滚动（快）
+Damage (8 Points, Fast, Fire)	伤害（8 点，快速，火焰）
+Damage -10 or 20% health	伤害 -10 或 20% 生命值
+Damage -10 or 20% health and End level	伤害 -10 或 20% 生命值并结束关卡
+Damage -10 or 20% health and Light Blinks (0.5 sec.)	伤害 -10 或 20% 生命值，灯光闪烁（0.5 秒）
+Damage -2 or 5% health	伤害 -2 或 5% 生命值
+Damage -5 or 10% health	伤害 -5 或 10% 生命值
+Damage 5% every 32 tics	每 32 个 tic 造成 5% 伤害
+Damage: +2 to nukagecount	伤害：nukagecount +2
+Damage: +4 to nukagecount	伤害：nukagecount +4
+Door Close Stay (after 30 sec.)	门关闭后保持（30 秒后）
+Door Close Stay (After 30s)	门关闭后保持（30 秒后）
+Door Open Close (opens after 5 min.)	门打开后关闭（5 分钟后打开）
+Door Open Stay (After 300s)	门打开后保持（300 秒后）
+EDGE fog: Blue 10%	EDGE 雾气：蓝色 10%
+EDGE fog: Blue 15%	EDGE 雾气：蓝色 15%
+EDGE fog: Blue 20%	EDGE 雾气：蓝色 20%
+EDGE fog: Blue 25%	EDGE 雾气：蓝色 25%
+EDGE fog: Blue 30%	EDGE 雾气：蓝色 30%
+EDGE fog: Blue 35%	EDGE 雾气：蓝色 35%
+EDGE fog: Blue 40%	EDGE 雾气：蓝色 40%
+EDGE fog: Blue 45%	EDGE 雾气：蓝色 45%
+EDGE fog: Blue 5%	EDGE 雾气：蓝色 5%
+EDGE fog: Blue 50%	EDGE 雾气：蓝色 50%
+EDGE fog: Green 10%	EDGE 雾气：绿色 10%
+EDGE fog: Green 15%	EDGE 雾气：绿色 15%
+EDGE fog: Green 20%	EDGE 雾气：绿色 20%
+EDGE fog: Green 25%	EDGE 雾气：绿色 25%
+EDGE fog: Green 30%	EDGE 雾气：绿色 30%
+EDGE fog: Green 35%	EDGE 雾气：绿色 35%
+EDGE fog: Green 40%	EDGE 雾气：绿色 40%
+EDGE fog: Green 45%	EDGE 雾气：绿色 45%
+EDGE fog: Green 5%	EDGE 雾气：绿色 5%
+EDGE fog: Green 50%	EDGE 雾气：绿色 50%
+EDGE fog: Red 10%	EDGE 雾气：红色 10%
+EDGE fog: Red 15%	EDGE 雾气：红色 15%
+EDGE fog: Red 20%	EDGE 雾气：红色 20%
+EDGE fog: Red 25%	EDGE 雾气：红色 25%
+EDGE fog: Red 30%	EDGE 雾气：红色 30%
+EDGE fog: Red 35%	EDGE 雾气：红色 35%
+EDGE fog: Red 40%	EDGE 雾气：红色 40%
+EDGE fog: Red 45%	EDGE 雾气：红色 45%
+EDGE fog: Red 5%	EDGE 雾气：红色 5%
+EDGE fog: Red 50%	EDGE 雾气：红色 50%
+EDGE fog: White 10%	EDGE 雾气：白色 10%
+EDGE fog: White 15%	EDGE 雾气：白色 15%
+EDGE fog: White 20%	EDGE 雾气：白色 20%
+EDGE fog: White 25%	EDGE 雾气：白色 25%
+EDGE fog: White 30%	EDGE 雾气：白色 30%
+EDGE fog: White 35%	EDGE 雾气：白色 35%
+EDGE fog: White 40%	EDGE 雾气：白色 40%
+EDGE fog: White 45%	EDGE 雾气：白色 45%
+EDGE fog: White 5%	EDGE 雾气：白色 5%
+EDGE fog: White 50%	EDGE 雾气：白色 50%
+EDGE Friction:  Slippy	EDGE 摩擦力：滑溜
+EDGE Friction:  Very Slippy	EDGE 摩擦力：非常滑溜
+EDGE Viscosity:  Sticky	EDGE 黏度：黏稠
+EDGE Viscosity:  Very Sticky	EDGE 黏度：非常黏稠
+Friction	摩擦力
+Green Hue	绿色色调
+Green Hue (Swimmable)	绿色色调（可游泳）
+Green Hue + Damage (Swimmable)	绿色色调 + 伤害（可游泳）
+Grey Hue	灰色色调
+Hub Entry	枢纽入口
+Instant death: 999% damage every tic	立即死亡：每个 tic 造成 999% 伤害
+Lava Liquid Extrafloor SCROLL/PUSH East	熔岩液体附加地板 滚动/推动 向东
+Lava Liquid Extrafloor SCROLL/PUSH North	熔岩液体附加地板 滚动/推动 向北
+Lava Liquid Extrafloor SCROLL/PUSH North East	熔岩液体附加地板 滚动/推动 向东北
+Lava Liquid Extrafloor SCROLL/PUSH North West	熔岩液体附加地板 滚动/推动 向西北
+Lava Liquid Extrafloor SCROLL/PUSH South	熔岩液体附加地板 滚动/推动 向南
+Lava Liquid Extrafloor SCROLL/PUSH South East	熔岩液体附加地板 滚动/推动 向东南
+Lava Liquid Extrafloor SCROLL/PUSH South West	熔岩液体附加地板 滚动/推动 向西南
+Lava Liquid Extrafloor SCROLL/PUSH West	熔岩液体附加地板 滚动/推动 向西
+Light blink 0.5 seconds, synchronized	灯光闪烁 0.5 秒，同步
+Light blink 1 second, synchronized	灯光闪烁 1 秒，同步
+Light Blinks (0.5 sec. synchronized)	灯光闪烁（0.5 秒，同步）
+Light blinks (0.5 sec.)	灯光闪烁（0.5 秒）
+Light Blinks (0.5 sec.)	灯光闪烁（0.5 秒）
+Light Blinks (1 sec. synchronized)	灯光闪烁（1 秒，同步）
+Light blinks (1 sec.)	灯光闪烁（1 秒）
+Light Blinks (1 sec.)	灯光闪烁（1 秒）
+Light Blinks (randomly)	灯光闪烁（随机）
+Light blinks (randomly)	灯光闪烁（随机）
+Light flicker random	灯光随机忽明忽暗
+Light Flickers (randomly)	灯光忽明忽暗（随机）
+Light Glows (1.0s)	灯光渐变发光（1.0 秒）
+Light Glows (1+ sec.)	灯光渐变发光（1 秒以上）
+Light Indoor 1	室内灯光 1
+Light Indoor 2	室内灯光 2
+Light oscillate	灯光振荡
+Lo Grav	低重力
+Purple Hue	紫色色调
+Push East	推动向东
+Push North	推动向北
+Push North East	推动向东北
+Push North West	推动向西北
+Push South	推动向南
+Push South East	推动向东南
+Push South West	推动向西南
+Push West	推动向西
+Red Hue	红色色调
+Red Hue (Swimmable)	红色色调（可游泳）
+Red Hue + Damage (Swimmable)	红色色调 + 伤害（可游泳）
+Scroll East (Fast)	向东滚动（快）
+Scroll East (Fastest)	向东滚动（最快）
+Scroll East (Medium)	向东滚动（中速）
+Scroll East (Slow)	向东滚动（慢）
+Scroll East (Slowest)	向东滚动（最慢）
+Scroll Floor Texture East	滚动地板纹理向东
+Scroll Floor Texture North	滚动地板纹理向北
+Scroll Floor Texture North East	滚动地板纹理向东北
+Scroll Floor Texture North West	滚动地板纹理向西北
+Scroll Floor Texture South	滚动地板纹理向南
+Scroll Floor Texture South East	滚动地板纹理向东南
+Scroll Floor Texture South West	滚动地板纹理向西南
+Scroll Floor Texture West	滚动地板纹理向西
+Scroll Floor Texture/Push  East	滚动地板纹理/推动向东
+Scroll Floor Texture/Push  North East	滚动地板纹理/推动向东北
+Scroll Floor Texture/Push  North West	滚动地板纹理/推动向西北
+Scroll Floor Texture/Push  South	滚动地板纹理/推动向南
+Scroll Floor Texture/Push  South East	滚动地板纹理/推动向东南
+Scroll Floor Texture/Push  South West	滚动地板纹理/推动向西南
+Scroll Floor Texture/Push  West	滚动地板纹理/推动向西
+Scroll Floor Texture/Push North	滚动地板纹理/推动向北
+Scroll North (Fast)	向北滚动（快）
+Scroll North (Fastest)	向北滚动（最快）
+Scroll North (Medium)	向北滚动（中速）
+Scroll North (Slow)	向北滚动（慢）
+Scroll North (Slowest)	向北滚动（最慢）
+Scroll South (Fast)	向南滚动（快）
+Scroll South (Fastest)	向南滚动（最快）
+Scroll South (Medium)	向南滚动（中速）
+Scroll South (Slow)	向南滚动（慢）
+Scroll South (Slowest)	向南滚动（最慢）
+Scroll West (Fast)	向西滚动（快）
+Scroll West (Fastest)	向西滚动（最快）
+Scroll West (Medium)	向西滚动（中速）
+Scroll West (Slow)	向西滚动（慢）
+Scroll West (Slowest)	向西滚动（最慢）
+Sky 2 (MAPINFO)	天空 2（MAPINFO）
+Slime Liquid Extrafloor SCROLL/PUSH East	史莱姆液体附加地板 滚动/推动 向东
+Slime Liquid Extrafloor SCROLL/PUSH North	史莱姆液体附加地板 滚动/推动 向北
+Slime Liquid Extrafloor SCROLL/PUSH North East	史莱姆液体附加地板 滚动/推动 向东北
+Slime Liquid Extrafloor SCROLL/PUSH North West	史莱姆液体附加地板 滚动/推动 向西北
+Slime Liquid Extrafloor SCROLL/PUSH South	史莱姆液体附加地板 滚动/推动 向南
+Slime Liquid Extrafloor SCROLL/PUSH South East	史莱姆液体附加地板 滚动/推动 向东南
+Slime Liquid Extrafloor SCROLL/PUSH South West	史莱姆液体附加地板 滚动/推动 向西南
+Slime Liquid Extrafloor SCROLL/PUSH West	史莱姆液体附加地板 滚动/推动 向西
+Water current, tag controls angle and strength	水流，标签控制角度和强度
+Water Liquid Extrafloor SCROLL/PUSH East	水液体附加地板 滚动/推动 向东
+Water Liquid Extrafloor SCROLL/PUSH North	水液体附加地板 滚动/推动 向北
+Water Liquid Extrafloor SCROLL/PUSH North East	水液体附加地板 滚动/推动 向东北
+Water Liquid Extrafloor SCROLL/PUSH North West	水液体附加地板 滚动/推动 向西北
+Water Liquid Extrafloor SCROLL/PUSH South	水液体附加地板 滚动/推动 向南
+Water Liquid Extrafloor SCROLL/PUSH South East	水液体附加地板 滚动/推动 向东南
+Water Liquid Extrafloor SCROLL/PUSH South West	水液体附加地板 滚动/推动 向西南
+Water Liquid Extrafloor SCROLL/PUSH West	水液体附加地板 滚动/推动 向西
+Wind East (Medium)	风向东（中）
+Wind East (Strong)	风向东（强）
+Wind East (Weak)	风向东（弱）
+Wind North (Medium)	风向北（中）
+Wind North (Strong)	风向北（强）
+Wind North (Weak)	风向北（弱）
+Wind South (Medium)	风向南（中）
+Wind South (Strong)	风向南（强）
+Wind South (Weak)	风向南（弱）
+Wind West (Medium)	风向西（中）
+Wind West (Strong)	风向西（强）
+Wind West (Weak)	风向西（弱）
+Yellow Hue	黄色色调

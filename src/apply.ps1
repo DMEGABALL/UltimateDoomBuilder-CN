@@ -19,6 +19,10 @@ $applyExe = Join-Path $root "tools\apply.exe"
 $setresExe = Join-Path $root "tools\setres.exe"
 $tsv = Join-Path $root "translate.tsv"
 
+# 强制替换表（撤销/重做等拼接片段），不受上下文判断限制
+$forceTsv = Join-Path $root "force-translate.tsv"
+if (Test-Path -LiteralPath $forceTsv) { $env:UDB_FORCE_DICT = $forceTsv } else { Remove-Item Env:\UDB_FORCE_DICT -ErrorAction SilentlyContinue }
+
 Write-Host "=== 应用汉化 / Applying Simplified Chinese language pack ===" -ForegroundColor Cyan
 Write-Host "目标目录 / Target: $AppDir"
 Write-Host ""

@@ -1,0 +1,2876 @@
+# 游戏配置中的显示名称（动作名 / 物件名 / 分类名 / 效果名）
+# 格式：英文原文<TAB>中文译文
+(switch to string)	（切换为字符串）
+10 Gold	10 金币
+25 Gold	25 金币
+3 Candles (lit)	3 支蜡烛（点燃）
+3D floor, Fog zone, half-translucent (Legacy compat)	3D 地板，雾区，半透明（Legacy 兼容）
+3D floor, Fog zone, translucent (Legacy compat)	3D 地板，雾区，透明（Legacy 兼容）
+3D floor, light zone (Legacy compat)	3D 地板，光照区（Legacy 兼容）
+3D floor, Liquid, 20% translucent (EDGE compat)	3D 地板，液体，20% 半透明（EDGE 兼容）
+3D floor, Liquid, 40% translucent (EDGE compat)	3D 地板，液体，40% 半透明（EDGE 兼容）
+3D floor, Liquid, 60% translucent (EDGE compat)	3D 地板，液体，60% 半透明（EDGE 兼容）
+3D floor, Liquid, 80% translucent (EDGE compat)	3D 地板，液体，80% 半透明（EDGE 兼容）
+3D floor, Liquid, invisible (EDGE compat)	3D 地板，液体，不可见（EDGE 兼容）
+3D floor, Liquid, solid (EDGE compat)	3D 地板，液体，实心（EDGE 兼容）
+3D floor, no light (Legacy compat)	3D 地板，无光照（Legacy 兼容）
+3D floor, no light, half-translucent (Legacy compat)	3D 地板，无光照，半透明（Legacy 兼容）
+3D floor, Solid (Legacy compat)	3D 地板，实心（Legacy 兼容）
+3D floor, Solid, translucent (Legacy compat)	3D 地板，实心，透明（Legacy 兼容）
+3D floor, Swimmable water, half-translucent (Legacy compat)	3D 地板，可游泳的水，半透明（Legacy 兼容）
+3D floor, Swimmable water, opaque (Legacy compat)	3D 地板，可游泳的水，不透明（Legacy 兼容）
+3D floor, Thick, dummy texture (EDGE compat)	3D 地板，厚型，占位贴图（EDGE 兼容）
+3D floor, Thick, master lower texture (EDGE compat)	3D 地板，厚型，主控下贴图（EDGE 兼容）
+3D floor, Thick, master upper texture (EDGE compat)	3D 地板，厚型，主控上贴图（EDGE 兼容）
+3D floor, Thin, 20% translucent (EDGE compat)	3D 地板，薄型，20% 半透明（EDGE 兼容）
+3D floor, Thin, 40% translucent (EDGE compat)	3D 地板，薄型，40% 半透明（EDGE 兼容）
+3D floor, Thin, 60% translucent (EDGE compat)	3D 地板，薄型，60% 半透明（EDGE 兼容）
+3D floor, Thin, 80% translucent (EDGE compat)	3D 地板，薄型，80% 半透明（EDGE 兼容）
+3D floor, Thin, opaque (EDGE compat)	3D 地板，薄型，不透明（EDGE 兼容）
+3D floor, Vavoom-style	3D 地板，Vavoom 风格
+3D Sector Damaged	3D 扇区受损
+3D Sector Died	3D 扇区死亡
+5 skulls shish kebob	5 颗骷髅串
+50 Gold	50 金币
+Aardgpl	Aardgpl
+Abaddon	亚巴顿
+Abducted Amira	被绑架的阿米拉
+Acolyte (blue)	侍僧（蓝色）
+Acolyte (bright green)	侍僧（亮绿色）
+Acolyte (dark green)	侍僧（深绿色）
+Acolyte (gold)	侍僧（金色）
+Acolyte (gray)	侍僧（灰色）
+Acolyte (red)	侍僧（红色）
+Acolyte (rust)	侍僧（锈色）
+Acolyte (shadow armor)	侍僧（暗影护甲）
+Acolyte (tan)	侍僧（棕褐色）
+Acolyte Spawner	侍僧生成器
+Acolyte Spawner (blue)	侍僧生成器（蓝色）
+Acolyte Spawner (dark green)	侍僧生成器（深绿色）
+Acolyte Spawner (gold)	侍僧生成器（金色）
+Acolyte Spawner (gray)	侍僧生成器（灰色）
+Acolyte Spawner (light green)	侍僧生成器（浅绿色）
+Acolyte Spawner (red)	侍僧生成器（红色）
+Acolyte Spawner (rust)	侍僧生成器（锈色）
+Acolyte Spawner (shadow)	侍僧生成器（暗影）
+Acolyte Spawner (tan)	侍僧生成器（棕褐色）
+Action Comic	动作漫画
+ActionDoom	ActionDoom
+Activate Thing	激活物件
+Actor enters sector	角色进入扇区
+Actor hits ceiling	角色撞到天花板
+Actor hits fake floor	角色撞到假地板
+Actor hits floor	角色撞到地板
+Actor leaves sector	角色离开扇区
+Actor Mover	角色移动器
+Add to Log	添加到日志
+Additive	叠加
+Additive Flicker Light	叠加闪烁光
+Additive Flicker Spotlight	叠加闪烁聚光灯
+Additive Light	叠加光
+Additive Pulse Light	叠加脉冲光
+Additive Pulse Spotlight	叠加脉冲聚光灯
+Additive Random Light	叠加随机光
+Additive Random Spotlight	叠加随机聚光灯
+Additive Sector Light	叠加扇区光
+Additive Sector Spotlight	叠加扇区聚光灯
+Additive Spotlight	叠加聚光灯
+Adjust Target Height	调整目标高度
+Affrit	阿弗里特
+Affrit Spawner	阿弗里特生成器
+Afro thug with knife	持刀的爆炸头暴徒
+Aiming Camera	瞄准摄像机
+Alert	警戒
+Alert monsters	警戒怪物
+Alien Asp Climber	异形角蝰攀爬者
+Alien Bubble Column	异形气泡柱
+Alien Ceiling Bubble	异形天花板气泡
+Alien Floor Bubble	异形地板气泡
+Alien Spider Light	异形蜘蛛灯
+Align and rotate back sector's CEILING	对齐并旋转后侧扇区的天花板
+Align and rotate back sector's FLOOR	对齐并旋转后侧扇区的地板
+Align and rotate back sector's FLOOR+CEILING	对齐并旋转后侧扇区的地板+天花板
+Align and rotate front sector's CEILING	对齐并旋转前侧扇区的天花板
+Align and rotate front sector's FLOOR	对齐并旋转前侧扇区的地板
+Align and rotate front sector's FLOOR+CEILING	对齐并旋转前侧扇区的地板+天花板
+Align Ceiling	对齐天花板
+Align Floor	对齐地板
+Align, scale and rotate back sector's CEILING	对齐、缩放并旋转后侧扇区的天花板
+Align, scale and rotate back sector's FLOOR	对齐、缩放并旋转后侧扇区的地板
+Align, scale and rotate back sector's FLOOR+CEILING	对齐、缩放并旋转后侧扇区的地板+天花板
+Align, scale and rotate front sector's CEILING	对齐、缩放并旋转前侧扇区的天花板
+Align, scale and rotate front sector's FLOOR	对齐、缩放并旋转前侧扇区的地板
+Align, scale and rotate front sector's FLOOR+CEILING	对齐、缩放并旋转前侧扇区的地板+天花板
+Always have lip	始终保留门唇
+Amazon armor	亚马逊护甲
+Ambience 1	环境音 1
+Ambience param	环境音参数
+Ambient Sound 01	环境音效 01
+Ambient Sound 02	环境音效 02
+Ambient Sound 03	环境音效 03
+Ambient Sound 04	环境音效 04
+Ambient Sound 05	环境音效 05
+Ambient Sound 06	环境音效 06
+Ambient Sound 07	环境音效 07
+Ambient Sound 08	环境音效 08
+Ambient Sound 09	环境音效 09
+Ambient Sound 10	环境音效 10
+Ambient Sound 11	环境音效 11
+Ambient Sound 12	环境音效 12
+Ambient Sound 13	环境音效 13
+Ambient Sound 14	环境音效 14
+Ambient Sound 15	环境音效 15
+Ambient Sound 16	环境音效 16
+Ambient Sound 17	环境音效 17
+Ambient Sound 18	环境音效 18
+Ambient Sound 19	环境音效 19
+Ambient Sound 20	环境音效 20
+Ambient Sound 21	环境音效 21
+Ambient Sound 22	环境音效 22
+Ambient Sound 23	环境音效 23
+Ambient Sound 24	环境音效 24
+Ambient Sound 25	环境音效 25
+Ambient Sound 26	环境音效 26
+Ambient Sound 27	环境音效 27
+Ambient Sound 28	环境音效 28
+Ambient Sound 29	环境音效 29
+Ambient Sound 30	环境音效 30
+Ambient Sound 31	环境音效 31
+Ambient Sound 32	环境音效 32
+Ambient Sound 33	环境音效 33
+Ambient Sound 34	环境音效 34
+Ambient Sound 35	环境音效 35
+Ambient Sound 36	环境音效 36
+Ambient Sound 37	环境音效 37
+Ambient Sound 38	环境音效 38
+Ambient Sound 39	环境音效 39
+Ambient Sound 40	环境音效 40
+Ambient Sound 41	环境音效 41
+Ambient Sound 42	环境音效 42
+Ambient Sound 43	环境音效 43
+Ambient Sound 44	环境音效 44
+Ambient Sound 45	环境音效 45
+Ambient Sound 46	环境音效 46
+Ambient Sound 47	环境音效 47
+Ambient Sound 48	环境音效 48
+Ambient Sound 49	环境音效 49
+Ambient Sound 50	环境音效 50
+Ambient Sound 51	环境音效 51
+Ambient Sound 52	环境音效 52
+Ambient Sound 53	环境音效 53
+Ambient Sound 54	环境音效 54
+Ambient Sound 55	环境音效 55
+Ambient Sound 56	环境音效 56
+Ambient Sound 57	环境音效 57
+Ambient Sound 58	环境音效 58
+Ambient Sound 59	环境音效 59
+Ambient Sound 60	环境音效 60
+Ambient Sound 61	环境音效 61
+Ambient Sound 62	环境音效 62
+Ambient Sound 63	环境音效 63
+Ambient Sound 64	环境音效 64
+Ambient Sound Index	环境音效索引
+Ammo clip	弹药夹
+Ammo Clip Spawner	弹药夹生成器
+Ammo Filler	弹药填充器
+Ammo Satchel	弹药袋
+Ammo Satchel Spawner	弹药袋生成器
+Ammunition	弹药
+Amplitude	振幅
+Amplitude (in 1/8 mu.)	振幅（单位：1/8 地图单位）
+Amulet Of Warding	守护护身符
+Amulet Of Warding Spawner	守护护身符生成器
+Anchor line id	锚定线段 ID
+Animation Speed	动画速度
+Announcer	播报员
+Anvil	铁砧
+Apple	苹果
+Apple tree	苹果树
+Apply to	应用于
+Arachnotron	蜘蛛脑
+Arachnotron (stealth)	蜘蛛脑（潜行）
+Arachnotron MKII	蜘蛛脑 MKII
+Arachnotron Spawner	蜘蛛脑生成器
+Arc Of Death	死亡之弧
+Arc Of Death Spawner	死亡之弧生成器
+Archvile	大恶魔
+Archvile (stealth)	大恶魔（潜行）
+Archvile Spawner	大恶魔生成器
+Arch-Vile Statue	大恶魔雕像
+Arg 1	参数 1
+Arg 2	参数 2
+Arg 3	参数 3
+Argument 1	参数 1
+Armor bonus	护甲奖励
+Armor Bonus Spawner	护甲奖励生成器
+Armored Flemoidus Bipedicus	装甲 Flemoidus Bipedicus
+Armorer 2 Bright Green (Map02,23,33/10)	军械商 2 亮绿色（Map02,23,33/10）
+Artifacts	神器
+Assault Gun	突击枪
+Assault Gun (standing)	突击枪（架设）
+Assault Gun Spawner	突击枪生成器
+Assault Gun Spawner (Standing)	突击枪生成器（架设）
+Attach ceiling to control	将天花板附着到控制器
+Attach floor to control	将地板附着到控制器
+Attach mirror ceiling to control	将镜像天花板附着到控制器
+Attach mirror floor to control	将镜像地板附着到控制器
+Attach set ceiling control	附着设定的天花板控制器
+Attach set floor control	附着设定的地板控制器
+Attached surfaces	附着表面
+Attack blocker (invisible)	攻击阻挡器（隐形）
+Attenuated Flicker Light	衰减闪烁光
+Attenuated Flicker Spotlight	衰减闪烁聚光灯
+Attenuated Light	衰减光
+Attenuated Pulse Light	衰减脉冲光
+Attenuated Pulse Spotlight	衰减脉冲聚光灯
+Attenuated Random Light	衰减随机光
+Attenuated Random Spotlight	衰减随机聚光灯
+Attenuated Sector Light	衰减扇区光
+Attenuated Sector Spotlight	衰减扇区聚光灯
+Attenuated Spotlight	衰减聚光灯
+Autosave	自动保存
+Axe Key	斧头钥匙
+Aztec Pillar	阿兹特克石柱
+Back Ceiling Tag	后侧天花板标签
+Back Floor Tag	后侧地板标签
+Backpack	背包
+Backpack Spawner	背包生成器
+Bad clipping sign	裁剪错误标志
+Bag of cash	一袋现金
+Bag Of Holding	次元袋
+Bag Of Holding Spawner	次元袋生成器
+Bald black thug throwing knives	投掷飞刀的光头黑人暴徒
+Banana tree	香蕉树
+Banishment Device	放逐装置
+Banishment Device Spawner	放逐装置生成器
+Banknotes	纸币
+Bar Keep 1 Gold (Map02,23,33)	酒保 1 金币（Map02,23,33）
+Baron of Hell	地狱男爵
+Baron of Hell (stealth)	地狱男爵（潜行）
+Baron of Hell Spawner	地狱男爵生成器
+Baron of Hell Statue	地狱男爵雕像
+Barrel	桶
+Barricade Column	路障石柱
+Base Key (Front)	基地钥匙（正面）
+Baseball bat	棒球棍
+Basket ball	篮球
+Battle Rag Banner	破布战旗
+Bazoik cart	巴佐伊克矿车
+Beastling	小野兽
+Bebop	比博普
+Becoming Acolyte	成为侍僧
+Beech tree	山毛榉
+Bell	钟
+Belphegor	贝尔菲戈尔
+Belphegor Spawner	贝尔菲戈尔生成器
+Berserk	狂暴
+Berserk Spawner	狂暴生成器
+BFG10000	BFG10000
+BFG10000 Spawner	BFG10000 生成器
+BFG9000	BFG9000
+BFG9000 Spawner	BFG9000 生成器
+Bickle	比克尔
+Big bowl sculpture	大碗雕塑
+Big mushroom	大蘑菇
+Big Rock (brown)	大岩石（棕色）
+Big Rock (grey)	大岩石（灰色）
+Big Rock (mossy)	大岩石（长满苔藓）
+Big Tree	大树
+Big tuft of blue grass	大丛蓝草
+Billboard NPCs	广告牌 NPC
+Birch tree	白桦树
+Bishop	主教
+Bishop Spawner	主教生成器
+Black Particle Fountain	黑色粒子喷泉
+Blood Demon	血魔
+Blood Demon Spawner	血魔生成器
+Blood dropper	滴血器
+BloodScourge Piece 1	血灾碎片 1
+BloodScourge Piece 1 Spawner	血灾碎片 1 生成器
+BloodScourge Piece 2	血灾碎片 2
+BloodScourge Piece 2 Spawner	血灾碎片 2 生成器
+BloodScourge Piece 3	血灾碎片 3
+BloodScourge Piece 3 Spawner	血灾碎片 3 生成器
+Bloody mess 1	血腥残骸 1
+Bloody mess 2	血腥残骸 2
+Blue	蓝色
+Blue armor	蓝色护甲
+Blue Armor Spawner	蓝色护甲生成器
+Blue Candle (lit)	蓝色蜡烛（点燃）
+Blue Crystal Key	蓝色水晶钥匙
+Blue Flag	蓝旗
+Blue flag	蓝旗
+Blue flemkey	蓝色弗莱姆钥匙
+Blue Key	蓝钥匙
+Blue Key Marker	蓝钥匙标记
+Blue keycard	蓝色钥匙卡
+Blue light: Ceiling	蓝光：天花板
+Blue light: Floor	蓝光：地板
+Blue Mana	蓝色法力
+Blue Mana Spawner	蓝色法力生成器
+Blue Mana Weapon Spawner	蓝色法力武器生成器
+Blue newspaper	蓝色报纸
+Blue Particle Fountain	蓝色粒子喷泉
+Blue skull	蓝色骷髅
+Blue skullkey	蓝色骷髅钥匙
+Blue suit guy	蓝西装男子
+Blue Team	蓝队
+Blue Team Start	蓝队出生点
+Blue trash	蓝色垃圾
+Blue trash can	蓝色垃圾桶
+Blunderbuss	喇叭枪
+Body on meathook	肉钩上的尸体
+Boom Items	Boom 物品
+Boots Of Speed	速度之靴
+Boots Of Speed Spawner	速度之靴生成器
+Bottle of Jack Daniel's	杰克丹尼酒瓶
+Bouncing Grenade Flechette Spawner	弹跳榴弹飞镖生成器
+Bowl of fruits	水果碗
+Bowl of Vegetables	蔬菜碗
+Box of Ammo	弹药盒
+Box of Ammo Spawner	弹药盒生成器
+Box of Bullets	子弹盒
+Box of Rockets	火箭盒
+Box of Rockets Spawner	火箭盒生成器
+Box of Shells	霰弹盒
+Box of Shells Spawner	霰弹盒生成器
+Brasero	火盆
+Brass Flourescent Light	黄铜荧光灯
+Brass Key	黄铜钥匙
+Brass Key MANUAL DOOR	黄铜钥匙 手动门
+Brass Tech Lamp	黄铜科技灯
+Brazier With Flame	燃烧的火盆
+Breakable	可破坏物
+Breakable Glass	可破坏玻璃
+Breakable Glass: monster can see through, can break	可破坏玻璃：怪物可看穿，可击破
+Breakable Glass: monster cannot see through, can break	可破坏玻璃：怪物无法看穿，可击破
+Breakable Glass: monster cannot see through, cannot break	可破坏玻璃：怪物无法看穿，不可击破
+Breakable Wall: midtex to back lower	可破坏墙：中贴图转为后侧下部
+Breakable Wall: midtex to back upper	可破坏墙：中贴图转为后侧上部
+Breakable Wall: midtex to front lower	可破坏墙：中贴图转为前侧下部
+Breakable Wall: midtex to front upper	可破坏墙：中贴图转为前侧上部
+Breaking grid	破碎网格
+Brick Rubble (large)	砖块瓦砾（大）
+Brick Rubble (medium)	砖块瓦砾（中）
+Brick Rubble (small)	砖块瓦砾（小）
+Bridge Custom	自定义桥
+Bridges	桥梁
+Brightest Duration	最亮持续时间
+Brightest Duration (tics)	最亮持续时间（tics）
+Brightest Level	最亮亮度
+Broken brown bottle (invisible)	破碎的棕色瓶子（隐形）
+Broken green bottle (invisible)	破碎的绿色瓶子（隐形）
+Broken Power Coupling (Only 1)	损坏的动力耦合器（仅 1 个）
+Bronze Gargoyle (short)	青铜石像鬼（矮）
+Bronze Gargoyle (tall)	青铜石像鬼（高）
+Brown bottle	棕色瓶子
+Brown Chaos Serpent	棕色混沌巨蛇
+Brown Chaos Serpent Spawner	棕色混沌巨蛇生成器
+Brown Pillar	棕色石柱
+BTILxxxx	BTILxxxx
+Build	建造
+Build Stairs (16 Tall)	建造楼梯（高 16）
+Build Step Delay	建造台阶延迟
+Bullet Box Spawner	子弹盒生成器
+Bullet Clip	子弹夹
+Bullet Clip Spawner	子弹夹生成器
+Bullet Spawner	子弹生成器
+Burning Barrel	燃烧的桶
+Burning barrel	燃烧的桶
+Burning Bowl	燃烧的碗
+Burning Brazier	燃烧的火盆
+Bust	半身像
+Cacodemon	卡科恶魔
+Cacodemon (stealth)	卡科恶魔（潜行）
+Cacodemon Spawner	卡科恶魔生成器
+Cacolantern	南瓜卡科恶魔
+Cage Light	笼灯
+Camera	摄像机
+Camera Portal, Cyan	摄像机传送门，青色
+Camera Portal, Green	摄像机传送门，绿色
+Camera Portal, Plain	摄像机传送门，普通
+Camera Portal, Rusty	摄像机传送门，锈色
+Camera Portal, White	摄像机传送门，白色
+Camera spot	摄像机视点
+Cameras and Interpolation	摄像机与插值
+Can of 7up	七喜易拉罐
+Can of coke	可口可乐易拉罐
+Can of gasoline	汽油罐
+Can of pepsi	百事可乐易拉罐
+Candelabra	枝形烛台
+Candle	蜡烛
+Candle (Blue)	蜡烛（蓝色）
+Candle (Red)	蜡烛（红色）
+Candle With Web (unlit)	带蛛网的蜡烛（未点燃）
+Cannon ball	炮弹
+Captive #1	俘虏 #1
+Captive #2	俘虏 #2
+Captive #3	俘虏 #3
+Cardboard tube	纸板筒
+Cargo Bridge	货桥
+Castle Key	城堡钥匙
+Cauldron (lit)	大锅（点燃）
+Cauldron (unlit)	大锅（未点燃）
+Cave bat	洞穴蝙蝠
+Cave Key	洞穴钥匙
+Cave Pillar Bottom	洞穴石柱底部
+Cave Pillar Top	洞穴石柱顶部
+Cavern column	洞窟石柱
+Cavern stalagmite	洞窟石笋
+Ceiling	天花板
+Ceiling Angle	天花板角度
+Ceiling Chain	天花板链条
+Ceiling Crush And Raise Dist	天花板压碎并升高距离
+Ceiling Crush And Raise Silent with Gap	天花板压碎并升高（静音，带间隙）
+Ceiling Crush Once	天花板压碎一次
+Ceiling Crush Once and Open	天花板压碎一次并打开
+Ceiling Crush Once and Open (Settable Speeds)	天花板压碎一次并打开（可设速度）
+Ceiling Crush Once and Open (settable speeds, silent)	天花板压碎一次并打开（可设速度，静音）
+Ceiling Crush Once and Open A	天花板压碎一次并打开 A
+Ceiling Crush Once and Open A (silent)	天花板压碎一次并打开 A（静音）
+Ceiling Crush Quest Factory, give Stats	天花板压碎任务工厂，给予统计数据
+Ceiling Crush Start (Settable Speeds)	天花板压碎开始（可设速度）
+Ceiling Crush Start (settable speeds, silent)	天花板压碎开始（可设速度，静音）
+Ceiling Crush Start A	天花板压碎开始 A
+Ceiling Crush Start A (silent)	天花板压碎开始 A（静音）
+Ceiling Crusher Start	天花板压碎器启动
+Ceiling Crusher Start (Hexen-style)	天花板压碎器启动（Hexen 风格）
+Ceiling Crusher Stop	天花板压碎器停止
+Ceiling Generic Change	天花板通用变更
+Ceiling Generic Crush (Doom mode)	天花板通用压碎（Doom 模式）
+Ceiling Generic Crush (Hexen mode)	天花板通用压碎（Hexen 模式）
+Ceiling instant to highest	天花板瞬间升至最高
+Ceiling Lower And Crush Dist	天花板降低并压碎距离
+Ceiling Lower And Crush with Gap	天花板降低并压碎（带间隙）
+Ceiling lower by texture	按贴图降低天花板
+Ceiling Lower by Value	按数值降低天花板
+Ceiling Lower by Value * 8	按数值 * 8 降低天花板
+Ceiling Lower Instantly by Value * 8	按数值 * 8 瞬间降低天花板
+Ceiling Lower to 8 above Floor	天花板降至地板上方 8
+Ceiling Lower to 8 Above Floor	天花板降至地板上方 8
+Ceiling Lower to 8 above Floor (perpetual slow crusher damage)	天花板降至地板上方 8（永久慢速压碎伤害）
+Ceiling Lower to floor	天花板降至地板
+Ceiling Lower to Floor	天花板降至地板
+Ceiling Lower to Floor (fast)	天花板降至地板（快速）
+Ceiling Lower to Highest Floor	天花板降至最高地板
+Ceiling Lower to Lowest Ceiling	天花板降至最低天花板
+Ceiling lower to nearest	天花板降至最近处
+Ceiling Move to Value	天花板移动到数值
+Ceiling Move to Value * 8	天花板移动到数值 * 8
+Ceiling raise by upper texture	按上贴图升高天花板
+Ceiling Raise by Value	按数值升高天花板
+Ceiling Raise by Value * 8	按数值 * 8 升高天花板
+Ceiling Raise Instantly by Value * 8	按数值 * 8 瞬间升高天花板
+Ceiling Raise to Highest	天花板升至最高
+Ceiling Raise to Highest Ceiling	天花板升至最高天花板
+Ceiling raise to highest floor	天花板升至最高地板
+Ceiling raise to lowest	天花板升至最低处
+Ceiling Raise to Nearest Ceiling	天花板升至最近天花板
+Ceiling Raising Speed	天花板升高速度
+Ceiling Reflectiveness	天花板反射度
+Ceiling slime	天花板黏液
+Ceiling sparks	天花板火花
+Ceiling to floor instant	天花板瞬间到地板
+Ceiling Turret	天花板炮塔
+Ceiling Turret Spawner	天花板炮塔生成器
+Ceiling Waggle	天花板摆动
+Ceiling Water Drip	天花板滴水
+Cell charge	电池
+Cell charge pack	电池组
+Cell Charge Pack Spawner	电池组生成器
+Cell Charge Spawner	电池生成器
+Cell phone	手机
+Centaur	半人马
+Centaur Spawner	半人马生成器
+Center Sector Tag	中心扇区标签
+Chain	链条
+Chain (long)	链条（长）
+Chain (short)	链条（短）
+Chain With Large Hook	带大钩的链条
+Chain With Small Hook	带小钩的链条
+Chain with Spike Ball	带尖刺球的链条
+Chaingun	链枪
+Chaingun Spawner	链枪生成器
+Chaingunner	链枪兵
+Chaingunner (stealth)	链枪兵（潜行）
+Chaingunner Spawner	链枪兵生成器
+Chainsaw	电锯
+Chainsaw Spawner	电锯生成器
+Chair seat	椅子座面
+Chandelier	枝形吊灯
+Chandelier (lit)	枝形吊灯（点亮）
+Chandelier (unlit)	枝形吊灯（未点亮）
+Change	变更
+Change Camera	切换摄像机
+Change Ceiling Brightness to this Brightness	将天花板亮度改为该亮度
+Change Floor Brightness to this Brightness	将地板亮度改为该亮度
+Change Skill	改变技能等级
+Change Texture And Effect	更换贴图与效果
+Change Texture and Effect to Nearest	更换为最近的贴图与效果
+Change Thing Tag	更改物件标签
+Changing Angle	变化角度
+Chaos Device	混沌装置
+Chaos Device Spawner	混沌装置生成器
+Chapel Key	礼拜堂钥匙
+Chemical beaker	化学烧杯
+Chemical Beaker	化学烧杯
+Chemical burner	化学燃烧器
+Chex Armor	Chex 护甲
+Chex Soul	Chex 灵魂
+Chicken Spawner	鸡生成器
+Chimneystack	烟囱
+Chinese lantern (blue)	中式灯笼（蓝）
+Chinese lantern (green)	中式灯笼（绿）
+Chinese lantern (red)	中式灯笼（红）
+Choice	选项
+Chopper gun	连发枪
+Cigarette	香烟
+Cigarette trash can	香烟垃圾桶
+Civilians	平民
+Claw Orb	爪击能量球
+Claw Orb Spawner	爪击能量球生成器
+Claxon warning light	警报闪光灯
+Clear Flags	清除标志
+Cleric Weapon Spawner	牧师武器生成器
+Clip of ammo	一盒弹药
+Clock Gear (bronze and steel)	钟表齿轮（青铜与钢）
+Clock Gear (bronze)	钟表齿轮（青铜）
+Clock Gear (steel and bronze)	钟表齿轮（钢与青铜）
+Clock Gear (steel)	钟表齿轮（钢）
+Close delay	关闭延迟
+Close Delay	关闭延迟
+Cocktail glass	鸡尾酒杯
+Coin	硬币
+Color	颜色
+Color Setter	颜色设置器
+Colormap	色彩映射
+Combined Mana	混合法力
+Combined Mana Spawner	混合法力生成器
+Commander Keen	Commander Keen
+Communicator	通讯器
+Communicator Message	通讯器消息
+Computer	电脑
+Computer map	电脑地图
+Computer monitor	电脑显示器
+Constant Scale	恒定缩放
+Contained Item	容器内物品
+Control Sector Tag	控制扇区标签
+Conversation ID	对话 ID
+Copper Key MANUAL DOOR	铜钥匙 手动门
+Copy carrying floor scroller	复制承载地板滚动器
+Copy ceiling plane	复制天花板平面
+Copy ceiling scroller	复制天花板滚动器
+Copy floor plane	复制地板平面
+Copy floor scroller	复制地板滚动器
+Core Key	核心钥匙
+Corpse (sitting)	尸体（坐姿）
+Corpse (sleeping)	尸体（卧姿）
+Corpses	尸体
+Crate explosion	木箱爆炸
+Crate of Missiles	导弹箱
+Crate target	木箱靶标
+Create	创建
+Create Fake Ceiling and Floor	创建假天花板与地板
+Critter	小生物
+Crossbow	十字弓
+Crossbow Spawner	十字弓生成器
+Crumpled paper trash	揉皱的废纸
+Crusader	十字军
+Crusader Spawner	十字军生成器
+Crush	挤压
+Crush damage	挤压伤害
+Crush Damage	挤压伤害
+Crush Mode	挤压模式
+Crusher	挤压机
+Crusher Start	挤压机启动
+Crusher Start (fast)	挤压机启动（快速）
+Crusher Start (silent)	挤压机启动（静音）
+Crusher Start with Fast Damage	快速伤害挤压机启动
+Crusher Start with Slow Damage	慢速伤害挤压机启动
+Crusher Start with Slow Damage (silent)	慢速伤害挤压机启动（静音）
+Crusher Stop	挤压机停止
+Crushing Damage	挤压伤害
+Crushing damage	挤压伤害
+Crystal Geode	水晶晶洞
+Crystal Geode Spawner	水晶晶洞生成器
+Crystal Vial	水晶瓶
+Crystal Vial Spawner	水晶瓶生成器
+Current	水流
+Current according to Line Vector	按线段矢量的水流
+Current Angle	水流角度
+Current Strength	水流强度
+Custom Ambient Sound	自定义环境音
+Custom Ambient Sound (no gravity)	自定义环境音（无重力）
+Custom Invisible Bridge	自定义隐形桥
+Custom Music Changer	自定义音乐切换器
+Custom Sprite	自定义精灵
+Cyberdemon	机械恶魔
+Cyberdemon Spawner	机械恶魔生成器
+Cyberdemon Statue	机械恶魔雕像
+Cycle Time (octics)	循环时间（八分之一秒）
+Daemon Codex	恶魔法典
+Daikatana	Daikatana
+Damage	伤害
+Damage Amount	伤害量
+Damage Radius * 64	伤害半径 * 64
+Damage Thing	伤害物件
+Damage Thing by Tag	按标签伤害物件
+Damaged Aztec Pillar	破损的阿兹特克石柱
+Dark Bishop	黑暗主教
+Dark Bishop Spawner	黑暗主教生成器
+Dark Imp	黑暗小鬼
+Dark Imp Spawner	黑暗小鬼生成器
+Dark Lava Gargoyle (short)	暗熔岩石像鬼（矮）
+Dark Lava Gargoyle (tall)	暗熔岩石像鬼（高）
+Dark Servant	黑暗仆从
+Dark Servant Spawner	黑暗仆从生成器
+Darkest Duration	最暗持续时间
+Darkest Duration (tics)	最暗持续时间（游戏刻）
+Darkest Level	最暗程度
+Darkhead Tina	黑头蒂娜
+Deactivate Thing	停用物件
+Dead Acolyte	死亡侍僧
+Dead amazon	死亡女战士
+Dead beastling	死亡小兽
+Dead blue bush	死亡蓝色灌木
+Dead cacodemon	死亡卡科恶魔
+Dead Crusader	死亡十字军
+Dead cyberdemon	死亡机械恶魔
+Dead demon	死亡恶魔
+Dead former human	死亡前人类
+Dead former sergeant	死亡前军士
+Dead Gary Johnson	死亡加里·约翰逊
+Dead imp	死亡小鬼
+Dead lost soul	死亡失落灵魂
+Dead Peasant	死亡农夫
+Dead player	死亡玩家
+Dead Player, disappears	死亡玩家（消失）
+Dead Reaver	死亡掠夺者
+Dead Rebel	死亡叛军
+Dead tree	枯树
+Dead Tree	枯树
+Dead Tree (mossy)	枯树（长苔）
+Death	死亡
+Death Wyvern	死亡飞龙
+Decal	贴花
+Decal ID	贴花 ID
+Decoration	装饰物
+Decorations	装饰物
+Degnin Ore - for FFG	德格宁矿石 - 用于 FFG
+Delay	延迟
+Delay (octics)	延迟（八分之一秒）
+Delay (tics)	延迟（游戏刻）
+Delayed Blast Flechette Spawner	延时爆炸飞镖生成器
+Demon	恶魔
+Demon (stealth)	恶魔（潜行）
+Demon Spawner	恶魔生成器
+Demon Statue	恶魔雕像
+Desaturation	降低饱和度
+Destroy Thing	摧毁物件
+Detail Slope : CEILING	细节斜坡：天花板
+Detail Slope : FLOOR	细节斜坡：地板
+Detail Slope : FLOOR+CEILING	细节斜坡：地板+天花板
+Diamond	钻石
+Disable Tagged RTS	禁用带标签 RTS
+Disable Tagged RTS (monster)	禁用带标签 RTS（怪物）
+Disc Of Repulsion	斥力圆盘
+Disc Of Repulsion Spawner	斥力圆盘生成器
+Disciple Of D'Sparil	迪斯派瑞尔信徒
+Disciple Of D'Sparil Spawner	迪斯派瑞尔信徒生成器
+Disco ball	迪斯科球
+Distance Multiplier	距离倍数
+Dog	狗
+Dojo debris spawner	道场碎片生成器
+Domination Point A	控制点 A
+Domination Point B	控制点 B
+Domination Points	控制点
+Don't Chase Target	不追逐目标
+Don't Show Until Sector Seen	扇区可见前不显示
+Donut Raise Speed	甜甜圈抬升速度
+Doomsphere	末日球
+Doomsphere Spawner	末日球生成器
+Door	门
+Door (Blue) Open Stay	门（蓝）开启并保持
+Door (Blue) Open Stay (fast)	门（蓝）开启并保持（快速）
+Door (Blue) Open Wait Close	门（蓝）开启、等待、关闭
+Door (Green) Open Stay	门（绿）开启并保持
+Door (Green) Open Wait Close	门（绿）开启、等待、关闭
+Door (Red) Open Stay	门（红）开启并保持
+Door (Red) Open Stay (fast)	门（红）开启并保持（快速）
+Door (Red) Open Wait Close	门（红）开启、等待、关闭
+Door (Yellow) Open Stay	门（黄）开启并保持
+Door (Yellow) Open Stay (fast)	门（黄）开启并保持（快速）
+Door (Yellow) Open Wait Close	门（黄）开启、等待、关闭
+Door Animated	动画门
+Door Close	关门
+Door Close (fast)	关门（快速）
+Door Close after Delay	延迟后关门
+Door Close Fast Sigil B	快速关门 圣印 B
+Door Close Quest	任务关门
+Door Close Stay	关门并保持
+Door Close Stay (fast)	关门并保持（快速）
+Door Close Stay Open	关门后保持开启
+Door Close Wait Open	门关闭、等待、开启
+Door Close Wait Open (30 seconds)	门关闭、等待、开启（30 秒）
+Door Generic	通用门
+Door Locked Raise	上锁门升起
+Door Open	开门
+Door Open Blue ID Badge Fast, Stay Open	蓝 ID 徽章开门（快速），保持开启
+Door Open Blue ID Badge, Stay Open	蓝 ID 徽章开门，保持开启
+Door Open Blue ID Badge, Wait 4, Close	蓝 ID 徽章开门，等待 4 秒，关闭
+Door Open Brass Key Fast, Stay Open	黄铜钥匙开门（快速），保持开启
+Door Open Brass Key, Stay Open	黄铜钥匙开门，保持开启
+Door Open Brass Key, Wait, Close	黄铜钥匙开门，等待，关闭
+Door Open Catabomb Key, Wait, Close	卡塔炸弹钥匙开门，等待，关闭
+Door Open Chalice, Wait 4, Close	圣杯开门，等待 4 秒，关闭
+Door Open Chapel Key, Wait, Close	礼拜堂钥匙开门，等待，关闭
+Door Open Core Key, Wait 4, Close	核心钥匙开门，等待 4 秒，关闭
+Door Open Factory Key, Wait, Close	工厂钥匙开门，等待，关闭
+Door Open Front Base Key, Wait, Close	前哨基地钥匙开门，等待，关闭
+Door Open Give QT1, Freed Prisoners	开门并给予 QT1，释放囚犯
+Door Open Gold ID Card Fast, Stay Open	金 ID 卡开门（快速），保持开启
+Door Open Gold ID Card, Stay Open	金 ID 卡开门，保持开启
+Door Open Gold ID Card, Wait 4, Close	金 ID 卡开门，等待 4 秒，关闭
+Door Open Gold Key Fast, Stay Open	金钥匙开门（快速），保持开启
+Door Open Gold Key, Stay Open	金钥匙开门，保持开启
+Door Open Gold Key, Wait 4, Close	金钥匙开门，等待 4 秒，关闭
+Door Open Govs Key, Wait, Close	总督钥匙开门，等待，关闭
+Door Open if Piston destroyed/DM	若活塞被摧毁/死亡竞赛则开门
+Door Open Mauler Key, Wait 4, Close	重锤钥匙开门，等待 4 秒，关闭
+Door Open Military ID, Wait, Close	军人证件开门，等待，关闭
+Door Open Mine Key, Wait, Close	矿场钥匙开门，等待，关闭
+Door Open Oracle Pass, Wait 4, Close	神谕通行证开门，等待 4 秒，关闭
+Door Open Order Key, Wait 4, Close	教团钥匙开门，等待 4 秒，关闭
+Door Open Pass Card Fast, Stay Open	通行卡开门（快速），保持开启
+Door Open Pass Card, Stay Open	通行卡开门，保持开启
+Door Open Pass Card, Wait 4, Close	通行卡开门，等待 4 秒，关闭
+Door Open Power 1 Key, Wait, Close	能量 1 号钥匙开门，等待，关闭
+Door Open Power 2 Key, Wait, Close	能量 2 号钥匙开门，等待，关闭
+Door Open Power 3 Key, Wait, Close	能量 3 号钥匙开门，等待，关闭
+Door Open Prison Key & Stay	监狱钥匙开门并保持
+Door Open Quest, Wait 4, Close?	任务开门，等待 4 秒，关闭？
+Door Open Quest/DM	任务/死亡竞赛开门
+Door Open Quest? WRONG	任务开门？（标注错误）
+Door Open Severed Hand Fast, Stay Open	断手开门（快速），保持开启
+Door Open Severed Hand, Wait 4, Close	断手开门，等待 4 秒，关闭
+Door Open Sigil A	圣印 A 开门
+Door Open Silver Key Fast, Stay Open	银钥匙开门（快速），保持开启
+Door Open Silver Key, Stay Open	银钥匙开门，保持开启
+Door Open Silver Key, Wait 4, Close	银钥匙开门，等待 4 秒，关闭
+Door Open Sliding (special texture)	滑动门开启（特殊贴图）
+Door Open Sliding SigilE (special texture)	圣印 E 滑动门开启（特殊贴图）
+Door Open Split Oracle Key	分裂门开启 神谕钥匙
+Door Open Split Sigil E	分裂门开启 圣印 E
+Door Open Split, Blackbird Message	分裂门开启，黑鸟消息
+Door Open Split, floor down, ceiling up	分裂门开启，地板下降，天花板上升
+Door Open Stay	门开启并保持
+Door Open Stay (fast)	门开启并保持（快速）
+Door Open Wait Close	门开启、等待、关闭
+Door Open Wait Close (also monsters)	门开启、等待、关闭（也含怪物）
+Door Open Wait Close (fast)	门开启、等待、关闭（快速）
+Door Open WareHouse Key, Wait, Close	仓库钥匙开门，等待，关闭
+Door Raise	门升起
+Door Raise after Delay	延迟后门升起
+Dopefish	多普鱼
+Down Speed	下降速度
+Down/Up	下/上
+Dragon Claw	龙爪
+Dragon Claw Spawner	龙爪生成器
+Dragonskin Bracers	龙皮护腕
+Dragonskin Bracers Spawner	龙皮护腕生成器
+Drain	吸取
+Drain Spawner	吸取生成器
+Dripping water	滴水
+D'Sparil	迪斯派瑞尔
+D'Sparil alone Spawner	迪斯派瑞尔（单独）生成器
+D'Sparil on Serpent Spawner	迪斯派瑞尔（骑蛇）生成器
+D'Sparil Teleport Location	迪斯派瑞尔传送位置
+Dungeon Key	地牢钥匙
+Duration	持续时间
+Duration (tics)	持续时间（游戏刻）
+Dynamic Lights	动态光源
+Dynamic Spot Lights	动态聚光灯
+Earthquake	地震
+Echidna	艾奇德娜
+EDGE Jetpack	EDGE 喷气背包
+EDGE Lava Glow: Floor	EDGE 熔岩光晕：地板
+EDGE Lava Glow: Wall	EDGE 熔岩光晕：墙壁
+EDGE Nightvision Specs	EDGE 夜视镜
+EDGE Nukage Glow: Floor	EDGE 核废水光晕：地板
+EDGE Nukage Glow: Wall	EDGE 核废水光晕：墙壁
+EDGE Revenant MKII	EDGE 复仇者 MKII
+EDGE Stop Time	EDGE 时间停止
+EDGE Teleport spawner	EDGE 传送生成器
+EDGE Water Glow: Floor	EDGE 水光晕：地板
+EDGE Water Glow: Wall	EDGE 水光晕：墙壁
+EDGE White Glow: Wall	EDGE 白光晕：墙壁
+EDGE: Armour	EDGE：护甲
+Edge: Breakable Glass	Edge：可破坏玻璃
+Edge: Breakable Wall	Edge：可破坏墙壁
+Edge: Doors	Edge：门
+Edge: Enable Tagged RTS	Edge：启用带标签 RTS
+Edge: Extrafloors(Liquid)	Edge：附加地板（液体）
+Edge: Extrafloors(thick)	Edge：附加地板（厚）
+Edge: Extrafloors(thin)	Edge：附加地板（薄）
+Edge: Flats	Edge：平面贴图
+Edge: Floor	Edge：地板
+Edge: HUB Exits	Edge：枢纽出口
+EDGE: Keys	EDGE：钥匙
+Edge: Ladders	Edge：梯子
+Edge: Light Wall	Edge：光墙
+EDGE: Lights	EDGE：光源
+Edge: Mirrors	Edge：镜子
+EDGE: Monsters	EDGE：怪物
+Edge: Portals	Edge：传送门
+EDGE: Powerups	EDGE：强化道具
+Edge: Scroll Lines	Edge：滚动线段
+EDGE: Sector Light FX	EDGE：扇区光照特效
+Edge: Sliding Door	Edge：滑动门
+Edge: Slopes	Edge：斜坡
+Edge: Stretch Texture by Line length	Edge：按线段长度拉伸贴图
+Edge: Translucent Linedef	Edge：半透明线段
+Editor Things	编辑器物件
+Electric Bolts	电箭
+Electric Bolts Spawner	电箭生成器
+Elevator	升降机
+Elevator Lower to Nearest Floor	升降机下降到最近地板
+Elevator Move to Activated Floor	升降机移动到激活地板
+Elevator Move to Current Floor	升降机移动到当前地板
+Elevator Raise to Nearest Floor	升降机上升到最近地板
+Emerald Key	翡翠钥匙
+Emerald Planet 1	翡翠行星 1
+Emerald Planet 2	翡翠行星 2
+Emitter Tag	发射器标签
+Empty fire extinguisher	空灭火器
+Emulate Boom Bug	模拟 Boom 缺陷
+Enable	启用
+Enable Tagged RTS	启用带标签 RTS
+Enable Tagged RTS (monster)	启用带标签 RTS（怪物）
+Enable Tagged RTS (Monster)	启用带标签 RTS（怪物）
+Enchanted Shield	附魔盾牌
+Enchanted Shield Spawner	附魔盾牌生成器
+End	结束
+End Game	结束游戏
+End intensity	结束强度
+End Normal	正常结束
+End Secret	秘密结束
+Energy Orb	能量球
+Energy Orb Spawner	能量球生成器
+Energy Pack	能量包
+Energy Pack Spawner	能量包生成器
+Energy Pod	能量舱
+Energy Pod Spawner	能量舱生成器
+Entity	实体
+Entity Nest	实体巢穴
+Entity Pod	实体荚舱
+Entity Spawner	实体生成器
+Entropy thrower	熵能喷射器
+Enviro sequence 0	环境序列 0
+Enviro sequence param	环境序列参数
+Environmental Suit	环境防护服
+Environmental Suit Spawner	环境防护服生成器
+Error Marker	错误标记
+Eternity Items	Eternity 物品
+Eternity Skybox Viewpoint	Eternity 天空盒视点
+Ethereal Arrows	以太箭
+Ethereal Arrows Spawner	以太箭生成器
+Ethereal Crossbow	以太十字弓
+Ethereal Crossbow Spawner	以太十字弓生成器
+Etruscan statue	伊特鲁里亚雕像
+Ettin	双头巨人
+Ettin Spawner	双头巨人生成器
+Evergreen Tree	常青树
+Evil Eye	邪恶之眼
+Evil Eye (Blue)	邪恶之眼（蓝）
+Evil Eye (Red)	邪恶之眼（红）
+Evil Sceptre (BETA)	邪恶权杖（BETA）
+Exit	出口
+Exit Level	退出关卡
+Exit Level (go to next map)	退出关卡（前往下一张地图）
+Exit Level (goes to secret level)	退出关卡（前往秘密关卡）
+Exit Level (secret exit)	退出关卡（秘密出口）
+Exit Level (tag = map to go to)	退出关卡（标签 = 要前往的地图）
+Exit Line Tag	出口线段标签
+Exit Teleport to New Map Thing 1-Way, tag=map&spot	传送至新地图物件的单向出口，标签=地图&位置
+Exit Teleport to New Map Thing, tag=map&spot	传送至新地图物件的出口，标签=地图&位置
+Exit to Map	出口至地图
+Explosive Barrel	爆炸桶
+Explosive barrel	爆炸桶
+Explosives	爆炸物
+Explosives and Hints	爆炸物与提示
+ExtraData	额外数据
+ExtraData linedef	额外数据线段
+ExtraData sector control	额外数据扇区控制
+ExtraData thing	额外数据物件
+Extreme Death	极端死亡
+Eyes above fake ceiling	假天花板上方的眼睛
+Eyes above fake floor	假地板上方的眼睛
+Eyes below fake ceiling	假天花板下方的眼睛
+Eyes below fake floor	假地板下方的眼睛
+Face Talker	会说话的墙面
+Factory Key	工厂钥匙
+Fade Duration (tics)	淡出持续时间（游戏刻）
+Fade Setter	淡出设置器
+Falcon Shield	猎鹰盾
+Falcon Shield Spawner	猎鹰盾生成器
+Falling follower	坠落跟随者
+Fat Construction Guy	胖建筑工
+Fighter Weapon Spawner	战士武器生成器
+Fire	火
+Fire Brazier	火盆
+Fire extinguisher	灭火器
+Fire Gargoyle	火焰石像鬼
+Fire Gargoyle Spawner	火焰石像鬼生成器
+Fire hydrant	消防栓
+Fire Key	火焰钥匙
+Fire Key MANUAL DOOR	火焰钥匙 手动门
+Firebox	火箱
+Firemace	火焰钉锤
+Firemace Spawner	火焰钉锤生成器
+Firestorm	火焰风暴
+Firestorm Spawner	火焰风暴生成器
+First aid kit	急救包
+First Appear Wave	首次出现波次
+Flag on a pole	旗杆上的旗帜
+Flags	旗帜
+Flame Mask	火焰面具
+Flame Orb	火焰球
+Flame Orb Spawner	火焰球生成器
+Flame Thrower	火焰喷射器
+Flame Thrower Spawner	火焰喷射器生成器
+Flat Opacity	平面贴图不透明度
+Flechette	飞镖
+Flechette Spawner	飞镖生成器
+Flem Mine	弗莱姆地雷
+Flembomination	弗莱姆憎恶
+Flembrane	弗莱姆脑
+Flemoid glowing shroom #1	弗莱姆发光蘑菇 #1
+Flemoid glowing shroom #2	弗莱姆发光蘑菇 #2
+Flemoid pod	弗莱姆荚舱
+Flemoid power strand	弗莱姆能量束
+Flemoidus Bipedicus	双足弗莱姆
+Flemoidus Commonus	普通弗莱姆
+Flemoidus Cycloptis Commonus	独眼普通弗莱姆
+Flemoidus Larva	弗莱姆幼虫
+Flemoidus Maximus	巨型弗莱姆
+Flemoidus Stridicus	疾行弗莱姆
+Flicker Light	闪烁光源
+Flicker Spotlight	闪烁聚光灯
+Flies	苍蝇
+Flip Sky	翻转天空
+Flip Sky / Ceiling	翻转天空 / 天花板
+Flipped anchor	翻转锚点
+Floating skull rock	漂浮骷髅岩
+Floating skull rock (bobs)	漂浮骷髅岩（上下浮动）
+Floor	地板
+Floor / Ceiling	地板 / 天花板
+Floor and Ceiling Lower and Raise	地板与天花板降低并升高
+Floor and Ceiling Lower by Value	地板与天花板按值降低
+Floor and Ceiling Raise by Value	地板与天花板按值升高
+Floor Angle	地板角度
+Floor Crusher Stop	地板压碎机停止
+Floor Donut	地板圆环
+Floor Generic Change	地板通用变更
+Floor Instant to Lowest Floor	地板瞬间降至最低地板
+Floor lamp	落地灯
+Floor lamp (Blue)	落地灯（蓝色）
+Floor lamp (Red)	落地灯（红色）
+Floor Lower Blue Crystal	蓝水晶地板下降
+Floor lower by texture	地板按贴图降低
+Floor Lower by Value	地板按值降低
+Floor Lower by Value * 8	地板按值降低 * 8
+Floor Lower for 30 sec, raise back up	地板降低 30 秒后升回
+Floor Lower Instantly by Value * 8	地板按值瞬间降低 * 8
+Floor Lower Pillar and Raise Donut	地板降低支柱并升起圆环
+Floor Lower Quest/DM	地板降低（任务 / 死亡竞赛）
+Floor Lower Red Crystal	红水晶地板下降
+Floor Lower to 8 above Highest Floor	地板降至最高地板上方 8
+Floor Lower to Highest Floor	地板降至最高地板
+Floor Lower to Highest Floor with Lip	地板降至最高地板（带唇边）
+Floor Lower to low adj, give Stat Bonus	地板降至相邻低处，给予属性加成
+Floor lower to lowest ceiling	地板降至最低天花板
+Floor Lower to Lowest Floor	地板降至最低地板
+Floor Lower to Lowest Floor (changes texture)	地板降至最低地板（改变贴图）
+Floor Lower to Lowest TxTy	地板降至最低 TxTy
+Floor Lower to nearest Comm Unit?	地板降至最近的通信单元？
+Floor Lower to Nearest Floor	地板降至最近地板
+Floor Lowering Speed	地板下降速度
+Floor Move to Value	地板移动到值
+Floor Move to Value * 8	地板移动到值 * 8
+Floor Raise 512 match adjacent text/type	地板升高 512，匹配相邻贴图 / 类型
+Floor Raise and Crush	地板升高并压碎
+Floor Raise And Crush	地板升高并压碎
+Floor Raise by 2 Units (EDGE compat)	地板升高 2 单位（EDGE 兼容）
+Floor Raise by 24	地板升高 24
+Floor Raise by 24 (changes texture and effect)	地板升高 24（改变贴图与效果）
+Floor Raise by 24 (changes texture)	地板升高 24（改变贴图）
+Floor Raise by 32 (changes texture)	地板升高 32（改变贴图）
+Floor Raise by 512	地板升高 512
+Floor Raise by Shortest Lower Texture	地板按最短的下部贴图升高
+Floor Raise by Texture	地板按贴图升高
+Floor Raise by TxTy	地板按 TxTy 升高
+Floor Raise by Value	地板按值升高
+Floor Raise by Value * 8	地板按值升高 * 8
+Floor Raise Donut (changes texture)	地板升起圆环（改变贴图）
+Floor Raise High Lower Ceiling Low Adj Instant	地板升至最高、天花板降至相邻最低（瞬间）
+Floor Raise Instantly by Value * 8	地板按值瞬间升高 * 8
+Floor Raise to 8 below Lowest Ceiling (crushes)	地板升至最低天花板下方 8（会压碎）
+Floor raise to ceiling	地板升至天花板
+Floor Raise to Highest Floor	地板升至最高地板
+Floor Raise to Lowest Ceiling	地板升至最低天花板
+Floor Raise to Nearest Floor	地板升至最近地板
+Floor Raise to Next Higher Floor	地板升至上一个更高地板
+Floor Raise to Next Higher Floor (changes texture)	地板升至上一个更高地板（改变贴图）
+Floor Raise to Next Higher Floor (fast)	地板升至上一个更高地板（快速）
+Floor Reflectiveness	地板反射率
+Floor Start Moving Up and Down	地板开始上下移动
+Floor Stop Moving	地板停止移动
+Floor to ceiling instant	地板瞬间升至天花板
+Floor Waggle	地板摆动
+Floor Waggle 12	地板摆动 12
+Floor Waggle 24	地板摆动 24
+Floor Water Drip	地板滴水
+Flower #1	花 #1
+Flower #2	花 #2
+Flynn Haggar (ally)	Flynn Haggar（盟友）
+Focus Thing Tag	聚焦物件标签
+Fog	雾
+Fog Lifetime	雾持续时间
+Fog Patch (large)	雾团（大）
+Fog Patch (medium)	雾团（中）
+Fog Patch (small)	雾团（小）
+Follow Target Tag	跟随目标标签
+Follower	跟随者
+Food and drinks	食物与饮品
+Force	力度
+Force Adjust	力度调整
+Force Field Guard - use ore	力场守卫 - 使用矿石
+Forcefield	力场
+ForceField	力场
+ForceField (remove with 147)	力场（用 147 移除）
+ForceField Clear CrystalDestroyed/DM	力场清除（水晶被摧毁 / 死亡竞赛）
+Forcefield Remove	力场移除
+ForceField Remove Around Tagged Sector	移除标记扇区周围的力场
+Forcefield Set	力场设置
+Former Human	前人类
+Former Human (stealth)	前人类（潜行）
+Former Human Spawner	前人类生成器
+Former Sergeant	前军士
+Former Sergeant (stealth)	前军士（潜行）
+Former Sergeant Spawner	前军士生成器
+Fountain	喷泉
+FraggleScript Execute	FraggleScript 执行
+FraggleScript Execute one-way	FraggleScript 单向执行
+Frequency	频率
+Friction	摩擦
+Friction Amount	摩擦量
+Friction Tagged Sector: Drag < 100, Slide > 100	摩擦标记扇区：阻力 < 100，滑行 > 100
+Friendly Allied Minotaur Spawner	友方联盟牛头怪生成器
+Fritos	Fritos 玉米片
+Front Ceiling Tag	前侧天花板标签
+Front Floor Tag	前侧地板标签
+Front Side Only	仅前侧
+Frost Shards	霜冻碎片
+Frost Shards Spawner	霜冻碎片生成器
+Fruit Pile (green)	水果堆（绿色）
+Fruit Pile (red)	水果堆（红色）
+Fruit pile (white)	水果堆（白色）
+Gap to ceiling	到天花板的间隙
+Gap to Floor	到地板的间隙
+Gap to floor	到地板的间隙
+Gargoyle	石像鬼
+Gargoyle Spawner	石像鬼生成器
+Gary Johnson	Gary Johnson
+Gary Johnson (ally)	Gary Johnson（盟友）
+Gas tank	气罐
+Gasbag	气囊怪
+Gasbag Generator	气囊怪生成器
+Gates (Piston)	闸门（活塞）
+Gauntlets Of The Necromancer	死灵法师护手
+Gauntlets Of The Necromancer Spawner	死灵法师护手生成器
+Generic Ceiling (Boom style)	通用天花板（Boom 风格）
+Generic crusher (Boom style)	通用压碎机（Boom 风格）
+Generic Floor (Boom-style)	通用地板（Boom 风格）
+Generic Item/Monster Spawner	通用物品 / 怪物生成器
+Ghost Monster Spawner	幽灵怪物生成器
+Glaive Seal	长刀封印
+Glass of water	一杯水
+Glitter Bridge	闪光桥
+Globe stand	地球仪架
+Gnarled Tree 1	扭曲树 1
+Gnarled Tree 2	扭曲树 2
+Goblet (silver)	高脚杯（银色）
+Goblet (small)	高脚杯（小）
+Goblet (spilled)	高脚杯（打翻）
+Goblet (tall)	高脚杯（高）
+Gold flag	金色旗帜
+Gold Flourescent Light	金色荧光灯
+Gold ingots	金锭
+Gold Key	金钥匙
+Gold Key MANUAL DOOR	金钥匙手动门
+Gold Key TAGGED DOOR	金钥匙标记门
+Gold Wand	金色魔杖
+Golem	魔像
+Golem Ghost	幽灵魔像
+Golem Ghost Spawner	幽灵魔像生成器
+Golem Spawner	魔像生成器
+Goth Chick	哥特女孩
+Gouts of flame	喷涌的火焰
+Gravity Fractional	重力（小数）
+Gravity Integral	重力（整数）
+Gray tree	灰色树
+Greater Runes	高级符文
+Greater Runes Spawner	高级符文生成器
+Green	绿色
+Green armor	绿色护甲
+Green Armor Spawner	绿色护甲生成器
+Green bottle	绿瓶
+Green Chaos Serpent	绿色混沌巨蛇
+Green Chaos Serpent Spawner	绿色混沌巨蛇生成器
+Green flag	绿色旗帜
+Green Flag	绿色旗帜
+Green Jacket Punk	绿夹克混混
+Green Jacket Punk Spawner	绿夹克混混生成器
+Green Jacket Punk With Board	持木板的绿夹克混混
+Green Jacket Punk With Pipe	持铁管的绿夹克混混
+Green Key	绿钥匙
+Green key	绿钥匙
+Green Key BLAZING DOOR	绿钥匙燃烧门
+Green Key MANUAL DOOR	绿钥匙手动门
+Green Key Marker	绿钥匙标记
+Green Key TAGGED DOOR	绿钥匙标记门
+Green keycard	绿色钥匙卡
+Green light: Ceiling	绿光：天花板
+Green light: Floor	绿光：地板
+Green Mana	绿色法力
+Green Mana Spawner	绿色法力生成器
+Green Mana Weapon Spawner	绿色法力武器生成器
+Green Particle Fountain	绿色粒子喷泉
+Green skullkey	绿色骷髅钥匙
+Green suit guy	绿西装男子
+Green Team	绿队
+Green Team Start	绿队出生点
+Grenade	手榴弹
+Grenade belts	榴弹带
+Grenade launcher	榴弹发射器
+Grenade Launcher	榴弹发射器
+Grenade Launcher Spawner	榴弹发射器生成器
+Grey Pillar with Pumping Heart	带搏动心脏的灰色石柱
+Grey rock	灰色岩石
+Grid obstacle	网格障碍
+Grin	咧嘴笑
+Group Thing Tag	组物件标签
+Guard Sphere	守卫球
+Guard Uniform (gives token)	守卫制服（给予信物）
+Guardsphere Spawner	守卫球生成器
+Hack Bridge	简易桥
+Hamburger	汉堡
+Hammer Of Retribution	报应之锤
+Hammer Of Retribution Spawner	报应之锤生成器
+Hand Grenade	手雷
+Hanging brazier	悬挂火盆
+Hanging Bucket	悬挂水桶
+Hanging Corpse	悬挂尸体
+Hanging leg	悬挂的腿
+Hanging leg (blocking)	悬挂的腿（阻挡）
+Hanging Moss 1	悬挂苔藓 1
+Hanging Moss 2	悬挂苔藓 2
+Hanging pair of legs	悬挂的双腿
+Hanging pair of legs (blocking)	悬挂的双腿（阻挡）
+Hanging plant #1	悬挂植物 #1
+Hanging plant #2	悬挂植物 #2
+Hanging pots	悬挂陶罐
+Hanging Skull 1	悬挂骷髅 1
+Hanging Skull 2	悬挂骷髅 2
+Hanging Skull 3	悬挂骷髅 3
+Hanging Skull 4	悬挂骷髅 4
+Hanging torso, brain removed	悬挂躯干（脑已取出）
+Hanging torso, looking down	悬挂躯干（向下看）
+Hanging torso, looking up	悬挂躯干（向上看）
+Hanging torso, open skull	悬挂躯干（头骨敞开）
+Hanging victim, 1-legged	悬挂受害者（单腿）
+Hanging victim, 1-legged (blocking)	悬挂受害者（单腿，阻挡）
+Hanging victim, arms out	悬挂受害者（张开双臂）
+Hanging victim, arms out (blocking)	悬挂受害者（张开双臂，阻挡）
+Hanging victim, guts and brain removed	悬挂受害者（内脏与脑已取出）
+Hanging victim, guts removed	悬挂受害者（内脏已取出）
+Hanging victim, twitching	悬挂受害者（抽搐）
+Hanging victim, twitching (blocking)	悬挂受害者（抽搐，阻挡）
+Haste	急速
+Haste Spawner	急速生成器
+Hate	仇恨
+Hate target	仇恨目标
+Hatee Tag	被仇恨者标签
+Hater Tag	仇恨者标签
+Hazards	危险物
+Heal Amount	治疗量
+Heal Thing	治疗物件
+Healing mushroom	治疗蘑菇
+Health and Armor	生命与护甲
+Health bonus	生命加成
+Health Bonus Spawner	生命加成生成器
+Heart Of D'Sparil	D'Sparil 之心
+Hearts in Tank	罐中心脏
+Heath bar	Heath 巧克力棒
+Hectebus	Hectebus
+Hectebus Spawner	Hectebus 生成器
+Hefty 2x4	粗大木板
+HE-Grenade Rounds	高爆榴弹
+Height	高度
+Hell Knight	地狱骑士
+Hell Knight (stealth)	地狱骑士（潜行）
+Hell Knight Spawner	地狱骑士生成器
+Hell Pillar	地狱石柱
+Hellstaff	地狱法杖
+Hellstaff Spawner	地狱法杖生成器
+Hellstone	地狱石
+Heresiarch	异端主教
+Heresiarch Spawner Spawner	异端主教生成器生成器
+Heretic current by line vector	Heretic 水流（按线段向量）
+Heretic wind	Heretic 风
+Heretic wind by line vector	Heretic 风（按线段向量）
+Hershey bar	好时巧克力棒
+High Explosive Grenade Rounds Spawner	高爆榴弹生成器
+High jump Spawner	高跳生成器
+High Jumper	高跳者
+Hissy	Hissy
+Hold Time (otics)	保持时间（otics）
+Holographic globe projector	全息地球仪投影器
+Holy Relic	圣物
+Hook With Heart	带心脏的钩子
+Hook With Skull	带骷髅的钩子
+Horizontal Fractional	水平（小数）
+Horizontal Integral	水平（整数）
+Horizontal speed	水平速度
+Horizontal Speed	水平速度
+Horn Key	角钥匙
+Hub Exit to MAP01 / E1M1	枢纽出口至 MAP01 / E1M1
+Hub Exit to MAP02 / E1M2	枢纽出口至 MAP02 / E1M2
+Hub Exit to MAP03 / E1M3	枢纽出口至 MAP03 / E1M3
+Hub Exit to MAP04 / E1M4	枢纽出口至 MAP04 / E1M4
+Hub Exit to MAP05 / E1M5	枢纽出口至 MAP05 / E1M5
+Hub Exit to MAP06 / E1M6	枢纽出口至 MAP06 / E1M6
+Hub Exit to MAP07 / E1M7	枢纽出口至 MAP07 / E1M7
+Hub Exit to MAP08 / E1M8	枢纽出口至 MAP08 / E1M8
+Hub Exit to MAP09 / E1M9	枢纽出口至 MAP09 / E1M9
+Hub Exit to MAP10	枢纽出口至 MAP10
+Hub Exit to MAP11 / E2M1	枢纽出口至 MAP11 / E2M1
+Hub Exit to MAP12 / E2M2	枢纽出口至 MAP12 / E2M2
+Hub Exit to MAP13 / E2M3	枢纽出口至 MAP13 / E2M3
+Hub Exit to MAP14 / E2M4	枢纽出口至 MAP14 / E2M4
+Hub Exit to MAP15 / E2M5	枢纽出口至 MAP15 / E2M5
+Hub Exit to MAP16 / E2M6	枢纽出口至 MAP16 / E2M6
+Hub Exit to MAP17 / E2M7	枢纽出口至 MAP17 / E2M7
+Hub Exit to MAP18 / E2M8	枢纽出口至 MAP18 / E2M8
+Hub Exit to MAP19 / E2M9	枢纽出口至 MAP19 / E2M9
+Hub Exit to MAP20	枢纽出口至 MAP20
+Hub Exit to MAP21 / E3M1	枢纽出口至 MAP21 / E3M1
+Hub Exit to MAP22 / E3M2	枢纽出口至 MAP22 / E3M2
+Hub Exit to MAP23 / E3M3	枢纽出口至 MAP23 / E3M3
+Hub Exit to MAP24 / E3M4	枢纽出口至 MAP24 / E3M4
+Hub Exit to MAP25 / E3M5	枢纽出口至 MAP25 / E3M5
+Hub Exit to MAP26 / E3M6	枢纽出口至 MAP26 / E3M6
+Hub Exit to MAP27 / E3M7	枢纽出口至 MAP27 / E3M7
+Hub Exit to MAP28 / E3M8	枢纽出口至 MAP28 / E3M8
+Hub Exit to MAP29 / E3M9	枢纽出口至 MAP29 / E3M9
+Hub Exit to MAP30	枢纽出口至 MAP30
+Hub Exit to MAP31 / E4M1	枢纽出口至 MAP31 / E4M1
+Hub Exit to MAP32 / E4M2	枢纽出口至 MAP32 / E4M2
+Hub Exit to MAP33 / E4M3	枢纽出口至 MAP33 / E4M3
+Hub Exit to MAP34 / E4M4	枢纽出口至 MAP34 / E4M4
+Hub Exit to MAP35 / E4M5	枢纽出口至 MAP35 / E4M5
+Hub Exit to MAP36 / E4M6	枢纽出口至 MAP36 / E4M6
+Hub Exit to MAP37 / E4M7	枢纽出口至 MAP37 / E4M7
+Hub Exit to MAP38 / E4M8	枢纽出口至 MAP38 / E4M8
+Hub Exit to MAP39 / E4M9	枢纽出口至 MAP39 / E4M9
+Huge Alien Pillar	巨型异形石柱
+Huge healing mushroom	巨型治疗蘑菇
+Huge Tank 1 (has skeleton)	巨型罐 1（内有骨架）
+Huge Tank 2	巨型罐 2
+Huge Tank 3	巨型罐 3
+Huge Tech Pillar	巨型科技石柱
+Huge Torch	巨型火炬
+Hugo the Butcher	屠夫 Hugo
+Hydroponic plant	水培植物
+Ice Gargoyle (short)	冰霜石像鬼（矮）
+Ice Gargoyle (tall)	冰霜石像鬼（高）
+Ice Spike (large)	冰刺（大）
+Ice Spike (medium)	冰刺（中）
+Ice Spike (small)	冰刺（小）
+Ice Spike (tiny)	冰刺（微）
+Icicle (large)	冰柱（大）
+Icicle (medium)	冰柱（中）
+Icicle (small)	冰柱（小）
+Icicle (tiny)	冰柱（微）
+Icon of Sin	罪恶圣像
+Icon Of The Defender	守护者圣像
+Icon Of The Defender Spawner	守护者圣像生成器
+ID (first part)	ID（第一部分）
+ID (second part)	ID（第二部分）
+ID Badge	身份徽章
+ID Card	身份证件
+id1	id1
+id2	id2
+Imp	小恶魔
+Imp (stealth)	小恶魔（潜行）
+Imp Spawner	小恶魔生成器
+Imp Statue	小恶魔雕像
+Impaled Chaingunner Head	被刺穿的机枪兵头颅
+Impaled Corpse	被刺穿的尸体
+Impaled human	被刺穿的人类
+Impaled ZombieMan Head	被刺穿的僵尸兵头颅
+Impaling Spike	穿刺尖刺
+Impaling Spike (3 doomguy heads)	穿刺尖刺（3 个 Doomguy 头颅）
+Impaling Spike (3 doomguy heads, short)	穿刺尖刺（3 个 Doomguy 头颅，矮）
+Impaling Spike (doomguy head)	穿刺尖刺（Doomguy 头颅）
+Impaling Spike (doomguy skewered, long arm)	穿刺尖刺（Doomguy 被刺穿，长臂）
+Impaling Spike (doomguy skewered, short arm)	穿刺尖刺（Doomguy 被刺穿，短臂）
+Impaling Spike (doomguy skewered, twitching)	穿刺尖刺（Doomguy 被刺穿，抽搐）
+Impaling Spike (doomguy torso, one arm)	穿刺尖刺（Doomguy 躯干，单臂）
+Impaling Spike (doomguy torso, two arms)	穿刺尖刺（Doomguy 躯干，双臂）
+Imp's Head	小恶魔头颅
+Inferno Orb	地狱火球
+Inferno Orb Spawner	地狱火球生成器
+Init	初始
+Init Color	初始颜色
+Init Color (Legacy compat)	初始颜色（Legacy 兼容）
+Init Damage	初始伤害
+Init Gravity	初始重力
+Inner angle	内角
+Inquisitor	审判官
+Inquisitor Spawner	审判官生成器
+Intensity	强度
+Intensity (1-9)	强度（1-9）
+Intensity scale	强度倍率
+Interactive items	可交互物品
+Interpolation Point	插值点
+Interpolation Point HiTag	插值点高标签
+Interpolation Point Tag	插值点标签
+Interpolation Special	插值特殊动作
+Interval	间隔
+Invasion Ammunition Spawners	入侵弹药生成器
+Invasion Health and Armor Spawners	入侵生命与护甲生成器
+Invasion Monster Spawners	入侵怪物生成器
+Invasion Powerup Spawners	入侵强化道具生成器
+Invasion Random Spawners	入侵随机生成器
+Invasion Rune Spawners	入侵符文生成器
+Invasion Weapon Spawners	入侵武器生成器
+Invisibility	隐身
+Invisibility Spawner	隐身生成器
+Invisibility Sphere	隐身球
+Invisible Bridge, radius 16	隐形桥，半径 16
+Invisible Bridge, radius 32	隐形桥，半径 32
+Invisible Bridge, radius 8	隐形桥，半径 8
+Invisible wall	隐形墙
+Invulnerability	无敌
+Invulnerability Spawner	无敌生成器
+Iron Lich	钢铁巫妖
+Iron Lich Spawner	钢铁巫妖生成器
+Iron Maiden	铁处女
+Item Number	物品编号
+Jerry Marconi	Jerry Marconi
+Katana	武士刀
+Keep Orientation	保持朝向
+Keep rel. Height	保持相对高度
+Key	钥匙
+Key Number	钥匙编号
+Keys	钥匙
+Kickboxing martial artist	踢拳武术家
+King of the Hill	山丘之王
+Kneeling Guy	跪着的男子
+Korax	Korax
+Korax Spawner Spawner	Korax 生成器生成器
+Krater Of Might	力量之杯
+Krater Of Might Spawner	力量之杯生成器
+Lab coil	实验室线圈
+Ladder, 120 units high	梯子，高 120 单位
+Ladder, 160 units high	梯子，高 160 单位
+Ladder, 192 units high	梯子，高 192 单位
+Ladder, 256 units high	梯子，高 256 单位
+Ladder, 384 units high	梯子，高 384 单位
+Ladder, 48 units high	梯子，高 48 单位
+Ladder, 512 units high	梯子，高 512 单位
+Ladder, 768 units high	梯子，高 768 单位
+Ladder, 80 units high	梯子，高 80 单位
+Ladder, no limit(9999)	梯子，无限制（9999）
+Landing light	着陆灯
+Large Brown Stein	大号棕色啤酒杯
+Large brown tree	大型棕色树
+Large Flame	大型火焰
+Large Flame (timed)	大型火焰（定时）
+Large hanging chains	大型悬挂锁链
+Large Mushroom (explodes)	大蘑菇（会爆炸）
+Large Mushroom 1	大蘑菇 1
+Large Mushroom 2	大蘑菇 2
+Large or Rare Ammo Spawner	大型或稀有弹药生成器
+Large rock #1	大岩石 #1
+Large rock #2	大岩石 #2
+Large rock #3	大岩石 #3
+Large Torch	大型火炬
+Large Zorcher	大型 Zorcher
+Large zorcher pack	大型 Zorcher 包
+Large Zorcher Recharge	大型 Zorcher 充能
+Laser lamp	激光灯
+Lava Gargoyle (short)	熔岩石像鬼（矮）
+Lava Gargoyle (tall)	熔岩石像鬼（高）
+LAZ Device	LAZ 装置
+Leafless Tree	无叶树
+Leafy blue bush	蓝色阔叶灌木
+Leafy plant	多叶植物
+Leafy plant (hang)	多叶植物（悬挂）
+Leakiness	泄漏度
+Leather Armor	皮甲
+Leather Armor Spawner	皮甲生成器
+Leather Jacket Punk	皮夹克混混
+Leather Jacket Punk Spawner	皮夹克混混生成器
+Leather Jacket Punk With Chain	持锁链的皮夹克混混
+Left Speed	左向速度
+Leg on meathook	肉钩上的腿
+Legacy: Thick Extrafloor (dummy texture)	Legacy：厚附加地板（虚拟贴图）
+Legacy: Thick Extrafloor (dummy texture, master light props)	Legacy：厚附加地板（虚拟贴图，主光照属性）
+Lesser Runes	低级符文
+Lesser Runes Spawner	低级符文生成器
+Liber Obscura	暗黑之书
+Lift	升降台
+Lift Lower Gold Key, Wait, Raise	升降台下降（金钥匙）、等待、升起
+Lift Lower Power 3 Key, Wait, Up	升降台下降（3 号钥匙）、等待、升起
+Lift Lower to Next Lowest Floor (fast)	升降台降至下一个更低地板（快速）
+Lift Lower Wait Raise	升降台降低、等待、升起
+Lift Lower Wait Raise (fast)	升降台降低、等待、升起（快速）
+Lift Move to Same Floor Height (fast)	升降台移动到相同地板高度（快速）
+Lift Perpetual Lowest and Highest Floors	升降台在最低与最高地板间循环
+Lift Raise by 24 (changes texture)	升降台升高 24（改变贴图）
+Lift Raise by 32 (changes texture)	升降台升高 32（改变贴图）
+Lift Raise to Ceiling (instantly)	升降台升至天花板（立即）
+Lift Raise to Next Highest Floor (fast)	升降台升至次高地板（快速）
+Lift Raise, Wait, Lower	升降台升高、等待、下降
+Lift Stop	升降台停止
+Light	灯光
+Light bulb	灯泡
+Light Change to 255	灯光变为 255
+Light Change to 35	灯光变为 35
+Light Change to Brightest	灯光变为最亮
+Light Change to Brightest Adjacent	灯光变为相邻最亮
+Light Change to Brightest Neighbor	灯光变为邻近最亮
+Light Change to Brightest Neighbour	灯光变为邻近最亮
+Light Change to Darkest	灯光变为最暗
+Light Change to Darkest Adjacent	灯光变为相邻最暗
+Light Change to Darkest Neighbor	灯光变为邻近最暗
+Light Change to Darkest Neighbour	灯光变为邻近最暗
+Light Change to Value	灯光变为指定值
+Light corona	灯光光晕
+Light Fade	灯光渐暗
+Light Flicker	灯光闪烁
+Light Globe	球形灯
+Light Glow	灯光辉光
+Light Lower by Value	灯光降低指定值
+Light post	灯柱
+Light Raise by Value	灯光升高指定值
+Light sources	光源
+Light Sources	光源
+Light Start Blinking	灯光开始闪烁
+Light Stop	灯光停止
+Light Strobe	灯光频闪
+Light Strobe (Doom mode)	灯光频闪（Doom 模式）
+Light Tag	灯光标签
+Light wall: transfer light to tagged	灯墙：将灯光传递到带标签扇区
+Lightmap Lights	光照贴图灯光
+Lightmap Point Light	光照贴图点光源
+Lightmap Point Light (Flickering)	光照贴图点光源（闪烁）
+Lightmap Point Light (Pulsing)	光照贴图点光源（脉动）
+Lightmap Point Light (Random Flickering)	光照贴图点光源（随机闪烁）
+Lightmap Spotlight	光照贴图聚光灯
+Lightmap Spotlight (Flickering)	光照贴图聚光灯（闪烁）
+Lightmap Spotlight (Pulsing)	光照贴图聚光灯（脉动）
+Lightmap Spotlight (Random Flickering)	光照贴图聚光灯（随机闪烁）
+Lightning Control	闪电控制
+Line	线
+Line Horizon	地平线
+Line ID	线段 ID
+Line id	线段 ID
+Line ID / Hi-Tag	线段 ID / 高标签
+Line ID High	线段 ID 高位
+Line Identification	线段标识
+Line Mirror	线段镜像
+Line Quick Portal	线段快速传送门
+Line Set Blocking	线段设置阻挡
+Line Set Portal	线段设置传送门
+Line Set Portal Target	线段设置传送门目标
+Line slope ceiling	线段倾斜天花板
+Line slope floor	线段倾斜地板
+Line Tag	线段标签
+Lip	突出量
+Lip (subtract 128)	突出量（减去 128）
+Lip Amount	突出量
+Liquid Extrafloor (20% translucent)	液体附加地板（20% 半透明）
+Liquid Extrafloor (40% translucent)	液体附加地板（40% 半透明）
+Liquid Extrafloor (60% translucent)	液体附加地板（60% 半透明）
+Liquid Extrafloor (80% translucent)	液体附加地板（80% 半透明）
+Liquid Extrafloor (invisible)	液体附加地板（不可见）
+Liquid Extrafloor (solid)	液体附加地板（实心）
+Lite Amplification goggles	微光增强护目镜
+Local	局部
+Lock	锁定
+Locked Door	上锁的门
+Lockout Mode	锁定模式
+Log	日志
+Loop	循环
+Loot	战利品
+Lord Snotfolus	斯诺特弗勒斯领主
+Loremaster	博学者
+Loremaster Spawner	博学者生成器
+Lost Soul	失魂者
+Lost Soul Spawner	失魂者生成器
+Lower by	降低
+Lower by (* 8)	降低（* 8）
+Lower Floor by	地板降低
+Lower Movement Speed	下降移动速度
+Lower Sector	降低扇区
+Lower Speed	下降速度
+Lowering Speed	下降速度
+Lynched Corpse	被绞死的尸体
+Lynched Corpse (heartless)	被绞死的尸体（无心脏）
+Mace Spheres	钉锤球
+Mace Spheres Spawner	钉锤球生成器
+Macil 1 Invincible (Map03,34)	无敌的马西尔 1（Map03,34）
+Macil 2 Spectral (Map10)	幽灵马西尔 2（Map10）
+Mage Weapon Spawner	法师武器生成器
+Maggie (ally)	玛吉（盟友）
+Mana	魔法值
+Mancubus	曼库比斯
+Mancubus (stealth)	曼库比斯（隐形）
+Mancubus MKII	曼库比斯 MKII
+Mancubus Spawner	曼库比斯生成器
+Map	地图
+Map Marker	地图标记
+Map Number	地图编号
+Map room point light	地图房间点光源
+Map Scroll	地图滚动
+Map Scroll Spawner	地图滚动生成器
+Map Set Colormap	地图设置色图
+Map Spawner	地图生成器
+Map Spot	地图点
+Map spot	地图点
+Map Spot (FraggleScript)	地图点（FraggleScript）
+Map Spot (gravity)	地图点（重力）
+Map spot gravity	地图点重力
+Mapspot Tag	地图点标签
+MapSpot Tag	地图点标签
+Marble statue	大理石雕像
+Marine (berserk)	海军陆战队员（狂暴）
+Marine (BFG9000)	海军陆战队员（BFG9000）
+Marine (chaingun)	海军陆战队员（转管机枪）
+Marine (chainsaw)	海军陆战队员（电锯）
+Marine (fist)	海军陆战队员（拳头）
+Marine (pistol)	海军陆战队员（手枪）
+Marine (plasma rifle)	海军陆战队员（等离子步枪）
+Marine (Railgun)	海军陆战队员（磁轨炮）
+Marine (rocket launcher)	海军陆战队员（火箭发射器）
+Marine (shotgun)	海军陆战队员（霰弹枪）
+Marine (SSG)	海军陆战队员（超级霰弹枪）
+Marines	海军陆战队员
+Massmouth Statue	大嘴雕像
+Mauler	猛击兽
+Mauler Key	猛击兽钥匙
+Mauler Spawner	猛击兽生成器
+Maulotaur	牛头怪
+Maulotaur Spawner	牛头怪生成器
+Max Amount	最大数量
+Max health	最大生命值
+Max Spawn	最大生成数
+Max. armor bonus	最大护甲加成
+Max. Armor Bonus Spawner	最大护甲加成生成器
+Max. health bonus	最大生命加成
+Max. Health Bonus Spawner	最大生命加成生成器
+Max. Heard Distance	最大听觉距离
+Max. pitch per second	每秒最大俯仰
+Max. yaw per second	每秒最大偏航
+Maximal intensity	最大强度
+Maximum Yaw	最大偏航
+MBF Helper dog	MBF 助手狗
+Meat Cleaver	剁肉刀
+Meathook	肉钩
+Med Patch	医疗贴片
+Med Patch Spawner	医疗贴片生成器
+Medic 3 Blue (Map02,23,33/03,10/17)	蓝色医护兵 3（Map02,23,33/03,10/17）
+Medical Kit	医疗箱
+Medikit	医疗包
+Medium Mushroom	中型蘑菇
+Medium Rock (mossy)	中型岩石（长苔）
+Medium Torch	中型火炬
+Medkit Spawner	医疗包生成器
+Megasphere	超级球
+Megasphere Spawner	超级球生成器
+Menelkir (mage boss) Spawner	梅内尔基尔（法师首领）生成器
+Menelkir (mage)	梅内尔基尔（法师）
+Mesh Armor	网甲
+Mesh Armor Spawner	网甲生成器
+Message	消息
+Message ID	消息 ID
+Metal Armor	金属护甲
+Metal Armor Spawner	金属护甲生成器
+Metal Pot	金属锅
+Microscope	显微镜
+Min. Fading Distance	最小淡出距离
+Mine	地雷
+Mine cart	矿车
+Mine Key	矿场钥匙
+Mini Missiles	微型导弹
+Mini Missiles Spawner	微型导弹生成器
+Mini zorcher pack	微型佐彻枪包
+Mini Zorcher Recharge	微型佐彻枪充能
+Minigun	转管机枪
+Minigun ammo	转管机枪弹药
+Minigun Spawner	转管机枪生成器
+Minimal intensity	最小强度
+Mini-Missile Launcher	微型导弹发射器
+Mini-Missile Launcher Spawner	微型导弹发射器生成器
+Minotaur Statue (lit)	牛头人雕像（点亮）
+Minotaur Statue (unlit)	牛头人雕像（未点亮）
+Mirror Polyobject Number	镜像 Polyobject 编号
+Mirror, Blue	镜子，蓝色
+Mirror, Green	镜子，绿色
+Mirror, Plain	镜子，普通
+Mirror, Red	镜子，红色
+Mirror, White	镜子，白色
+Misc	杂项
+Misc Area Only in Retail Version	杂项：仅零售版区域
+Misc Break Screen	杂项：破坏屏幕
+Misc Clear NonBlock Quest?	杂项：清除非阻挡任务？
+Misc Push Wall (may not work right)	杂项：推墙（可能工作不正常）
+Misc That Doesn't Seem to Work	杂项：似乎无效
+Missile (launched)	导弹（已发射）
+Missile (ready)	导弹（待发）
+Missile Crate Spawner	导弹箱生成器
+MOD Track Order	MOD 音轨顺序
+Mode	模式
+Model rocket	模型火箭
+Monster Thing Tag	怪物物件标签
+Monsters	怪物
+Monsters Spawner	怪物生成器
+Monsters Target	怪物目标
+Mordeth's computer	莫德斯计算机
+Morph Ovum	变形卵
+Morph Ovum Spawner	变形卵生成器
+Moss 1	苔藓 1
+Moss 2	苔藓 2
+Mossy Tree 1	长苔树 1
+Mossy Tree 2	长苔树 2
+Move Source	移动源
+Move Thing	移动物件
+Move Type	移动类型
+Movement Amount	移动量
+Movement Angle	移动角度
+Movement Cancels	移动取消
+Movement Dist. * 8	移动距离 * 8
+Movement Distance	移动距离
+Movement Distance * 8	移动距离 * 8
+Movement Speed	移动速度
+Movement Type	移动类型
+Moving Camera	移动摄像机
+Moving Fog	移动雾
+Mug	杯子
+Mug of beer	一杯啤酒
+Music	音乐
+Music Change Song	音乐切换歌曲
+Music Stop	音乐停止
+MUSINFO Track Index	MUSINFO 音轨索引
+Must be 255	必须为 255
+Mutant soldier	变异士兵
+Mystic Ambit Incant	神秘领域咒语
+Mystic Ambit Incant Spawner	神秘领域咒语生成器
+Mystic Urn	神秘瓮
+Mystic Urn Spawner	神秘瓮生成器
+NDF armor	NDF 护甲
+Necklace	项链
+Necronomicon	死灵之书
+NEEDS MOAR IMPSE	需要更多小恶魔
+Negate height	高度取反
+Negate Height	高度取反
+Negative Height	负高度
+New Skill Level	新难度等级
+New Thing Tag	新物件标签
+Newspaper	报纸
+Next Patrol Point Tag	下一个巡逻点标签
+Next Point HiTag	下一个点高标签
+Next Point Tag	下一个点标签
+Nightmare Spectre	噩梦幽灵
+Ninja chick	忍者少女
+Nitrogolem	硝化魔像
+Nitrogolem Ghost	硝化魔像幽灵
+Nitrogolem Ghost Spawner	硝化魔像幽灵生成器
+Nitrogolem Spawner	硝化魔像生成器
+No Limit	无限制
+None	无
+Non-interactive	非交互
+Notification Type	通知类型
+Nukage splash	核废液飞溅
+Obstacles	障碍物
+Offering Chalice	献祭圣杯
+Office chair	办公椅
+Officer's Uniform (no alarm)	军官制服（无警报）
+Offset Backwards (positive only)	向后偏移（仅正值）
+Old skeleton	陈旧骷髅
+Old Thing Tag	旧物件标签
+Opacity	不透明度
+Open delay	开启延迟
+Ophidian	蛇怪
+Ophidian Spawner	蛇怪生成器
+Options	选项
+Oracle (Map12)	神谕者（Map12）
+Oracle Key	神谕者钥匙
+Orange light: Ceiling	橙色灯光：天花板
+Orange light: Floor	橙色灯光：地板
+Orange tree	橘树
+Orbs Amount	光球数量
+Order Key	命令钥匙
+Orthographic Camera	正交摄像机
+Other	其他
+Other NPCs	其他 NPC
+Outer angle	外角
+Outside Lamp	室外灯
+Oxygen tank	氧气罐
+Pain Elemental	痛苦元素
+Pain Elemental Spawner	痛苦元素生成器
+Palm Tree	棕榈树
+Parking meter	停车计时器
+Partial Invisibility Spawner	部分隐形生成器
+Particle Drip	粒子滴落
+Particle fountain black	黑色粒子喷泉
+Particle fountain blue	蓝色粒子喷泉
+Particle fountain green	绿色粒子喷泉
+Particle fountain purple	紫色粒子喷泉
+Particle fountain red	红色粒子喷泉
+Particle fountain white	白色粒子喷泉
+Particle fountain yellow	黄色粒子喷泉
+Particles Amount	粒子数量
+Passcard	通行卡
+Path Follower	路径跟随者
+Patrol Point	巡逻点
+Patrol Special	巡逻特殊点
+Peasants	农民
+Pedestal Of D'Sparil	迪斯帕瑞尔基座
+Pencil	铅笔
+Peter Crisp with daughter	彼得·克里斯普与女儿
+Phage	噬菌体
+Phantasmal Brown Chaos Serpent Spawner	幻影棕色混沌巨蛇生成器
+Phantasmal Centaur Spawner	幻影半人马生成器
+Phantasmal Ettin Spawner	幻影双头怪生成器
+Phantasmal Green Chaos Serpent Spawner	幻影绿色混沌巨蛇生成器
+Phantasmal Monster Spawner	幻影怪物生成器
+Phase Offset (0-63)	相位偏移（0-63）
+Phasing Zorcher	相位佐彻枪
+Phasing zorcher pack	相位佐彻枪包
+Phasing zorcher recharge	相位佐彻枪充能
+Phoenix Rod	凤凰杖
+Phoenix Rod Spawner	凤凰杖生成器
+Phone	电话
+Phosphorous Grenade Rounds Spawner	磷手榴弹生成器
+Phosphorus-Grenade Rounds	磷手榴弹
+Pig Spawner Spawner	猪生成器生成器
+Pigeon	鸽子
+Pile Of Mace Spheres	钉锤球堆
+Pile Of Mace Spheres Spawner	钉锤球堆生成器
+Pile of skulls and candles	骷髅与蜡烛堆
+Pillar	柱子
+Pillar Build	建造柱子
+Pillar Build and Crush	建造柱子并压碎
+Pillar Lower Speed	柱子下降速度
+Pillar Open	柱子开启
+Pillar Sector Tag	柱子扇区标签
+Pillar With Vase	带花瓶的柱子
+Pillars	柱子
+Pine tree	松树
+Pine tree with slime	带黏液的松树
+Pistol	手枪
+Pitch	俯仰
+Pitcher	水罐
+Pitfall Gold	黄金陷阱
+Pizza pie	披萨
+Plane	平面
+Plane Align	平面对齐
+Plane Align (slope)	平面对齐（斜面）
+Plane Align Ceiling at back	对齐背面天花板平面
+Plane Align Ceiling at front	对齐正面天花板平面
+Plane Align Floor and Ceiling at back	对齐背面地板与天花板平面
+Plane Align Floor and Ceiling at front	对齐正面地板与天花板平面
+Plane Align Floor at back	对齐背面地板平面
+Plane Align Floor at back and Ceiling at front	对齐背面地板与正面天花板平面
+Plane Align Floor at front	对齐正面地板平面
+Plane Align Floor at front and Ceiling at back	对齐正面地板与背面天花板平面
+Plane Copy (slope)	平面复制（斜面）
+Plane Reflection (OpenGL only)	平面反射（仅 OpenGL）
+Plasma gun	等离子枪
+Plasma Gun Spawner	等离子枪生成器
+Platform	平台
+Platform Generic Change	平台通用改变
+Platform Lower by Value * 8	平台降低指定值 * 8
+Platform Lower Wait Raise	平台下降、等待、上升
+Platform Lower Wait Raise (Lip 8)	平台下降、等待、上升（突出量 8）
+Platform Lower Wait Raise (lip)	平台下降、等待、上升（突出量）
+Platform Perpetual Move	平台持续移动
+Platform Perpetual Move (Lip 8)	平台持续移动（突出量 8）
+Platform Perpetual Move (lip)	平台持续移动（突出量）
+Platform Raise by Value * 8	平台升高指定值 * 8
+Platform Raise by Value Tx (* 8)	平台按贴图值升高（* 8）
+Platform Raise to Nearest Wait Lower	平台升至最近高度、等待、下降
+Platform Raise Tx0	平台升至贴图 0
+Platform Raise Wait Lower	平台升高、等待、下降
+Platform Stop	平台停止
+Platform Toggle Ceiling	平台切换天花板
+Platinum Helm	白金头盔
+Platinum Helm Spawner	白金头盔生成器
+Player	玩家
+Player 1 start	玩家 1 起点
+Player 2 start	玩家 2 起点
+Player 3 start	玩家 3 起点
+Player 4 start	玩家 4 起点
+Player 5 Start	玩家 5 起点
+Player 5 start	玩家 5 起点
+Player 6 Start	玩家 6 起点
+Player 6 start	玩家 6 起点
+Player 7 Start	玩家 7 起点
+Player 7 start	玩家 7 起点
+Player 8 start	玩家 8 起点
+Player 8 Start	玩家 8 起点
+Player Blue start (team start)	玩家蓝队起点（队伍起点）
+Player Deathmatch start	玩家死亡竞赛起点
+Player Gold start (team start)	玩家金队起点（队伍起点）
+Player Green start (team start)	玩家绿队起点（队伍起点）
+Player Red start (team start)	玩家红队起点（队伍起点）
+Player Set Team	玩家设置队伍
+Player Starts	玩家起点
+Player Team Score	玩家队伍得分
+Player Temporary start (team start)	玩家临时起点（队伍起点）
+Player uses sector	玩家使用扇区
+Player uses wall	玩家使用墙壁
+Point	点
+Point Pusher/Puller Set Force	点推拉器设置力度
+Points	点数
+Poison Arrows	毒箭
+Poison Bolts Spawner	毒弹生成器
+Poison Cloud Flechette Spawner	毒云飞镖生成器
+Pole Lantern	杆式灯笼
+Polyobject Anchor	Polyobject 锚点
+Polyobject anchor	Polyobject 锚点
+Polyobject Door Slide	Polyobject 滑动门
+Polyobject door slide	Polyobject 滑动门
+Polyobject Door Swing	Polyobject 摆动门
+Polyobject door swing	Polyobject 摆动门
+Polyobject Explicit Line	Polyobject 显式线段
+Polyobject move	Polyobject 移动
+Polyobject Move	Polyobject 移动
+Polyobject Move (* 8)	Polyobject 移动（* 8）
+Polyobject Move (8mu, override)	Polyobject 移动（8 地图单位，覆盖）
+Polyobject Move (override)	Polyobject 移动（覆盖）
+Polyobject Move to	Polyobject 移动到
+Polyobject Move to (override)	Polyobject 移动到（覆盖）
+Polyobject Move to Spot	Polyobject 移动到点
+Polyobject Move to Spot (override)	Polyobject 移动到点（覆盖）
+Polyobject Number	Polyobject 编号
+Polyobject override move	Polyobject 覆盖移动
+Polyobject override rotate left	Polyobject 覆盖左旋
+Polyobject override rotate right	Polyobject 覆盖右旋
+Polyobject rotate left	Polyobject 左旋
+Polyobject Rotate Left	Polyobject 左旋
+Polyobject Rotate Left (override)	Polyobject 左旋（覆盖）
+Polyobject Rotate Right	Polyobject 右旋
+Polyobject rotate right	Polyobject 右旋
+Polyobject Rotate Right (override)	Polyobject 右旋（覆盖）
+Polyobject spawn spot	Polyobject 生成点
+Polyobject spawn spot crush	Polyobject 生成点（压碎）
+Polyobject spawn spot damage	Polyobject 生成点（伤害）
+Polyobject Start Line	Polyobject 起始线段
+Polyobject Start Spot	Polyobject 起始点
+Polyobject Start Spot (crush)	Polyobject 起始点（压碎）
+Polyobject Start Spot (hurts to touch)	Polyobject 起始点（接触受伤）
+Polyobject Stop	Polyobject 停止
+Polyobject stop movement	Polyobject 停止移动
+Polyobjects	Polyobject
+Pool cue	台球杆
+Pool of blood	血池
+Pool Of Blood	血池
+Pool of blood and bones	血与骨之池
+Pool of blood and guts	血与内脏之池
+Pool of Blood with Marine Helmet	带陆战队员头盔的血池
+Pool of brains	脑浆池
+Porkalator	猪肉转化器
+Porkelator Spawner	猪肉转化器生成器
+Portal	传送门
+Portal anchor for 295 and 297	295 和 297 的传送门锚点
+Portal anchor for 296	296 的传送门锚点
+Portal anchor for 344	344 的传送门锚点
+Portal anchor for 345	345 的传送门锚点
+Portal anchored ceilings	传送门锚定天花板
+Portal anchored floors	传送门锚定地板
+Portal anchored floors/ceilings	传送门锚定地板/天花板
+Portal Define	传送门定义
+Portal horizon ceilings	传送门地平线天花板
+Portal horizon floors	传送门地平线地板
+Portal horizon floors/ceilings	传送门地平线地板/天花板
+Portal id	传送门 ID
+Portal linked anchor for 358	358 的传送门链接锚点
+Portal linked anchor for 359	359 的传送门链接锚点
+Portal linked anchor for 376	376 的传送门链接锚点
+Portal linked apply front sector	传送门链接应用至正面扇区
+Portal linked apply to lines	传送门链接应用到线段
+Portal linked ceilings	传送门链接天花板
+Portal linked floors	传送门链接地板
+Portal plane ceilings	传送门平面天花板
+Portal plane floors	传送门平面地板
+Portal plane floors/ceilings	传送门平面地板/天花板
+Portal skybox ceilings	传送门天空盒天花板
+Portal skybox floors	传送门天空盒地板
+Portal skybox floors/ceilings	传送门天空盒地板/天花板
+Portal transfer	传送门传送
+Portal two-way anchored ceilings	传送门双向锚定天花板
+Portal two-way anchored floors	传送门双向锚定地板
+Portal Type	传送门类型
+Portal, 20% Translucent	传送门，20% 半透明
+Portal, 30% Translucent	传送门，30% 半透明
+Portal, 40% Translucent	传送门，40% 半透明
+Portal, Blue 40%	传送门，蓝色 40%
+Portal, Green 30%	传送门，绿色 30%
+Portals	传送门
+Position	位置
+Pot	罐子
+Pot (medium)	罐子（中等）
+Pot (short)	罐子（矮）
+Pot (tall)	罐子（高）
+Pot plant (tiny)	盆栽植物（极小）
+Potted Tree	盆栽树
+Power Coupling (Only 1)	动力耦合器（仅 1 个）
+Power Crystal	能量水晶
+Powerups	强化道具
+PR Lost Soul (BETA)	PR 迷失灵魂（BETA）
+Practice Target	练习靶
+Predator	掠食者
+Primary intensity	主强度
+Print Activator Name	打印激活者名称
+Programmer	程序员
+Programmer Spawner	程序员生成器
+Projectile Type	抛射物类型
+Property	属性
+Prosperity	繁荣
+Prosperity Spawner	繁荣生成器
+PSX Spectre	PSX 幽灵
+Puller	牵引器
+Pulse Light	脉冲光
+Pulse Spotlight	脉冲聚光灯
+Purple armor	紫色护甲
+Purple Jacket Punk Spawner	紫夹克朋克生成器
+Purple Jacket Punk With Board	持木板紫夹克朋克
+Purple Jacket Punk With Pipe	持铁管紫夹克朋克
+Purple key	紫色钥匙
+Purple keycard	紫色钥匙卡
+Purple Particle Fountain	紫色粒子喷泉
+PurpleJacketPunk	紫夹克朋克
+Pusher	推动器
+Puzzle Items	解谜物品
+Quadrumpus	奎德伦珀斯
+Quartz Flask	石英瓶
+Quartz Flask Spawner	石英瓶生成器
+Quest things	任务物品
+Quietus Piece 1	寂灭之剑碎片 1
+Quietus Piece 1 Spawner	寂灭之剑碎片 1 生成器
+Quietus Piece 2	寂灭之剑碎片 2
+Quietus Piece 2 Spawner	寂灭之剑碎片 2 生成器
+Quietus Piece 3	寂灭之剑碎片 3
+Quietus Piece 3 Spawner	寂灭之剑碎片 3 生成器
+Quiver Of Ethereal Arrows	空灵箭箭袋
+Quiver Of Ethereal Arrows Spawner	空灵箭箭袋生成器
+Radar dish	雷达天线
+Radiation suit	辐射防护服
+Radio	收音机
+Radius	半径
+Rage	狂怒
+Rage Spawner	狂怒生成器
+Railgun	轨道炮
+Railgun Spawner	轨道炮生成器
+Raise by	升高
+Raise by (* 8)	升高（× 8）
+Raise Ceiling by	升高天花板
+Raise Floor 2 Units (use for RTS Onheight events)	升高地板 2 单位（用于 RTS Onheight 事件）
+Raise Movement Speed	提高移动速度
+Raise Speed	提高速度
+Raising Speed	上升速度
+Random Acolyte Spawner	随机侍僧生成器
+Random Armor Spawner	随机护甲生成器
+Random Artifact Spawner	随机神器生成器
+Random Assault Gun Spawner	随机突击枪生成器
+Random BloodScourge Piece Spawner	随机血灾碎片生成器
+Random Bolts Spawner	随机闪电生成器
+Random Box Ammo Spawner	随机盒装弹药生成器
+Random Clip Ammo Spawner	随机弹夹弹药生成器
+Random Deathking Spawner	随机死亡之王生成器
+Random Energy Spawner	随机能量生成器
+Random Flechette Spawner	随机飞镖生成器
+Random Grenade Rounds Spawner	随机榴弹生成器
+Random Health Spawner	随机生命值生成器
+Random Light	随机光
+Random Medium Robot Spawner	随机中型机器人生成器
+Random Missiles Spawner	随机导弹生成器
+Random Monster Spawner	随机怪物生成器
+Random Powerful Monster Spawner	随机强力怪物生成器
+Random powerup	随机强化道具
+Random Powerup Spawner	随机强化道具生成器
+Random Quietus Piece Spawner	随机寂灭之剑碎片生成器
+Random Robot Spawner	随机机器人生成器
+Random Sigil Spawner	随机符印生成器
+Random Small Robot Spawner	随机小型机器人生成器
+Random Spectre Spawner	随机幽灵生成器
+Random Spotlight	随机聚光灯
+Random Very Powerful Monster Spawner	随机超强怪物生成器
+Random Weak Monster Spawner	随机弱怪物生成器
+Random Weapon Piece Spawner	随机武器碎片生成器
+Random Wraithverge Piece Spawner	随机怨灵之怒碎片生成器
+Rapid Zorcher	速射佐彻枪
+Rasta man	拉斯塔男
+Rat Buddy	老鼠伙伴
+Reaver	掠夺者
+Reaver Spawner	掠夺者生成器
+Rebel Boots	叛军靴子
+Rebel Helmet	叛军头盔
+Rebel Shirt	叛军衬衫
+Rebels	叛军
+Red	红色
+Red armor	红色护甲
+Red Armor Spawner	红色护甲生成器
+Red Crystal Key	红色水晶钥匙
+Red flag	红旗
+Red Flag	红旗
+Red flemkey	红色弗莱姆钥匙
+Red keycard	红色钥匙卡
+Red light: Ceiling	红色光：天花板
+Red light: Floor	红色光：地板
+Red Particle Fountain	红色粒子喷泉
+Red skull	红色骷髅
+Red skullkey	红色骷髅钥匙
+Red suit guy	红西装男
+Red Team	红队
+Red Team Start	红队出生点
+Redhead Kylie	红发凯莉
+Redneck	乡巴佬
+Reeds	芦苇
+Reflection	反射
+Reflection Spawner	反射生成器
+Regeneration	再生
+Regeneration Spawner	再生生成器
+Reiver	劫掠者
+Reiver (buried)	劫掠者（埋地）
+Reiver Spawner	劫掠者生成器
+Remote Slider (CENTER)	远程滑块（中央）
+Remote Slider (CENTER) FAST	远程滑块（中央）快速
+Remote Slider (CENTER), MONSTERS	远程滑块（中央），仅怪物
+Remote Slider (LEFT)	远程滑块（左）
+Remote Slider (LEFT) FAST	远程滑块（左）快速
+Remote Slider (LEFT), MONSTERS	远程滑块（左），仅怪物
+Remote Slider (RIGHT)	远程滑块（右）
+Remote Slider (RIGHT) FAST	远程滑块（右）快速
+Remote Slider (RIGHT), MONSTERS	远程滑块（右），仅怪物
+Remove Thing	移除物件
+Rendering order	渲染顺序
+Reset Delay	重置延迟
+Resistance	抗性
+Resistance Spawner	抗性生成器
+Revenant	亡魂
+Revenant (stealth)	亡魂（潜行）
+Revenant Hand	亡魂之手
+Revenant Spawner	亡魂生成器
+Reverse Angle	反向角度
+Reverse Delay (octics)	反向延迟（octics）
+Reverse Delay (tics)	反向延迟（tics）
+Right Speed	右速度
+Ring	戒指
+Ring of Invulnerability	无敌之戒
+Ring of Invulnerability Spawner	无敌之戒生成器
+River City Ransom Alex	热血物语 亚历克斯
+River City Ransom coins	热血物语金币
+Rock 1	岩石 1
+Rock 2	岩石 2
+Rock 3	岩石 3
+Rock 4	岩石 4
+Rocket	火箭弹
+Rocket launcher	火箭发射器
+Rocket Launcher Spawner	火箭发射器生成器
+Rocket Spawner	火箭弹生成器
+RocketMan	火箭人
+Rocksteady	洛克斯代迪
+Rolex	劳力士
+Romero BobbleHead	罗梅罗摇头娃娃
+Rotation Radius	旋转半径
+Rotation Speed	旋转速度
+Rotation Speed and Direction	旋转速度与方向
+Rotten Dead Tree (destructible)	腐朽枯树（可破坏）
+Round Spawn Delay	回合生成延迟
+Rubble 1	碎石 1
+Rubble 2	碎石 2
+Rubble 3	碎石 3
+Rubble 4	碎石 4
+Rubble 5	碎石 5
+Rubble 6	碎石 6
+Rubble 7	碎石 7
+Rubble 8	碎石 8
+Ruby Planet	红宝石星球
+Ruined Aztec Pillar	废墟阿兹特克石柱
+Ruined Statue	废墟雕像
+Runes	符文
+Rusty Gargoyle (tall)	锈蚀石像鬼（高）
+Rusty Key	生锈钥匙
+Rusty old pipe	生锈旧管道
+Sabreclaw	剑爪魔
+Sabreclaw Spawner	剑爪魔生成器
+Sacrificed Guy	被献祭者
+Sandwich	三明治
+Sapphire Planet 1	蓝宝石星球 1
+Sapphire Planet 2	蓝宝石星球 2
+Sarah (Pistol)	莎拉（手枪）
+Scale back sector's CEILING	缩放后方扇区的天花板
+Scale back sector's FLOOR	缩放后方扇区的地板
+Scale back sector's FLOOR+CEILING	缩放后方扇区的地板+天花板
+Scale front sector's CEILING	缩放前方扇区的天花板
+Scale front sector's FLOOR	缩放前方扇区的地板
+Scale front sector's FLOOR+CEILING	缩放前方扇区的地板+天花板
+Scanner Spawner	扫描器生成器
+Scanner/Map-Radar	扫描器/地图雷达
+Score pillars	计分柱
+Script	脚本
+Script Argument 1	脚本参数 1
+Script Argument 2	脚本参数 2
+Script Argument 3	脚本参数 3
+Script Argument 4	脚本参数 4
+Script Execute	脚本执行
+Script Execute Always	脚本始终执行
+Script execute param	脚本执行参数
+Script Execute with Result	带结果脚本执行
+Script Locked Execute	脚本锁定执行
+Script Locked Execute (Door message)	脚本锁定执行（门消息）
+Script Number	脚本编号
+Script start	脚本启动
+Script start 1-way	脚本单向启动
+Script Suspend	脚本挂起
+Script suspend param	脚本挂起参数
+Script Terminate	脚本终止
+Script terminate param	脚本终止参数
+Scripted Marine	脚本海军陆战队员
+Scripts	脚本
+Scroll	滚动
+Scroll Ceiling	滚动天花板
+Scroll Ceiling Accelerates when Sector Changes Height	扇区高度变化时天花板滚动加速
+Scroll Ceiling according to Line Vector	按线段矢量滚动天花板
+Scroll Ceiling when Sector Changes Height	扇区高度变化时滚动天花板
+Scroll Down	向下滚动
+Scroll Down (EDGE compat)	向下滚动（EDGE 兼容）
+Scroll Fast Lower And Middle Texture (liquid falls)	快速滚动下部与中部贴图（液体下落）
+Scroll Floor	滚动地板
+Scroll Floor Accelerates when Sector Changes Height	扇区高度变化时地板滚动加速
+Scroll Floor according to Line Vector	按线段矢量滚动地板
+Scroll Floor when Sector Changes Height	扇区高度变化时滚动地板
+Scroll Floor, Move Things	滚动地板，移动物件
+Scroll Floor/Move Things when Sector Changes Height	扇区高度变化时滚动地板/移动物件
+Scroll Floor/Things Accelerates when Sector Changes Height	扇区高度变化时地板/物件滚动加速
+Scroll Left And Down	向左下滚动
+Scroll Left And Down (EDGE compat)	向左下滚动（EDGE 兼容）
+Scroll Left And Up	向左上滚动
+Scroll Left And Up (EDGE compat)	向左上滚动（EDGE 兼容）
+Scroll Move Things according to Line Vector	按线段矢量滚动移动物件
+Scroll Move Things when Sector Changes Height	扇区高度变化时滚动移动物件
+Scroll Right	向右滚动
+Scroll Right (EDGE compat)	向右滚动（EDGE 兼容）
+Scroll Right And Down	向右下滚动
+Scroll Right And Down (EDGE compat)	向右下滚动（EDGE 兼容）
+Scroll Right And Up	向右上滚动
+Scroll Right And Up (EDGE compat)	向右上滚动（EDGE 兼容）
+Scroll Speed	滚动速度
+Scroll Texture Both	滚动两侧贴图
+Scroll Texture by Offsets	按偏移滚动贴图
+Scroll Texture Down	向下滚动贴图
+Scroll Texture Down Fast	快速向下滚动贴图
+Scroll Texture Left	向左滚动贴图
+Scroll Texture Model	滚动贴图模型
+Scroll Texture Right	向右滚动贴图
+Scroll Texture Up	向上滚动贴图
+Scroll Things Accelerates when Sector Changes Height	扇区高度变化时物件滚动加速
+Scroll Up	向上滚动
+Scroll Up (EDGE compat)	向上滚动（EDGE 兼容）
+Scroll Wall	滚动墙面
+Scroll Wall Accelerates when Sector Changes Height	扇区高度变化时墙面滚动加速
+Scroll Wall according to Line Vector	按线段矢量滚动墙面
+Scroll Wall using Sidedef Offsets	使用侧面偏移滚动墙面
+Scroll Wall when Sector Changes Height	扇区高度变化时滚动墙面
+Scroll Wall with Same Tag using Sidedef Offsets	使用侧面偏移滚动同标签墙面
+Scroll Wall with Same Tag using Sidedef Offsets Accelerates when Sector Changes Height	扇区高度变化时使用侧面偏移滚动同标签墙面加速
+Scroll Wall with Same Tag using Sidedef Offsets when Sector Changes Height	扇区高度变化时使用侧面偏移滚动同标签墙面
+Scroller Type	滚动器类型
+Scuba Steve	水肺史蒂夫
+Secondary intensity	次强度
+Secret	秘密
+Sector	扇区
+Sector Actions	扇区动作
+Sector Attach 3D Midtex	扇区附加 3D 中段贴图
+Sector Ceiling Damaged	扇区天花板受损
+Sector Ceiling Died	扇区天花板死亡
+Sector Ceiling Panning	扇区天花板平移
+Sector Ceiling Scale	扇区天花板缩放
+Sector Change Flags	扇区改变标志
+Sector Change Sound	扇区改变音效
+Sector Color	扇区颜色
+Sector Copy Scroller	扇区复制滚动器
+Sector Current	当前扇区
+Sector Damage	扇区伤害
+Sector Fade	扇区淡出
+Sector Flag Setter	扇区标志设置器
+Sector Floor Damaged	扇区地板受损
+Sector Floor Died	扇区地板死亡
+Sector Floor Panning	扇区地板平移
+Sector Floor Scale	扇区地板缩放
+Sector Friction	扇区摩擦
+Sector Gravity	扇区重力
+Sector Light	扇区光照
+Sector Rotate Flat	扇区旋转平面贴图
+Sector sequence 0	扇区序列 0
+Sector sequence param	扇区序列参数
+Sector Set 3D Floor	扇区设置 3D 地板
+Sector Set Colormap	扇区设置颜色映射
+Sector Set Contents (Vavoom compatibility)	扇区设置内容物（Vavoom 兼容）
+Sector Set Link	扇区设置链接
+Sector Set Portal	扇区设置传送门
+Sector Set Portal (legacy encapsulation)	扇区设置传送门（旧版封装）
+Sector Set Translucent	扇区设置半透明
+Sector Sound Sequence Override	扇区声音序列覆盖
+Sector Spotlight	扇区聚光灯
+Sector Tag	扇区标签
+Sector Wind	扇区风
+Security Camera	监控摄像头
+Sentinel	哨兵
+Sentinel Spawner	哨兵生成器
+Serpent Staff	蛇形法杖
+Serpent Staff Spawner	蛇形法杖生成器
+Serpent Torch	蛇形火炬
+Set ceiling slope	设置天花板坡度
+Set Conversation	设置对话
+Set Flags	设置标志
+Set floor slope	设置地板坡度
+Set Global Fog Parameter (GZDoom only)	设置全局雾参数（仅 GZDoom）
+Set Line ID	设置线段 ID
+Set Player Property	设置玩家属性
+Set Thing Translation	设置物件调色板转换
+Set/Add	设置/添加
+Setup pusher or puller thing	设置推动器或牵引器物件
+Severed Hand	断手
+Shadow Armor	暗影护甲
+Shadow Armor Spawner	暗影护甲生成器
+Shadowsphere	暗影球
+Shadowsphere Spawner	暗影球生成器
+Share Slope	共享坡度
+Short blue firestick	蓝色短火棒
+Short Bush	矮灌木
+Short green firestick	绿色短火棒
+Short green pillar	矮绿柱
+Short green pillar (beating heart)	矮绿柱（跳动的心脏）
+Short Grey Pillar	矮灰柱
+Short lamp	矮灯
+Short red firestick	红色短火棒
+Short red pillar	矮红柱
+Short red pillar (skull)	矮红柱（骷髅）
+Short techno floor lamp	矮科技落地灯
+Short techno floor lamp (Red)	矮科技落地灯（红）
+Short white firestick	白色短火棒
+Short yellow firestick	黄色短火棒
+Shotgun	霰弹枪
+Shotgun ammo	霰弹枪弹药
+Shotgun shells	霰弹枪弹壳
+Shotgun Shells Spawner	霰弹枪弹壳生成器
+Shotgun Spawner	霰弹枪生成器
+Shovel	铁铲
+Shrub	灌木
+Shrub 2	灌木 2
+Shurikens	手里剑
+Side	侧面
+Sidedef Part	侧面部分
+Sigil 1 Spawner	符印 1 生成器
+Sigil 2 Spawner	符印 2 生成器
+Sigil 3 Spawner	符印 3 生成器
+Sigil 4 Spawner	符印 4 生成器
+Sigil 5 Spawner	符印 5 生成器
+Sigil A (lightning strike)	符印 A（闪电打击）
+Sigil B (rail lightning shot)	符印 B（轨道闪电射击）
+Sigil Banner	符印旗帜
+Sigil C (spread shot)	符印 C（散射射击）
+Sigil D (column shot)	符印 D（柱状射击）
+Sigil E (big blast)	符印 E（大爆炸）
+Sigil of the Magus	法师符印
+Silent	静音
+Silent Sector	静音扇区
+Silver Flourescent Light	银色荧光灯
+Silver ingots	银锭
+Silver Key	银钥匙
+Silver Key MANUAL DOOR	银钥匙手动门
+Silver Key TAGGED DOOR	银钥匙标签门
+Silver Shield	银盾
+Silver Shield Spawner	银盾生成器
+Silver Tech Lamp	银色科技灯
+Sir Elton John	埃尔顿·约翰爵士
+Six-pack of cola	六罐装可乐
+Skull on a pole	柱上骷髅
+Skull Return Zone	骷髅返回区域
+Skull With Flame	带火焰骷髅
+Skybox camera	天空盒摄像机
+Skybox Picker	天空盒选择器
+Skybox Viewpoint	天空盒视点
+Skybox Viewpoint Tag	天空盒视点标签
+Slaughtaur	屠杀半人马
+Slaughtaur Spawner	屠杀半人马生成器
+Sledge hammer	大锤
+Sliding Door (center)	滑动门（中央）
+Sliding Door (center, fast)	滑动门（中央，快速）
+Sliding Door (center, monsters)	滑动门（中央，仅怪物）
+Sliding Door (left)	滑动门（左）
+Sliding Door (left, fast)	滑动门（左，快速）
+Sliding Door (left, monsters)	滑动门（左，仅怪物）
+Sliding Door (right)	滑动门（右）
+Sliding Door (right, fast)	滑动门（右，快速）
+Sliding Door (right, monsters)	滑动门（右，仅怪物）
+Slime fountain	史莱姆喷泉
+Slime repellent	史莱姆驱避剂
+Slime-Proof Suit	防黏液服
+Slimy meteor	黏液流星
+Slimy statue	黏液雕像
+Slimy urn	黏液瓮
+Slope back ceiling and front floor	后侧天花板与前侧地板成坡
+Slope back floor and front ceiling	后侧地板与前侧天花板成坡
+Slope back sector to ceiling	后方扇区向天花板成坡
+Slope back sector to floor	后方扇区向地板成坡
+Slope back sector to floor/ceiling	后方扇区向地板/天花板成坡
+Slope ceiling to here	此处天花板成坡
+Slope floor to here	此处地板成坡
+Slope front ceiling to tagged slope	前方天花板向标签坡度成坡
+Slope front floor to tagged slope	前方地板向标签坡度成坡
+Slope front floor/ceiling to tagged slope	前方地板/天花板向标签坡度成坡
+Slope front sector to ceiling	前方扇区向天花板成坡
+Slope front sector to floor	前方扇区向地板成坡
+Slope front sector to floor/ceiling	前方扇区向地板/天花板成坡
+Slopes	斜坡
+Small Burning Torch	小型燃烧火炬
+Small bush	小灌木
+Small can of gasoline	小罐汽油
+Small Candle (unlit)	小蜡烛（未点燃）
+Small Flame	小火苗
+Small Flame (timed)	小火苗（限时）
+Small Gray Candle (unlit)	小灰蜡烛（未点燃）
+Small mushroom	小蘑菇
+Small Mushroom 1	小蘑菇 1
+Small Mushroom 2	小蘑菇 2
+Small Mushroom 3	小蘑菇 3
+Small Mushroom 4	小蘑菇 4
+Small Mushroom 5	小蘑菇 5
+Small or Common Ammo Spawner	小型或普通弹药生成器
+Small Pillar	小柱子
+Small rock #1	小岩石 #1
+Small rock #2	小岩石 #2
+Small Rock (brown)	小岩石（棕色）
+Small Rock (mossy)	小岩石（长苔）
+Small Silver Stein	小银杯
+Small Stalactite	小钟乳石
+Small Stalagmite	小石笋
+Small Unlit Torch	小未点燃火炬
+Soulsphere	灵魂球
+Soulsphere Spawner	灵魂球生成器
+Sound	音效
+Sound Activate Comm Unit+tag=????	音效 激活通讯设备+标签=????
+Sound Activate Comm Unit+tag=VOC#	音效 激活通讯设备+标签=VOC#
+Sound Alarm below 16	音效 警报低于 16
+Sound Alarm Chalice	音效 圣杯警报
+Sound Alarm Claxon	音效 号角警报
+Sound Alarm without Guard Uniform	无警卫制服时的警报音效
+Sound Environment (reverbs)	音效环境（混响）
+Sound Number	音效编号
+Sound Play Entity Voice	音效播放实体语音
+Sound Play Music+tag=mus#	音效播放音乐+标签=mus#
+Sound Play Quest Sound?	音效播放任务音效？
+Sound Play Sound?	音效播放音效？
+Sound reverb controller	音效混响控制器
+Sound Sequence	音效序列
+Sound Sequence Index	音效序列索引
+Sound Trigger Alarm Comm?	音效触发警报通讯？
+Sound Type	音效类型
+Sounds	音效
+Source Fog	源雾
+Source Line Tag	源线段标签
+Source Tag	源标签
+Source Teleport Dest. Tag	源传送目的地标签
+Spaceship	太空船
+Spark	火花
+Spawn Aimed Projectile	生成瞄准的抛射物
+Spawn Bat	生成蝙蝠
+Spawn Delay	生成延迟
+Spawn Duration	生成持续时间
+Spawn Fog	生成雾
+Spawn Frequency	生成频率
+Spawn Glass Shards	生成玻璃碎片
+Spawn Projectile	生成抛射物
+Spawn Projectile (gravity)	生成抛射物（重力）
+Spawn Projectile (Intercept)	生成抛射物（拦截）
+Spawn Thing	生成物件
+Spawn Thing (silent)	生成物件（静默）
+Spawn Thing Facing	生成物件朝向
+Special	特殊
+Special effects	特殊效果
+Specter A	幽灵 A
+Specter B	幽灵 B
+Specter C - put with Oracle	幽灵 C - 与 Oracle 一起放置
+Specter D	幽灵 D
+Specter E	幽灵 E
+Spectre	幽灵
+Spectre 1 Spawner	幽灵 1 生成器
+Spectre 2 Spawner	幽灵 2 生成器
+Spectre 3 Spawner	幽灵 3 生成器
+Spectre 4 Spawner	幽灵 4 生成器
+Spectre 5 Spawner	幽灵 5 生成器
+Spectre Spawner	幽灵生成器
+Speed	速度
+Speed (mu. per octic)	速度（mu. 每 octic）
+Sphere of heads sculpture	人头球雕塑
+Spider Mastermind	蜘蛛首脑
+Spider Mastermind Spawner	蜘蛛首脑生成器
+Spike Down	尖刺下降
+Spike Up	尖刺上升
+Splash spawner	水花生成器
+Spotlight	聚光灯
+Spread	散布
+Spread Angle	散布角度
+Spread Spawner	散布生成器
+Spring Pad Zone	弹跳垫区域
+Stairs	楼梯
+Stairs Build Down	楼梯向下建造
+Stairs build down (Doom mode)	楼梯向下建造（Doom 模式）
+Stairs Build Down (sync)	楼梯向下建造（同步）
+Stairs build down sync (Doom mode)	楼梯向下建造同步（Doom 模式）
+Stairs Build Up	楼梯向上建造
+Stairs Build up (Doom mode)	楼梯向上建造（Doom 模式）
+Stairs build up (Doom mode, crushing)	楼梯向上建造（Doom 模式，挤压）
+Stairs Build Up (sync)	楼梯向上建造（同步）
+Stairs build up sync (Doom mode)	楼梯向上建造同步（Doom 模式）
+Stairs Generic Build	通用楼梯建造
+Stairs Lower	楼梯下降
+Stairs Lower Chalice	楼梯下降圣杯
+Stairs Raise by 16 (fast)	楼梯升高 16（快速）
+Stairs Raise by 8	楼梯升高 8
+Stairs Raise Speed	楼梯升高速度
+Stalactite	钟乳石
+Stalactite (Large)	钟乳石（大）
+Stalactite (large)	钟乳石（大）
+Stalactite (medium)	钟乳石（中）
+Stalactite (small)	钟乳石（小）
+Stalactite (Small)	钟乳石（小）
+Stalagmite	石笋
+Stalagmite (Large)	石笋（大）
+Stalagmite (large)	石笋（大）
+Stalagmite (medium)	石笋（中）
+Stalagmite (pillar)	石笋（柱状）
+Stalagmite (Small)	石笋（小）
+Stalagmite (small)	石笋（小）
+Stalker	潜行者
+Stalker Boss	潜行者首领
+Stalker Boss Spawner	潜行者首领生成器
+Stalker Spawner	潜行者生成器
+Stapler	订书机
+Start Conversation	开始对话
+Start intensity	起始强度
+Start Sector Tag	起始扇区标签
+Start Spawn Number	起始生成编号
+Static	静态
+Static Init	静态初始化
+Statue	雕像
+Statue of a spoon	勺子雕像
+Statue of David	大卫雕像
+Statue of King Tut	图坦卡蒙国王雕像
+Statue of Ramses	拉美西斯雕像
+Statue of the Chex Warrior	Chex 战士雕像
+Statue of the Thinker	思想者雕像
+Stealth Arachnotron	隐形机械蛛
+Stealth Archvile	隐形邪魔
+Stealth Baron of Hell	隐形地狱男爵
+Stealth Cacodemon	隐形恶魔之眼
+Stealth Demon	隐形恶魔
+Stealth Heavy weapon dude	隐形重武器兵
+Stealth Hell knight	隐形地狱骑士
+Stealth Imp	隐形小恶魔
+Stealth Mancubus	隐形曼库比斯
+Stealth Monsters	隐形怪物
+Stealth Revenant	隐形亡魂
+Stealth Shotgun Guy	隐形霰弹枪兵
+Stealth Zombie man	隐形僵尸兵
+Steel Gargoyle (short)	钢铁石像鬼（矮）
+Steel Gargoyle (tall)	钢铁石像鬼（高）
+Steel Key	钢铁钥匙
+Steel Key MANUAL DOOR	钢铁钥匙 手动门
+Step Height	台阶高度
+Stereo	立体声
+Stick in Water	水中枝条
+Stimpack	兴奋剂
+Stimpack Spawner	兴奋剂生成器
+Stone debris (temporary)	石块碎片（临时）
+Stone Gargoyle (short)	石头石像鬼（矮）
+Stone Gargoyle (tall)	石头石像鬼（高）
+Stool	凳子
+Stopping mode	停止模式
+Stored miniguns	存放的旋转机枪
+Stored shotguns	存放的霰弹枪
+Street light	路灯
+Strength	力量
+Strength Spawner	力量生成器
+Stretch Textures Height	拉伸贴图高度
+Stretch Textures Width	拉伸贴图宽度
+Stretch Textures Width and Height	拉伸贴图宽度和高度
+Sub-Entity Spawner	子实体生成器
+Submerged plant	水中植物
+Subtractive Flicker Light	减色闪烁光
+Subtractive Flicker Spotlight	减色闪烁聚光灯
+Subtractive Light	减色光
+Subtractive Pulse Light	减色脉冲光
+Subtractive Pulse Spotlight	减色脉冲聚光灯
+Subtractive Random Light	减色随机光
+Subtractive Random Spotlight	减色随机聚光灯
+Subtractive Sector Light	减色扇区光
+Subtractive Sector Spotlight	减色扇区聚光灯
+Subtractive Spotlight	减色聚光灯
+Suit Guy Drops Gun	装甲兵掉落枪械
+Suit Of Armor	护甲套装
+Sunglasses	太阳镜
+Super Bootspork	超级靴叉
+Super Chex Armor	超级 Chex 护甲
+Super Cycloptis	超级 Cycloptis
+Super Large Zorcher	超大型 Zorcher
+Super Shotgun	超级霰弹枪
+Super Shotgun Spawner	超级霰弹枪生成器
+Super Shotgunner	超级霰弹枪兵
+Supercharge Breakfast	超能早餐
+Surgery Crab	手术蟹
+Surgery Kit	手术包
+Surgery Kit Spawner	手术包生成器
+Swamp Key	沼泽钥匙
+Swinging light bulb	摇摆的灯泡
+Switchblade knife	弹簧刀
+Taco	墨西哥卷饼
+Tall blue firestick	高蓝色火棒
+Tall Bush	高灌木
+Tall flower #1	高花 #1
+Tall flower #2	高花 #2
+Tall Gothic Pillar	哥特式高柱
+Tall grass	高草
+Tall green firestick	高绿色火棒
+Tall green pillar	高绿色柱子
+Tall Grey Pillar	高灰色柱子
+Tall lamp statue	高灯雕像
+Tall red firestick	高红色火棒
+Tall red pillar	高红色柱子
+Tall techno floor lamp	高科技落地灯
+Tall techno floor lamp (Red)	高科技落地灯（红）
+Tall techno pillar	高科技柱子
+Tall Tree 1	高树 1
+Tall Tree 2	高树 2
+Tall white firestick	高白色火棒
+Tall yellow firestick	高黄色火棒
+Tank 4 (spine with organs)	罐 4（带器官的脊骨）
+Tank 5 (acolyte)	罐 5（侍僧）
+Tank 6 (spectre)	罐 6（幽灵）
+Target	目标
+Target Angle	目标角度
+Target Brightness	目标亮度
+Target Height	目标高度
+Target Height (rel.)	目标高度（相对）
+Target Height * 8	目标高度 * 8
+Target Line ID	目标线段 ID
+Target Line Tag	目标线段标签
+Target MapSpot Tag	目标地图点标签
+Target Sector Tag	目标扇区标签
+Target Tag	目标标签
+Target Teleport Dest. Tag	目标传送目的地标签
+Target Thing Tag	目标物件标签
+Target X Pos	目标 X 坐标
+Target Y Pos	目标 Y 坐标
+Targeter	目标指示器
+Targeter Spawner	目标指示器生成器
+Taser	电击枪
+Tattooed martial artist	纹身武术家
+Team	队伍
+Team Give Points	队伍给予分数
+Techno Pillar	高科技柱子
+Teleport	传送
+Teleport (also monsters)	传送（也包括怪物）
+Teleport (also monsters, silent, same angle)	传送（也包括怪物，静默，相同角度）
+Teleport (monsters only)	传送（仅怪物）
+Teleport (monsters only, silent)	传送（仅怪物，静默）
+Teleport (no Stop)	传送（不停止）
+Teleport (silent)	传送（静默）
+Teleport (Z Height and Gravity)	传送（Z 高度和重力）
+Teleport (Z Height)	传送（Z 高度）
+Teleport Beacon	传送信标
+Teleport Beacon Spawner	传送信标生成器
+Teleport Dest. angle usage	传送目的地角度用法
+Teleport Destination	传送目的地
+Teleport end game	传送至游戏结束
+Teleport Glitter (Exit/Blue)	传送闪光（出口/蓝）
+Teleport Glitter (Normal/Red)	传送闪光（普通/红）
+Teleport Group	传送组
+Teleport in Sector	扇区内传送
+Teleport Landing	传送落点
+Teleport Other	传送其他
+Teleport Silent, Change Zombie	静默传送，改变僵尸
+Teleport Smoke	传送烟雾
+Teleport Swirl	传送漩涡
+Teleport Target InSou	传送目标 InSou
+Teleport Target Silent	静默传送目标
+Teleport to Line	传送到线段
+Teleport to Line With Same Tag (monsters only, silent)	传送到同标签线段（仅怪物，静默）
+Teleport to Line With Same Tag (monsters only, silent, reversed angle)	传送到同标签线段（仅怪物，静默，反向角度）
+Teleport to Line With Same Tag (silent, reversed angle)	传送到同标签线段（静默，反向角度）
+Teleport to Line With Same Tag (silent, same angle)	传送到同标签线段（静默，相同角度）
+Teleport to Map	传送到地图
+Teleport to Pain State (silent)	传送到受伤状态（静默）
+Teleports	传送
+Templar	圣殿骑士
+Templar Spawner	圣殿骑士生成器
+Terminator Sphere	终结者球
+Tgt Player Start Arg0	目标玩家起点 Arg0
+The Flembrane	Flembrane
+Thick Extrafloor (dummy texture)	厚型额外地板（假贴图）
+Thick Extrafloor (master lower texture)	厚型额外地板（主下贴图）
+Thick Extrafloor (master upper texture)	厚型额外地板（主上贴图）
+Thick Extrafloor: Trans 40% (dummy texture)	厚型额外地板：40% 透明（假贴图）
+Thick Translucent Liquid Extrafloor Scroll Down (20% translucent)	厚型半透明液体额外地板向下滚动（20% 半透明）
+Thick Translucent Liquid Extrafloor Scroll Down (40% translucent)	厚型半透明液体额外地板向下滚动（40% 半透明）
+Thick Translucent Liquid Extrafloor Scroll Down (60% translucent)	厚型半透明液体额外地板向下滚动（60% 半透明）
+Thick Translucent Liquid Extrafloor Scroll Down (80% translucent)	厚型半透明液体额外地板向下滚动（80% 半透明）
+Thin Extrafloor (20% translucent)	薄型额外地板（20% 半透明）
+Thin Extrafloor (40% translucent)	薄型额外地板（40% 半透明）
+Thin Extrafloor (60% translucent)	薄型额外地板（60% 半透明）
+Thin Extrafloor (80% translucent)	薄型额外地板（80% 半透明）
+Thin Extrafloor (opaque)	薄型额外地板（不透明）
+Thing	物件
+Thing activate	激活物件
+Thing Angle	物件角度
+Thing change TID	改变物件 TID
+Thing deactivate	停用物件
+Thing Hate	物件仇恨
+Thing projectile	物件抛射物
+Thing projectile gravity	物件抛射物重力
+Thing Raise	抬升物件
+Thing Set Goal	设置物件目标
+Thing Set Special	设置物件特殊
+Thing spawn	生成物件
+Thing spawn no fog	生成物件无雾
+Thing Stop	停止物件
+Thing Tag	物件标签
+Thing Thrust Z	物件推力 Z
+Thing Type	物件类型
+Things	物件
+This Line Tag	此线段标签
+Thrust Angle	推力角度
+Thrust Force (mu. per tic)	推力（mu. 每 tic）
+Thrust Thing	推动物件
+Time Bomb Of The Ancients	远古定时炸弹
+Time Bomb Of The Ancients Spawner	远古定时炸弹生成器
+Time Freeze Spawner	时间冻结生成器
+Time-freeze Sphere	时间冻结球
+Timon's Axe	泰蒙之斧
+Timon's Axe Spawner	泰蒙之斧生成器
+Tiny Rock (mossy)	小石头（长苔）
+Tire	轮胎
+Tire stack	轮胎堆
+Tombstone (Brian P)	墓碑（Brian P）
+Tombstone (Brian R)	墓碑（Brian R）
+Tombstone (cross circle)	墓碑（十字圆）
+Tombstone (RIP)	墓碑（安息）
+Tombstone (Shane)	墓碑（Shane）
+Tombstone (slimy)	墓碑（黏滑）
+Tombstone (small cross)	墓碑（小十字）
+Tome of Power	力量宝典
+Tome of Power Spawner	力量宝典生成器
+Tommy LaCoata	Tommy LaCoata
+Torch	火炬
+Torch Spawner	火炬生成器
+Torso on meathook	挂在肉钩上的躯干
+Tough Monster Spawner	强韧怪物生成器
+Traductus (cleric boss) Spawner	Traductus（牧师首领）生成器
+Traductus (cleric)	Traductus（牧师）
+Traffic cone	交通锥
+Transfer	转移
+Transfer Brightness Level	转移亮度等级
+Transfer Ceiling Brightness	转移天花板亮度
+Transfer ceiling to 3dmidtex	将天花板转移到 3dmidtex
+Transfer Floor and Special from Back Side	从背面转移地板和特殊
+Transfer Floor and Special using Numeric Change Model	使用数值变化模型转移地板和特殊
+Transfer Floor Brightness	转移地板亮度
+Transfer Floor Texture and Special from Back Side	从背面转移地板贴图和特殊
+Transfer Floor Texture and Special using Numeric Change Model	使用数值变化模型转移地板贴图和特殊
+Transfer floor to 3dmidtex	将地板转移到 3dmidtex
+Transfer height fake floor	转移高度假地板
+Transfer height fake floor clip	转移高度假地板裁剪
+Transfer height: swimmable water (Legacy compat)	转移高度：可游泳的水（Legacy 兼容）
+Transfer Heights	转移高度
+Transfer Sky Texture to Tagged Sectors	将天空贴图转移到标签扇区
+Transfer Sky Texture to Tagged Sectors (flipped)	将天空贴图转移到标签扇区（翻转）
+Transfer upper texture to tagged sectors' skies	将上贴图转移到标签扇区的天空
+Transfer Wall Brightness	转移墙壁亮度
+Translation Index	翻译索引
+Translucency Percent	半透明百分比
+Translucency Type	半透明类型
+Translucent	半透明
+Translucent (Middle Texture)	半透明（中贴图）
+Translucent Line	半透明线段
+Translucent line (100% opaque)	半透明线段（100% 不透明）
+Translucent line (20% opaque)	半透明线段（20% 不透明）
+Translucent line (25% opaque)	半透明线段（25% 不透明）
+Translucent line (40% opaque)	半透明线段（40% 不透明）
+Translucent line (50% opaque)	半透明线段（50% 不透明）
+Translucent line (60% opaque)	半透明线段（60% 不透明）
+Translucent line (75% opaque)	半透明线段（75% 不透明）
+Translucent line (80% opaque)	半透明线段（80% 不透明）
+Translucent line (additive)	半透明线段（叠加）
+Translucent Linedef (20%) least transparent	半透明线段（20%）最不透明
+Translucent Linedef (40%)	半透明线段（40%）
+Translucent Linedef (60%)	半透明线段（60%）
+Translucent Linedef (80%) most transparent	半透明线段（80%）最透明
+Trash bin	垃圾桶
+Trash can	垃圾桶
+Trash can with key	带钥匙的垃圾桶
+Travel Time (otics)	行进时间（otics）
+Tray	托盘
+Tree Sniper	树上狙击手
+Tree Stub	树桩
+Tree Stump (bare)	树桩（光秃）
+Tree Stump (burned)	树桩（烧焦）
+Tree Stump 1	树桩 1
+Tree Stump 2	树桩 2
+Trees and Rocks	树木和岩石
+Tremor Radius * 64	震动半径 * 64
+T-rex skeleton	霸王龙骨架
+Triceratops skeleton	三角龙骨架
+Truck pipe	卡车排气管
+Tub	浴缸
+Tuft of blue grass	一丛蓝草
+Tuft of blue grass with red flower	一丛带红花的蓝草
+Turbo Sphere	涡轮球
+Turbosphere Spawner	涡轮球生成器
+Turkey dinner	火鸡大餐
+TV	电视
+Twined Torch (lit)	缠绕火炬（点燃）
+Twined Torch (unlit)	缠绕火炬（未点燃）
+Twitching impaled human	抽搐的被穿刺人类
+Type	类型
+Ultra goggles	超级护目镜
+Umbrella	雨伞
+Undead Warrior	亡灵战士
+Undead Warrior Ghost	亡灵战士幽灵
+Undead Warrior Ghost Spawner	亡灵战士幽灵生成器
+Undead Warrior Spawner	亡灵战士生成器
+Unholy Bible (BETA)	邪恶圣经（BETA）
+Up Speed	上升速度
+Upper Sector	上层扇区
+Use	使用
+Use line vector	使用线段向量
+Use Line Vector	使用线段向量
+Use Puzzle Item	使用谜题物品
+Uzi	乌兹冲锋枪
+Uzi guy	乌兹枪兵
+Value	数值
+Vavoom Light	Vavoom 光
+Vavoom Light Color	Vavoom 光颜色
+Vertex slope ceiling	顶点斜坡天花板
+Vertex slope floor	顶点斜坡地板
+Vertical Fractional	垂直分数
+Vertical Integral	垂直整数
+Vertical speed	垂直速度
+Vertical Speed	垂直速度
+Village Alex	村民 Alex
+Village David	村民 David
+Village Felipe	村民 Felipe
+Village Glenn	村民 Glenn
+Village Randy	村民 Randy
+Village Victor	村民 Victor
+Vine tentacle	藤蔓触手
+Visibility / 4	可见度 / 4
+Volcano	火山
+Volume	音量
+Wall Torch	壁挂火炬
+Wall Torch (lit)	壁挂火炬（点燃）
+Wall Torch (unlit)	壁挂火炬（未点燃）
+Wand Crystal	魔杖水晶
+Wand Crystal Spawner	魔杖水晶生成器
+Warehouse Key	仓库钥匙
+Water Bottle	水瓶
+Water cooler tank	饮水机水罐
+Water cooler tank outline	饮水机水罐轮廓
+Water Key MANUAL DOOR	水钥匙 手动门
+Water Zone	水域
+Waterfall Splash	瀑布水花
+Weak Monster Spawner	弱小怪物生成器
+Weapon Smith 4 Tan (Map02,23,33/03,10)	武器匠 4 Tan（Map02,23,33/03,10）
+Weapons	武器
+Wendigo	温迪戈
+Wendigo Spawner	温迪戈生成器
+Weredragon	龙人
+Weredragon Spawner	龙人生成器
+White Flag	白旗
+White flag	白旗
+White light: Ceiling	白光：天花板
+White light: Floor	白光：地板
+White Particle Fountain	白色粒子喷泉
+White Team	白队
+White Team Start	白队起点
+Wind	风
+Wind according to Line Vector	按线段向量吹风
+Wind Angle	风向角度
+Wind Strength	风力
+Wind/Current	风/水流
+Wind/Current by Push/Pull Thing In Sector	扇区内推/拉物件产生风/水流
+Windows source code	Windows 源代码
+Wine cooler tank	酒柜水罐
+Winged Statue	带翼雕像
+Wings Of Wrath	愤怒之翼
+Wings Of Wrath Spawner	愤怒之翼生成器
+Wolf	狼
+Wolfenstein SS	Wolfenstein SS
+Wolfenstein SS Spawner	Wolfenstein SS 生成器
+Wooden Barrel	木桶
+Wooden Key MANUAL DOOR	木钥匙 手动门
+Wraithverge Piece 1	怨灵之怒碎片 1
+Wraithverge Piece 1 Spawner	怨灵之怒碎片 1 生成器
+Wraithverge Piece 2	怨灵之怒碎片 2
+Wraithverge Piece 2 Spawner	怨灵之怒碎片 2 生成器
+Wraithverge Piece 3	怨灵之怒碎片 3
+Wraithverge Piece 3 Spawner	怨灵之怒碎片 3 生成器
+Wrench	扳手
+X Scale (64=100%)	X 缩放（64=100%）
+Y Scale (64=100%)	Y 缩放（64=100%）
+Yellow armor	黄色护甲
+Yellow flemkey	黄色 Flem 钥匙
+Yellow Jacket Punk	黄夹克朋克
+Yellow Jacket Punk Spawner	黄夹克朋克生成器
+Yellow Jacket Punk With Board	持木板黄夹克朋克
+Yellow Jacket Punk With Pipe	持铁管黄夹克朋克
+Yellow key	黄钥匙
+Yellow Key	黄钥匙
+Yellow Key Marker	黄钥匙标记
+Yellow keycard	黄色钥匙卡
+Yellow light: Ceiling	黄光：天花板
+Yellow light: Floor	黄光：地板
+Yellow Particle Fountain	黄色粒子喷泉
+Yellow skullkey	黄色骷髅钥匙
+Yorick's Skull	约里克头骨
+Yorick's Statue	约里克雕像
+Your daughter	你的女儿
+Z parameter	Z 参数
+Z-Angle	Z 角度
+ZDoom	ZDoom
+ZDRayInfo	ZDRayInfo
+Zedek (fighter boss) Spawner	Zedek（战士首领）生成器
+Zedek (fighter)	Zedek（战士）
+Zombie	僵尸
+Zombie Spawner	僵尸生成器
+Zorch Propulsor	Zorch 推进器
+Zorch propulsor pack	Zorch 推进器包
+Zorch propulsor recharge	Zorch 推进器充能
+Zorchpack	Zorch 包

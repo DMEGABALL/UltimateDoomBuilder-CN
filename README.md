@@ -2,14 +2,14 @@
 
 | 项目 | 说明 |
 |---|---|
-| 汉化版本 | **v1.2.1** |
+| 汉化版本 | **v1.3.0** |
 | 适用版本 | Ultimate Doom Builder R4333（3.0.0.4333，64 位） |
-| 发布名称 | `UltimateDoomBuilder-CN-v1.2.1-R4333` |
+| 发布名称 | `UltimateDoomBuilder-CN-v1.3.0-R4333` |
 | 上游源码 | <https://github.com/UltimateDoomBuilder/UltimateDoomBuilder>（commit `bfb9653`） |
 | 许可协议 | GNU GPL v3（与原项目一致） |
 | 项目性质 | 非官方社区汉化，与 UDB 官方无关 |
 
-> 版本号规则：`v1.2.1` 是**汉化包自身**的版本，`R4333` 是所基于的 **UDB 上游版本**。两者一一对应，升级上游时汉化版本号另行递增。
+> 版本号规则：`v1.3.0` 是**汉化包自身**的版本，`R4333` 是所基于的 **UDB 上游版本**。两者一一对应，升级上游时汉化版本号另行递增。
 
 > 上游目前最新版本为 R4336。本汉化基于已完整验证的 **R4333**；如需用于更新版本，请参照「[适配新版 UDB](#适配新版-udb)」流程，词典未覆盖的新文本会保持英文。
 
@@ -32,9 +32,9 @@
 
 | 文件 | 内容 | 体积 |
 |---|---|---|
-| `UltimateDoomBuilder-CN-v1.2.1-R4333-win64.zip` | 程序本体，解压即用（含汉化参考手册） | 约 14 MB |
-| `UltimateDoomBuilder-CN-v1.2.1-R4333-src.zip` | 汉化源码：词典、工具链、手册工程、原始备份 | 约 21 MB |
-| `UltimateDoomBuilder-CN-v1.2.1-R4333-manual-mobile.html` | 手机版参考手册（单文件、离线可用） | 约 5.7 MB |
+| `UltimateDoomBuilder-CN-v1.3.0-R4333-win64.zip` | 程序本体，解压即用（含汉化参考手册） | 约 14 MB |
+| `UltimateDoomBuilder-CN-v1.3.0-R4333-src.zip` | 汉化源码：词典、工具链、手册工程、原始备份 | 约 21 MB |
+| `UltimateDoomBuilder-CN-v1.3.0-R4333-manual-mobile.html` | 手机版参考手册（单文件、离线可用） | 约 5.7 MB |
 
 > 手机版手册也可以直接在线看：<https://dmegaball.github.io/UltimateDoomBuilder-CN/>（GitHub Pages，由 `docs/index.html` 生成）。
 
@@ -70,7 +70,10 @@ udb/
 │  └─ ...
 ├─ src/                  # 汉化源码：词典、补丁工具、脚本、原始备份
 │  ├─ translate.tsv      # 词典：英文原文 <TAB> 中文译文
-│  ├─ config-translate.tsv # 游戏配置显示名称词典
+│  ├─ config-translate.tsv # 游戏配置显示名称词典（标志 / 难度 / 激活方式）
+│  ├─ config-titles.tsv  # 游戏配置标题词典（动作名 / 物件名 / 分类名）
+│  ├─ config-values.tsv  # 配置选项词典（UDMF 标志 / 扇区效果 / 泛化选项）
+│  ├─ force-translate.tsv # 强制替换表（撤销/重做等拼接片段）
 │  ├─ configtrans.ps1    # 翻译 / 还原游戏配置
 │  ├─ actions/           # 已汉化的内嵌 Actions.cfg（动作/通知说明）
 │  ├─ hints/             # 已汉化的内嵌 Hints.cfg（模式帮助提示）
@@ -137,6 +140,7 @@ src\restore.cmd "D:\path\to\Ultimate Doom Builder"
 | 主界面 | 菜单、工具栏提示、状态栏、标签页、对话框标题与按钮 |
 | 编辑窗口 | 扇区 / 线段 / 物件 / 顶点编辑，含 UDMF 扩展属性与标志 |
 | 游戏配置 | 线段/扇区/物件标志、难度名称、动作激活方式（显示文本） |
+| 配置数据 | 动作名、物件名、分类名、扇区效果名、UDMF 标志、泛化动作/效果选项 |
 | 模式与面板 | 编辑模式名称、侧栏面板标题、撤销/重做记录 |
 | 地图分析 | 检查项名称（`[ErrorChecker]`）、分析窗口按钮 |
 | 查找替换 | 搜索类型（`[FindReplace]`）、对话框字段 |
@@ -151,14 +155,14 @@ src\restore.cmd "D:\path\to\Ultimate Doom Builder"
 
 规模统计（R4333）：
 
-- 词典条目 **2367** 条（界面字符串）；
-- 游戏配置显示名称 **280** 处（18 个 `.cfg` 文件）；
-- 模式帮助提示 **193** 条（5 个 `Hints.cfg`）；
-- 程序集内实际替换 **3781** 处（主程序 1945 处，插件 1836 处）；
-- 覆盖 **16** 个程序集：`Builder.exe` + `Plugins` 下 15 个 DLL；
+- 界面词典条目 **2367** 条（`translate.tsv`）；
+- 配置标题（动作/物件/分类名）**2874** 条（`config-titles.tsv`）；
+- 配置选项（UDMF 标志、扇区效果、泛化选项）**408** 条（`config-values.tsv`）；
+- 程序集内实际替换 **3866** 处（主程序 1946 处，插件 1920 处）；
+- 游戏配置显示文本 **6649** 处（60 个 `.cfg` 文件）；
 - 替换内嵌 `Actions.cfg` **14** 个。
 
-> 游戏配置中的**动作名称**（如线段动作列表）与**物件名称**数量庞大（约 2500 条），目前保持英文，便于与 Doom Wiki、教程对照；如需全中文可扩展 `config-translate.tsv` 与配置翻译脚本。
+> 游戏配置中的动作名、物件名、扇区效果名、UDMF 标志等显示文本现已全部汉化（见 `src\config-titles.tsv`、`src\config-values.tsv`），仅保留游戏/引擎专有名词（如 `Polyobject`、`BFG9000`）。
 
 ### 术语对照
 
@@ -250,7 +254,7 @@ src\fetch-upstream.ps1
 ## 已知限制
 
 - **拼接句**：代码中用片段动态拼接的句子（如 `Cannot ...` + 变量）仍可能显示英文，出现中英混排；
-- **数据文件**：线段动作名、物件名等来自 `Configurations\*.cfg`，数量庞大（约 2500 条），目前保持英文，便于与 Doom Wiki/教程对照；线段/扇区/物件标志、难度名称、激活方式已翻译；
+- **数据文件**：动作名、物件名、分类名、扇区效果、UDMF 标志与泛化选项均已汉化；仅保留游戏/引擎专有名词与内部标识符（如 `Polyobject`、`BFG9000`、`ZDoom`）；
 - **固定尺寸控件**：极少数长标签可能显示不全，可在 `translate.tsv` 中改短后重新应用；
 - **系统对话框**：Windows 标准对话框按钮由系统语言决定；
 - **参考手册**：`Refmanual.chm` 已整体汉化（91 个页面），但页面内的**界面截图仍是英文**，未逐张重制；

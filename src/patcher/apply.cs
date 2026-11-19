@@ -93,6 +93,16 @@ class Apply
     static void Main(string[] args)
     {
         Dictionary<string, string> dict = Load(args[0]);
+
+        // 可选：无视上下文强制替换的表（用于撤销/重做描述等拼接片段）
+        Dictionary<string, string> force = null;
+        string forcePath = Environment.GetEnvironmentVariable("UDB_FORCE_DICT");
+        if (!string.IsNullOrEmpty(forcePath) && File.Exists(forcePath))
+        {
+            force = Load(forcePath);
+            Console.WriteLine("force entries: " + force.Count);
+        }
+
         string outDir = args[1];
         Directory.CreateDirectory(outDir);
         int totalHits = 0;
@@ -119,7 +129,12 @@ class Apply
                         string ctx = ContextOf(ins);
                         if (ctx == "SKIP") continue;
                         string zh;
-                        if (!dict.TryGetValue(v, out zh)) { if (ctx == "FONT" && v == "Microsoft Sans Serif") zh = "Microsoft YaHei UI"; else continue; }
+                        if (!dict.TryGetValue(v, out zh))
+                        {
+                            if (force != null && force.TryGetValue(v, out zh)) { /* use forced translation */ }
+                            else if (ctx == "FONT" && v == "Microsoft Sans Serif") zh = "Microsoft YaHei UI";
+                            else continue;
+                        }
                         if (zh == v) continue;
                         ins.Operand = zh;
                         hits++;

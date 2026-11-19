@@ -38,15 +38,36 @@ if ($Revert) {
 
 # ---- 读取词典 ----
 $map = @{}
-foreach ($line in [IO.File]::ReadAllLines($mapFile, [Text.Encoding]::UTF8)) {
-    if ($line.Length -eq 0 -or $line[0] -eq '#') { continue }
-    $p = $line.Split("`t")
-    if ($p.Length -lt 2 -or $p[0].Length -eq 0) { continue }
-    if (-not $map.ContainsKey($p[0])) { $map[$p[0]] = $p[1] }
+foreach ($mf in @($mapFile, (Join-Path $root "config-values.tsv"))) {
+    if (-not (Test-Path -LiteralPath $mf)) { continue }
+    foreach ($line in [IO.File]::ReadAllLines($mf, [Text.Encoding]::UTF8)) {
+        if ($line.Length -eq 0 -or $line[0] -eq '#') { continue }
+        $p = $line.Split("`t")
+        if ($p.Length -lt 2 -or $p[0].Length -eq 0) { continue }
+        if (-not $map.ContainsKey($p[0])) { $map[$p[0]] = $p[1] }
+    }
 }
 
-$blocks = @("linedefflags", "sectorflags", "thingflags", "linedefactivations", "skills")
+# ---- 标题词典（动作名、物件名、分类名等）----
+$titles = @{}
+$titleFile = Join-Path $root "config-titles.tsv"
+if (Test-Path -LiteralPath $titleFile) {
+    foreach ($line in [IO.File]::ReadAllLines($titleFile, [Text.Encoding]::UTF8)) {
+        if ($line.Length -eq 0 -or $line[0] -eq '#') { continue }
+        $p = $line.Split("`t")
+        if ($p.Length -lt 2 -or $p[0].Length -eq 0) { continue }
+        if (-not $titles.ContainsKey($p[0])) { $titles[$p[0]] = $p[1] }
+    }
+}
+
+$blocks = @(
+    "linedefflags", "sectorflags", "thingflags", "linedefactivations", "skills",
+    "linedefflags_udmf", "sectorflags_udmf", "thingflags_udmf",
+    "sectortypes", "thingtypes",
+    "gen_linedeftypes", "gen_sectortypes", "gen_sectortypes_udmf", "gen_thingtypes"
+)
 $valueRegex = [regex]'^(\s*[^=""]*\s*=\s*")([^"]*)("\s*;.*)$'
+$titleRegex = [regex]'^(\s*title\s*=\s*")([^"]*)("\s*;.*)$'
 $changedFiles = 0
 $changedValues = 0
 
@@ -57,11 +78,49 @@ Get-ChildItem -LiteralPath $configDir -Recurse -File -Filter *.cfg | ForEach-Obj
     $depth = 0
     $changed = 0
 
+    # 有些 include 文件是「块片段」（如 Doom_sectors.cfg），没有块名，直接是 0 = "..." 列表
+    $isFragment = $false
+    foreach ($ln in $lines) {
+        $t0 = $ln.Trim()
+        if ($t0 -eq "" -or $t0.StartsWith("//")) { continue }
+        if ($t0 -match '^-?\d+\s*=\s*"') { $isFragment = $true }
+        break
+    }
+
     for ($i = 0; $i -lt $lines.Count; $i++) {
         $trim = $lines[$i].Trim()
 
+        # 标题（动作名 / 物件名 / 分类名等）在任意位置翻译
+        $tm = $titleRegex.Match($lines[$i])
+        if ($tm.Success) {
+            $tv = $tm.Groups[2].Value
+            $zh = $null
+            if ($titles.ContainsKey($tv)) { $zh = $titles[$tv] }
+            elseif ($titles.ContainsKey($tv.Trim())) { $zh = $titles[$tv.Trim()] }
+            if ($zh -ne $null) {
+                $lines[$i] = $tm.Groups[1].Value + $zh + $tm.Groups[3].Value
+                $changed++
+                continue
+            }
+        }
+
         if ($block -eq $null) {
-            if ($blocks -contains $trim.ToLowerInvariant()) { $block = $trim.ToLowerInvariant() }
+            if ($blocks -contains $trim.ToLowerInvariant()) { $block = $trim.ToLowerInvariant(); continue }
+
+            # 块片段文件：直接翻译值
+            if ($isFragment) {
+                $fm = $valueRegex.Match($lines[$i])
+                if ($fm.Success) {
+                    $fv = $fm.Groups[2].Value
+                    $fz = $null
+                    if ($map.ContainsKey($fv)) { $fz = $map[$fv] }
+                    elseif ($map.ContainsKey($fv.Trim())) { $fz = $map[$fv.Trim()] }
+                    if ($fz -ne $null) {
+                        $lines[$i] = $fm.Groups[1].Value + $fz + $fm.Groups[3].Value
+                        $changed++
+                    }
+                }
+            }
             continue
         }
 
@@ -75,8 +134,11 @@ Get-ChildItem -LiteralPath $configDir -Recurse -File -Filter *.cfg | ForEach-Obj
         $m = $valueRegex.Match($lines[$i])
         if (-not $m.Success) { continue }
         $value = $m.Groups[2].Value
-        if (-not $map.ContainsKey($value)) { continue }
-        $lines[$i] = $m.Groups[1].Value + $map[$value] + $m.Groups[3].Value
+        $zhv = $null
+        if ($map.ContainsKey($value)) { $zhv = $map[$value] }
+        elseif ($map.ContainsKey($value.Trim())) { $zhv = $map[$value.Trim()] }
+        if ($zhv -eq $null) { continue }
+        $lines[$i] = $m.Groups[1].Value + $zhv + $m.Groups[3].Value
         $changed++
     }
 

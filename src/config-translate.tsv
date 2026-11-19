@@ -1,0 +1,154 @@
+# 游戏配置中的显示文本（仅用于 linedefflags / sectorflags / thingflags / linedefactivations / skills 块）
+# 格式：英文原文<TAB>中文译文
+# 这些名称只用于界面显示，不参与引擎逻辑。
+
+# ---- 线段标志 ----
+3D middle texture	3D 中部贴图
+Block everything	阻挡一切
+Block floating monsters	阻挡飞行怪物
+Block hitscans	阻挡命中扫描
+Block land monsters	阻挡地面怪物
+Block monster	阻挡怪物
+Block monster line of sight	阻挡怪物视线
+Block monsters	阻挡怪物
+Block Monsters	阻挡怪物
+Block Players	阻挡玩家
+Block players	阻挡玩家
+Block projectiles	阻挡飞弹
+Block sound	隔音
+Block Sound	隔音
+Block use actions	阻挡使用动作
+Clip middle texture	裁剪中部贴图
+Double Sided	双面
+Doublesided	双面
+Hidden	隐藏
+Impassable	不可通行
+Initially shown on automap	初始显示在自动地图上
+Initially shown on map	初始显示在地图上
+Jump over railing	可跳过栏杆
+Jump-over railing	可跳过栏杆
+Lower unpegged	下部不钉住
+Lower Unpegged	下部不钉住
+Monster Activates	怪物可激活
+Not shown on automap	不在自动地图上显示
+Not shown on map	不在地图上显示
+Pass use action	传递使用动作
+PassThru	穿透
+Projectile shoot-through middle texture	飞弹可穿过中部贴图
+Repeatable Action	可重复动作
+Secret	秘密
+Shown	显示
+Shown as 1-sided on automap	在自动地图上显示为单面
+Shown as 1-sided on map	在地图上显示为单面
+Translucent (25% opacity)	半透明（25% 不透明度）
+Translucent (75% opacity)	半透明（75% 不透明度）
+Translucent (obsolete)	半透明（已废弃）
+Transparent (25% opacity)	透明（25% 不透明度）
+Upper unpegged	上部不钉住
+Upper Unpegged	上部不钉住
+Walkable middle texture	可行走的中部贴图
+Wrap middle texture	环绕中部贴图
+
+# ---- 扇区标志 ----
+Actors drop with instantly moving floors	瞬间移动地板会使角色下落
+Monsters in this sector do not attack	此扇区内的怪物不攻击
+No falling damage	无坠落伤害
+Not shown on textured automap	不在贴图自动地图上显示
+Players can't respawn in this sector	玩家无法在此扇区重生
+Sector damage hurts actors in air	扇区伤害影响空中的角色
+Sector damage hurts non-players	扇区伤害影响非玩家角色
+Sector is under water and swimmable	扇区在水下且可游泳
+Silent	静音
+Spawn terrain splashes on damage	受伤时产生地形飞溅
+Strife damage model	Strife 伤害模型
+
+# ---- 物件标志 ----
+Ambush	伏击
+Ambush players	伏击玩家
+Cleric class	牧师职业
+Cooperative	合作
+Count as secret	计为秘密
+Deathmatch	死亡竞赛
+Dormant	休眠
+Easy	简单
+Fighter class	战士职业
+Friendly	友好
+Friendly (MBF logic)	友好（MBF 逻辑）
+Friendly (Strife logic)	友好（Strife 逻辑）
+Frozen while inactive	未激活时冻结
+Hard	困难
+Invisible	隐形
+Mage class	法师职业
+Medium	中等
+Multiplayer only	仅多人
+Not Cooperative	非合作
+Not Deathmatch	非死亡竞赛
+Singleplayer	单人
+Skill 1	技能 1
+Skill 2	技能 2
+Skill 3	技能 3
+Skill 4	技能 4
+Skill 5	技能 5
+Skill 6	技能 6
+Skill 7	技能 7
+Skill 8	技能 8
+Stand still	站立不动
+Translucent (25%)	半透明（25%）
+
+# ---- 动作激活方式 ----
+Any crossing non-missile activates	任意非飞弹穿越时激活
+Front side only	仅正面
+Monster walks over	怪物走过
+On player hitscan/projectile impact	玩家命中扫描/飞弹撞击时
+On projectile impact	飞弹撞击时
+Pass use on	传递使用
+Player bumps	玩家撞击
+Player can use from back side	玩家可从背面使用
+Player presses Use	玩家按下使用键
+Player presses Use (PassThru)	玩家按下使用键（穿透）
+Player walks over	玩家走过
+Projectile flies over	飞弹飞过
+Projectile hits	飞弹命中
+Projectile hits or crosses	飞弹命中或穿越
+Repeatable action	可重复动作
+Switch height check	开关高度检查
+When monster presses use	怪物按下使用键时
+When monster walks over	怪物走过时
+When monsters bumps	怪物撞击时
+When player bumps	玩家撞击时
+When player presses use	玩家按下使用键时
+When player walks over	玩家走过时
+When projectile crosses	飞弹穿越时
+
+# ---- 难度名称 ----
+I'm too young to die	我还太年轻
+Hey, not too rough	嘿，别太狠
+Hurt me plenty	让我痛苦吧
+Ultra-Violence	极度暴力
+Nightmare!	噩梦！
+Thou needeth a wet-nurse	你需要个奶妈
+Bringest them oneth	放马过来
+Thou art a smite-meister	你是打击大师
+Black plague possesses thee	黑死病缠身
+Very easy	非常简单
+Very hard	非常困难
+Training	训练
+Rookie	新手
+Veteran	老兵
+Elite	精英
+Bloodbath	血雨腥风
+Badass Mother Fucker	狠角色
+Hot Shit	厉害
+Punkass Bitch	小混混
+Petty Thug	小打手
+Yellowbellies-r-us	胆小鬼
+Easy does it	慢慢来
+Not so sticky	没那么黏
+Gobs of goo	成堆黏液
+Extreme ooze	极端黏液
+Super slimey!	超级黏滑！
+Berserker / Cardinal / Warlock	狂战士 / 枢机主教 / 术士
+Knight / Acolyte / Enchanter	骑士 / 侍僧 / 附魔师
+Squire / Altar boy / Apprentice	侍从 / 祭坛侍童 / 学徒
+Warrior / Priest / Sorceror	战士 / 牧师 / 巫师
+Titan / Pope / Archimage	泰坦 / 教皇 / 大法师

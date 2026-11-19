@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>游戏配置 - 地图格式设置</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>游戏配置 - 地图格式设置</h1></div>
+	
+	<div id="contents">
+	<p>
+		<b class="fat">formatinterface</b> (string)<br />
+		Doom Builder 中用于读取和写入地图数据的接口类名。
+		<ul>
+			<li>对于 Doom 地图格式，使用 "DoomMapSetIO"。这是一种使用数值标志的地图格式。
+			<li>对于 Hexen 地图格式，使用 "HexenMapSetIO"。这是一种使用数值标志的地图格式。
+			<li>对于 UDMF 地图格式，使用 "UniversalMapSetIO"。这是一种使用命名标志的地图格式。
+		</ul>
+		<b class="fat">maplumpnames</b> (structure)<br />
+		此结构描述构成完整地图的各个 lump，包括脚本和节点。它还必须指明 Doom Builder 应如何处理这些 lump，以及/或者这些 lump 来自何处。这些 lump 通常由地图格式接口类写入，但有些可能由节点构建编译器生成，或由 Doom Builder 直接存储。在此结构中，每个地图 lump 都应有一个结构。结构的名称应为 lump 名称的大写形式。对于地图头（其名称各不相同），可以使用 <b>~MAP</b> 这个名称。以下设置应位于 lump 结构中（除非适用默认值）：<br />
+		<ul>
+			<li><b class="fat">required</b> (boolean)<br />
+				<b>True</b> 表示此 lump 是地图必需的 lump。默认值为 <b>false</b>。<br />
+				<br />
+			<li><b class="fat">forbidden</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+				<b>True</b> 表示此 lump 不得存在于地图的命名空间中。默认值为 <b>false</b>。<br />
+				<br />
+			<li><b class="fat">blindcopy</b> (boolean)<br />
+				当 Doom Builder 应随地图一起复制此 lump 而不使用它时，将其设为 <b>true</b>。默认值为 <b>false</b>。<br />
+				<br />
+			<li><b class="fat">nodebuild</b> (boolean)<br />
+				设为 <b>true</b> 时，表示节点构建编译器会生成或修改此 lump。默认值为 <b>false</b>。<br />
+				<br />
+			<li><b class="fat">allowempty</b> (boolean)<br />
+				设为 <b>true</b> 以允许节点构建器将此 lump 保留为空。默认值为 <b>false</b>。<br />
+				<br />
+			<li><b class="fat">script</b> (string)<br />
+				设置此项时，表示此 lump 可以用脚本编辑器编辑。此 lump 的内容将自动加载到脚本编辑器中。将值设为要使用的脚本配置的 .cfg 文件名（不含路径）。<br />
+                <br />
+                <li><b class="fat">scriptbuild</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+				设置此项时，表示此 lump 可以用脚本编辑器编辑。将使用当前选定的脚本配置来构建此 lump。此 lump 的内容将自动加载到脚本编辑器中。<br />
+		</ul>
+		<strong>示例：</strong><br />
+<pre>
+maplumpnames
+{
+	~MAP
+	{
+		required = true;
+		blindcopy = true;
+		nodebuild = false;
+	}
+	
+	THINGS
+	{
+		required = true;
+		nodebuild = true;
+		allowempty = true;
+	}
+	
+	LINEDEFS
+	{
+		required = true;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	SIDEDEFS
+	{
+		required = true;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	VERTEXES
+	{
+		required = true;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	SEGS
+	{
+		required = false;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	SSECTORS
+	{
+		required = false;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	NODES
+	{
+		required = false;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	SECTORS
+	{
+		required = true;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	REJECT
+	{
+		required = false;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	BLOCKMAP
+	{
+		required = false;
+		nodebuild = true;
+		allowempty = false;
+	}
+	
+	SCRIPTS
+	{
+		required = false;
+		nodebuild = false;
+		script = "ZDoom_ACS.cfg";
+	}
+}
+</pre>
+		<br />
+        <b class="fat">universalfields</b> (structure) - <span class="red">仅 UDMF</span>。<br />
+        提供额外的 UDMF 字段定义，以便在编辑窗口的 <strong>Custom</strong> 选项卡中显示。<br />
+        <span class="red">警告：</span>只添加 Doom Builder 不会通过其自带用户界面编辑的字段！<br />
+        <span class="red">警告：</span>"default" 字段必须与 UDMF 规范一致！<br /><br />
+        <strong>字段数据类型：</strong><br />
+        <ul style="list-style-type:none">
+          <li>0 = 整数</li>
+          <li>1 = 浮点数</li>
+          <li>2 = 字符串</li>
+          <li>3 = 布尔值</li>
+          <li>4 = 线段类型 (integer)</li>
+          <li>5 = 扇区效果 (integer)</li>
+          <li>6 = 贴图 (string)</li>
+          <li>7 = 平面贴图 (string)</li>
+          <li>8 = 角度（度，整数）</li>
+          <li>9 = 角度（弧度，浮点数）</li>
+          <li>10 = XXRRGGBB 颜色 (integer)</li>
+          <li>11 = 枚举选项 (integer)</li>
+          <li>12 = 枚举位 (integer)</li>
+          <li>13 = 扇区标签 (integer)</li>
+          <li>14 = 物件标签 (integer)</li>
+          <li>15 = 线段标签 (integer)</li>
+          <li>16 = 枚举选项 (string)</li>
+          <li>17 = 角度（度，浮点数）</li>
+          <li>22 = 字节角度 (integer) - <span class="red">仅 GZDB</span></li>
+      </ul>
+        <strong>示例：</strong><br />
+<pre>
+universalfields
+{
+	linedef
+	{
+		comment
+		{
+			type = 2;
+			default = "";
+		}
+	}
+	
+	sidedef
+	{
+		comment
+		{
+			type = 2;
+			default = "";
+		}
+	}
+	
+	thing
+	{
+		comment
+		{
+			type = 2;
+			default = "";
+		}
+    
+		skill6
+		{
+			type = 3;
+			default = false;
+		}
+
+    
+		class6
+		{
+			type = 3;
+			default = false;
+		}
+
+	}
+	
+	sector
+	{
+		comment
+		{
+			type = 2;
+			default = "";
+		}
+	}
+}
+</pre>
+	</p>
+	</div>
+</body>

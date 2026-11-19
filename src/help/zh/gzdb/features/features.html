@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>GZDoom Builder 功能</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../../default.css" media="screen" title="Default" />
+<script type="text/javascript" src="../../scripts.js"></script>
+<style type="text/css">
+<!--
+.style3 {
+	color: #336600;
+	font-weight: bold;
+}
+.style7 {
+	color: #6600CC
+}
+.style9 {
+	color: #003300
+}
+-->
+</style>
+</head>
+<body>
+
+<div id="gz_title">
+  <h1>GZDoom Builder 功能</h1>
+</div>
+<div id="contents"> 跳转到： <a href="#general">通用界面</a> | <a href="#allmodes">经典模式与视觉模式</a> | <a href="#classic">经典模式</a> | <a href="#sectors">扇区模式</a> | <a href="#linedefs">线段模式</a> | <a href="#things">物件模式</a> | <a href="#vertices">顶点模式</a> | <a href="#visual">GZDB 视觉模式</a> | <a href="#fields">自定义字段</a> | <a href="#mapanalysis">地图分析模式</a> | <a href="#findreplace">查找与替换模式</a> | <a href="#misc">杂项</a> | <a href="#formats">(G)ZDoom 功能支持</a>
+  <ul style="list-style-type:none;">
+    <li>
+      <h3><a name="general" id="general"></a>通用界面：</h3>
+      <ul>
+        <li><strong>帮助</strong>侧边面板，显示当前模式下可用的大部分动作。</li>
+        <li>现在可以通过将 wad 文件拖拽到 GZDB 主窗口上来加载地图。</li>
+        <li>打开地图选项、地图选项和游戏配置窗体：可以通过将资源拖拽到资源列表上来添加资源。</li>
+        <li><strong>游戏配置窗体</strong>：可以禁用游戏配置。此设置主要是外观性的。当某个游戏配置被禁用后，它不会出现在新建\打开地图选项和地图选项窗口的&quot;游戏配置&quot;下拉列表中。如果地图的 .dbs 文件指定了已禁用的配置，它仍会被作为地图配置选中。</li>
+        <li><strong>游戏配置窗体</strong>：可以复制和粘贴游戏配置（游戏配置列表现已提供右键菜单）。</li>
+        <li>数字文本框：除了用 '++NN' 和 '--NN' 按给定值增加或减少外，还可以用 '*NN' 和 '/NN' 按给定值乘或除，用 '+++N' 和 '---N' 按给定值逐次增加或减少。</li>
+        <li>可以使用右键菜单切换工具栏按钮组。按住 &quot;Shift&quot; 可一次切换多个按钮组。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="general/toolbarmenu.jpg" alt="" /></div>
+        </li>
+        <li>可以使用<strong>工具 -&gt; 保存截图</strong>（默认键为 F12）和<strong>工具 -&gt; 保存截图（编辑区域）</strong>（默认键为 Ctrl-F12）菜单命令保存截图。</li>
+        <li>可以使用<strong>帮助 -&gt; 导出快捷键参考</strong>菜单命令将快捷键参考保存为 html 文件。</li>
+        <li>新动作：&quot;<strong>在当前 WAD 中打开地图</strong>&quot;，可通过<strong>文件 -&gt; 在当前 WAD 中打开地图</strong>以及 Ctrl-Shift-O 快捷键使用。</li>
+        <li></strong>新动作：&quot;导出为 Wavefront .obj&quot;，可通过<strong>文件 -&gt; 导出 -&gt; 选择内容导出为 Wavefront .obj</strong>使用。它会将选中的扇区（若未选中扇区，则为整张地图）导出为 Wavefront .obj 模型。</li>
+        <li>新动作：&quot;<strong>重新加载 MODELDEF/VOXELDEF</strong>&quot;（<strong>工具 -&gt; 重新加载 MODELDEF/VOXELDEF</strong>）。</li>
+        <li>新动作：&quot;<strong>重新加载 GLDEFS</strong>&quot;（<strong>工具 -&gt; 重新加载 GLDEFS</strong>）。</li>
+        <li>当前选择的信息显示在程序窗口底部。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="general/selection_info.jpg" alt="" /></div>
+        </li>
+        <li>贴图预览中现在会显示贴图尺寸。您可以取消勾选&quot;<strong>首选项 -&gt; 界面 -&gt; 在浏览器中显示贴图和平面贴图尺寸</strong>&quot;复选框来禁用此功能。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="general/texturesize_preview.jpg" alt="" /></div>
+        </li>
+        <li><a href="general/multi_engines.html">每个游戏配置可以使用多个游戏引擎</a>。</li>
+        <li>2D 模式下顶点手柄的大小可以在<a href="../preferences.html">首选项</a>中更改。</li>
+        <li><strong>脚本编辑器</strong>：按 &quot;F1&quot; 会打开关键字帮助，而不是程序手册。</li>
+        <li>侧边面板的自动隐藏现在可以更方便地切换。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="general/pinsidepanel.jpg" alt="" /></div>
+        </li>
+        <li>可以在物件编辑窗体中过滤物件。</li>
+        <li>新增&quot;<strong>提示</strong>&quot;侧边面板，显示当前编辑模式下可用的动作列表。</li>
+        <li>动作和效果可以被过滤（当您记得动作/效果名称，但不记得其编号或类别时很有用）。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="general/actions_filter.jpg" alt="" /></div>
+        </li>
+        <li>可以在首选项窗体中过滤动作。</li>
+        <li>在主窗口（右下角）新增了错误和警告指示器。点击它可以打开<strong>错误和警告</strong>窗口。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="scripting" id="scripting"></a>脚本：</h3>
+      <ul>
+        <li><a href="scripting/acs.html">增强的脚本工作流程</a>。</li>
+        <li><a href="scripting/snippets.html">代码片段。</a></li>
+        <li>新增对多个 ACC 编译器的支持。</li>
+        <li>BCC 脚本编译器（<a href="https://github.com/wormt/bcc/">https://github.com/wormt/bcc/</a>）已随 GZDB 一并捆绑。</li>
+        <li>在创建或打开地图时可以选择脚本类型，并且可以在地图选项窗体中更改。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="allmodes" id="allmodes"></a>经典模式与视觉模式：</h3>
+      <ul>
+        <li><span class="style3">[已更改]</span> &quot;<strong>切换全亮度&quot; </strong>动作可在经典模式中使用。</li>
+        <li><span class="style3">[已更改]</span> &quot;<strong>切换高亮&quot; </strong>动作可在经典模式中使用。</li>
+        <li><span class="style3">[已更改]</span> &quot;<strong>亮度增加 8</strong>&quot;和&quot;<strong>亮度减少 8</strong>&quot;动作可在扇区模式中使用。</li>
+        <li><a href="all_modes/tag_support.html">增强的标签支持</a>。</li>
+        <li><a href="all_modes/event_lines.html">事件线</a>。</li>
+        <li>可以在视觉模式下从摄像机位置、在经典模式下从光标位置测试地图。<a href="all_modes/test_from_view.html">更多信息</a>。</li>
+        <li>选择可以在经典模式和视觉模式之间同步。<a href="all_modes/synch_selection.html">更多信息</a>。</li>
+        <li>摄像机位置可以在经典模式和视觉模式之间同步。<a href="all_modes/synch_camera.html">更多信息</a>。</li>
+        <li>您可以使用<a href="all_modes/colorpicker.html">取色器插件 </a>在经典模式和视觉模式下编辑动态光源属性以及扇区的雾和色调颜色。</li>
+        <li>您可以使用<a href="all_modes/tagexplorer.html">标签浏览器插件</a>查看当前地图中使用的所有标签和动作。</li>
+        <li>您可以使用&quot;<strong>特殊粘贴属性</strong>&quot;动作只粘贴特定属性（可通过快捷键、作为&quot;<strong>编辑</strong> -&gt; <strong>特殊粘贴属性...</strong>&quot;菜单项以及编辑模式工具栏上的按钮使用）。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"> <img src="all_modes/paste_properties_options.jpg" alt="" /></div>
+        </li>
+        <li>您可以对任何地图元素应用<a href="all_modes/jitter.html">随机化变换</a>。</li>
+        <li>图像浏览器显示文件夹、PK3 和 PK7 资源的目录结构，并可以按贴图类型和尺寸过滤图像。<a href="all_modes/texture_browser.html">更多信息</a>。</li>
+        <li>编辑扇区/线段/物件窗体的大多数控件现在可实时工作（例如，当您更改相应数值时，可以立即看到贴图偏移/缩放/旋转的变化）。动作和标签的更改仍然只在您按下&quot;确定&quot;按钮后应用。</li>
+        <li><strong>[UDMF] </strong>所有 UDMF 属性都可以通过编辑扇区/线段/物件/顶点窗口的用户界面进行编辑。</li>
+        <li>物件编辑窗体有&quot;随机角度&quot;复选框。</li>
+        <li><strong>[UDMF] </strong>如果地图是 UDMF 格式，扇区、线段和顶点信息面板会显示附加信息。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="classic" id="classic"></a>经典模式：</h3>
+      <ul>
+        <li>所有绘制模式都可以在<strong>模式</strong>菜单中使用
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"> <img src="general/menu_drawmodes.jpg" alt="" /></div>
+        </li>
+        <li><a href="classic_modes/selection.html"> </a>物件精灵会在经典模式中渲染。</li>
+        <li>您可以为线段标志、动作和/或激活方式的任意组合分配自定义颜色。<a href="classic_modes/linedef_color_presets.html">更多信息</a>。</li>
+        <li><a href="classic_modes/selection.html"> 增强的矩形选择</a>。</li>
+        <li>新动作：&quot;<strong>转到坐标</strong>&quot;，可在<strong>视图</strong>菜单中使用，也可以通过点击界面右下角的光标坐标使用。</li>
+        <li>您可以使用<strong>涂抹选择 </strong>动作更方便地选择地图元素。</li>
+        <li><a href="classic_modes/mode_drawrect.html">绘制矩形模式</a>。</li>
+        <li><a href="classic_modes/mode_drawellipse.html">绘制椭圆模式</a>。</li>
+        <li><a href="classic_modes/mode_drawcurve.html">绘制曲线模式</a>。</li>
+        <li><a href="classic_modes/mode_drawgrid.html">绘制网格模式</a>。</li>
+        <li><a href="classic_modes/mode_drawcurve.html"></a><a href="../classic_modes/mode_importterrain.html">地形导入器模式</a>。</li>
+        <li><a href="classic_modes/mode_drawbridge.html">桥梁模式</a>。</li>
+        <li><a href="classic_modes/mode_snapelements.html">吸附地图元素模式</a>。</li>
+        <li>现在拖动顶点、线段和扇区时，选中的物件也会被拖动。</li>
+        <li>拖动地图元素时按住 <strong>Alt</strong> 键，可以将它们相对于初始位置吸附到网格增量。</li>
+        <li>您可以使用&quot;<strong>放置物件</strong>&quot;动作，在顶点模式和线段模式下将物件放置在选中的顶点上，在扇区模式下将物件放置在选中的扇区内部。</li>
+        <li>您可以使用物件统计窗体（<strong>编辑 -&gt; 查看物件类型...</strong>）查看所有已加载的物件类型和一些附加信息。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"> <img src="classic_modes/thing_statistics.jpg" alt="" /></div>
+        </li>
+        <li>您可以使用&quot;<strong><a href="classic_modes/drawsettingspanel.html">绘制设置</a></strong>&quot;面板覆盖用于创建新几何体的默认扇区属性（默认情况下，当新扇区与现有扇区重叠或接触时，编辑器在绘制新扇区时会使用该扇区的贴图、亮度和地板/天花板高度）。</li>
+        <li>您可以使用工具栏中的此按钮禁用 Doom Builder 的自动清除贴图行为：<img src="general/autoclear_textures.jpg"/></li>
+        <li>您可以更改默认扇区亮度和地板/天花板高度（<strong>首选项 -&gt; 编辑 -&gt; 默认扇区设置</strong>）。当新扇区不接触或重叠现有扇区时，将使用这些设置。</li>
+        <li>3D 地板指示（颜色可在<strong>首选项 -&gt; 外观 -&gt; 3D 地板</strong>中更改，该设置可在<a href="../preferences.html#markextrafloors">首选项</a>中禁用）。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"> <img src="classic_modes/3dfloor_marks.jpg" alt="" /></div>
+        </li>
+        <li>在绘制几何体模式中绘制线段或在任何经典模式中拖动线段时，会显示线段的角度、长度和正面方向。</li>
+        <li><strong>[UDMF]</strong> 可以使用工具栏中的此按钮固定地板/天花板贴图偏移：<img src="general/pin_textures.jpg"/>。固定后，贴图将在扇区被拖动时与该扇区对齐。</li>
+        <li><strong>标签范围插件</strong>：现在可以设置自定义增量。</li>
+        <li><strong>标签范围插件：</strong>可以以相对模式设置标签（启用此模式时，生成的值会加到现有标签上，而不是替换它们）。</li>
+        <li>您可以清除选择组（默认快捷键为 Ctrl-Shift-1 ... 0）。</li>
+        <li>您可以使用<strong>编辑</strong>菜单将选择添加到组、选择组和清除组。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="general/menu_selectiongroups.jpg" alt="" /></div>
+        </li>
+        <li>地图中心在经典模式中使用高亮颜色显示。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="sectors" id="sectors"></a>扇区模式：</h3>
+      <ul>
+      	<li><strong>[UDMF]</strong> 扇区编辑窗体现在有"<strong>斜面</strong>"选项卡。</li>
+        <li>通过启用<strong>扇区 -&gt; 同步物件编辑</strong>菜单项 / <strong>同步物件编辑</strong>工具栏按钮，物件的选择、拖动和删除可以与扇区的选择、拖动和删除同步。</li>
+        <li>在（取消）选择扇区时按住 <strong>Alt</strong> 键，可以（取消）选择物件。启用<strong>同步物件编辑</strong>选项时，<strong>Alt</strong> 键的行为会反转。</li>
+        <li>扇区标签和效果现在可以显示在扇区上方。您可以使用&quot;<strong>查看标签和效果</strong>&quot;按钮来切换此叠加显示。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="sectors_mode/toggle_effect_overlay.jpg" alt="" /></div>
+        </li>
+        <li><strong>[UDMF]</strong> 创建亮度渐变选项可以在 5 种模式下工作：
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="sectors_mode/gradientmodes.jpg" alt="" /></div>
+        </li>
+        <li>扇区信息面板显示扇区的侧面数量以及光照和淡出颜色（仅 UDMF）：
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="sectors_mode/sector_info.jpg" alt="" /></div>
+        </li>
+        <li>&quot;<strong>翻转线段</strong>&quot;动作现在可以从扇区模式使用。它将尝试对齐线段，使其正面（或背面）指向同一个扇区。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="linedefs" id="linedefs"></a>线段模式：</h3>
+      <ul>
+        <li>通过启用<strong>线段 -&gt; 同步物件变换</strong>菜单项 / <strong>同步物件变换</strong>工具栏按钮，物件的拖动可以与线段的拖动同步。</li>
+        <li><strong>[UDMF]</strong> 新动作：&quot;<strong>将天花板贴图对齐到背面</strong>&quot;、&quot;<strong>将天花板贴图对齐到正面</strong>&quot;、&quot;<strong>将地板贴图对齐到背面</strong>&quot;和&quot;<strong>将地板贴图对齐到正面</strong>&quot;（可在<strong>线段 -&gt; 对齐贴图</strong>菜单中使用）。</li>
+        <li><strong>[UDMF]</strong> &quot;<strong>制作亮度渐变</strong>&quot;命令可在线段模式中使用。</li>
+        <li><strong>[UDMF]</strong> 线段信息面板：相对 UDMF 光照值显示如下：<span class="style7">16</span>（<span class="style9">128</span>），表示&quot;<span class="style7">UDMF 光照值</span>&quot;（&quot;<span class="style9">表面总亮度</span>&quot;）。表面总亮度为 UDMF 光照值 + 扇区亮度。</li>
+        <li>此模式下会显示分割线段预览（一个矩形，使用信息线颜色着色）。</li>
+        <li>&quot;<strong>翻转线段</strong>&quot;动作将尝试对齐线段，使其正面（或背面）指向同一个扇区。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="things" id="things"></a>物件模式：</h3>
+      <ul>
+        <li>现在可以在物件编辑窗体中一次选择多个物件类型。如果这样做，将为每个选中的物件分配一个从所选类型中随机选择的类型。<a href="things_mode/multiple_thing_types.html">更多信息</a>。</li>
+        <li>您可以使用过滤物件窗体（<strong>物件 -&gt; 过滤物件...</strong>）按类型过滤选中的物件。
+          <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="显示图片"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="things_mode/filter_selection.jpg" alt="" /></div>
+        </li>
+        <li>在开始拖动选中的/高亮的物件之前按住 &quot;Shift&quot;，可以克隆它们。</li>
+        <li>新动作：&quot;<strong>将物件指向光标</strong>&quot;。<a href="things_mode/pointthing.html">更多信息</a>。</li>
+        <li>新动作：&quot;<strong>将物件对齐到线段</strong>&quot;。</li>
+        <li>物件的 Z 高度可以在物件编辑窗体中以绝对和相对模式更改。</li>
+        <li>物件的 X 和 Y 位置可以在编辑物件窗体中编辑。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="vertices" id="vertices"></a>顶点模式：</h3>
+      <ul>
+        <li><strong>[UDMF]</strong> 顶点的垂直偏移可以在顶点编辑窗体中编辑，并显示在顶点信息面板中。</li>
+        <li>此模式下会显示分割线段预览（一个矩形，使用信息线颜色着色）。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="visual" id="visual"></a>GZDB 视觉模式：</h3>
+      <ul>
+        <li style="list-style-type:none;">GZDB 视觉模式是 Doom Builder 的视觉模式与 GZDoom 视觉模式合并的成果。<span class="style1"><br />
+          <br />
+          <strong>此模式下可用的新渲染功能：</strong></li>
+        <ul>
+          <li>动态光源（所有类型）在视觉模式中渲染。您可以使用<a href="general/rendering_toolbar.html">渲染面板</a>切换动态光源的渲染和动画。 </li>
+          <li>在 GLDEFS 中定义的动态光源在视觉模式中渲染（目前每个 actor 仅支持一个 GLDEFS 光源）。</li>
+          <li>视觉模式中的雾渲染（包括 UDMF 格式地图中的彩色雾）。</li>
+          <li>新动作：&quot;<strong>渲染选中/所有模型</strong>&quot;。</li>
+          <li>新动作：&quot;<strong>切换动态光源动画</strong>&quot;。</li>
+          <li>新动作：&quot;<strong>切换动态光源渲染</strong>&quot;。</li>
+          <li>新动作：&quot;<strong>切换雾渲染</strong>&quot;。</li>
+          <li>新动作：&quot;<strong>切换模型渲染</strong>&quot;。</li>
+          <li>新动作：&quot;<strong>切换 GZDoom 效果</strong>&quot;。</li>
+          <li>用于 PatrolPoints、摄像机和 InterpolationPoints 的<a href="all_modes/event_lines.html">事件线</a>。</li>
+          <li>半透明 3D 地板可以正确渲染。</li>
+          <li>高度和半径为 0 的物件也会被渲染。</li>
+          <li>支持平面复制效果（118）。</li>
+          <li>支持若干新的 3D 地板标志：
+            <ul>
+              <li>&quot;16：使用侧面的上部贴图来绘制侧面&quot;。</li>
+              <li>&quot;32：使用侧面的下部贴图来绘制侧面&quot;。</li>
+              <li>&quot;64：使用加法半透明渲染 3D 地板&quot;。</li>
+              <li>&quot;忽略底部高度&quot;。</li>
+            </ul>
+          </li>
+          <li>当物件类别有精灵而物件本身没有时，使用类别精灵。</li>
+          <li> 墙面上的 Doom 风格明暗（从西到东的墙面比从北到南的墙面稍暗）。此效果受 &quot;<strong>vertwallshade</strong>&quot;、&quot;<strong>horizwallshade</strong>&quot;、&quot;<strong>evenlighting</strong>&quot; 和 &quot;<strong>smoothlighting</strong>&quot; MAPINFO 属性影响。</li>
+        </ul>
+        <li style="list-style-type:none;"><strong><br />
+          此模式下可用的新编辑功能：</strong>
+          <ul>
+            <li>您可以<strong>Shift-选择</strong>（通常选择动作 = 鼠标左键）来选择所有具有相同贴图的相邻表面，<strong>Ctrl-选择</strong>来选择所有具有相同高度的相邻表面。<strong>Ctrl-Shift-选择</strong>也会按预期工作。</li>
+            <li><strong>[UDMF]</strong> 顶点高度偏移（&quot;zfloor&quot; 和 &quot;zceiling&quot;）<a href="visual_mode/visual_verts.html">可以编辑</a>。</li>
+            <li><strong>[UDMF]</strong> 在墙面和天花板上使用&quot;<strong>增加/减少亮度</strong>&quot;动作（默认绑定到 Ctrl+鼠标滚轮）会更改侧面/天花板亮度，在地板上使用会更改扇区亮度，在 3D 地板上使用会更改 3D 地板的亮度。</li>
+            <li>您可以使用&quot;<strong>切换几何体效果</strong>&quot;动作（默认键为 Tab）来切换 GZDoom 的几何体效果，例如斜面、3D 地板、传递亮度效果等。</li>
+            <li>拖动贴图时按住 <strong>Shift</strong> 可以将移动锁定到水平轴，按住 <strong>Ctrl</strong> 可以将其锁定到垂直轴。</li>
+            <li>拖动贴图时按住 <strong>Ctrl-Shift</strong> 可以将贴图偏移吸附到当前网格尺寸。</li>
+            <li>新动作：&quot;<strong>对齐贴图 X 和 Y</strong>&quot;（默认键为 Ctrl-A）。</li>
+            <li>&quot;自动对齐贴图 Y&quot;动作会考虑表面的固定类型。它还会将第一个（高亮的）表面的垂直缩放应用到其余对齐的表面（仅 <strong>UDMF</strong>）。</li>
+            <li><strong>[UDMF]</strong> 自动对齐贴图动作现在会影响 3D 地板的侧面。</li>
+            <li><strong>[UDMF] </strong><a href="visual_mode/autoalignfloors.html">&quot;自动对齐贴图&quot;动作现在可用于地板和天花板</a>。</li>
+            <li><strong>[UDMF]</strong> 新动作：&quot;<strong>匹配亮度</strong>&quot;：此动作使选中表面的亮度与高亮表面的亮度相同。</li>
+            <li>新动作：&quot;<strong>将地板/天花板降低到相邻扇区</strong>&quot;和&quot;<strong>将地板/天花板升高到相邻扇区</strong>&quot;（默认键为 PageDown 和 PageUp）。默认情况下，它们会在与选中扇区相邻的扇区中找到下一个更低/更高的表面，并将选中的扇区降低/升高到此高度。如果按住 Ctrl，它们会将扇区降低/升高到选择范围内最低/最高的扇区高度。它们还会将选中的物件下落到地面或对齐到天花板。</li>
+            <li><strong>[UDMF]</strong> 新动作：&quot;<strong>增加缩放</strong>&quot;（Num9）、&quot;<strong>减少缩放</strong>&quot;（Num7）、&quot;<strong>增加水平缩放</strong>&quot;（Num6）、&quot;<strong>减少水平缩放</strong>&quot;（Num4）、&quot;<strong>增加垂直缩放</strong>&quot;（Num8）、&quot;<strong>减少垂直缩放</strong>&quot;（Num5）动作。这些动作可用于更改物件缩放以及侧面/地板/天花板贴图缩放。<br />
+            </li>
+            <li><strong>[UDMF]</strong> 新动作：&quot;<strong><a href="visual_mode/texturefit.html">适应贴图</a></strong>&quot;（默认键为 Ctrl-Alt-A）、&quot;<strong><a href="visual_mode/texturefit.html">适应贴图宽度</a></strong>&quot;（Alt-A）和&quot;<strong><a href="visual_mode/texturefit.html">适应贴图高度</a></strong>&quot;（Alt-Shift-A）。</li>
+            <li>新动作：&quot;<strong>切换斜面</strong>&quot;（默认键为 Alt-S）。选择或高亮上部/下部墙面然后调用此动作可添加斜面。选择或高亮地板或天花板然后调用此动作可移除斜面。</li>
+            <li>新动作：&quot;<strong>透过选择查看</strong>&quot;（默认键为 &quot;Y&quot;）。此动作将视觉摄像机放置在选中/高亮物件的相同位置，并旋转它以匹配物件的角度。如果目标物件是 AimingCamera、MovingCamera、SecurityCamera 或 InterpolationPoint，则有特殊处理。</li>
+            <li>新动作：&quot;<strong><a href="visual_mode/autoalign_to_selection.html">自动将贴图对齐到选择</a> (X)</strong>&quot;、&quot;<strong>自动将贴图对齐到选择 (Y)</strong>&quot;和&quot;<strong>自动将贴图对齐到选择 (X 和 Y)</strong>&quot;。</li>
+            <li>新动作：&quot;<strong>顺时针旋转</strong>&quot;和&quot;<strong>逆时针旋转</strong>&quot;，可用于旋转物件以及 <strong>[UDMF]</strong> 地板/天花板贴图。</li>
+            <li>新动作：&quot;<strong>顺时针更改俯仰</strong>&quot;、&quot;<strong>逆时针更改俯仰</strong>&quot;、&quot;<strong>顺时针更改翻滚</strong>&quot;和&quot;<strong>逆时针更改翻滚</strong>&quot;，可用于更改选中或高亮物件的俯仰和翻滚。</li>
+            <li>可以使用&quot;<strong>向前/向后/向左/向右移动物件</strong>&quot;动作水平移动物件。</li>
+            <li>可以使用&quot;<strong>将物件移动到光标位置</strong>&quot;（默认键为 Ctrl + 鼠标中键）动作将物件移动到光标位置。</li>
+            <li>可以使用&quot;<strong>插入项目</strong>&quot;动作（默认键为 Insert）在光标位置插入物件。</li>
+            <li>可以使用&quot;<strong>删除项目</strong>&quot;动作（默认键为 Delete）删除选中的物件。</li>
+            <li>选中的物件可以在光标位置剪切/复制/粘贴。</li>
+            <li><strong>[UDMF]</strong> 现在使用方向键移动贴图偏移时会考虑地板/天花板贴图旋转。</li>
+            <li><strong>[UDMF] </strong>新动作：&quot;<strong>重置局部贴图偏移 (UDMF)</strong>&quot;。它会重置目标或选中侧面的上部/中部/下部贴图偏移、缩放和亮度，重置目标或选中地板/天花板的贴图偏移、旋转、缩放和亮度，并重置目标或选中物件的缩放、俯仰和翻滚。</li>
+            <li><strong>[UDMF]</strong> &quot;<strong>重置贴图偏移</strong>&quot;动作现在会重置目标或选中地板和天花板的贴图偏移，并且还会重置目标或选中物件的缩放。</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="fields" id="fields"></a>自定义字段：</h3>
+    </li>
+    <ul>
+      <li><a href="custom_fields/newfieldtypes.html">整数（随机）</a>自定义字段类型。</li>
+      <li><a href="custom_fields/newfieldtypes.html">小数（随机）</a>自定义字段类型。</li>
+    </ul>
+    <li>
+      <h3><a name="mapanalysis" id="mapanalysis"></a>地图分析模式：</h3>
+      <ul>
+        <li>可以通过结果列表的右键菜单按结果类型以及单独隐藏分析结果。</li>
+        <li>地图分析模式可以检查地图中的未连接顶点。</li>
+        <li>地图分析模式可以检查地图中的重叠线段。这将检查两条线段是否具有相同的起点和终点位置。</li>
+        <li>地图分析模式可以检查地图中的重叠顶点。这将检查某个顶点是否位于某条线段或另一个顶点之上。</li>
+        <li>地图分析模式可以检查地图中的无效扇区（侧面少于 3 个的扇区或没有面积的扇区）。</li>
+        <li>地图分析模式可以检查地图中未使用的贴图。</li>
+        <li>地图分析模式可以检查地图中缺失的平面贴图。</li>
+        <li>地图分析模式可以检查地图中的未知物件（其类型未在 DECORATE 或当前游戏配置中定义的物件）。</li>
+        <li>地图分析窗口现在有&quot;<strong>应用于此类型的所有错误</strong>&quot;复选框。</li>
+        <li>分析结果可以保存到文本文件或复制到剪贴板。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="findreplace" id="findreplace"></a>查找与替换模式：</h3>
+      <ul>
+        <li>查找与替换模式现在有&quot;<strong>扇区亮度</strong>&quot;、&quot;<strong>扇区地板高度</strong>&quot;、&quot;<strong>扇区天花板高度</strong>&quot;、&quot;<strong>线段标志</strong>&quot;、&quot;<strong>物件标志</strong>&quot;、&quot;<strong>侧面标志</strong>&quot;和&quot;<strong>扇区标志</strong>&quot;搜索模式。</li>
+        <li>&quot;<strong>任何贴图或平面贴图</strong>&quot;、&quot;<strong>扇区平面贴图</strong>&quot;和&quot;<strong>侧面贴图</strong>&quot;搜索模式现在支持 &quot;<strong>*</strong>&quot;（匹配任意数量的字符）和 &quot;<strong>?</strong>&quot;（匹配任意单个字符）通配符。</li>
+        <li>查找与替换模式可以查找和替换带有特定参数的物件和线段动作。语法为&quot;[Action] [arg1] [...]&quot;。ACS 动作使用的脚本名称也可以通过这种方式替换（仅 <strong>UDMF</strong>）。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="misc" id="formats"></a>杂项功能：</h3>
+      <ul>
+        <li>节点查看器插件支持 &quot;XNOD&quot;、&quot;XGLN&quot;、&quot;XGL2&quot; 和 &quot;XGL3&quot; 格式的 ZNODES。</li>
+        <li>选择组会保存到地图的 .dbs 文件中。</li>
+      </ul>
+    </li>
+    <li>
+      <h3><a name="formats" id="formats"></a>(G)ZDoom 功能支持：</h3>
+      <ul>
+        <li>在 2D 和 3D 模式中渲染<a href="../text_lumps.html#modeldef">MD2 和 MD3 模型</a>。</li>
+        <li><a href="../text_lumps.html#voxeldef">VOXLEDEF</a> 支持。</li>
+        <li><a href="../text_lumps.html#reverbs">REVERBS</a> 支持（用于<a href="classic_modes/mode_soundenvironment.html">声音环境模式</a>）。</li>
+        <li>更完整的 <a href="../text_lumps.html#textures">TEXTURES</a> 支持。</li>
+        <li>部分 <a href="../text_lumps.html#mapinfo">MAPINFO</a> 支持，包括 DoomEdNum 和 SpawnNums 覆盖。</li>
+        <li>带 #include 指令的 ACS 脚本可以正确编译。</li>
+        <li>支持 PNG 和 PCX 图像格式。</li>
+        <li>支持 PK7 归档格式。</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</body>

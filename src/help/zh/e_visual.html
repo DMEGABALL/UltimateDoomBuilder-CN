@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>视觉模式</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>视觉模式</h1></div>
+	
+	<div id="contents">
+	<p>
+		视觉模式（Visual Mode）与其他模式不同。在此模式下，你可以在 3D 中步行和飞行穿越地图，并看到它在游戏中的样子。你可以用准星瞄准对象（地板、天花板、墙壁和物件）并立即编辑它们。你也可以选择对象，并对所有对象一起执行动作。请注意，并非所有动作都适用于整个选区。
+		
+		<h2>默认控制</h2>
+		<table border="0" cellspacing="6" width="90%">
+		<tr>
+			<td width="150" valign="top"><b>W</b></td>
+			<td>从任意经典编辑模式切换到此模式，并可从该模式返回上一个模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="鼠标左键">LMB</b></td>
+			<td>选择瞄准的对象。对于墙壁，按住此按钮可以拖动贴图偏移。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="鼠标右键">RMB</b></td>
+			<td>编辑瞄准对象的属性。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="鼠标中键">MMB</b></td>
+			<td>将复制的贴图图像或平面贴图图像粘贴到目标或选区上。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="Control + 鼠标右键">Control+RMB</b></td>
+			<td>打开<a href="w_imagesbrowser.html">图像浏览器</a>，为目标或选中对象选择新的贴图或平面贴图。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="Shift + 鼠标中键">Shift+MMB</b></td>
+			<td>用复制的贴图图像或平面贴图图像对目标进行泛洪填充。这会填充所有与原始贴图或平面贴图相同的相邻贴图。请注意，此动作仅应用于瞄准的对象，对选区无效。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>C</b></td>
+			<td>清除选区。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>E</b></td>
+			<td>向前移动。按住 Shift 移动更快。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>D</b></td>
+			<td>向后移动。按住 Shift 移动更快。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>S</b></td>
+			<td>向左平移。按住 Shift 移动更快。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>F</b></td>
+			<td>向右平移。按住 Shift 移动更快。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>G</b></td>
+			<td>切换重力开/关。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>B</b></td>
+			<td>切换全亮开/关。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>L</b></td>
+			<td>切换线段的下部不固定标志开/关。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>U</b></td>
+			<td>切换线段的上部不固定标志开/关。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>T</b></td>
+			<td>切换物件的开/关/包围盒显示。当物件设置为包围盒显示时，你会看到物件周围以其类别颜色绘制的包围盒。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>A</b></td>
+			<td>水平自动对齐相邻贴图，直到遇到贴图不同的墙壁。请注意，此动作仅应用于瞄准的对象，对选区无效。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+A</b></td>
+			<td>垂直自动对齐相邻贴图，直到遇到贴图不同的墙壁。垂直对齐会考虑侧面之间的天花板高度差。请注意，此动作仅应用于瞄准的对象，对选区无效。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+C</b></td>
+			<td>复制瞄准对象的贴图偏移以供粘贴。请注意，这仅对瞄准的对象有效，选区会被忽略。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+C</b></td>
+			<td>复制瞄准对象的贴图图像或平面贴图图像以供粘贴。请注意，这仅对瞄准的对象有效，选区会被忽略。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+Shift+C</b></td>
+			<td>复制瞄准对象的属性以供粘贴。请注意，这仅对瞄准的对象有效，选区会被忽略。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+V</b></td>
+			<td>将复制的贴图偏移粘贴到目标或选区上。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+Shift+V</b></td>
+			<td>将复制的对象属性粘贴到目标或选区上。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>ScrollUp</b></td>
+			<td>将瞄准或选中的对象升高 8 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>ScrollDown</b></td>
+			<td>将瞄准或选中的对象降低 8 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+ScrollUp</b></td>
+			<td>将瞄准或选中的对象升高 1 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+ScrollDown</b></td>
+			<td>将瞄准或选中的对象降低 1 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+ScrollUp</b></td>
+			<td>将瞄准或选中对象的亮度级别提高 8。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+ScrollDown</b></td>
+			<td>将瞄准或选中对象的亮度级别降低 8。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Up</b></td>
+			<td>将瞄准或选中的贴图向上移动 1 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Down</b></td>
+			<td>将瞄准或选中的贴图向下移动 1 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Left</b></td>
+			<td>将瞄准或选中的贴图向左移动 1 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Right</b></td>
+			<td>将瞄准或选中的贴图向右移动 1 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+Up</b></td>
+			<td>将瞄准或选中的贴图向上移动 8 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+Down</b></td>
+			<td>将瞄准或选中的贴图向下移动 8 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+Left</b></td>
+			<td>将瞄准或选中的贴图向左移动 8 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+Right</b></td>
+			<td>将瞄准或选中的贴图向右移动 8 像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+R</b></td>
+			<td>将瞄准或选中对象的贴图偏移重置为 0, 0。</td>
+		</tr>
+		</table>
+	</p>
+	</div>
+</body>

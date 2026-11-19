@@ -1,0 +1,478 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="WindowName" value="default">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="简介">
+		<param name="Local" value="introduction.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="术语">
+		<param name="Local" value="terminology.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="用户界面">
+		<param name="Local" value="userinterface.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="用户界面概述">
+			<param name="Local" value="userinterface.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="主窗口">
+			<param name="Local" value="w_mainwindow.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="自定义字段编辑器">
+			<param name="Local" value="w_customfields.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="错误和警告窗口">
+			<param name="Local" value="w_errorsandwarnings.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="游戏配置窗口">
+			<param name="Local" value="w_gameconfigurations.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="网格设置窗口">
+			<param name="Local" value="w_gridsetup.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="图像浏览器窗口">
+			<param name="Local" value="w_imagesbrowser.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="线段属性窗口">
+			<param name="Local" value="w_linedefedit.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="地图选项窗口">
+			<param name="Local" value="w_mapoptions.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="打开地图窗口">
+			<param name="Local" value="w_openmapoptions.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="首选项窗口">
+			<param name="Local" value="w_preferences.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="资源选项窗口">
+			<param name="Local" value="w_resourceoptions.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="脚本编辑器窗口">
+			<param name="Local" value="w_scripteditor.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="扇区属性窗口">
+			<param name="Local" value="w_sectoredit.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="贴图集窗口">
+			<param name="Local" value="w_textureset.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="物件属性窗口">
+			<param name="Local" value="w_thingedit.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="物件过滤器窗口">
+			<param name="Local" value="w_thingsfilters.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="顶点属性窗口">
+			<param name="Local" value="w_vertexedit.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="编辑模式">
+		<param name="Local" value="editingmodes.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="编辑模式概述">
+			<param name="Local" value="editingmodes.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="曲线化线段模式">
+			<param name="Local" value="e_curvelinedefs.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="绘制几何体模式">
+			<param name="Local" value="e_drawgeometry.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="编辑选择模式">
+			<param name="Local" value="e_editselection.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="查找和替换模式">
+			<param name="Local" value="e_findreplace.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="线段模式">
+			<param name="Local" value="e_linedefs.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="创建扇区模式">
+			<param name="Local" value="e_makesectors.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="地图分析模式">
+			<param name="Local" value="e_mapanalysis.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="扇区模式">
+			<param name="Local" value="e_sectors.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="物件模式">
+			<param name="Local" value="e_things.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="顶点模式">
+			<param name="Local" value="e_vertices.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="视觉模式">
+			<param name="Local" value="e_visual.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="游戏配置">
+		<param name="Local" value="configurations.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="游戏配置概述">
+			<param name="Local" value="configurations.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="配置语法">
+			<param name="Local" value="configstructure.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="编译器配置">
+			<param name="Local" value="compilerconfigs.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="编译器配置概述">
+				<param name="Local" value="compilerconfigs.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="游戏配置">
+			<param name="Local" value="gameconfigs.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="游戏配置概述">
+				<param name="Local" value="gameconfigs.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="基本设置">
+				<param name="Local" value="gc_basicsettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="地图格式设置">
+				<param name="Local" value="gc_formatsettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="资源设置">
+				<param name="Local" value="gc_resourcesettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="扇区设置">
+				<param name="Local" value="gc_sectorsettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="线段设置">
+				<param name="Local" value="gc_linedefsettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="侧面设置">
+				<param name="Local" value="gc_sidedefsettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="物件设置">
+				<param name="Local" value="gc_thingsettings.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="动作参数设置">
+				<param name="Local" value="gc_argumentsettings.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="脚本配置">
+			<param name="Local" value="scriptingconfigs.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="脚本配置概述">
+				<param name="Local" value="scriptingconfigs.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DECORATE 键">
+			<param name="Local" value="gc_decoratekeys.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GZDoom Builder 手册">
+		<param name="Local" value="gz_introduction.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="功能特性">
+			<param name="Local" value="gzdb/features/features.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="通用界面">
+				<param name="Local" value="gzdb/features/features.html#general">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="渲染工具栏">
+					<param name="Local" value="gzdb/features/general/rendering_toolbar.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="每个游戏配置使用多个引擎">
+					<param name="Local" value="gzdb/features/general/multi_engines.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="脚本">
+				<param name="Local" value="gzdb/features/features.html#scripting">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="增强的脚本工作流">
+					<param name="Local" value="gzdb/features/scripting/acs.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="代码片段">
+					<param name="Local" value="gzdb/features/scripting/snippets.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="经典模式与视觉模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#allmodes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="增强的标签支持">
+					<param name="Local" value="gzdb/features/all_modes/tag_support.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="事件线">
+					<param name="Local" value="gzdb/features/all_modes/event_lines.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="从视图测试地图">
+					<param name="Local" value="gzdb/features/all_modes/test_from_view.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="同步选择">
+					<param name="Local" value="gzdb/features/all_modes/synch_selection.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="同步摄像机位置">
+					<param name="Local" value="gzdb/features/all_modes/synch_camera.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="颜色选择器插件">
+					<param name="Local" value="gzdb/features/all_modes/colorpicker.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="标签浏览器插件">
+					<param name="Local" value="gzdb/features/all_modes/tagexplorer.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="图像浏览器">
+					<param name="Local" value="gzdb/features/all_modes/texture_browser.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="经典模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#classic">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="绘制设置面板">
+					<param name="Local" value="gzdb/features/classic_modes/drawsettingspanel.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="自定义线段颜色">
+					<param name="Local" value="gzdb/features/classic_modes/linedef_color_presets.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="增强的矩形选择">
+					<param name="Local" value="gzdb/features/classic_modes/selection.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="扇区模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#sectors">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="线段模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#linedefs">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="绘制矩形模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_drawrect.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="绘制椭圆模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_drawellipse.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="绘制曲线模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_drawcurve.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="绘制网格模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_drawgrid.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="声音传播模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_soundpropagation.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="声音环境模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_soundenvironment.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="块图浏览器模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_blockmapexplorer.html">
+				</OBJECT>				
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="拒绝浏览器模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_rejectexplorer.html">
+				</OBJECT>				
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3D 地板模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_3dfloor.html">
+				</OBJECT>		
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="绘制斜面模式/斜面模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_slopes.html">
+				</OBJECT>					
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="随机化模式">
+				<param name="Local" value="gzdb/features/all_modes/jitter.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="桥接模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_drawbridge.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="导入地形模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_importterrain.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="吸附几何体模式">
+				<param name="Local" value="gzdb/features/classic_modes/mode_snapelements.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="物件模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#things">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="一次指定多个物件类型">
+					<param name="Local" value="gzdb/features/things_mode/multiple_thing_types.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="“将物件指向光标”动作">
+					<param name="Local" value="gzdb/features/things_mode/pointthing.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="顶点模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#vertices">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="GZDB 视觉模式">
+				<param name="Local" value="gzdb/features/features.html#visual">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="可视顶点（UDMF）">
+					<param name="Local" value="gzdb/features/visual_mode/visual_verts.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="在地板和天花板上使用自动对齐贴图动作（UDMF）">
+					<param name="Local" value="gzdb/features/visual_mode/autoalignfloors.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="“适配贴图”动作">
+					<param name="Local" value="gzdb/features/visual_mode/texturefit.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="“自动对齐贴图到选择”动作">
+					<param name="Local" value="gzdb/features/visual_mode/autoalign_to_selection.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="地图分析模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#mapanalysis">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="查找和替换模式的新功能">
+				<param name="Local" value="gzdb/features/features.html#findreplace">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="自定义字段">
+				<param name="Local" value="gzdb/features/features.html#fields">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="新的自定义字段类型">
+					<param name="Local" value="gzdb/features/custom_fields/newfieldtypes.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="(G)ZDoom 功能支持">
+				<param name="Local" value="gzdb/features/features.html#formats">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(G)ZDoom 文本数据块支持">
+			<param name="Local" value="gzdb/text_lumps.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="已弃用插件列表">
+			<param name="Local" value="gzdb/deprecated_plugins.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="编译 GZDoom Builder">
+			<param name="Local" value="gzdb/compilingtheeditor.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="常见问题">
+		<param name="Local" value="gzdb/faq.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="命令行参数">
+		<param name="Local" value="commandlineparams.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="系统要求">
+		<param name="Local" value="systemrequirements.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>DECORATE 键</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>DECORATE 键</h1>
+</div>
+<div id="contents">
+  <p>GZDoom Builder 包含一个 DECORATE 解析器，用于从自定义角色中获取相关信息（如编辑器编号、Radius、Height、Scale 等）。<br />
+  <br /><br />
+  <span class="big">全局定义（仅 GZDB）：</span>
+  <br />
+   可以在全局 DECORATE 块中插入以特殊注释形式出现的键，来传递附加信息：<br /><br />
+  <strong>//$GZDB_SKIP</strong><br />
+  DECORATE 解析器在遇到此注释后将停止解析文件。这可用于通过跳过不包含可放置角色定义的文件来加速解析过程。<br />
+  <br /><br />
+  <span class="big">角色定义：</span>
+  <br />可以在角色的声明块中插入以特殊注释形式出现的键，来传递附加信息：<br />
+  
+    <br />
+    <strong>//$Angled</strong> - <span class="red">仅 GZDB</span>。<br />
+    <strong>//$NotAngled</strong> - <span class="red">仅 GZDB</span>。<br />
+    指定方向是否重要（是否带有角度）。不区分方向的物件将以不带方向箭头的形式表示。<br />
+    <br />
+    <strong>//$Category &lt;category&gt;</strong><br />
+    指定它应被归入哪个分类（怪物、武器等）。默认情况下，未在配置文件中标识的自定义角色将被放入 Decorate 分类。<br />
+    GZDoom Builder 支持使用反斜杠分隔符的层级子分组。例如，<strong>//$Category "Decorations/Tech"</strong> 会将角色放入 &quot;Decorations&quot; 组的 &quot;Tech&quot; 子分组中。<br />
+    <br />
+    <strong>//$Sprite &lt;sprite&gt;</strong><br />
+    指定在编辑器中用哪个精灵来表示该角色。默认情况下，未在配置文件中标识的自定义角色将使用它在角色定义中找到的第一个合适精灵：先依次尝试 Idle、See、Inactive、Spawn 这些状态，如果全部失败，则使用第一个已定义的状态。因此，此键对无状态的角色定义特别有用。请记住，此精灵名必须与 WAD 中的图像匹配（也就是说，如果你 WAD 中的精灵名为 JUNKA0D0，就必须写 JUNKA0D0，JUNKA0 不行）。<br />
+    <br />
+    <strong>//$Title &lt;title&gt;</strong><br />
+    指定赋予该角色的名称。默认情况下，未在配置文件中标识的自定义角色将使用 Tag 属性，如果该属性不存在，则默认为类名。<br />
+    <br />
+    <strong>//$IgnoreRenderstyle</strong> - <span class="red">仅 GZDB</span>。<br />
+    编辑器将忽略 DECORATE 的 "RenderStyle" 属性。当你希望在视觉模式中看到不可见角色的精灵时会很有用。<br />
+    <br />
+    <strong><a name="argtitle" id="argtitle"></a>//$ArgN &lt;name&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+    允许覆盖此角色的默认参数名称。<br />
+    <br />
+    <strong><a name="argdefault" id="argdefault"></a>//$ArgNDefault &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+    允许设置此参数的默认值。此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 属性配合使用。<br />
+    <br />
+    <strong><a name="argtooltip" id="argtooltip"></a>//$ArgNTooltip &lt;text&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+    允许指定为此参数显示的提示文本。可以使用换行符（&quot;\n&quot;）来格式化文本。此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 属性配合使用。<br />
+    参数提示也可以在游戏配置中为<a href="gc_argumentsettings.html#argtooltip">物件和线段</a>设置。<br />
+    <br />
+    <strong><a name="argtype" id="argtype"></a>//$ArgNType &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+    允许为此参数指定<a href="gc_argumentsettings.html#argtype">参数类型</a>。此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 属性配合使用。<br />
+    <br />
+	
+	<strong><a name="argrenderstyle" id="argrenderstyle"></a>//$ArgNRenderStyle &lt;string&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+    允许指定用于显示此参数值的渲染形状。支持的值有：<br />
+   <ul>
+   	<li>&quot;<strong>Rectangle</strong>&quot;。参数值用作矩形尺寸。</li>
+   	<li>&quot;<strong>Circle</strong>&quot;。参数值用作圆形半径。</li>
+   </ul> 
+   渲染形状可通过"<strong><a href="gzdb/features/general/rendering_toolbar.html">切换事件线（Toggle Event Lines）</a></strong>"动作/菜单按钮切换。<br />
+   此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 属性配合使用。<br />
+  	<br />
+  	<strong><a name="argrendercolor" id="argrendercolor"></a>//$ArgNRenderColor &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许指定渲染形状所使用的颜色。支持的值有十六进制颜色（如 &quot;<strong>FF0000</strong>&quot;）、HTML 格式的十六进制颜色（如 &quot;<strong>#F00</strong>&quot; 或 &quot;<strong>#FF0000</strong>&quot;）或颜色名称（如 &quot;<strong>Red</strong>&quot;）。<br />
+  	默认情况下，渲染形状将使用事件线<a href="w_preferences.html">编辑器颜色</a>。<br />
+  	此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 和 &quot;<strong>//$ArgNRenderStyle</strong>&quot; 属性配合使用。<br />
+  	<br />
+  	
+  	<strong><a name="argminrange" id="argminrange"></a>//$ArgNMinRange &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许指定渲染形状的最小范围。 <br />
+  	默认情况下，最小范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+  	此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 和 &quot;<strong>//$ArgNRenderStyle</strong>&quot; 属性配合使用。<br />
+  	<br />
+	
+	<strong><a name="argminrangecolor" id="argminrangecolor"></a>//$ArgNMinRangeColor &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许指定渲染最小范围形状时使用的颜色。支持的值有十六进制颜色（如 &quot;<strong>FF0000</strong>&quot;）、HTML 格式的十六进制颜色（如 &quot;<strong>#F00</strong>&quot; 或 &quot;<strong>#FF0000</strong>&quot;）或颜色名称（如 &quot;<strong>Red</strong>&quot;）。<br />
+  	默认情况下，最小范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+  	此属性必须与 &quot;<strong>//$ArgN</strong>&quot;、&quot;<strong>//$ArgNRenderStyle</strong>&quot; 和 &quot;<strong>//$ArgNMinRange</strong>&quot; 属性配合使用。<br />
+  	<br />
+	
+	<strong><a name="argmaxrange" id="argmaxrange"></a>//$ArgNMaxRange &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许指定渲染形状的最大范围。 <br />
+  	默认情况下，最大范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+  	此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 和 &quot;<strong>//$ArgNRenderStyle</strong>&quot; 属性配合使用。<br />
+  	<br />
+	
+	<strong><a name="argmaxrangecolor" id="argmaxrangecolor"></a>//$ArgNMaxRangeColor &lt;integer&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许指定渲染最大范围形状时使用的颜色。支持的值有十六进制颜色（如 &quot;<strong>FF0000</strong>&quot;）、HTML 格式的十六进制颜色（如 &quot;<strong>#F00</strong>&quot; 或 &quot;<strong>#FF0000</strong>&quot;）或颜色名称（如 &quot;<strong>Red</strong>&quot;）。<br />
+  	默认情况下，最大范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+  	此属性必须与 &quot;<strong>//$ArgN</strong>&quot;、&quot;<strong>//$ArgNRenderStyle</strong>&quot; 和 &quot;<strong>//$ArgNMaxRange</strong>&quot; 属性配合使用。<br />
+  	<br />
+  	
+  	<strong><a name="argenum" id="argenum"></a>//$ArgNEnum &lt;string or structure&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许为此参数指定枚举。这可以是游戏配置中定义的枚举名称，也可以是显式的枚举定义。此属性必须与 &quot;<strong>//$ArgN</strong>&quot; 属性配合使用。<br />
+  	<br />
+  	<strong><a name="color" id="color"></a>//$Color &lt;color index&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+  	允许覆盖此角色的分类颜色。可能的值为：
+  	<ul>
+    <li>&nbsp;&nbsp;0 - <span style="color:#696969">&#9608;</span> 深灰色；</li>
+    <li>&nbsp;&nbsp;1 - <span style="color:#4169E1">&#9608;</span> 蓝色；</li>
+    <li>&nbsp;&nbsp;2 - <span style="color:#228B22">&#9608;</span> 绿色；</li>
+    <li>&nbsp;&nbsp;3 - <span style="color:#20B2AA">&#9608;</span> 青色；</li>
+    <li>&nbsp;&nbsp;4 - <span style="color:#B22222">&#9608;</span> 红色；</li>
+    <li>&nbsp;&nbsp;5 - <span style="color:#9400D3">&#9608;</span> 洋红色；</li>
+    <li>&nbsp;&nbsp;6 - <span style="color:#B8860B">&#9608;</span> 棕色；</li>
+    <li>&nbsp;&nbsp;7 - <span style="color:#C0C0C0">&#9608;</span> 灰色；</li>
+    <li>&nbsp;&nbsp;8 - <span style="color:#808080">&#9608;</span> 浅灰色；</li>
+    <li>&nbsp;&nbsp;9 - <span style="color:#00BFFF">&#9608;</span> 浅蓝色；</li>
+    <li>10 - <span style="color:#32CD32">&#9608;</span> 浅绿色；</li>
+    <li>11 - <span style="color:#AFEEEE">&#9608;</span> 浅青色；</li>
+    <li>12 - <span style="color:#FF6347">&#9608;</span> 浅红色；</li>
+    <li>13 - <span style="color:#EE82EE">&#9608;</span> 浅洋红色；</li>
+    <li>14 - <span style="color:#FFFF00">&#9608;</span> 黄色；</li>
+    <li>15 - <span style="color:#F5F5F5">&#9608;</span> 白色；</li>
+    <li>16 - <span style="color:#FFB6C1">&#9608;</span> 粉色；</li>
+    <li>17 - <span style="color:#FF8C00">&#9608;</span> 浅橙色；</li>
+    <li>18 - <span style="color:#BDB76B">&#9608;</span> 浅棕色（<strong>默认</strong>）；</li>
+    <li>19 - <span style="color:#DAA520">&#9608;</span> 橙色；</li>
+  </ul>
+    <strong>//$Obsolete &lt;reason&gt;</strong> - <span class="red">仅 GZDB</span>。<br />
+    将此物件标记为过时。"Check obsolete things" <a href="e_mapanalysis.html">地图分析模式</a>检查会发现它，并且它将在<a href="w_thingedit.html">物件属性窗口</a>和物件信息面板中被标记出来。<br />
+    <br />
+  <strong>注意：</strong>如果你希望该角色在 Doom Builder 中显示，即使它替换的是标准 Doom 角色，也最好在角色定义后写上 Doom 编辑器编号。<br />
+  <br />
+  <strong>示例：</strong><br />
+  <pre>
+Actor ChexShield : ResistanceRune replaces ResistanceRune 5104
+{
+  //$Category &quot;Pickups/Chex Powerups&quot;
+  //$Sprite ARMXA0
+  //$IgnoreRenderstyle
+  //$Title "Chex Shield"
+  //$Color 12
+  //$NotAngled
+  //$Obsolete "那是一个奇怪的强化道具。考虑把它换成别的东西……"
+  
+  //$Arg0 "重生延迟"
+  //$Arg0ToolTip "正值以 tic 为单位指定延迟。\n负值以秒为单位。"
+  
+  //$Arg1 "枚举示例 1"
+  //$Arg1ToolTip "配置枚举示例"
+  //$Arg1Type 11
+  //$Arg1Enum "keys"
+	
+  //$Arg2 "枚举示例 2"
+  //$Arg2ToolTip "显式枚举示例"
+  //$Arg2Type 11
+  //$Arg2Enum { 1 = "第一个选项"; 2 = "第二个选项"; 667 = "选项 667"; }
+  
+  //$Arg3 "半径"
+  //$Arg3Type 23
+  //$Arg3Default 32
+  //$Arg3RenderStyle &quot;Circle&quot;
+  //$Arg3RenderColor #ff00ff
+  //$Arg3MinRange 32
+  //$Arg3MaxRange 512
+  //$Arg3MinRangeColor #0000ff
+  //$Arg3MaxRangeColor #ff0000
+	
+  //$Arg4 "高度"
+  //$Arg4Type 24
+  //$Arg4Default 64
+  
+
+  Height 44
+  Radius 26
+  RenderStyle None
+  Inventory.PickupMessage "Picked up the energized Chex armor!"
+  
+
+  States
+  {
+    Spawn:
+      ARMX A 1
+      Loop
+  }
+}
+
+//$GZDB_SKIP
+actor SuperGiantImpBall : DoomImpBall
+{
+  Scale 8.0
+  Damage 30
+}
+</pre>
+	<br /><br />
+<span class="big">分类定义（仅 GZDB）：</span><br />
+<br />
+可以使用 <strong>#region</strong> / <strong>#endregion</strong> 块在 DECORATE 中定义物件分类。区域名称用作物件分类标题。角色块中的 &quot;<strong>//$Category</strong>&quot; 定义会覆盖这些设置。可以在 <strong>#region</strong> / <strong>#endregion</strong> 块中插入以特殊注释形式出现的键，来传递附加信息（这些键以略有不同的语法复刻了游戏配置的<a href="gc_thingsettings.html#catdefs">物件分类属性</a>）：<br />
+<br />
+  <b class="fat">//$Sorted</b> (integer) [0 .. 1]<br />
+  设为 1 时，此分类中的项目将按标题排序。<br />
+  <br />
+  <b class="fat">//$Color</b> (integer) [0 .. 19]<br />
+  设置此分类中物件所使用的颜色。<br />使用与&quot;<strong>//$Color</strong>&quot;<a href="#color">物件定义</a>中相同的值。<br />
+  
+  <p><b class="fat">//$Arrow</b> (integer) [0 .. 1]<br />
+    设为 1 时，物件的朝向将在经典模式与视觉模式中显示为箭头。<br />
+    <br />
+    <b class="fat">//$Sprite</b> (string)<br />
+    设置渲染此物件或此分类中的物件时所使用的精灵图形。这应是带完整名称的精灵名（不含文件扩展名），例如 &quot;CPOSA2&quot;。<br />
+    你也可以使用「Sprites」目录中的图像：在图像名（不含扩展名）前加上 &quot;internal:&quot; 前缀，例如 &quot;internal:Actor&quot;。<br />
+    <br />
+  <b class="fat">//$Error</b> (integer) [0 .. 2]<br />
+  设置用于此物件的卡住物件错误检查模式。 <br />
+  可能的值为：
+  <ul>
+    <li>0 - 不检查此物件。</li>
+    <li>1 - 检查物件是否位于地图几何体之外。</li>
+    <li>2 - 检查物件是否位于地图几何体之外，或是否卡在另一个物件内部。</li>
+  </ul>
+  默认值为<strong> 1</strong>。<br />
+  <br />
+  <b class="fat">//$FixedSize</b> (boolean)<br />
+  设为 true 时，物件将在经典模式与视觉模式中渲染为无尺寸。<br />
+  <br />
+  <b class="fat">//$FixedRotation</b> (boolean)<br />
+  设为 true 时，在使用编辑选择模式旋转物件时，物件的朝向不会被改变。<br />
+  <br />
+  <b class="fat">//$AbsoluteZ</b> (boolean)<br />
+  设为 true 时，在视觉模式中物件的垂直位置将被用作绝对值，而不是相对于地板/天花板的距离。<br />
+  <br />
+  <strong>示例：</strong><br />
+<pre>
+#region Imp Balls
+//$Color 4
+//$Sprite "BALLS0"
+
+  actor SuperGiantImpBall : DoomImpBall
+  {
+    //$Title "我在「Imp Balls」组里！"
+    Scale 8.0
+    Damage 30
+  }
+
+#endregion  
+</pre>
+  </p>
+</div>
+</body>

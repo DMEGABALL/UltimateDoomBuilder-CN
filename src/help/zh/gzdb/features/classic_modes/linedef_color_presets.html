@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>GZDoom Builder 功能</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+    <style type="text/css">
+<!--
+.style1 {color: #336600}
+-->
+    </style>
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title"><h1>自定义线段颜色</h1></div>
+	
+	<div id="contents">
+    <p>你可以创建<strong>自定义线段颜色预设</strong>，以便在 2D 模式下以指定颜色显示具有任意<strong>动作</strong>、<strong>标志</strong>和<strong>激活</strong>方式组合的线段。</p>
+    <p>你可以使用主工具栏上的下拉菜单选择要应用的预设。<br />当下拉菜单展开时，按住 <strong>Shift</strong> 可以一次切换多个项目。<br />
+    <img src="linedef_color_presets_dropdown.jpg" />
+    </p>
+    <p><strong>技术说明：</strong>颜色预设按从上到下的顺序求值，因此如果你有如下设置：<br />
+      <span class="style1">"任意动作" [无标志]<strong> [任意动作]</strong> [无激活]<br />
+    "斜面" [无标志]<strong> [动作 181]</strong> [无激活]</span><br />
+    那么 "斜面" 预设将永远不会被使用。
+    
+    </p>
+    <img src="linedef_color_presets.jpg" />
+</div>
+</body>
+</html>

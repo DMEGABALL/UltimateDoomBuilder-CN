@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>GZDoom Builder 功能</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title">
+	  <h1>(G)ZDoom 文本 lump 支持</h1>
+	</div>
+	
+	<div id="contents">
+    <p>如果地图的资源中存在以下 lump，GZDoom Builder 将自动从中加载数据：</p>
+    <h2>DECORATE：</h2>
+    角色定义会被加载，并用于填充物件（Thing）列表。可以使用<a href="../gc_decoratekeys.html">特殊注释</a>来指定额外参数。<br />
+    伤害类型会被加载，并用于“编辑扇区”窗口的“伤害类型”下拉列表中（仅限 UDMF）。
+    
+    <a name="textures" id="textures"></a><h2>TEXTURES：</h2>
+    你可以使用“<strong>//$GZDB_SKIP</strong>”特殊注释来中止对当前文件的解析。如果你不希望某些文件或文件某些部分的贴图出现在<a href="/w_imagesbrowser.html">图像浏览器</a>中，或者希望加快资源加载速度，这会很有用。<br /><br />
+    GZDoom Builder 增加了对以下 TEXTURES 参数的支持：
+    <ul><li>FlipX、FlipY、Rotate 和 Blend（两种样式）patch 参数。</li>
+        <li>“Add”、“Modulate”、“Subtract”、“ReverseSubtract”和“Translucent” patch 半透明样式。</li>
+      </ul>
+    <a name="mapinfo" id="mapinfo"></a>
+    <h2>(Z)MAPINFO：</h2>
+    同时支持新版和旧版 MAPINFO 定义样式。<br />
+    你可以使用“<strong>//$GZDB_SKIP</strong>”特殊注释来中止对当前文件的解析。<br />
+    支持 <strong>DoomEdNum</strong> 覆盖。<br />
+    支持 <strong>SpawnNums</strong> 覆盖。这些值用于更新“<strong>spawnthing</strong>”游戏配置枚举。<br />
+    <br />
+    此外，视觉模式支持 (Z)MAPINFO 中的以下值：
+<ul>
+  <li>fade；</li>
+  <li>outsidefog；</li>
+  <li>fogdensity；</li>
+  <li>outsidefogdensity；</li>
+  <li>vertwallshade；</li>
+  <li>horizwallshade；</li>
+  <li>evenlighting；</li>
+  <li>smoothlighting。</li>
+</ul>
+
+	<a name="reverbs" id="reverbs"></a>
+    <h2>REVERBS：</h2>
+    声音环境（Sound Environment）定义会被加载，并可在<a href="features/classic_modes/mode_soundenvironment.html">声音环境模式</a>中使用。
+    
+    <h2>SNDINFO：</h2>
+    环境音定义会被加载。这些值用于更新“<strong>Ambient Sound NN</strong>”物件的标题，并填充“<strong>ambient_sounds</strong>”游戏配置枚举。
+    
+    <h2>SNDSEQ：</h2>
+    声音序列和声音序列组定义会被加载，并可在“编辑扇区”窗口的“声音序列”下拉列表中选择（仅限 UDMF）。
+    
+    <h2>LOCKDEFS：</h2>
+    锁定义会被加载。这些值用于填充“<strong>keys</strong>”游戏配置枚举。<br />
+    你可以在锁的定义体内部添加“<strong>//$Title</strong>”特殊注释来指定锁的标题。
+    <h2>TERRAIN：</h2>
+    地形名称会被加载，并用于“编辑扇区”窗口的地板和天花板“地形”下拉列表中（仅限 UDMF）。
+    
+    <h2>X11R6RGB：</h2>
+    颜色会被加载，并在适当之处供其他文本解析器使用。
+    
+    <h2>CVARINFO：</h2>
+    CVAR 会被加载。目前编辑器仅将它们用于“DistanceCheck” DECORATE 属性支持。
+         
+    <a name="modeldef" id="modeldef"></a>
+    <h2>MODELDEF：</h2>
+    支持所有相关的 MODELDEF 属性和标志，但 sprite translations 除外。
+    
+    <a name="voxeldef" id="voxeldef"></a>
+    <h2>VOXELDEF：</h2>
+    支持所有相关的 VOXELDEF 属性和标志。
+    
+    <a name="gldefs" id="gldefs"></a>
+    <h2>GLDEFS：</h2>
+    目前仅支持发光平面贴图和动态光源定义。将来可能会添加 Brightmaps 支持。<br />你可以使用“<strong>//$GZDB_SKIP</strong>”特殊注释来中止对当前文件的解析。<br />
+    <br />
+    你可以使用“<strong>Reload GLDEFS</strong>”和“<strong>Reload MODELDEF</strong>”动作重新加载 GLDEFS 和 MODELDEF。<br />
+    要启用 GZDoom 内置的 GLDEFS 动态光源定义，你需要将“<strong>lights.pk3</strong>”添加为地图资源。“<strong>lights.pk3</strong>”可以在 GZDoom 文件夹中找到。
+    <h2>关于 MODELDEF 和 GLDEFS 支持的附加信息：</h2> 
+    <p>如果你正在为 Doom 或 Doom 2 制作地图，可能不需要阅读这一部分，因为那些游戏所需的信息已经添加好了。<br />
+      <br />
+	  <b>要为配置文件中定义的物件加载 GLDEFS 中定义的模型或动态光源：</b><br />
+	  要显示模型而不是物件的 sprite，或者要附加 GLDEFS 中定义的光源，GZDB 需要知道物件的类名（因为 MODELDEF 和 GLDEFS 中的覆盖就是这样定义的）。在 Doom Builder 配置文件中定义的物件没有这个值。因此，如果你使用的不是随 GZDoom Builder 提供的配置，或者你正在为 Doom 和 Doom 2 以外的游戏制作地图，你需要向游戏配置中的物件定义添加一个名为“class”的新值：
+<pre>3001
+{
+  title = "Imp";
+  sprite = "TROOA2A8";
+  <span class="blue">class = "DoomImp";</span> // <- 你需要添加此值
+}</pre>
+ <br>
+ 你可以在 <a href="http://www.zdoom.org/wiki/Classes">http://www.zdoom.org/wiki/Classes</a> 找到所有物件类名。</p>
+</div>
+</body>
+</html>

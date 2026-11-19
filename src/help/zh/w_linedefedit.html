@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>线段属性窗口</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>线段属性窗口</h1></div>
+	
+	<div id="contents">
+	<p>
+		使用此对话框窗口，你可以编辑所有线段（Linedef）属性。当选中多个线段时，如果某些字段在所选元素之间有所不同，这些字段可能会显示为灰色或空白。在灰色或空白字段中设置值将应用于整个选择。
+		
+		<h2>属性</h2>
+		在此选项卡中，你可以找到线段的所有常规设置。除非另有说明，这些设置应用于线段的两侧。<br/>
+		<br/>
+		<b>设置</b>区域提供线段的选项，例如<i>不可通行</i>，它会阻止玩家和怪物穿过该线；以及<i>双面</i>，它由 Doom Builder 自动设置或取消设置，以指示该线有一个还是两个侧面。根据游戏配置的不同，此区域还可能提供更多关于线段行为的选项。<br/>
+		<br/>
+		其下方是<b>动作</b>区域，可让你设置一个特殊动作，在特定的触发方式下执行，例如开关或接近触发。在 Hexen 格式中，动作可以接受一些参数，并且触发方式可以与动作分开指定。在 UDMF 格式中，触发方式可以是任意方法的组合。<br/>
+		<br/>
+		在 Doom 和 UDMF 格式中，还可以用编号为线段打上标签，该编号用于标识此线段。物件动作或脚本随后可以使用此编号对线段执行动作。
+		
+		<h2>侧面</h2>
+		在这里，你可以更改线每一侧的属性。如果你想在线段上添加或移除侧面，只需勾选或取消勾选<b>正面</b>或<b>背面</b>复选框。在<b>扇区索引</b>字段中，你可以输入希望此侧面绑定到的扇区索引。请注意，通常不必更改此项，因为 Doom Builder 会为你创建有效的扇区。仅建议高级用户更改扇区索引。右侧是该侧面上的贴图。左键点击框以使用<a href="w_imagesbrowser.html">图像浏览器</a>浏览贴图，右键点击框以清除贴图（使其变为单个短横线）。如果你知道贴图名称，也可以直接在贴图框下方的文本字段中输入名称。<br />
+		<br />
+		在 UDMF 格式中，你可以点击<b>自定义字段</b>按钮来更改侧面的自定义字段。更多信息请参见<a href="w_customfields.html">自定义字段编辑器</a>。
+		
+		<h2>自定义</h2>
+		此选项卡允许你编辑线段上的自定义字段。仅在 UDMF 格式中可用。更多信息请参见<a href="w_customfields.html">自定义字段编辑器</a>。
+	</p>
+	</div>
+</body>

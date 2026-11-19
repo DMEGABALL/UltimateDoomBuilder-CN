@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>声音传播模式</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+</head>
+<body>
+
+	
+	
+	<div id="gz_title">
+	  <h1>声音环境模式</h1>
+	</div>
+	
+	<div id="contents">
+	<p>
+<span class="fat">此模式基于 Boris Iwanski 的 <a href="http://forum.zdoom.org/viewtopic.php?f=3&amp;t=47464">声音传播模式插件</a>（<a href="https://github.com/biwa/soundpropagationmode">https://github.com/biwa/soundpropagationmode</a>）。</span><br>
+<br>
+<b>动作类别：</b>模式。<br>
+<b>默认按键：</b>无。<br><br>
+此模式显示 ZDoom UDMF 地图中的声音环境。灰色区域不属于任何声音环境。<br>
+<br>
+
+此模式还提供一个停靠面板，用于提供关于声音环境的信息。它会显示声音环境、属于它们的 SoundEnvironment 物件，以及限定声音环境的线段。在列表中点击声音环境、物件或线段，会将地图视图居中到这些对象上。
+<br><br>
+<span class="bold">用户交互：</span>
+<ul>
+      <li>点击双面线段可切换&quot;声音区域边界&quot;标志。</li>
+      <li>右键点击可插入一个 SoundEnvironment 物件。</li>
+      <li>右键点击 SoundEnvironment 物件可选择声音环境。</li>
+      <li>高亮一个 SoundEnvironment 物件并按下&quot;Delete&quot;键将其移除。</li>
+</ul>
+
+此模式还可以帮助你发现问题（即你可能并不想要的行为）。如果声音环境存在任何问题，列表中受影响的物件或线段处会显示一个警告图标（当整个列表折叠时，该图标会向上冒泡到树中，以便更容易找到）。
+<br>
+<br>
+<span class="bold">可检测到以下问题：</span>
+<ul>
+   <li>被设置为声音区域边界的单面线段。</li>
+   <li>被设置为声音区域边界的双面线段，但两侧的扇区属于同一声音环境。</li>
+   <li> 多个非休眠的 SoundEnvironment 物件。</li>
+</ul>
+请注意，后两种情况可能是由声音环境无意间渗入其他扇区（即未正确密封的声音环境）造成的。
+</div>
+</body>
+</html>

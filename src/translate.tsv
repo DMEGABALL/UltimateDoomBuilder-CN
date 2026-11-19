@@ -1,0 +1,2377 @@
+# Ultimate Doom Builder 简体中文语言包 (UDB R4333)
+# 格式：英文原文<TAB>中文译文；转义：\\  \t  \r  \n
+# 修改后用 apply.cmd 重新应用；UDB 升级后需要重新应用。
+
+Drag && drop resources to add them.\r\nDrag items to change order (lower items override higher items).\r\nUse the context menu to cut, copy, paste or remove items.\r\nGrayed items are loaded according to the game configuration.	拖放资源即可添加。\r\n拖动条目可调整顺序（靠下者优先）。\r\n右键可剪切、复制、粘贴或移除。
+Drag && drop resources to add them.\r\nDrag items to change order (lower items override higher items).\r\nUse the context menu to cut, copy, paste or remove items.	拖放资源即可添加。\r\n拖动条目可调整顺序（靠下者优先）。\r\n右键可剪切、复制、粘贴或移除。
+Height offset:	Z 偏移:
+ Shade	 明暗
+Up	向上
+Last	最后
+ Sector 	 扇区 
+ Sprite 	 精灵 
+ Vertex 	 顶点 
+Tag:	标签:
+Tags:	标签:
+Tag 1:	标签 1:
+Side	侧面
+Sector:	扇区:
+Linedef:	线段:
+Sidedef:	侧面:
+Segs:	分段(Seg):
+Filter: 	过滤器: 
+Offset:	偏移:
+Sprite:	精灵:
+Floor flat	地板平面贴图
+Add flat	添加平面贴图
+Lower Unpegged	下部不固定
+Upper Unpegged	上部不固定
+Slope Mode	倾斜模式(Slope Mode)
+Open Prefab	打开预制件
+Add resource...	添加资源...
+Resources	资源
+Resource 	资源 
+Remove 	移除 
+Open Map	打开地图
+Save Map As	地图另存为
+Save Map Into	保存到地图
+New Map	新建地图
+Map Options	地图选项
+Resources...	资源...
+Warning: a resource archive is required for this game configuration, but not present:\n  "{0}"\nWithout it, UDB will have severely limited capabilities.	警告：此游戏配置需要一个资源归档文件，但未找到：\n  “{0}”\n缺少它，UDB 的功能会受到严重限制。
+Warning: required archive was added more than once:\n  "{0}"\nThis will most likely not work.	警告：必需的归档文件被重复添加：\n  “{0}”\n这样很可能无法正常工作。
+Warning: you are about to edit a map without any resources.\nTextures, flats and sprites may not be shown correctly or may not show up at all.	警告：你即将在没有任何资源的情况下编辑地图。\n贴图（Texture）、平面贴图（Flat）和精灵（Sprite）可能无法正确显示，甚至完全不显示。
+" does not exist!\nPress OK to save to the default folder ("	" 不存在！\n按“确定”保存到默认文件夹（"
+").\nPress Cancel to abort.	”）。\n按“取消”中止。
+Could not create folder "{0}":\n{1}	无法创建文件夹“{0}”：\n{1}
+Chosen map name conflicts with a lump name defined for current map format.\n	所选关卡名称与当前地图格式中已定义的数据块（Lump）名称冲突。\n
+Selected map name conflicts with a lump name defined for current map format.\nPlease rename the map and try again.	所选关卡名称与当前地图格式中已定义的数据块（Lump）名称冲突。\n请重命名关卡后重试。
+Unable to find maps using any game configuration.\nDoes this wad contain any maps at all?..	使用任何游戏配置都未能找到地图。\n这个 WAD 里真的有地图吗？..
+Screenshots folder does not exist!\nPlease enter a correct path.	截图文件夹不存在！\n请输入正确的路径。
+The selected action uses %s to modify its behavior. These modifiers can not be used in a key combination for this action.	所选动作用 %s 来修改其行为。这些修饰键不能用于此动作的按键组合。
+Automatically select control text when it receives focus.	控件获得焦点时自动选中其中的文本。
+Behavior	行为
+Always	始终
+Enables MouseWheel only under certain conditions.	仅在特定条件下启用鼠标滚轮。
+Set UpDownButtons visibility mode.	设置上下按钮的显示模式。
+If set, incrementing value will cause it to restart from Minimum when Maximum is reached (and viceversa).	启用后，数值增加到最大值时会从最小值重新开始（反之亦然）。
+The color of the selected page	选中页面的颜色
+The color of the background of the tab	标签页背景的颜色
+The color of the border of the control	控件边框的颜色
+The color of the highlighted page	高亮页面的颜色
+The color of the title of the page	页面标题的颜色
+Color preset:	颜色预设:
+Show hidden lines	显示隐藏线段
+Show locks	显示锁
+Show secrets	显示秘密
+Show textures	显示贴图
+Block info	块信息
+Blockmap info	块图信息（Blockmap）
+Column:	列:
+Columns:	列数:
+Is sublist:	是子列表:
+Lines in block:	块内线段数:
+Lines not in blocks:	不在块内的线段数:
+Lump size:	数据块大小（Lump）:
+Offset (bytes):	偏移（Offset，字节）:
+Offset list end:	偏移列表结束:
+Row:	行:
+Rows:	行数:
+Show questionable blocks	显示可疑的块
+There are questionable offsets	存在可疑的偏移
+Total blocks:	块总数:
+Unique blocks:	唯一块数:
+Yes	是
+Select some floor or wall surfaces first!	请先选择一些地板或墙壁表面（Surface）！
+Select some linedefs first!	请先选择一些线段（Linedef）！
+Select some sectors first!	请先选择一些扇区（Sector）！
+Select some things first!	请先选择一些物件（Thing）！
+Select some things, sectors or surfaces first!	请先选择一些物件（Thing）、扇区（Sector）或表面（Surface）！
+Select some vertices first!	请先选择一些顶点（Vertex）！
+Switch to Sectors, Linedefs or Visual mode first!	请先切换到扇区（Sector）、线段（Linedef）或视觉模式（Visual Mode）！
+Switch to Sectors, Things, Vertices, Linedefs or Visual mode first!	请先切换到扇区（Sector）、物件（Thing）、顶点（Vertex）、线段（Linedef）或视觉模式（Visual Mode）！
+This action is available only in UDMF map format!	此动作（Action）仅在 UDMF 地图格式下可用！
+ Light	 光照
+ Sun angle 	 太阳角度 
+Directional Shading	定向着色
+Creating geometry...	正在创建几何体...
+Terrain Importer	地形导入器
+Some cool value:	某个很酷的值:
+Apply	应用
+Don't change existing sidedef textures	不更改现有侧面（Sidedef）贴图
+Jitter Settings	抖动设置
+Lower texture:	下部贴图:
+Offset mode:	偏移模式:
+Textures:	贴图:
+Unable to get sectors from selection!	无法从选择中获取扇区（Sector）！
+Upper Texture:	上部贴图:
+Use vertex heights	使用顶点高度
+ Position: 	 位置: 
+ Rotation: 	 旋转: 
+ Scale: 	 缩放: 
+Height min.:	高度最小值:
+max.:	最大值:
+Randomize Things!	随机化物件（Thing）！
+Relative to initial pitch	相对于初始俯仰角
+Relative to initial roll	相对于初始滚转角
+Relative to initial scale	相对于初始缩放
+Same width and height	宽高相同
+Use negative height	使用负高度
+Use negative pitch	使用负俯仰角
+Use negative roll	使用负滚转角
+Use negative width	使用负宽度
+When checked, 50% of the time \r\nnegative pitch will be used.	勾选后，有 50% 的概率\r\n会使用负的俯仰角。
+When checked, 50% of the time \r\nnegative roll will be used	勾选后，有 50% 的概率\r\n会使用负的滚转角
+When checked, height scale will be picked from\r\n[-max .. -min] - [min .. max] range	勾选后，高度缩放将从\r\n[-max .. -min] - [min .. max] 范围内选取
+When checked, width scale will be picked from\r\n[-max .. -min] - [min .. max] range	勾选后，宽度缩放将从\r\n[-max .. -min] - [min .. max] 范围内选取
+Width min.:	宽度最小值:
+Unable to get vertices from selection!	无法从选择中获取顶点（Vertex）！
+Apply Directional Shading	应用定向着色
+Apply Directional Shading...	应用定向着色...
+MenusForm	MenusForm
+Randomize	随机化
+Randomize...	随机化...
+Wavefront .obj as Terrain...	Wavefront .obj 作为地形...
+Choose .obj file to import:	选择要导入的 .obj 文件:
+Import Wavefront .obj	导入 Wavefront .obj
+Path:	路径:
+Scale should not be zero!	缩放值不能为零！
+Selected path does not exist!	选中的路径不存在！
+Sloped Terrain	倾斜地形
+Up axis:	向上轴:
+X	X
+Y	Y
+Z	Z
+Placed Visual Mode camera start thing.	已放置视觉模式（Visual Mode）摄像机起始物件。
+Things editing is SYNCRONIZED	物件编辑已同步（SYNCRONIZED）
+This action requires selection of some description!	此操作需要先做出某种选择！
+Floor/ceiling texture offsets cannot be changed in this map format!	当前地图格式下无法更改地板/天花板贴图偏移！
+Arched between slope handles.	已在倾斜手柄之间形成弧形。
+Can only lower to nearest when one visual slope handle is selected	只有选中一个视觉倾斜手柄时才能下降到最近位置
+Can only raise to nearest when one visual slope handle is selected	只有选中一个视觉倾斜手柄时才能上升到最近位置
+Cannot insert thing here!	无法在此处插入物件（Thing）！
+Cannot paste here!	无法在此处粘贴！
+Can't apply camera rotation to things: no things selected.	无法将摄像机（Camera）旋转应用到物件:未选择任何物件。
+Can't do: lowest ceiling is lower than highest floor!	无法执行:最低天花板低于最高地板！
+Can't lower: already at the lowest level	无法下降:已处于最低层
+Can't raise: already at the highest level	无法上升:已处于最高层
+Couldn't find a smart pivot handle.	找不到智能枢轴手柄。
+Deleted a group.	已删除一个组。
+Deselected group.	已取消选择该组。
+Fit Textures action requires selected sidedefs.	适配贴图（Fit Textures）操作需要选中侧面（Sidedef）。
+Highlight a surface, to which you want to match the brightness.	请高亮一个表面（Surface），以便匹配其亮度（Brightness）。
+Look Through Selection action requires 1 selected Thing!	“透过选择查看”操作需要选中 1 个物件（Thing）！
+'Match Brightness' action requires a selection!	“匹配亮度”操作需要先做出选择！
+'Match Brightness' action works only in UDMF map format!	“匹配亮度”操作仅在 UDMF 地图格式下可用！
+No slope handles selected or highlighted.	未选中或高亮任何倾斜手柄。
+No suitable objects found!	未找到合适的对象！
+Select a group first.	请先选择一个组。
+Sloped between slope handles.	已在倾斜手柄之间形成斜面。
+The highlighted element does not belong to any group.	高亮的元素不属于任何组。
+This action requires selected Things!	此操作需要选中物件（Thing）！
+Toggle Slope action requires selected surfaces!	切换倾斜（Slope）操作需要选中表面（Surface）！
+Too many slope handles selected.	选中的倾斜手柄太多。
+Updated a group.	已更新一个组。
+You must highlight an element to select a group.	必须高亮一个元素才能选择组。
+You must select at least one element to create a group.	必须至少选择一个元素才能创建组。
+You need to select at least one floor or ceiling to reset slope.	需要至少选择一个地板或天花板才能重置倾斜（Slope）。
+You need to select at least two floors and ceilings to slope arch between slope handles.	要在倾斜手柄之间创建弧形斜面，需要至少选择两个地板和天花板。
+You need to select exactly two slope handles.	需要正好选择两个倾斜手柄。
+You need to select floors or ceilings to slope between slope handles.	要在倾斜手柄之间创建斜面，需要选择地板或天花板。
+Sorry, can't have both 'absolute' and 'hangs' flags...	抱歉，不能同时使用“absolute”和“hangs”标志（Flags）...
+idStudio Exporter	idStudio 导出器
+Image export failed. Map has no sectors!	图像导出失败。地图中没有扇区（Sector）！
+OBJ export failed. Map has no sectors!	OBJ 导出失败。地图中没有扇区（Sector）！
+Failed to create a Bezier Path...	创建贝塞尔路径失败...
+One or more lines from first group intersect with one or more lines from second group!	第一组中的一条或多条线与第二组中的一条或多条线相交！
+Auto-close drawing	自动闭合绘制
+Continuous drawing	连续绘制
+Place things	放置物件
+Segment Length:	线段长度:
+Guidelines	参考线
+Radial drawing	径向绘制
+Sides:	边数:
+Spikiness:	尖锐度:
+Failed to draw point: outside of map boundaries.	绘制点失败:超出地图边界。
+ Number of slices: 	 切片数量: 
+ Slices spacing interpolation: 	 切片间距插值: 
+Additional options	附加选项
+Horizontal	水平
+Lock slices to grid:	将切片锁定到网格:
+Relative interpolation	相对插值
+Triangulate	三角化
+Vertical	垂直
+Auto-finish drawing	自动完成绘制
+Bevel Radius:	倒角半径:
+Subdivisions:	细分段数:
+A selection is required for this action.	此操作需要先做出选择。
+Error: selection out of map boundaries.	错误:选择范围超出地图边界。
+%	%
+-2000	-2000
+Absolute:	绝对值:
+deg.	deg.
+Flipping:	翻转:
+High precision positioning	高精度定位
+mp	mp
+mu	mu
+Original:	原始值:
+Pin ceiling textures	固定天花板贴图
+Pin floor textures	固定地板贴图
+Relative:	相对值:
+Transform:	变换:
+When checked, thing and vertex positions will be set using floating point precision.\r\nOtherwise, they will be rounded to the nearest integer.	勾选后，物件（Thing）和顶点（Vertex）的位置将使用浮点精度设置。\r\n否则，它们将被舍入到最接近的整数。
+Abort Analysis	中止分析
+All results are hidden. Use context menu to show them.	所有结果均已隐藏。使用右键菜单可显示它们。
+Analysis results copied to clipboard.	分析结果已复制到剪贴板。
+Copy description(s) to clipboard	将描述复制到剪贴板
+Fix 1	修复 1
+Fix 2	修复 2
+Fix 3	修复 3
+Hide results of this type(s)	隐藏此类型的结果
+Hide selected results	隐藏选中的结果
+Map Analysis	地图分析
+Select a result from the list to see more information.\r\nHold 'Ctrl' to select several results.\r\nHold 'Shift' to select a range of results.\r\nRight-click on a result to show context menu.	从列表中选择一个结果以查看更多信息。\r\n按住 'Ctrl' 可选择多个结果。\r\n按住 'Shift' 可选择一段结果。\r\n右键点击结果可显示右键菜单。
+Select a result from the list to see more information.\r\nRight-click on a result to show context menu.	从列表中选择一个结果以查看更多信息。\r\n右键点击结果可显示右键菜单。
+Select results of this type(s)	选择此类型的结果
+Several types of map analysis results are selected. To display fixes, make sure that only a single result type is selected.	已选中多种类型的地图分析结果。要显示修复项，请确保只选中了单一类型的结果。
+Show all results	显示所有结果
+Show only results of this type(s)	仅显示此类型的结果
+Start Analysis	开始分析
+Toggle all	全部切换
+Filter Selected Things	过滤选中的物件（Thing）
+Select thing types you want to keep selected	选择要保留为选中状态的物件类型
+1000 items have been replaced	已替换 1000 个项目
+Delete Selection	删除选择
+Edit Selection	编辑选择
+Search type:	搜索类型:
+Within current selection	在当前选择范围内
+ Texture Repeating 	 贴图重复 
+Auto	自动
+Failed to setup sidedef chains...	设置侧面（Sidedef）链失败...
+Fit across connected surfaces	适配到相连表面
+Fit height	适配高度
+Fit Textures	适配贴图（Fit Textures）
+Fit width	适配宽度
+Horizontal:	水平:
+Pattern height:	图案高度:
+Pattern width:	图案宽度:
+Vertical:	垂直:
+A selected sector is required for this action.	此操作需要选中一个扇区（Sector）。
+The selected sector must have a loaded texture to align.	选中的扇区必须具有已加载的贴图才能对齐。
+Align ceiling:	对齐天花板:
+Align floor:	对齐地板:
+Copy mode	复制模式
+Flip Lines	翻转线
+Mirror mode	镜像模式
+ChangeMapElementIndexForm	ChangeMapElementIndexForm
+Current index:	当前索引:
+Maximum index:	最大索引:
+New index:	新索引:
+The new and old indices are the same	新旧索引相同
+The new index is too high	新索引过大
+Distance:	距离:
+Fixed circular curve	固定圆弧曲线
+Flip Curve	翻转曲线
+Vertices: 	顶点: 
+[All Export Count]	[全部导出数量]
+[Map Export Count]	[地图导出数量]
+All Textures	全部贴图
+Downscale:	缩小倍数:
+Export Textures	导出贴图
+Export to idStudio	导出到 idStudio
+Exporting textures may take some time.	导出贴图可能需要一些时间。
+File Name:	文件名:
+Invalid Map Name	无效的地图名称
+Map Textures Only	仅地图贴图
+Mod Folder:	Mod 文件夹:
+Not all map features may convert correctly.	并非所有地图特性都能正确转换。
+Select Mod Folder	选择 Mod 文件夹
+This tool is still in development	此工具仍在开发中
+Transformations	变换
+X Shift:	X 平移:
+Y Shift:	Y 平移:
+Z Shift:	Z 平移:
+Allow transparency	允许透明
+Apply sector colors	应用扇区颜色
+Color depth:	色彩深度:
+Create 64x64 tiles	创建 64x64 的图块
+Create brightmap	创建亮图（Brightmap）
+Export failed	导出失败
+Export to image	导出为图像
+Image export settings	图像导出设置
+Image format:	图像格式:
+lbPhase	lbPhase
+Unoccupied parts of the images will be transparent.\r\nWorks with transparent textures, too.\r\n\r\nAntialiasing will be disabled.	图像中未被占用的部分将变为透明。\r\n也适用于带透明通道的贴图。\r\n\r\n抗锯齿将被禁用。
+Use fullbright	使用全亮
+Apply action specials	应用动作（Action）特殊功能
+Apply tag	应用标签（Tag）
+Door	门
+Make Door	创建门
+Reset texture offsets	重置贴图偏移
+Track	跟踪
+Current map format doesn't support any properties for selected map elements!	当前地图格式不支持所选地图元素的任何属性！
+No copied properties to apply!	没有可应用的已复制属性！
+Paste Properties Special	粘贴特殊属性
+All	全部
+C	C
+F	F
+Fill all ceiling textures within selection \r\nwith current ceiling override texture	用当前天花板覆盖贴图\r\n填充选择范围内的所有天花板贴图
+Fill all floor textures within selection \r\nwith current floor override texture	用当前地板覆盖贴图\r\n填充选择范围内的所有地板贴图
+Fill all lower textures within selection \r\nwith current lower override texture	用当前下部覆盖贴图\r\n填充选择范围内的所有下部贴图
+Fill all middle textures within selection \r\nwith current middle override texture	用当前中部覆盖贴图\r\n填充选择范围内的所有中部贴图
+Fill all upper textures within selection \r\nwith current upper override texture	用当前上部覆盖贴图\r\n填充选择范围内的所有上部贴图
+Fill Selection with Textures:	用贴图填充选择:
+Geometry overrides:	几何覆盖:
+Get From Selection	从选择中获取
+L	L
+M	M
+Remove all ceiling textures within selection 	移除选择范围内的所有天花板贴图 
+Remove all floor textures within selection	移除选择范围内的所有地板贴图
+Remove all lower textures within selection 	移除选择范围内的所有下部贴图 
+Remove all middle textures within selection	移除选择范围内的所有中部贴图
+Remove all textures from selected map elements	移除所选地图元素的所有贴图
+Remove all upper textures within selection	移除选择范围内的所有上部贴图
+Remove Textures form Selection:	从选择中移除贴图:
+Replace all textures with currently enabled overrides	用当前启用的覆盖设置替换所有贴图
+Sector texture overrides:	扇区贴图覆盖:
+Selection doesn't contain suitable sidedefs	选择中不包含合适的侧面（Sidedef）
+Sidedef texture overrides:	侧面贴图覆盖:
+This action requires selected linedef	此操作需要选中线段（Linedef）
+This action requires selected sector	此操作需要选中扇区（Sector）
+U	U
+Actor format	Actor 格式
+Actor name:	Actor 名称:
+Actor path:	Actor 路径:
+Actor settings	Actor 设置
+Add texture/flat	添加贴图/平面贴图
+Base path:	基础路径:
+Center model	居中模型（Model）
+DECORATE	DECORATE
+Export for GZDoom	导出供 GZDoom 使用
+Export to Wavefront .obj	导出为 Wavefront .obj
+General settings	常规设置
+Generate MODELDEF	生成 MODELDEF
+Generate ZScript/DECORATE	生成 ZScript/DECORATE
+Ignore 3D floor control sectors	忽略 3D 地板（3D Floor）控制扇区（Control Sector）
+Model path:	模型路径:
+No gravity	无重力
+Normalize lowest vertex z to 0	将最低顶点的 z 归一化为 0
+Remove selected	移除选中项
+Reset paths	重置路径
+Select actor folder	选择 Actor 文件夹
+Select model folder	选择模型文件夹
+Select save location:	选择保存位置:
+Skip textures	跳过贴图
+Solid	实心
+Spawn on ceiling	在天花板上生成
+ZScript	ZScript
+OBJ creation failed. Check 'Errors and Warnings' window for details.	OBJ 创建失败。请查看“错误和警告”窗口了解详情。
+Aligned a linedef.	已对齐一条线段（Linedef）。
+Copied linedef properties.	已复制线段属性。
+Copy linedef properties first!	请先复制线段（Linedef）属性！
+Created gradient brightness over selected linedefs.	已在选中的线段上创建渐变亮度（Brightness）。
+Deleted a linedef.	已删除一条线段。
+Dissolved a linedef.	已溶解一条线段。
+Either nothing or exactly one linedef must be selected	必须不选择任何线段，或正好选择一条线段（Linedef）
+End linedef doesn't have visible parts!	末端线段没有可见部分！
+Flipped a linedef.	已翻转一条线段。
+Flipped a sidedef.	已翻转一个侧面（Sidedef）。
+No sidedefs to flip! Only 2-sided linedefs can be flipped.	没有可翻转的侧面！只有双面线段才能翻转。
+Select at least 3 linedefs first!	请先至少选择 3 条线段！
+Selected linedefs already point in the right direction!	选中的线段已经指向正确的方向！
+Split a linedef.	已拆分一条线段。
+Start linedef doesn't have visible parts!	起始线段没有可见部分！
+This action requires a selection!	此操作需要先做出选择！
+This action requires highlight or selection!	此操作需要高亮或选择！
+This action requres a selection!	此操作需要先做出选择！
+Unable to get vertex positions from selection!	无法从选择中获取顶点位置！
+View Sector Tags	查看扇区标签（Tag）
+&Align Textures	对齐贴图(&A)
+&Align Things to Nearest Linedef	将物件对齐到最近的线段(&A)
+&Curve Linedefs...	曲线化线段(&C)...
+&Flip Linedefs	翻转线段(&F)
+&Join Sectors	连接扇区(&J)
+&Linedefs	线段(&L)
+&Merge Sectors	合并扇区(&M)
+&Place Things...	放置物件(&P)...
+&Point to Cursor	指向光标(&P)
+&Sectors	扇区(&S)
+&Select Things in Selected Sectors	选择所选扇区中的物件(&S)
+&Synchronized Things Editing	同步物件编辑(&S)
+&Update 'lightfog' flag	更新“lightfog”标志(&U)
+Align &Linedefs	对齐线段(&L)
+Align Things to Nearest Linedef	将物件对齐到最近的线段
+Ambient Sound Radii	环境音效（Ambient Sound）半径
+Brightness and Height Gradient Interpolation Mode	亮度与高度渐变插值模式
+Brightness Gradient Target	亮度渐变目标
+Ceiling to Back Side	天花板到背面
+Ceiling to Front Side	天花板到正面
+Change Lindef Index	更改线段索引
+Change Sector Index	更改扇区索引
+Change Thing Index	更改物件索引
+Change Vertex Index	更改顶点索引
+Copy Properties	复制属性
+Curve Linedefs	曲线化线段
+Dynamic Light Radii	动态光源（Dynamic Light）半径
+F&lip Sidedefs	翻转侧面(&L)
+Filter Selection...	过滤选择...
+Flip Selection Horizontally	水平翻转选择
+Flip Selection Vertically	垂直翻转选择
+Floor to Back Side	地板到背面
+Floor to Front Side	地板到正面
+Level to idStudio Map	将关卡转换为 idStudio 地图
+Lock texture offsets of 3D floors when dragging tagged sectors	拖动带标签的扇区时锁定 3D 地板（3D Floor）的贴图偏移
+Lock texture offsets when dragging sectors	拖动扇区时锁定贴图偏移
+Make &Door	创建门(&D)
+Make Brightness Gradient	创建亮度渐变
+Make Ceiling Heights Gradient	创建天花板高度渐变
+Make Door From Selection	从选择创建门
+Make Floor Heights Gradient	创建地板高度渐变
+Paste Properties	粘贴属性
+Paste Properties Special...	粘贴特殊属性...
+Pin Texture Offsets of 3D floors.\r\nWhen enabled, keeps floor and ceiling texture offsets\r\nof the control sector constant while the tagged sector is dragged	固定 3D 地板（3D Floor）的贴图偏移。\r\n启用后，拖动带标签的扇区时，\r\n保持控制扇区（Control Sector）的地板和天花板贴图偏移不变
+Pin Texture Offsets.\r\nWhen enabled, keeps floor and ceiling texture offsets\r\nconstant while sector is dragged	固定贴图偏移。\r\n启用后，拖动扇区时\r\n保持地板和天花板贴图偏移不变
+S&plit Linedefs	拆分线段(&P)
+Select &Double-sided only	仅选择双面(&D)
+Select map elements touching selection rectangle	选择与选择矩形接触的地图元素
+Select S&ingle-sided only	仅选择单面(&I)
+Select Similar...	选择相似项...
+Select Touching	选择接触项
+Selection to image	将选择导出为图像
+Selection to Wavefront .obj...	将选择导出为 Wavefront .obj...
+Show Ambient Sound Radii	显示环境音效半径
+Show Dynamic Light Radii	显示动态光源半径
+Show sector tags and effects	显示扇区标签和效果
+Show selection numbers	显示选择编号
+Synchronized Things Editing	同步物件编辑
+Toggle between "select touching" and "select inside"\r\nrectangular selection modes	在“选择接触”和“选择内部”\r\n矩形选择模式之间切换
+View Selection Numbering	查看选择编号
+View Tags and Effects	查看标签和效果
+When enabled, selected things will be dragged when dragging linedefs.\r\nRectangular selection will also select things (holding Alt while selecting \r\ninverts this behaviour).	启用后，拖动线段时选中的物件也会被拖动。\r\n矩形选择也会选中物件（在选择时按住 Alt \r\n可反转此行为）。
+ Behavior 	 行为 
+ Default sector settings	 默认扇区设置
+ Ranges 	 范围 
+Additive paint selecting without holding Shift	无需按住 Shift 即可进行累加涂抹选择
+Additive selecting without holding Shift	无需按住 Shift 即可增量选择
+Auto-align textures of newly created linedefs	自动对齐新建线段（Linedef）的贴图（Texture）
+Automatically clear selection in Classic Modes	在经典模式（Classic Modes）中自动清除选择
+Automatically clear selection in Visual Mode	在视觉模式（Visual Mode）中自动清除选择
+Automatically drag selection on paste	粘贴时自动拖动选择
+Default brightness:	默认亮度（Brightness）:
+Default ceiling height:	默认天花板（Ceiling）高度:
+Default floor height:	默认地板（Floor）高度:
+Don't move selection if any part of it is outside of map boundary	若选择（Selection）的任何部分超出地图边界，则不移动选择
+Edit sector properties after drawing a new sector	绘制新扇区（Sector）后编辑扇区属性
+Edit thing properties when inserting a new thing	插入新物件（Thing）时编辑物件属性
+Editing	编辑
+Event line labels	事件线段标签（Tag）
+Highlight geometry within:	高亮（Highlight）几何体的范围:
+Highlight things within:	高亮（Highlight）物件的范围:
+m.u.	m.u.
+Mouse selection threshold:	鼠标选择阈值:
+Opposite side/vertex is smart pivot handle on triangular sectors	对侧/对顶点在三角形扇区（Sector）上作为智能枢轴手柄
+pixels	像素
+PreferencesForm	PreferencesForm
+Select changed map elements after undo/redo	撤销/重做后选择已更改的地图元素
+Split linedefs within:	分割线段的范围:
+Start drawing when Edit pressed over empty space in Classic modes\r\nInsert new thing when Edit pressed over empty space in Things mode	在经典模式（Classic Modes）中于空白处按下编辑键时开始绘制\r\n在物件（Thing）模式中于空白处按下编辑键时插入新物件
+Stitch geometry within:	缝合几何体的范围:
+Switch view modes when switching to the same Classic Mode	切换到同一经典模式（Classic Mode）时切换视图模式
+Synchronize selection between Visual and Classic modes	在视觉模式（Visual Mode）与经典模式之间同步选择
+Use buggy flood select in Visual Mode	在视觉模式（Visual Mode）中使用有缺陷的泛选
+When auto-aligning textures on slopes:	在倾斜（Slope）上自动对齐贴图（Texture）时:
+When sector height changes are used on a wall in Visual Mode:	在视觉模式（Visual Mode）中对墙壁使用扇区高度变更时:
+When splitting a linedef:	分割线段（Linedef）时:
+Aligned sector linedefs.	已对齐扇区（Sector）的线段。
+Copied sector properties.	已复制扇区（Sector）属性。
+Copy sector properties first!	请先复制扇区（Sector）属性！
+Created gradient brightness over selected sectors.	已在选中的扇区上创建渐变亮度（Brightness）。
+Created gradient ceiling heights over selected sectors.	已在选中的扇区上创建渐变天花板（Ceiling）高度。
+Created gradient floor heights over selected sectors.	已在选中的扇区上创建渐变地板（Floor）高度。
+Flipped sector linedefs.	已翻转扇区（Sector）的线段。
+Lowered ceiling heights by 8mp.	已降低天花板（Ceiling）高度 8mp。
+Lowered floor heights by 8mp.	已降低地板（Floor）高度 8mp。
+Raised ceiling heights by 8mp.	已升高天花板（Ceiling）高度 8mp。
+Raised floor heights by 8mp.	已升高地板（Floor）高度 8mp。
+Select at least 3 sectors first!	请先至少选择 3 个扇区（Sector）！
+This action works only in UDMF map format!	此动作（Action）仅适用于 UDMF 地图格式！
+Selection Options	选择选项
+Angle offset:	角度偏移:
+Auto angle offset	自动角度偏移
+Create arch	创建拱形
+Direction	方向
+Down	向下
+Invert	反转
+Scale %:	缩放 %:
+The angle can not be greater than 180.	角度不能大于 180。
+The sum of the angle and offset angle can not be greater than 180.	角度与偏移角度之和不能大于 180。
+Aligned a thing.	已对齐物件（Thing）。
+Copied thing properties.	已复制物件（Thing）属性。
+Copy thing properties first!	请先复制物件（Thing）属性！
+Deleted a thing.	已删除物件（Thing）。
+Either nothing or exactly one thing must be selected	必须选择零个或恰好一个物件（Thing）
+Failed to insert thing: outside of map boundaries.	插入物件失败: 超出地图边界。
+Inserted a new thing.	已插入新物件。
+Now click in the editing area!	现在请在编辑区域中点击！
+Rotated a thing.	已旋转物件。
+This action only works for models or things with FLATSPRITE/WALLSPRITE flags!	此操作仅适用于模型（Model）或带有 FLATSPRITE/WALLSPRITE 标志（Flags）的物件！
+Copied vertex properties.	已复制顶点（Vertex）属性。
+Copy vertex properties first!	请先复制顶点（Vertex）属性！
+Deleted a vertex.	已删除顶点。
+Dissolved a vertex.	已溶解顶点。
+Either nothing or exactly one vertex must be selected	必须选择零个或恰好一个顶点（Vertex）
+Inserted a vertex.	已插入顶点。
+There's already a vertex here.	此处已存在顶点。
+Sector colors can only be set if map is in UDMF format!	仅当地图为 UDMF 格式时才能设置扇区颜色！
+Select or highlight some lights first!	请先选择或高亮（Highlight）一些光源！
+Select or highlight some sectors first!	请先选择或高亮一些扇区（Sector）！
+1.01 0.55 0.33	1.01 0.55 0.33
+Blue:	蓝色:
+Green:	绿色:
+Red:	红色:
+Secondary intensity:	次要强度:
+Pick Sector/Light Color	选取扇区/光源颜色
+Pick Sector/Light Color...	选取扇区/光源颜色...
+LightColorPicker	LightColorPicker
+No lights found in selection!	选择中未找到光源！
+Relative Mode	相对模式
+Edit:	编辑:
+Fade color	淡出颜色
+Sector color	扇区颜色
+SectorColorPicker	SectorColorPicker
+Comments from this mode only	仅显示此模式下的注释
+Edit Objects	编辑对象
+Remove Comment	移除注释
+Select	选择
+Select Additive	增量选择
+Select on click	点击时选择
+Set Selection Comment	设置选择注释
+Open Action Reference	打开动作（Action）参考
+Left-click (and drag) to set angle snapped to 45-degree increment.\r\nRight-click (and drag) to set precise angle.	左键单击（并拖动）以设置吸附到 45 度增量的角度。\r\n右键单击（并拖动）以设置精确角度。
+Use ++ or -- prefixes to change by given value.\r\nUse +++ or --- prefixes to incrementally change by given value.\r\nUse < or > prefixes to decrementally or incrementally set given value.	使用 ++ 或 -- 前缀以给定值进行更改。\r\n使用 +++ 或 --- 前缀以给定值递增更改。\r\n使用 < 或 > 前缀以给定值递减或递增设置。
+String	字符串
+Color name:	颜色名称:
+No results found	未找到结果
+Not usable in this context	在此上下文中不可用
+Recent	最近
+Section	节
+Usable actions	可用动作
+Click to enter a comment...	点击以输入注释...
+Comment type: 	注释类型: 
+Automatically close status window on success	成功时自动关闭状态窗口
+Commands:	命令:
+Exit code not equal 0 is an error	退出代码不等于 0 即为错误
+Select base folder	选择基础文件夹
+Working directory:	工作目录:
+Writing to stderr is an error	写入 stderr 即为错误
+Please set this field's value via user interface.	请通过用户界面设置此字段的值。
+Property	属性
+Value	值
+Select a folder	选择文件夹
+hidden focus catcher!	隐藏的焦点捕获控件！
+Classic view	经典视图
+Default group	默认组
+Long texture names	长贴图（Texture）名称
+Show:	显示:
+Used textures at the top	已使用的贴图（Texture）置于顶部
+Vertically center selection	垂直居中显示选择
+Width:	宽度:
+-	-
+128x128	128x128
+Switch to full name	切换到完整名称
+Switch to short name	切换到短名称
+ Linedef 	 线段（Linedef） 
+--, --	--, --
+0 - Big Door that goes Wobbly Wobbly	0 - 摇摇晃晃的大号门
+0 - When player does a barrel roll	0 - 当玩家做出桶滚动作时
+100, 100	100, 100
+Activation:	激活方式:
+Arg 1:	参数 1:
+Back offset:	背面偏移:
+BROWNHUG	BROWNHUG
+Front offset:	正面偏移:
+Length:	长度:
+Unpegged:	不固定:
+Link values	关联值
+ Tags and Actions 	 标签（Tag）与动作（Action） 
+Keep tags the same as they were copied	保持标签与复制时相同
+Remove all actions	移除所有动作（Action）
+Remove all tags	移除所有标签（Tag）
+Renumber tags to resolve conflicts with existing tags	重新编号标签以解决与现有标签的冲突
+Invalid or duplicate resources!	无效或重复的资源（Resource）！
+Resource already added!	资源（Resource）已添加！
+Resource location	资源位置
+Resource options...	资源（Resource）选项...
+Del	Del
+Select all	全选
+100 : 12 (120)	100 : 12 (120)
+Always on top	总在最前
+Change Script Type	更改脚本（Script）类型
+Close File	关闭文件
+Compile	编译
+Compile Script	编译脚本（Script）
+Cut	剪切
+Decrease indentation	减少缩进
+Duplicate line	复制行
+Edit	编辑
+File	文件
+Find results	查找结果
+Find...	查找...
+Go to line...	转到行...
+Increase indentation	增加缩进
+Indent selection	缩进选择
+Insert a Code Snippet	插入代码片段
+Insert snippet	插入片段
+Keyword Help	关键字帮助
+Next Match	下一个匹配
+Open Find and Replace Window	打开查找和替换窗口
+Open Script	打开脚本（Script）
+Plain Text	纯文本
+Previous Match	上一个匹配
+Quick search	快速搜索
+Ready.	就绪。
+Save	保存
+Save all	全部保存
+Save All Files	保存所有文件
+Save File	保存文件
+Save Script As	脚本（Script）另存为
+Search	搜索
+Show whitespace	显示空白字符
+Show word wrap	显示自动换行
+Tools	工具
+Unindent selection	取消缩进选择
+View	视图
+Wrap long lines	长行自动换行
+#include "zcommon.acs"\nscript 667 ENTER //A simple script example\n{\n    int red = CR_RED;\n\tPrint(s:"Welcome!");\n\tThing_ChangeTID(0, 667);\n} } // <- A spare brace!	#include "zcommon.acs"\nscript 667 ENTER //一个简单的脚本示例\n{\n    int red = CR_RED;\n\tPrint(s:"Welcome!");\n\tThing_ChangeTID(0, 667);\n} } // <- 一个多余的闭括号！
+0 - Whacky Pool of Fluid	0 - 古怪的液体池
+Effect:	效果:
+Pivot:	枢轴:
+Slope angle:	倾斜（Slope）角度:
+Sidedefs	侧面（Sidedef）
+Vertices	顶点（Vertex）
+Find a tag, which is not used as a tag or tag action argument\r\nby any map element	查找一个未被任何地图元素用作标签（Tag）\r\n或标签动作参数的标签
+Find a tag, which is not used as a tag\r\nby any map element of this type	查找一个未被此类任何地图元素\r\n用作标签（Tag）的标签
+Set tag to 0	将标签设为 0
+12 ,  ??? , [667]	12 ,  ??? , [667]
+Add new tag	添加新标签（Tag）
+Find number, which is not used as a tag \r\nby any map element of this type	查找一个未被此类任何地图元素用作标签（Tag）的 \r\n数字
+Find number, which is not used as a tag\r\nor tag action argument by any map element	查找一个未被任何地图元素用作标签（Tag）\r\n或标签动作参数的数字
+New	新建
+Remove selected tag	移除选中的标签（Tag）
+Set current tag to 0	将当前标签设为 0
+Use ">=" or "<=" prefixes to create\r\nascending or descending tags range.\r\nUse "++" or "--" prefixes to increment\r\nor decrement already existing tags \r\nby given value.	使用 ">=" 或 "<=" 前缀创建\r\n升序或降序的标签（Tag）范围。\r\n使用 "++" 或 "--" 前缀\r\n将已有标签按给定值递增\r\n或递减。
+16 x 96	16 x 96
+Blocking:	阻挡:
+Completely	完全
+No	否
+SuperTurboTurkeyPuncherPlayer	SuperTurboTurkeyPuncherPlayer
+True-Height	True-Height
+Unknown	未知
+0 - Big Brown Pimp	0 - 棕色大块头
+0 - Spawn a Blue Poopie and Ammo	0 - 生成蓝色小鬼和弹药
+1024, 1024, 1024	1024, 1024, 1024
+Class:	类别:
+CrazyFlyingShotgunSpawner	CrazyFlyingShotgunSpawner
+0, 0	0, 0
+-512	-512
+Ceiling offset:	天花板偏移:
+Floor offset:	地板偏移:
+GLDEFS reload failed. Try using 'Reload Resources' instead.\nCheck 'Errors and Warnings' window for more details.	重新加载 GLDEFS 失败。请改用“重新加载资源”。\n更多详情请查看“错误和警告”窗口。
+Reloading GLDEFS...	正在重新加载 GLDEFS...
+Reloading model definitions...	正在重新加载模型（Model）定义...
+Reloading voxel definitions...	正在重新加载体素定义...
+Auto Scroll	自动滚动
+Clear All	全部清除
+Clear Filter	清除过滤器（Filter）
+Displayed Message Types	显示的消息类型
+Errors	错误
+Info	信息
+Log	日志
+Special	特殊
+Stay on Top	保持在最前
+Warnings	警告
+Word Wrap	自动换行
+Can't test from current position: couldn't create player start!	无法从当前位置测试: 无法创建玩家起点！
+Can't test from current position: mouse cursor must be inside a sector!	无法从当前位置测试: 鼠标光标必须位于扇区（Sector）内！
+Can't test from current position: mouse is outside editing window!	无法从当前位置测试: 鼠标位于编辑窗口外！
+Cannot remove that in this mode.	在此模式下无法移除该项。
+Inserted prefab.	已插入预制件（Prefabs）。
+Pasted selected elements.	已粘贴选中的元素。
+Save Prefab As	预制件（Prefabs）另存为
+Closing map...	正在关闭地图...
+Creating new map...	正在创建新地图...
+Fatal Non-UI Error	致命的非 UI 错误
+Fatal Windows Forms Error	致命的 Windows Forms 错误
+Loading compiler configurations...	正在加载编译器配置...
+Loading game configurations...	正在加载游戏配置（Game Configuration）...
+Loading nodebuilder configurations...	正在加载节点构建器（Nodebuilder）配置...
+Loading script configurations...	正在加载脚本（Script）配置...
+Map is up to date. Updated map settings file.	地图已是最新。已更新地图设置文件。
+Map saving cancelled.	地图保存已取消。
+Opening map file...	正在打开地图文件...
+Saving map file...	正在保存地图文件...
+There were errors during loading!	加载时发生错误！
+There were errors during program startup!	程序启动时发生错误！
+There were errors during saving!	保存时发生错误！
+Unable to open map from current WAD!	无法从当前 WAD 打开地图！
+Warning	警告
+Testing was canceled.	测试已取消。
+Unable to test the map due to script errors.	因脚本（Script）错误，无法测试地图。
+Failed to complete operation: maximum number of linedefs reached.	无法完成操作: 线段（Linedef）数量已达上限。
+Failed to complete operation: maximum number of sectors reached.	无法完成操作: 扇区（Sector）数量已达上限。
+Failed to complete operation: maximum number of sidedefs reached.	无法完成操作: 侧面（Sidedef）数量已达上限。
+Failed to complete operation: maximum number of things reached.	无法完成操作: 物件（Thing）数量已达上限。
+Failed to complete operation: maximum number of vertices reached.	无法完成操作: 顶点（Vertex）数量已达上限。
+Building map nodes...	正在构建地图节点...
+Compressing sidedefs...	正在压缩侧面（Sidedef）...
+Dynamic lights rendering mode: ALL	动态光源（Dynamic Light）渲染模式: 全部
+Dynamic lights rendering mode: ANIMATED	动态光源（Dynamic Light）渲染模式: 动画
+Dynamic lights rendering mode: NONE	动态光源（Dynamic Light）渲染模式: 无
+Map already exists!	地图已存在！
+Models rendering mode: ACTIVE THINGS FILTER ONLY	模型（Model）渲染模式: 仅当前物件过滤器
+Models rendering mode: ALL	模型（Model）渲染模式: 全部
+Models rendering mode: NONE	模型（Model）渲染模式: 无
+Models rendering mode: SELECTION ONLY	模型（Model）渲染模式: 仅选择
+Reloading data resources...	正在重新加载数据资源（Resource）...
+Reloading resourcess was canceled.	重新加载资源已取消。
+Select any map element first!	请先选择任意地图元素！
+Selected map elements were already on the grid.	选中的地图元素已经位于网格（Grid）上。
+There were errors during resources loading!	加载资源时发生错误！
+ Left 	 左侧 
+ Right 	 右侧 
+(root split)	（根分割）
+0, 0 - 0, 0	0, 0 - 0, 0
+Area:	面积:
+Back	背面
+Balance:	平衡:
+Depth:	深度:
+End vertex:	结束顶点（Vertex）:
+Go to parent	转到父级
+Go to parent split	转到父级分割
+Go to root	转到根
+Go to split	转到分割
+Go to subsector	转到子扇区
+Nodes Viewer	节点查看器
+NOTE: This will rebuild the nodes using the settings configured for "testing" in the current game configuration. You can change these settings in the Game Configuration dialog (press F6).	注意: 这将使用当前游戏配置（Game Configuration）中为“测试”配置的设置重建节点。你可以在游戏配置对话框中更改这些设置（按 F6）。
+Overview	概览
+Parent split:	父级分割:
+Rebuild nodes	重建节点
+Segments:	段:
+Show additional vertices (seg splits)	显示附加顶点（段分割）
+Side:	侧面:
+Split:	分割:
+Splits	分割
+Splits:	分割:
+Start vertex:	起始顶点（Vertex）:
+Subsector:	子扇区:
+Subsectors	子扇区
+Subsectors:	子扇区:
+View segment:	查看段:
+Viewing split:	正在查看分割:
+Viewing subsector:	正在查看子扇区:
+Building subsectors...	正在构建子扇区...
+Failed to read map nodes.	读取地图节点失败。
+Nodes Viewer mode	节点查看器模式
+Reading map nodes...	正在读取地图节点...
+THY NODETH ARETH BROKH!	你的节点坏掉了！
+THY SEGS ARETH TOO PHAT!	你的段太胖了！
+THY SEGS ARETH WAAAY TOO PHAT!	你的段实在太太太胖了！
+THY SEGS HATH SINNETH!	你的段犯了罪！
+THY SSECTORS ARETH HERETYSH!	你的子扇区是异端！
+THY VERTEXES ARETH FOUL!	你的顶点污秽不堪！
+Why are you doing this, Stanley?..	你为什么要这样做，Stanley？..
+0 - Custom	0 - 自定义
+Drawsegs	Drawsegs
+Heat Colors	热力颜色
+InterfaceForm	InterfaceForm
+Open Doors	敞开的门
+Openings	开口
+Position above the floor to calculate stats	将位置设在地板上方以计算统计信息
+Set custom height	设置自定义高度
+Solidsegs	Solidsegs
+Statistics to view	要查看的统计信息
+View Height	查看高度
+Visplanes	Visplanes
+Setting up test environment...	正在设置测试环境...
+Unable to set test environment...	无法设置测试环境...
+View height:	查看高度:
+Visplane Explorer - Set custom height	Visplane Explorer - 设置自定义高度
+Bidirectional color:	双向颜色:
+Color Configuration	颜色配置
+Default color:	默认颜色:
+Highlight color:	高亮（Highlight）颜色:
+Reset colors	重置颜色
+Unidirectional from color:	单向起始颜色:
+Unidirectional to color:	单向结束颜色:
+Configure colors	配置颜色
+MenuForm	MenuForm
+(FPS unavailable)	（FPS 不可用）
+Block sound color:	阻挡声音颜色:
+Level 1 color:	级别 1 颜色:
+Level 2 color:	级别 2 颜色:
+No sound color:	无声音颜色:
+ Sound Environments: 	 声音环境: 
+Active Sound Environment	当前声音环境
+Choose a Sound Environment	选择声音环境
+Deleted a sound environment thing.	已删除声音环境物件。
+Finished updating sound environments	已完成声音环境更新
+Inserted a new sound environment thing.	已插入新的声音环境物件。
+Updating sound environments	正在更新声音环境
+More than one thing in this\nsound environment is set to be\nactive. Set all but one thing\nto dormant.	此声音环境中有多个物件\n被设为活动状态。请将除一个\n以外的所有物件\n都设为休眠。
+More than one thing in this\nThe sectors on both sides of\nthe line belong to the same\nsound environment.	此声音环境中有多个物件\n该线段两侧的扇区\n属于同一个\n声音环境。
+Show nodes with warnings only	仅显示带警告的节点
+This line is single-sided, but has\nthe sound boundary flag set.	此线段为单面，但设置了\n声音边界标志（Flags）。
+E	E
+S	S
+Searching for sound leak...	正在搜索声音泄漏...
+Auto curve	自动曲线
+Base	基准
+Catmull Rom	Catmull Rom
+Ceiling flat	天花板平面贴图（Flat）
+Ceiling height	天花板（Ceiling）高度
+ceilingfirst	ceilingfirst
+ceilinglast	ceilinglast
+Control points	控制点
+Distinct base heights	不同基准高度
+Distinct sectors	不同扇区
+First:	第一个:
+Flipping	翻转
+Floor height	地板（Floor）高度
+floorfirst	floorfirst
+floorlast	floorlast
+Front	正面
+General	常规
+Inner vertex multiplier	内侧顶点倍数
+Last:	最后:
+Load	加载
+Lower texture	下部贴图
+Middle texture	中部贴图
+Modify	修改
+Name	名称
+Number of sectors	扇区（Sector）数量
+Outer vertex multiplier	外侧顶点倍数
+Sector depth	扇区深度
+Set default	设为默认
+Single direction	单向
+Single steps	单步
+Spacing	间距
+Stair Sector Builder	楼梯扇区构建器（Stair Sector Builder）
+Straight	直线
+Unpegged	不固定
+Upper texture	上部贴图
+Center view on selected map element	将视图居中到选中的地图元素
+Choose save location:	选择保存位置:
+Clear Search	清除搜索
+Export to file...	导出到文件...
+Failed to save tag info...	保存标签信息失败...
+Hide elements without comments	隐藏没有注释的元素
+Sort:	排序:
+Supported wildcards:	支持的通配符:
+Tag info successfully saved.	标签信息已成功保存。
+Creating tag ranges is fun! ^_^	创建标签范围很有趣！^_^
+End Tag:	结束标签:
+Increment:	增量:
+Relative to existing tags	相对于现有标签
+Skip over already used tags	跳过已使用的标签
+Start Tag:	起始标签:
+Tag Selected Range	为选中范围添加标签
+The range exceeds the maximum or minimum allowed tags and cannot be created.	该范围超出允许的最大或最小标签值，无法创建。
+Warning: The tag range contains already used tags.	警告: 标签范围中包含已使用的标签。
+Tag Range	标签范围
+Control Sector Area Configuration	控制扇区（Control Sector）区域配置
+First	第一个
+Use tag range	使用标签范围
+Applying drawn slope to ceiling	正在将绘制的倾斜应用到天花板
+Applying drawn slope to floor	正在将绘制的倾斜应用到地板
+Applying drawn slope to floor and ceiling	正在将绘制的倾斜应用到地板和天花板
+Add slope to ceiling	为天花板添加倾斜
+Add slope to floor	为地板添加倾斜
+Apply drawn slope to ceiling	将绘制的倾斜应用到天花板
+Apply drawn slope to floor	将绘制的倾斜应用到地板
+Apply drawn slope to floor and ceiling	将绘制的倾斜应用到地板和天花板
+Relocate control sectors	重新定位控制扇区
+Remove slope from ceiling	移除天花板的倾斜
+Remove slope from floor	移除地板的倾斜
+Update slopes	更新倾斜
+3D Floor Plugin	3D 地板插件
+Holding the Alt key will always show the labels	按住 Alt 键将始终显示标签
+Show sector labels:	显示扇区标签:
+Show slope vertex labels:	显示倾斜顶点标签:
+B	B
+T	T
+Create sector in CSA	在 CSA 中创建扇区
+Slope data sector	倾斜数据扇区
+Use selected sector	使用选中的扇区
+Flipping temporarily removed	翻转已暂时移除
+Apply to selected sectors	应用到选中的扇区
+Edit Slope Vertex	编辑倾斜顶点（Slope Vertex）
+Position	位置
+Remove from selected sectors	从选中的扇区中移除
+Reposition after dragging sectors	拖动扇区后重新定位
+Sectors to remove	要移除的扇区
+Spline	样条曲线
+Could not draw new sector	无法绘制新扇区
+Could not draw new sector: not enough vertices	无法绘制新扇区: 顶点数量不足
+3D floors	3D 地板
+Add 3D floor	添加 3D 地板
+Detach all	全部分离
+If checked only shows the 3D floors that\r\nare shared among all selected sectors	如果勾选，则仅显示所有选中扇区\r\n共有的 3D 地板
+Show shared 3D floors only	仅显示共有的 3D 地板
+Split all	全部分割
+There are no 3D floors	没有 3D 地板
+Check all	全部勾选
+Detach	分离
+Duplicate	创建副本
+Edit control sector	编辑控制扇区
+Flags:	标志:
+Split	分割
+Tag(s):	标签:
+Uncheck all	全部取消勾选
++	+
+Mismatch between number of relocation points and control sectors. Aborted	重新定位点数量与控制扇区数量不匹配。已中止
+Selected geometry doesn't contain 3D floors	选中的几何体不包含 3D 地板
+Something failed trying to copy the selection	复制选择内容时出错
+There are no control sectors to relocate	没有可重新定位的控制扇区
+You have to highlight a 3D floor to select its control sector	必须高亮一个 3D 地板才能选中其控制扇区
+Border	边框
+Bottom	底部
+Top	顶部
+No external editor set. Please set the external editor in the UDBScript tab in the preferences.	未设置外部编辑器。请在首选项的 UDBScript 选项卡中设置外部编辑器。
+Abort script	中止脚本
+Script Message	脚本消息
+External script editor:	外部脚本编辑器:
+UDBScript	UDBScript
+Query options	查询选项
+Script	脚本
+Run	运行
+Script description	脚本描述
+Script options	脚本选项
+Script aborted	脚本已中止
+Script error	脚本错误
+UDBScript feature version too low	UDBScript 功能版本过低
+Running script	正在运行脚本
+Running script...	正在运行脚本...
+Script finished	脚本已完成
+Internal stack trace	内部堆栈跟踪
+JavaScript stack trace	JavaScript 堆栈跟踪
+There was an error while executing the script:	执行脚本时出错:
+It is not allowed to mark pivot slope handles as selected.	不允许将轴心倾斜控制柄标记为选中状态。
+It is not allowed to mark selected slope handles as pivot slope handles.	不允许将选中的倾斜控制柄标记为轴心控制柄。
+Cannot place Thing here	无法在此放置物件（Thing）
+Can't test from current position: cursor is not inside sector!	无法从当前位置测试: 光标不在扇区（Sector）内！
+Can't test from current position: no Player 1 start found!	无法从当前位置测试: 未找到玩家 1 的起点！
+Can't test from current position: sector is too low!	无法从当前位置测试: 扇区高度过低！
+Resulting plane is completely vertical, which is impossible. Aborting	生成的平面完全垂直，这是不可能的。正在中止
+Slope handle to modify can't be the same as the pivot handle	要修改的倾斜控制柄不能与轴心控制柄相同
+About	关于
+About Ultimate Doom Builder	关于 Ultimate Doom Builder
+Based on...	基于...
+Copy Version	复制版本号
+Doom Builder is designed and programmed by Pascal vd Heiden.\r\nSeveral game configurations were written by various members of the Doom community. See the website for a complete list of credits.	Doom Builder 由 Pascal vd Heiden 设计和编写。\r\n多个游戏配置由 Doom 社区的多位成员编写。完整鸣谢名单请参见网站。
+Failed to perform a Clipboard operation...	执行剪贴板操作失败...
+GZDoom Builder is designed and programmed by MaxED; GZDoom Builder uses game configurations created by Gez.	GZDoom Builder 由 MaxED 设计和编写；GZDoom Builder 使用由 Gez 创建的游戏配置。
+Official thread at ZDoom.org	ZDoom.org 上的官方主题帖
+Project page at github.com	github.com 上的项目页面
+Ultimate Doom Builder some version	Ultimate Doom Builder 某个版本
+www.codeimp.com	www.codeimp.com
+www.doombuilder.com	www.doombuilder.com
+ Category 	 类别 
+ Options 	 选项 
+1 = Once only	1 = 仅一次
+Category:	类别:
+D = Door	D = 门
+Edit Action	编辑动作（Action）
+Filter:	过滤器（Filter）:
+G = Gunfire	G = 枪击
+Generalized Actions	通用动作（Generalized Actions）
+Option:	选项:
+Predefined Actions	预定义动作（Predefined Actions）
+R = Repeatable	R = 可重复
+S = Switch	S = 开关
+W = Walk over	W = 走过
+Angle	角度
+ Flags 	 标志（Flags） 
+Options	选项
+Go To Coordinates:	转到坐标:
+Change Map	切换地图
+Please select the map to load for editing.	请选择要加载以进行编辑的地图。
+Add Default Sets	添加默认集
+Add new game engine	添加新的游戏引擎
+Add...	添加...
+An example result cannot be displayed, because it requires a map to be loaded.	无法显示示例结果，因为需要先加载地图。
+Application:	应用程序:
+Browse game engine	浏览游戏引擎
+Browse Test Program	浏览测试程序
+Configuration	配置
+Configuration for saving map:	保存地图的配置:
+Configuration for testing:	测试的配置:
+Copy	复制
+Customize parameters	自定义参数
+Edit...	编辑...
+Editing Mode	编辑模式
+Engine:	引擎:
+Error	错误
+Export	导出
+Export successful	导出成功
+Game Configurations	游戏配置（Game Configuration）
+Here you can specify the program settings to use for launching a game engine when testing the map. Press F1 for help with custom parameters.	在此可以指定测试地图时启动游戏引擎所用的程序设置。按 F1 可获取自定义参数的帮助。
+Import	导入
+Import successful	导入成功
+Import unsuccessful	导入失败
+Modes	模式
+Nodebuilder	节点构建器（Nodebuilder）
+Nothing selected	未选择任何内容
+Nothing to import	没有可导入的内容
+Parameters:	参数:
+Paste	粘贴
+Paste Color Presets	粘贴颜色预设
+Paste Resources	粘贴资源
+Paste Test Engines	粘贴测试引擎
+Plugin	插件
+Remove	移除
+Remove currently selected game engine	移除当前选中的游戏引擎
+Result:	结果:
+Skill Level:	技能等级:
+Supported Placeholders:	支持的占位符:
+Testing	测试
+Texture Sets are a way to group textures and flats into categories, so that you can easily find a texture for the specific style or purpose you need by selecting one of the categories.	贴图集（Texture Set）是将贴图和平面贴图（Flat）分组归类的一种方式，只需选择其中一个类别，就能轻松找到符合所需风格或用途的贴图。
+Textures	贴图（Texture）
+These are the resources that will be loaded when this configuration is chosen for editing. Usually you add your IWAD (like DOOM.WAD or DOOM2.WAD) here.	这些是选用此配置进行编辑时要加载的资源（Resource）。通常在此添加你的 IWAD（如 DOOM.WAD 或 DOOM2.WAD）。
+Use Linux paths	使用 Linux 路径
+Use short paths and file names (MSDOS 8.3 format)	使用短路径和文件名（MSDOS 8.3 格式）
+Use the context menu to copy-paste game configurations	使用右键菜单复制粘贴游戏配置
+When opening a map, start in this mode:	打开地图时，以此模式开始:
+Custom Fields	自定义字段
+Description	描述
+Edit Effect	编辑效果
+Effect	效果
+Generalized Effects	通用效果（Generalized Effects）
+Predefined Effects	预定义效果（Predefined Effects）
+Clear	清除
+Errors and Warnings	错误和警告
+Icon	图标
+Show source	显示源
+Show this window when errors occur	发生错误时显示此窗口
+Text	文本
+An application error occurred:	应用程序发生错误:
+Copy to clipboard	复制到剪贴板
+Help fixing this error by creating an Issue at the GitHub Issues Tracker.	在 GitHub 问题跟踪器上创建 Issue 以帮助修复此错误。
+Including the steps required to reproduce this error, a test map/resource\r\nrequred to trigger it and the error report can immensely help fixing it.	附上重现此错误所需的步骤、触发它所需的测试地图/资源（Resource）\r\n以及错误报告，对修复它会大有帮助。
+OH NOES! MOAR ERRORS!	哦不！错误更多了！
+Quit	退出
+Stack trace	堆栈跟踪
+Unable to open URL...	无法打开 URL...
+Unable to show the error report location...	无法显示错误报告的位置...
+ Background 	 背景 
+ Grid 	 网格（Grid） 
+Custom Grid Setup	自定义网格设置
+Grid size in mappixels:	网格大小（地图像素）:
+Offset in mappixels:	偏移（地图像素）:
+Scale in percent:	缩放比例（%）:
+Select Background Image File	选择背景图像文件
+Select File...	选择文件...
+Select Flat...	选择平面贴图（Flat）...
+Select Texture...	选择贴图（Texture）...
+Show background image	显示背景图像
+ Selected Preset 	 选定的预设 
+Activation type	激活类型
+Add	添加
+Delete	删除
+Linedef Color Presets	线段颜色预设
+Linedef color:	线段颜色:
+Teh Error occured!	出错了！
+Unnamed preset	未命名预设
+Use Action	使用动作（Action）
+Use activation	使用激活方式
+Use flags	使用标志（Flags）
+ Action 	 动作（Action） 
+ Flags	 标志（Flags）
+ Identification 	 标识 
+Action:	动作:
+Back side	背面
+Browse Action	浏览动作
+Edit Linedef	编辑线段（Linedef）
+Front side	正面
+Lower	下部
+Middle	中部
+Sector index:	扇区索引:
+Texture offset:	贴图偏移:
+Trigger:	触发方式:
+Upper	上部
+ Activation 	 激活方式 
+ Back 	 背面 
+ Front 	 正面 
+ Properties 	 属性 
+ Settings	 设置
+ Texture offsets 	 贴图偏移 
+ Texture scale	 贴图缩放
+ Texture scale 	 贴图缩放 
+Absolute	绝对值
+Alpha:	透明度:
+Comment	注释
+Custom fields...	自定义字段...
+Lock number:	锁定编号:
+Lower offset:	下部偏移:
+Lower scale:	下部缩放:
+Middle offset:	中部偏移:
+Middle scale:	中部缩放:
+Render style:	渲染样式:
+Reset	重置
+Reset Back Brightness	重置背面亮度
+Reset Front Brightness	重置正面亮度
+Selected action requires activation!	选中的动作需要激活方式！
+Sidedef offset:	侧面偏移:
+Upper offset:	上部偏移:
+Upper scale:	上部缩放:
+--	--
+"Merge Dragged Geometry" mode selected	已选择“合并拖动的几何体”模式
+"Merge Dragged Vertices Only" mode selected	已选择“仅合并拖动的顶点”模式
+"Replace with Dragged Geometry" mode selected	已选择“用拖动的几何体替换”模式
+&About Ultimate Doom Builder...	关于 Ultimate Doom Builder(&A)...
+&Auto Clear Sidedef Textures	自动清除侧面贴图(&A)
+&Brightness Levels	亮度级别(&B)
+&Ceiling Textures	天花板贴图(&C)
+&Check for updates...	检查更新(&C)...
+&Close Map	关闭地图(&C)
+&Copy	复制(&C)
+&Create From Selection...	从选择创建(&C)...
+&Decrease Grid Size	减小网格大小(&D)
+&Edit	编辑(&E)
+&Errors and Warnings...	错误和警告(&E)...
+&Expanded Info Panel	扩展信息面板(&E)
+&File	文件(&F)
+&Floor Textures	地板贴图(&F)
+&Game Configurations...	游戏配置(&G)...
+&GitHub issues tracker	GitHub 问题跟踪器(&G)
+&Grid and Backdrop Setup...	网格与背景设置(&G)...
+&Help	帮助(&H)
+&Increase Grid Size	增大网格大小(&I)
+&Insert Prefab from File...	从文件插入预制件(&I)...
+&Mode	模式(&M)
+&New Map	新建地图(&N)
+&Open Map...	打开地图(&O)...
+&Paste	粘贴(&P)
+&Prefabs	预制件(&P)
+&Redo	重做(&R)
+&Reload Resources	重新加载资源(&R)
+&Render Grid	渲染网格(&R)
+&Save Map	保存地图(&S)
+&Script Editor...	脚本编辑器(&S)...
+&Snap to Grid	吸附到网格(&S)
+&Test Map	测试地图(&T)
+&Tools	工具(&T)
+&Undo	撤销(&U)
+&View	视图(&V)
+&Wireframe	线框(&W)
+&Zoom	缩放(&Z)
+(show all)	（显示全部）
+,	,
+0.125 mp	0.125 mp
+0.25 mp	0.25 mp
+0.5 mp	0.5 mp
+1 mp	1 mp
+10%	10%
+1024 mp	1024 mp
+128 mp	128 mp
+16 mp	16 mp
+200%	200%
+25%	25%
+256 mp	256 mp
+32 mp	32 mp
+4 mp	4 mp
+400%	400%
+5%	5%
+50%	50%
+512 mp	512 mp
+64 mp	64 mp
+8 mp	8 mp
+800%	800%
+About this &Editing Mode	关于此编辑模式(&E)
+Add Selection to Group	将选择添加到组
+Additional parameters	附加参数
+Align Grid To Selected Linedef	将网格对齐到选中的线段
+Always show models	始终显示模型
+Always Show Vertices	始终显示顶点
+Auto Clear Sidedef Textures	自动清除侧面贴图
+Cannot open multiple files at once!	不能一次打开多个文件！
+Classic rendering (Visual mode)	经典渲染（视觉模式）
+Clear Group	清除组
+Collapsed Descriptions	折叠的描述
+Configure &Linedef Colors...	配置线段颜色(&L)...
+Configure &Things Filters...	配置物件过滤器(&T)...
+Configure Linedef Colors	配置线段颜色
+Configure Things Filters	配置物件过滤器
+Copy Selection	复制选择内容
+Cu&t	剪切(&T)
+Current Game Configuration	当前游戏配置
+Current X, Y coordinates on map.\r\nClick to set specific coordinates.	地图上的当前 X, Y 坐标。\r\n点击可设置具体坐标。
+Customize...	自定义...
+Cut Selection	剪切选择内容
+Don't show dynamic lights	不显示动态光源
+Don't show models	不显示模型
+Dynamic Grid Size	动态网格大小
+Dynamic light mode	动态光源模式
+Dynamic light rendering mode	动态光源渲染模式
+E&xit	退出(&X)
+Editing Modes	编辑模式
+Exactly one linedef must be selected	必须恰好选中一条线段（Linedef）
+Exactly one vertex must be selected	必须恰好选中一个顶点（Vertex）
+Failed to save screenshot...	保存截图失败...
+Fit to Screen	适应屏幕
+Fixed Things Scale	固定物件缩放
+Full Brightness	全亮度
+Go To Coordinates...	转到坐标...
+Grid	网格（Grid）
+Grid size	网格大小
+Hi. I missed you.	嗨，我想你了。
+Hold Shift to toggle several items at once	按住 Shift 可一次切换多个项目
+Initializing user interface...	正在初始化用户界面...
+Insert &Previous Prefab	插入上一个预制件(&P)
+Insert Prefab from File	从文件插入预制件
+Insert Previous Prefab	插入上一个预制件
+Keyboard Shortcuts Reference	键盘快捷键参考
+Map &Options...	地图选项(&O)...
+Merge Dragged Geometry	合并拖动的几何体
+Merge Dragged Vertices Only	仅合并拖动的顶点
+Model rendering mode	模型渲染模式
+Models rendering mode: ANIMATED	模型渲染模式: ANIMATED
+No active presets	无启用的预设
+No presets	无预设
+No recently opened files	没有最近打开的文件
+Open Map in Current &WAD...	在当前 WAD 中打开地图(&W)...
+Open Script Editor	打开脚本编辑器
+Paste Selection	粘贴选择内容
+Paste Special...	选择性粘贴...
+Preferences...	首选项...
+Program Configuration Folder	程序配置文件夹
+Redo	重做
+Reference &Manual	参考手册(&M)
+Reload GLDEFS	重新加载 GLDEFS
+Reload MODELDEF/VOXELDEF	重新加载 MODELDEF/VOXELDEF
+Render fog (Visual mode)	渲染雾（视觉模式）
+Render Grid	渲染网格
+Render sky (Visual mode)	渲染天空（视觉模式）
+Replace with Dragged Geometry	用拖拽的几何体替换
+Reset Grid Transform	重置网格变换
+Save Map	保存地图
+Save Map &As...	地图另存为(&A)...
+Save Map &Into...	将地图保存到(&I)...
+Save Screenshot	保存截图
+Save Screenshot (active window)	保存截图（活动窗口）
+Select Group	选择组
+Set Grid Origin To Selected Vertex	将网格原点设为选中的顶点
+Show animated dynamic lights	显示动画动态光源
+Show Comments	显示注释
+Show dynamic lights	显示动态光源
+Show Editable Vertices (Visual mode)	显示可编辑顶点（视觉模式）
+Show Event Lines	显示事件线
+Show models for current Things Filter only	仅显示当前物件过滤器（Things Filter）的模型
+Show models for selected Things only	仅显示选中物件（Thing）的模型
+Snap Selection to Grid	将选择吸附到网格
+Snap to &Geometry	吸附到几何体(&G)
+Snap to Geometry	吸附到几何体
+Snap to Grid	吸附到网格
+Split &Joined Sectors when Drawing Lines	绘制线段时拆分相连扇区(&J)
+Split Joined Sectors when Drawing Lines	绘制线段时拆分相连扇区
+Test Map	测试地图
+Undo	撤销
+View Brightness Levels	查看亮度（Brightness）级别
+View Ceiling Textures	查看天花板贴图
+View Floor Textures	查看地板贴图
+View Thing Types...	查看物件类型...
+View Used Tags...	查看已用标签（Tag）...
+View Wireframe	查看线框
+ZDoom (Doom in Hexen Format)	ZDoom（Hexen 格式的 Doom）
+Zoom	缩放
+Zoom level	缩放级别
+ Resources 	 资源（Resource） 
+ Settings 	 设置 
+Edit pre and post commands	编辑前置和后置命令
+example: 	示例: 
+Game Configuration:	游戏配置（Game Configuration）:
+Level name:	关卡名称:
+MAP01	MAP01
+Script Type:	脚本类型:
+Strictly load patches between P_START and P_END only for this file	仅对此文件严格加载 P_START 与 P_END 之间的补丁
+Use long texture names	使用长贴图名称
+Map name	地图名称
+Open Map Options	打开地图选项
+With the above selected configuration, the maps shown below were found \r\nin the chosen WAD file. Please select the map to load for editing.	使用上面选定的配置，在所选 WAD 文件中找到了下面列出的地图。\r\n请选择要加载以进行编辑的地图。
+Paste Special	选择性粘贴
+Cancel	取消
+OK	确定
+Post commands	后置命令
+Pre and post commands	前置和后置命令
+Pre commands	前置命令
+Reload resources commands	重新加载资源命令
+Test map commands	测试地图命令
+The commands will be automatically stored in a temporary CMD file and executed as such.	这些命令将自动存入临时 CMD 文件并按此方式执行。
+The commands will be automatically stored in a temporary CMD file and executed as such. %1 is the full path to the temporary map file.	这些命令将自动存入临时 CMD 文件并按此方式执行。%1 是临时地图文件的完整路径。
+ Action control 	 动作控制 
+ Appearance 	 外观 
+ Colors 	 颜色 
+ Font 	 字体 
+ Formatting 	 格式 
+ Preview 	 预览 
+ Rendering 	 渲染 
+ Screenshots Folder 	 截图文件夹 
+ Side Panels 	 侧面板 
+ Text Labels 	 文本标签 
+ Toolbar Buttons 	 工具栏按钮 
+ Visual Modes 	 视觉模式（Visual Modes） 
+(select an action from the list)	（从列表中选择一个动作）
++ 0 y	+ 0 y
+0%	0%
+100%	100%
+100% (default)	100%（默认）
+16x	16x
+200 mp	200 mp
+30%	30%
+3D Floors:	3D 地板（3D Floor）:
+5 minutes	5 分钟
+50掳	50°
+64 Block grid:	64 块网格:
+8 samples	8 个采样
+Action	动作（Action）
+Allman-style bracing	Allman 风格大括号
+Always show selection in visual modes	在视觉模式中始终显示选择
+Animated selection in visual modes	在视觉模式中显示动画选择
+Anisotropic filtering:	各向异性过滤:
+Appearance	外观
+Auto hide	自动隐藏
+Auto indent	自动缩进
+Auto show auto-completion list	自动显示自动完成列表
+Auto-close brackets	自动闭合括号
+Automatically launch engine when test parameters change	测试参数变化时自动启动引擎
+Autosave	自动保存
+Autosave interval:	自动保存间隔:
+Auto-scroll speed:	自动滚动速度:
+Background:	背景:
+Bilinear filtering in classic modes	经典模式中的双线性过滤
+Bilinear filtering in visual modes	视觉模式中的双线性过滤
+Black background in image browser	图像浏览器中使用黑色背景
+Bold	粗体
+Browse Screenshots Folder	浏览截图文件夹
+Check for updates at startup	启动时检查更新
+Comments:	注释:
+Common lines:	常用线段:
+Constants:	常量:
+Controls	控制
+Controls how many dynamic lights could be \r\nrendered simultaneously in Visual mode 	控制视觉模式中可同时\r\n渲染的动态光源数量 
+Controls how many recent files \r\nare shown in the "File" menu.	控制“文件”菜单中\r\n显示多少个最近使用的文件。
+Custom grid:	自定义网格:
+Cut / Copy / Paste	剪切 / 复制 / 粘贴
+Default view:	默认视图:
+Duration (seconds):	持续时间（秒）:
+Dynamic lights count:	动态光源数量:
+Edge anti-aliasing:	边缘抗锯齿:
+Edit windows remember selected tabs	编辑窗口记住选中的选项卡
+Enable Autosave	启用自动保存
+Enable code folding	启用代码折叠
+Enable toasts	启用通知弹窗
+Event lines:	事件线:
+Field of view:	视野:
+Flat shade vertices	顶点使用平面着色
+Fold BG:	折叠背景:
+Fold:	折叠:
+Font:	字体:
+Functions:	函数:
+Guidelines:	参考线:
+Hidden things transparency:	隐藏物件透明度:
+High quality rendering	高质量渲染
+Highlight:	高亮（Highlight）:
+If enabled, selected surfaces will be highlighted in Visual mode\r\neven if "Show highlight" mode is disabled \r\n(Doom Builder 2 behaviour).	启用后，即使在“显示高亮”模式已禁用时，选中的表面（Surface）\r\n也会在视觉模式中被高亮\r\n（Doom Builder 2 的行为）。
+Includes:	包含:
+Indications:	指示:
+Interface	界面
+Invert mouse Y axis	反转鼠标 Y 轴
+It is not recommended to disable autosaves!	不建议禁用自动保存！
+Key	按键
+Key combination also used by these actions:	以下动作也使用此快捷键组合:
+Keywords:	关键字:
+Line numbers:	行号:
+Mark 3D floors in classic modes	在经典模式中标记 3D 地板
+Matching brace:	匹配的括号:
+Matching word:	匹配的单词:
+Max. recent files:	最近文件最大数量:
+Mismatching brace:	不匹配的括号:
+Model wireframe:	模型线框:
+Mouse speed:	鼠标速度:
+Move speed:	移动速度:
+New / Open / Save	新建 / 打开 / 保存
+None	无
+Number of autosaves:	自动保存数量:
+Numbers:	数字:
+Off	关闭
+Or select a special input control here:	或在此选择特殊输入控件:
+Parallelized linedef plotting	并行绘制线段
+Parallelized vertex plotting	并行绘制顶点
+Parallelizes linedef plotting over all logical CPU cores.	在所有逻辑 CPU 核心上并行绘制线段。
+Parallelizes vertex plotting over all logical CPU cores. Can result in vertices close to each other flickering when panning the view	在所有逻辑 CPU 核心上并行绘制顶点。平移视图时，彼此靠近的顶点可能会闪烁
+Passable lines transparency:	可通行线段透明度:
+Pasting 	粘贴 
+Plain text:	纯文本:
+Position:	位置:
+Prefabs	预制件（Prefabs）
+Preferences	首选项
+Preset:	预设:
+Press the desired key combination here:	在此按下所需的快捷键组合:
+Recovery	恢复
+Rendering	渲染
+Script Editor	脚本编辑器
+Script Editor always on top of main window	脚本编辑器始终位于主窗口顶层
+Select texture group when opening image browsers	打开图像浏览器时选择贴图组
+Selection BG:	选择背景:
+Selection:	选择（Selection）:
+Sets the size of vertex handles\r\nin 2D modes	设置 2D 模式中\r\n顶点手柄的大小
+Sets the size of vertex handles\r\nin 3D mode	设置 3D 模式中\r\n顶点手柄的大小
+Sets Things transparency in all classic\r\nmodes except Things mode	设置除物件（Thing）模式外所有经典模式中\r\n物件的透明度
+Sets transparency of things hidden \r\nby Things Filter in Things mode	设置物件模式中被物件过滤器\r\n隐藏的物件的透明度
+Show FPS in Visual Mode	在视觉模式中显示 FPS
+Show line numbers	显示行号
+Show sizes below flat/texture names	在平面贴图（Flat）/贴图（Texture）名称下方显示尺寸
+Show texture and flat sizes in browsers	在浏览器中显示贴图和平面贴图的尺寸
+Size:	尺寸:
+Snap / Merge	吸附 / 合并
+Stretched view in visual modes	视觉模式中的拉伸视图
+Strings:	字符串:
+Synchronize camera position between 2D and 3D modes	在 2D 和 3D 模式之间同步摄像机位置
+Tab width:	制表符宽度:
+Textures and flats brightness:	贴图和平面贴图亮度:
+The selected action uses Shift, Alt and Control to modify its behavior. These modifiers can not be used in a key combination for this action.	所选动作使用 Shift、Alt 和 Control 来修改其行为。此动作的快捷键组合中不能使用这些修饰键。
+These are the default options for pasting geometry. You can also choose these options when you use the Paste Special function. These options also apply when inserting prefabs.	这些是粘贴几何体的默认选项。你也可以在使用“选择性粘贴”功能时选择这些选项。插入预制件（Prefabs）时同样会应用这些选项。
+Things Filter / Linedef Colors	物件过滤器 / 线段颜色
+Things transparency (other modes):	物件透明度（其他模式）:
+Things transparency (Things mode):	物件透明度（物件模式）:
+Toast position	通知弹窗位置
+Toasts	通知弹窗
+Undo / Redo	撤销 / 重做
+Use Default Screenshots Folder	使用默认截图文件夹
+Use tabs	使用选项卡
+Vertex scale (2D):	顶点缩放（2D）:
+Vertex scale (3D):	顶点缩放（3D）:
+Vertices:	顶点（Vertex）:
+View distance:	可视距离:
+View Modes	查看模式
+When enabled, linedefs of sectors with 3d floors will be marked using "3D Floors" color.	启用后，带有 3D 地板的扇区的线段将使用“3D 地板”颜色标记。
+When enabled, the editor will automatically\r\ninsert closing bracket if opening bracket was typed.	启用后，如果输入了左括号，编辑器将自动\r\n插入右括号。
+When enabled, the group current texture belongs to\r\nwill be selected when opening image browsers.\r\nWhen disabled, "All" texture group will be selected.	启用后，打开图像浏览器时\r\n将选中当前贴图所属的贴图组。\r\n禁用后，将选中“全部”贴图组。
+When enabled, vertices in classic mode will be drawn with flat shading instead of a raised border.	启用后，经典模式中的顶点将以平面着色绘制，而不是凸起的边框。
+When enabled, visual mode will emulate \r\n(G)ZDoom's way of rendering by increasing\r\nvertical scale of the world geometry and \r\nsprites by 15%.\r\n	启用后，视觉模式将模拟\r\n(G)ZDoom 的渲染方式，\r\n将世界几何体和精灵的\r\n垂直比例增加 15%。\r\n
+Whitespace:	空白字符:
+Zoom factor:	缩放系数:
+Alternatively, you may use the Eternity PKE directory structure.	或者，你也可以使用 Eternity 的 PKE 目录结构。
+Browse PK3, PKE, or PK7 File	浏览 PK3、PKE 或 PK7 文件
+Browse WAD File	浏览 WAD 文件
+Directory Resource:	目录资源:
+Exclude this resource from testing parameters	从测试参数中排除此资源
+From Directory	来自目录
+From PK3/PKE/PK7	来自 PK3/PKE/PK7
+From WAD File	来自 WAD 文件
+Load images in directory root as flats	将目录根部的图像作为平面贴图加载
+Load images in directory root as textures	将目录根部的图像作为贴图加载
+PK3 and PK7 archive files are expected to use the ZDoom archive directory structure.	PK3 和 PK7 归档文件应使用 ZDoom 的归档目录结构。
+PK3, PKE, or PK7 File Resource:	PK3、PKE 或 PK7 文件资源:
+PKE archive files are expected to use the Eternity archive directory structure.	PKE 归档文件应使用 Eternity 的归档目录结构。
+Please wait, checking the archive...	请稍候，正在检查归档文件...
+Resource Options	资源选项
+Select Resource Folder	选择资源文件夹
+Strictly load patches between P_START and P_END only	仅严格加载 P_START 与 P_END 之间的补丁
+The directory may use the ZDoom PK3 directory structure, or you can choose to use the options above to load texture or flat images from the directory root.	该目录可以使用 ZDoom 的 PK3 目录结构，或者你可以使用上面的选项从目录根部加载贴图或平面贴图图像。
+WAD File Resource:	WAD 文件资源:
+Cancels the running command, or cancels loading the resources	取消正在运行的命令，或取消加载资源
+Continue	继续
+Continues loading the resources	继续加载资源
+Run again	再次运行
+Running external command	正在运行外部命令
+Runs the command again	再次运行该命令
+Find	查找
+Find and Replace	查找和替换
+Find Next	查找下一个
+Find Previous	查找上一个
+Find Usages	查找用法
+Find what:	查找内容:
+Look in:	查找范围:
+Match case	区分大小写
+Match whole word	匹配整个单词
+Replace	替换
+Replace All	全部替换
+Replace with:	替换为:
+Go To Line	转到行
+Line number:	行号:
+Brightness:	亮度（Brightness）:
+Ceiling	天花板（Ceiling）
+Ceiling height:	天花板高度:
+Changes floor and ceiling height by given value.\r\nUse "++" to raise by sector height.\r\nUse "--" to lower by sector height.	按给定值改变地板和天花板的高度。\r\n使用“++”按扇区高度升高。\r\n使用“--”按扇区高度降低。
+Edit Sector	编辑扇区
+Effect and identification	效果与标识
+Floor	地板（Floor）
+Floor and ceiling 	地板和天花板 
+Floor height:	地板高度:
+Sector height:	扇区高度:
+Special:	特殊:
+ Ceiling 	 天花板（Ceiling） 
+ Ceiling portal 	 天花板传送门 
+ Ceiling slope 	 天花板倾斜（Slope） 
+ Effects 	 效果 
+ Floor 	 地板（Floor） 
+ Floor portal 	 地板传送门 
+ Floor slope 	 地板倾斜（Slope） 
+ Heights 	 高度 
+ Sector damage 	 扇区伤害 
+Amount of damage inflicted by this sector.\r\nIf this is 0, all other damage properties will be ignored.\r\nSetting this to a negative value will create a healing sector.	此扇区造成的伤害量。\r\n如果为 0，将忽略所有其他伤害属性。\r\n设为负值将创建治疗扇区。
+Amount:	数量:
+Ceiling glow	天花板发光
+Ceiling:	天花板:
+Colors	颜色
+Default	默认
+Desaturation:	去饱和度:
+Doom 64-like sector colors	类似 Doom 64 的扇区颜色
+Fade:	淡化:
+Floor glow	地板发光
+Floor:	地板:
+Fog density:	雾浓度:
+Global sector colors	全局扇区颜色
+Glow color:	发光颜色:
+Glow height:	发光高度:
+Gravity:	重力:
+Interval in tics between damage application.	施加伤害之间的间隔（以 tic 为单位）。
+Interval:	间隔:
+Leakiness:	泄漏率:
+Light:	光照:
+Lower wall:	下部墙面:
+Non-zero glow height required\r\nfor the glow to be shown ingame!	发光高度必须非零，\r\n发光才会在游戏中显示！
+Probability of leaking through radiation suit\r\n(0 = never, 256 = always)	穿过辐射防护服的泄漏概率\r\n（0 = 从不，256 = 总是）
+Reflectivity:	反射率:
+Rotation:	旋转:
+Slopes / Portals	倾斜（Slope） / 传送门
+Sound sequence:	声音序列:
+Surfaces	表面（Surface）
+Terrain:	地形:
+Texture offsets:	贴图偏移:
+Texture scale:	贴图缩放:
+Things:	物件:
+Type:	类型:
+Upper wall:	上部墙面:
+Use linedef angles	使用线段角度
+Linedefs	线段（Linedef）
+Sectors	扇区（Sector）
+Tag	标签（Tag）
+Tag statistics	标签统计
+Things	物件（Thing）
+Edit Text	编辑文本
+Browse Textures	浏览贴图
+ Filters 	 过滤器 
+ Results 	 结果 
+ Texture Set Name 	 贴图集名称 
+* = matches zero or more characters	* = 匹配零个或多个字符
+? = matches exactly one character	? = 匹配恰好一个字符
+Add Texture	添加贴图
+Add the names of the textures in this set below. You can use the following wildcards:	在下面添加此贴图集中贴图的名称。你可以使用以下通配符:
+Edit Texture Set	编辑贴图集
+Filter	过滤器（Filter）
+Remove Selection	移除选择
+Show Matches	显示匹配项
+Show Not Matching	显示不匹配项
+ Angle	 角度
+ Position 	 位置 
+ Thing 	 物件 
+Absolute height	绝对高度
+Edit Thing	编辑物件
+Height:	高度:
+Random angle	随机角度
+Select categories or several thing types \r\nto randomly assign them to selection	选择类别或多个物件类型，\r\n以将它们随机分配给选择
+X:	X:
+Y:	Y:
+Z:	Z:
+ Behaviour 	 行为 
+ Pitch 	 俯仰 
+ Position	 位置
+ Roll 	 翻滚 
+ Rotation 	 旋转 
+Action / Tag / Misc.	动作 / 标签 / 杂项
+Angle:	角度:
+Color:	颜色:
+Conversation ID:	对话 ID:
+Float bob phase:	浮动相位:
+Health:	生命值:
+Pitch:	俯仰:
+Positive values are multiplied with the class's property.\r\nNegative values are used as their absolute.\r\nDefault is 1.	正值会与该类的属性相乘。\r\n负值则使用其绝对值。\r\n默认值为 1。
+Positive values are multiplied with the class's property.\r\nNegative values are used as their absolute.\r\nDefault is 1.0.	正值会与该类的属性相乘。\r\n负值则使用其绝对值。\r\n默认值为 1.0。
+Random	随机
+Roll:	翻滚:
+Scale:	缩放:
+Score:	分数:
+Select categories or several thing types to randomly assign them to selection	选择类别或多个物件类型，以将它们随机分配给选择
+Show user-added custom fields only	仅显示用户添加的自定义字段
+Choose Thing Type	选择物件类型
+ Selected Filter 	 选中的过滤器 
+Argument 1:	参数 1:
+Argument 2:	参数 2:
+Argument 3:	参数 3:
+Argument 4:	参数 4:
+Argument 5:	参数 5:
+Custom	自定义
+Delete Selected	删除选中项
+Filter by action:	按动作过滤:
+Filter by angle:	按角度过滤:
+Filter by arguments:	按参数过滤:
+Filter by category:	按类别过滤:
+Filter by settings:	按设置过滤:
+Filter by tag:	按标签过滤:
+Filter by type:	按类型过滤:
+Filter by Z height:	按 Z 高度过滤:
+Flags	标志（Flags）
+Invert filter	反转过滤器
+Mode:	模式:
+Name:	名称:
+New Filter	新建过滤器
+Note:  Clear the input fields which you do not want to use in this filter.	注意:  清除你不希望在此过滤器中使用的输入字段。
+Properties	属性
+Things Filters	物件过滤器
+Unnamed filter	未命名过滤器
+Class Name	类名
+Close	关闭
+Count	计数
+Hide Unused Things	隐藏未使用的物件
+Thing statistics	物件统计
+Title	标题
+Type	类型
+Ignore this update	忽略此更新
+Newsflash (R[rev])!	快讯（R[rev]）！
+Notice: the editor will be closed and restarted\r\nduring the update process.	注意: 编辑器将在更新过程中关闭并\r\n重新启动。
+Ultimate Doom Builder R[rev] is available. Changes since current revision:	Ultimate Doom Builder R[rev] 已可用。当前修订版本以来的更改:
+Update	更新
+Absolute ceiling height:	绝对天花板高度:
+Absolute floor height:	绝对地板高度:
+Edit Vertex	编辑顶点
+Unused	未使用
+There are {0} offset{1} pointing into the header or offset list, which indicates problems with the blockmap, for example exceeding the maximum size	有 {0} 个偏移{1}指向文件头或偏移列表，这表明块图（Blockmap）存在问题，例如超出了最大尺寸
+ sidedef	 个侧面（Sidedef）
+ sidedefs	 个侧面（Sidedef）
+Apply directional shading to 	将方向性阴影应用到 
+ sector	 扇区（Sector）
+Don't change lower texture	不更改下部贴图（Texture）
+Don't change upper texture	不更改上部贴图（Texture）
+Lower only	仅下部
+Pick lower texture	选择下部贴图（Texture）
+Pick upper texture	选择上部贴图（Texture）
+Raise and lower	升高和降低
+Raise only	仅升高
+Randomize 	随机化 
+Use ceiling texture	使用天花板贴图（Texture）
+Use default texture	使用默认贴图（Texture）
+Use floor texture	使用地板贴图（Texture）
+ thing	 个物件（Thing）
+ linedef	 条线段（Linedef）
+ vertex	 个顶点（Vertex）
+Wavefront obj files|*.obj	Wavefront obj 文件|*.obj
+Adjust ceiling height	调整天花板高度
+Adjust floor and ceiling heights	调整地板和天花板高度
+Adjust floor height	调整地板高度
+Don't adjust height	不调整高度
+Allows to adjust floor/ceiling heights of the selection\r\nbased on floor/ceiling heights difference between \r\nsectors outside selected sectors.\r\n\r\nApplied only when selected sectors were surrounded \r\nby sectors with the same target height when the mode \r\nwas enabled, and are surrounded by sectors with the \r\nsame target height when the mode is applied.	允许调整所选内容的地板/天花板高度，\r\n依据所选扇区（Sector）之外的扇区之间的\r\n地板/天花板高度差。\r\n\r\n仅当启用该模式时，所选扇区周围是被具有相同\r\n目标高度的扇区包围，并且在应用该模式时周围\r\n仍是被具有相同目标高度的扇区包围时，\r\n才会应用。
+ hidden	 隐藏
+ results	 个结果
+ selected	 已选中
+Error Checker '	错误检查器 '
+Failed to create class instance "	无法创建类实例 "
+Map Analysis [	地图分析 [
+You must stop the analysis before you can make changes to your map!	必须先停止分析，才能对地图进行更改！
+ items found and replaced.	 个项目已找到并替换。
+ items found.	 个项目。
+Replace 	替换 
+ index	 索引
+Change 	更改 
+{0} TGA images and {0} material2 decls will be created.	将创建 {0} 个 TGA 图像和 {0} 个 material2 声明。
+Map names must be all lowercase, numbers and underscores only. First char must be letter.	地图名称只能包含小写字母、数字和下划线。首字符必须是字母。
+16 bit	16 位
+24 bit	24 位
+32 bit	32 位
+Export canceled.	导出已取消。
+Export successful.	导出成功。
+Exporting failed. The image is likely too big for the current settings. Try a lower color depth or file format	导出失败。当前设置下图像可能过大。请尝试更低的色深或文件格式
+Exporting failed. There's likely not enough consecutive free memory to create the image. Try a lower color depth or file format	导出失败。可能没有足够的连续可用内存来创建图像。请尝试更低的色深或文件格式
+Please select a door texture!	请选择一个门贴图（Texture）！
+Clear all texture from 	清除以下对象的全部贴图（Texture） 
+Clear ceiling texture from 	清除以下对象的天花板贴图（Texture） 
+Clear floor texture from 	清除以下对象的地板贴图（Texture） 
+Clear lower texture from 	清除以下对象的下部贴图（Texture） 
+Clear middle texture from 	清除以下对象的中部贴图（Texture） 
+Clear upper texture from 	清除以下对象的上部贴图（Texture） 
+Fill all textures for 	为以下对象填充全部贴图（Texture） 
+Fill lower texture for 	为以下对象填充下部贴图（Texture） 
+Fill middle texture for 	为以下对象填充中部贴图（Texture） 
+Fill upper texture for 	为以下对象填充上部贴图（Texture） 
+ to Wavefront .obj	 到 Wavefront .obj
+Actor name can not be empty	Actor 名称不能为空
+Actor name can not be empty!	Actor 名称不能为空！
+Actor name can not contain whitespace	Actor 名称不能包含空白字符
+Actor name can not contain whitespace!	Actor 名称不能包含空白字符！
+Actor name can not start with a digit	Actor 名称不能以数字开头
+Actor name can not start with a number!	Actor 名称不能以数字开头！
+Actor path does not exist!	Actor 路径不存在！
+Base path does not exist!	基础路径不存在！
+Model path does not exist!	模型（Model）路径不存在！
+Sprite name must be exactly 4 alphanumeric characters long!	精灵名称必须正好是 4 个字母数字字符！
+whole map	整张地图
+Ceiling Brightness	天花板亮度（Brightness）
+Don't lock texture offsets of 3D floors when dragging tagged sectors	拖动带标签（Tag）的扇区时，不锁定 3D 地板（3D Floor）的贴图偏移（Offset）
+Don't lock texture offsets when dragging sectors	拖动扇区（Sector）时不锁定贴图偏移（Offset）
+Don't show sector tags and effects	不显示扇区标签（Tag）和效果
+Don't show selection numbers	不显示选择（Selection）编号
+Floor Brightness	地板亮度（Brightness）
+Light and Fade Colors	光照与淡出颜色
+Light Color	光照颜色
+Light radii are 	光照半径为 
+Sector Brightness	扇区亮度（Brightness）
+Select map elements inside of selection rectangle	选择矩形框内的地图元素
+Sound radii are 	声音半径为 
+When enabled, things dragging will be synchronized to sector dragging.\r\nRegular, Paint and Rectangular selection will also select things \r\n(holding Alt while selecting inverts this behaviour).\r\nDeleting sectors will also delete selected things.	启用后，拖动物件（Thing）将与拖动扇区（Sector）同步。\r\n常规、喷涂和矩形选择也将选择物件\r\n（选择时按住 Alt 可反转此行为）。\r\n删除扇区时也会删除选中的物件。
+Action + full arguments	动作（Action）+ 完整参数（Args）
+Action + short arguments	动作（Action）+ 简短参数（Args）
+Action only	仅动作（Action）
+Change both floor and ceiling height	同时更改地板和天花板高度
+Change the ceiling height	更改天花板高度
+Change the floor height	更改地板高度
+Change the texture offset	更改贴图偏移（Offset）
+Do nothing	不执行任何操作
+Don't scale	不缩放
+Duplicate texture coordinates	复制贴图坐标
+Forward + Reverse	正向 + 反向
+Forward only	仅正向
+Interpolate texture coordinates	插值贴图坐标
+Never show	从不显示
+Reset X and Y coordinates	重置 X 和 Y 坐标
+Reset X coordinate, duplicate Y coordinate	重置 X 坐标，复制 Y 坐标
+Reverse only	仅反向
+Use a scale of 1 as base	以缩放 1 为基准
+Use current scale as base	以当前缩放为基准
+This action doesn't support current editing mode...	此动作（Action）不支持当前编辑模式...
+This action requires selection...	此动作（Action）需要选择...
+Where is the selection?	选择（Selection）在哪里？
+ comments	 条注释
+Add 	添加 
+Add comment	添加注释
+Unknown object given to zoom in on.	传入了无法缩放到其上的未知对象。
+Generalized (	泛化 (
+Unknown ArgZeroMode	未知的 ArgZeroMode
+Hold Ctrl to change value by 	按住 Ctrl 按以下幅度更改数值 
+Hold Shift to change value by 	按住 Shift 按以下幅度更改数值 
+   (click to add custom field)	   (点击添加自定义字段)
+Fields must have unique names!	字段名称必须唯一！
+To look around, look around!\n\nPress any key to Jason!\n\nAwesome stuff can be found in the manual!\n\nPress Use to Use Press!\n\nPlace things to gain experience!\n\nYou can expand your kingdom by adding new sectors!\n\nBeware of exceptions, they can do MASSIVE sanity damage!\n\nPress Space to SPAAACEEEEE!!!\n\nCheck our Exception Killer Day One DLC!\n\nGZDB is very easy to use: just learn more than 300 awesome hot keys and you are ready to go!\n\nTo find the Broom Closet Ending, create the broom closet!\n\nPress F1 to view Achievements!\n	环顾四周，环顾四周！\n\n按任意键向 Jason 致敬！\n\n手册里有超棒的内容！\n\n按使用键来「使用」按键！\n\n放置物件（Thing）以获得经验！\n\n你可以通过添加新扇区（Sector）来扩张你的王国！\n\n当心异常，它们会造成巨量的理智伤害！\n\n按空格键来 SSSPPPPPAAAACCEEEE！！！\n\n别忘了我们的 Exception Killer 首日 DLC！\n\nGZDB 非常易于使用: 只要学会 300 多个超棒的热键，就能上路了！\n\n想找到扫帚柜结局，就造一个扫帚柜！\n\n按 F1 查看成就！\n
+Unsupported ItemType	不支持的 ItemType
+ (used first):	 (首先使用的):
+Available 	可用 
+By selection type	按选择（Selection）类型
+Unknown ImageBrowserItemType	未知的 ImageBrowserItemType
+Used textures	已使用的贴图（Texture）
+All images:	所有图像:
+ (abs.)	 (绝对路径)
+ Back Sidedef 	 背面侧面（Sidedef） 
+ Front Sidedef 	 正面侧面（Sidedef） 
+Back light:	背面光照:
+Back: 	背面: 
+Front light:	正面光照:
+Front: 	正面: 
+Unknown script 	未知脚本 
+Upper & Lower	上部 & 下部
+Use SelectedNodes instead of SelectedNode.	使用 SelectedNodes 而非 SelectedNode。
+Use ++ or -- prefixes to change by given value.	使用 ++ 或 -- 前缀按给定值更改。
+Use +++ or --- prefixes to incrementally change by given value.	使用 +++ 或 --- 前缀按给定值增量更改。
+You can use expressions. Example: (128+64)*2.5	可以使用表达式。示例: (128+64)*2.5
+ Copied to Clipboard	 已复制到剪贴板
+ Pasted	 已粘贴
+ Replaced	 已替换
+ Resource	 资源（Resource）
+Add Resource	添加资源（Resource）
+Archive check: RequiredArchives = {0}	归档检查: RequiredArchives = {0}
+Resource check cancelled for: {0}	已取消以下资源的检查: {0}
+TabType mismatch!	TabType 不匹配！
+ specified in script configuration!	 在脚本配置中指定！
+Unknown lexer 	未知词法分析器 
+ errors while compiling "	 个错误，编译 "
+" compiled without errors.	" 编译无错误。
+" script type. Using plain text configuration.	 脚本类型。将使用纯文本配置。
+|All files|*.*	|所有文件|*.*
+Compiling script "	正在编译脚本 "
+Do you want to save changes to 	是否要将更改保存到 
+Script "	脚本 "
+Unknown FindReplaceSearchMode!	未知的 FindReplaceSearchMode！
+Unknown ScriptDocumentTab type	未知的 ScriptDocumentTab 类型
+Unsupported Script Status Type!	不支持的脚本状态类型！
+You must save your script before you can compile it. Do you want to save your script now?	必须先保存脚本才能编译。是否立即保存脚本？
+Print HudMessageBold Thing_ChangeTID	Print HudMessageBold Thing_ChangeTID
+script enter int	script enter int
+" for reading. Make sure the path exists and that the file is not in use by another application.	" 进行读取。请确保路径存在，且文件未被其他应用程序占用。
+" for writing. Make sure the path exists and that the file is not in use by another application.	" 进行写入。请确保路径存在，且文件未被其他应用程序占用。
+Cannot open file "	无法打开文件 "
+Unable to open file "	无法打开文件 "
+". This lump is not defined in the current game configuration.	"。该数据块（Lump）未在当前游戏配置（Game Configuration）中定义。
+Unable to compile lump "	无法编译数据块（Lump）"
+ resource "	 资源（Resource）"
+" from "	" 来自 "
+Failed to load 	加载失败 
+Target lump was modified by another application. Do you still want to replace it?	目标数据块（Lump）已被其他应用程序修改。是否仍要替换它？
+ (ceil. portal)	 (天花板传送门)
+ (floor portal)	 (地板传送门)
+ sidedefs)	 个侧面（Sidedef）)
+Sector center	扇区中心
+Selection center	选择（Selection）中心
+World origin	世界原点
+Lower brightness:	下部亮度（Brightness）:
+Middle brightness:	中部亮度（Brightness）:
+Unsupported geometry type: 	不支持的几何类型: 
+Upper brightness:	上部亮度（Brightness）:
+ doesn't support 'moreids' property!	 不支持 'moreids' 属性！
+Tag 	标签（Tag） 
+ seg splits)	 个 seg 分割)
+) - (	) - (
+Show additional vertices (	显示附加顶点 (
+ (dormant)	 (休眠)
+Linedef 	线段（Linedef） 
+Linedefs (	线段（Linedef） (
+Show nodes with warnings only (N)	仅显示有警告的节点 (N)
+Thing 	物件（Thing） 
+Things (	物件（Thing） (
+A prefab with that name already exists. Overwrite?	已存在具有该名称的预制件（Prefabs）。是否覆盖？
+Destination direction	目标方向
+Please enter a name for the prefab	请输入预制件（Prefabs）的名称
+Source direction	源方向
+The prefab name "[Default]" is reserved and can not be overwritten manually.	预制件（Prefabs）名称 "[Default]" 为保留名称，不能手动覆盖。
+The prefab name "[Previous]" is reserved and can not be overwritten.	预制件（Prefabs）名称 "[Previous]" 为保留名称，无法覆盖。
+ linedef tags	 个线段标签（Tag）
+ sector tags	 个扇区标签（Tag）
+ thing tags	 个物件标签（Tag）
+The range exceeds the maximum allowed tags and cannot be created.	该范围超出了允许的最大标签（Tag）数量，无法创建。
+On slope vertex highlight	斜坡顶点高亮时
+ sectors selected. Please select exactly one sector	 个扇区已选中。请只选择一个扇区
+No sectors selected. Please select exactly one sector	未选中任何扇区。请只选择一个扇区
+ slope vertices	 个斜坡顶点
+Edit slope vertices (	编辑斜坡顶点 (
+Are you sure you want to abort the script?	确定要中止脚本吗？
+Executables (*.exe, *.cmd, *.bat)|*.exe;*.cmd;*.bat|All files (*.*)|*.*	可执行文件 (*.exe, *.cmd, *.bat)|*.exe;*.cmd;*.bat|所有文件 (*.*)|*.*
+Running script (	正在运行脚本 (
+Ultimate Doom Builder contributors:\r\n\r\n • boris\r\n • ZZYZX\r\n • dpJudas (OpenGL renderer)\r\n • StrikerMan780 (64-bit version)\r\n • Talon1024 (Linux compatibility)\r\n • anotak (performance optimizations)\r\n\r\nAnd others; for the full list consider looking at the project's GitHub page.\r\nBackground image is by Zanieon.	Ultimate Doom Builder 贡献者:\r\n\r\n • boris\r\n • ZZYZX\r\n • dpJudas (OpenGL 渲染器)\r\n • StrikerMan780 (64 位版本)\r\n • Talon1024 (Linux 兼容性)\r\n • anotak (性能优化)\r\n\r\n以及其他人；完整列表请参阅项目的 GitHub 页面。\r\n背景图像由 Zanieon 提供。
+Any action	任意动作（Action）
+" is already loaded.	" 已加载。
+Could not open the WAD file. The file does not exist.	无法打开 WAD 文件。该文件不存在。
+Map "	地图 "
+ (deprecated)	 (已弃用)
+ (map feature not supported)	 (不支持的地图特性)
+ (map format not supported	 (不支持的地图格式
+" game configuration	" 游戏配置（Game Configuration）
+" game configuration!	" 游戏配置（Game Configuration）！
+, deprecated	, 已弃用
+Added {0} filters to new or existing texture sets.	已向新的或现有的贴图集（Texture Set）添加 {0} 个过滤器（Filter）。
+At least one resource doesn't exist in "	至少有一个资源（Resource）不存在于 "
+Copied "	已复制 "
+Error configuration file on line 	配置文件出错，位于第 
+Executable Files (*.exe)|*.exe|Batch Files (*.bat)|*.bat	可执行文件 (*.exe)|*.exe|批处理文件 (*.bat)|*.bat
+Exported {0} texture set{1} with {2} filter{3}	已导出 {0} 个贴图集（Texture Set）{1}，包含 {2} 个过滤器（Filter）{3}
+Failed to write configuration file.	写入配置文件失败。
+Imported {0} new texture sets.	已导入 {0} 个新贴图集（Texture Set）。
+New Texture Set	新建贴图集（Texture Set）
+No new set, or sets to update found in the configuration file.	在配置文件中未找到可新建或可更新的贴图集。
+No texture sets to import found in the configuration file.	在配置文件中未找到可导入的贴图集。
+Pasted color presets from "	已粘贴颜色预设，来自 "
+Pasted engines list from "	已粘贴引擎列表，来自 "
+Pasted game configuration from "	已粘贴游戏配置，来自 "
+Pasted resources from "	已粘贴资源，来自 "
+Please select texture sets to export.	请选择要导出的贴图集（Texture Set）。
+This will add the default Texture Sets from the Game Configuration. Do you want to continue?	这将从游戏配置（Game Configuration）中添加默认贴图集。是否继续？
+Updated {0} texture sets.	已更新 {0} 个贴图集。
+Here you can select the editing modes that you wish to use in this configuration. This is useful in case there are plugins with additional editing modes that can be used as a replacement for the original editing modes.	在此可选择希望用于此配置的编辑模式。如果存在提供额外编辑模式的插件，且这些模式可用于替换原始编辑模式，此选项会很有用。
+The nodebuilder is a compiler which builds geometry structures for your map. You need these structures to be able to play the map in the game. For each purpose you can choose the desired nodebuilder configuration here.	节点构建器（Nodebuilder）是一个为地图构建几何结构的编译器。您需要这些结构才能在游戏中运行地图。您可以在此为每种用途选择所需的节点构建器配置。
+%F     - WAD file with the map that is to be tested. NOTE: this is a temporary file and not the file you opened or saved. \r\n%WP - IWAD resource file with full path included. This is the first (highest) IWAD file that is found in the resources list. \r\n%WF - IWAD resource filename only, without path. This is the first (highest) IWAD file that is found in the resources list. \r\n%L     - Map lump name as is set in the map options window.\r\n%L1   - The first number found in the map lump name (as is set in the map options window).\r\n%L2   - The second number found in the map lump name (as is set in the map options window).\r\n%AP  - All resource files, except the first IWAD, with full paths included.\r\n%S     - Skill number at which to test.\r\n%NM - Either -nomonsters when testing without monsters, or nothing at all.	%F     - 包含要测试地图的 WAD 文件。注意：这是临时文件，并非您打开或保存的文件。 \r\n%WP - IWAD 资源文件，含完整路径。这是资源列表中第一个（最靠前）的 IWAD 文件。 \r\n%WF - 仅 IWAD 资源文件名，不含路径。这是资源列表中第一个（最靠前）的 IWAD 文件。 \r\n%L     - 地图数据块（Lump）名称，与地图选项窗口中的设置一致。\r\n%L1   - 地图数据块名称中找到的第一个数字（与地图选项窗口中的设置一致）。\r\n%L2   - 地图数据块名称中找到的第二个数字（与地图选项窗口中的设置一致）。\r\n%AP  - 除第一个 IWAD 之外的所有资源文件，含完整路径。\r\n%S     - 用于测试的技能等级编号。\r\n%NM - 无怪物测试时为 -nomonsters，否则为空。
+No method to create an undo snapshot specified. This would potentially lead to data loss.	未指定创建撤销快照的方法。这可能导致数据丢失。
+Any effect	任意效果
+***********ACTIONS LOG***********	***********操作日志***********
+***********SYSTEM INFO***********	***********系统信息***********
+********EXCEPTION DETAILS********	********异常详情********
+0x000000 at 0xFFFFFF. That's probably bad	0x000000 位于 0xFFFFFF。这大概不太妙
+Abort, Retry, Fail?	中止、重试、失败？
+Achievement unlocked: CRASH TIME!	成就解锁：崩溃时刻！
+All is lost!	一切都完了！
+An error has occurred while creating an error	创建错误时发生了一个错误
+At least it's not BSoD...	至少不是蓝屏...
+B U S T E D	已 崩 溃
+Back to the drawing board...	回去重画图纸吧...
+Beam me up Scotty, there’s no life out here	把我传送上去吧 Scotty，这外面没有生命
+Brought to you by MaxED!	由 MaxED 呈献！
+Catastrophic failure	灾难性故障
+Deal with it	忍着吧
+Does Not Compute!	无法计算！
+Don't send this to Microsoft	别把这事发给微软
+Epic fail	史诗级失败
+Error 47	错误 47
+Error in 	出错于 
+ERROR: NO_ERROR	错误：NO_ERROR
+EVERYTHING IS LOST!	一切都已失去！
+Freeze mode enabled	冻结模式已启用
+General Failure	一般性故障
+Good. It's boring here anyway.	很好。反正这里也挺无聊的。
+GPU: 	GPU: 
+Here we go again...	又来了...
+Hey! It looks like you're having an error!	嘿！看起来您遇到错误了！
+I’m sorry, Dave, I’m afraid I can’t do that	抱歉，Dave，恐怕我不能那么做
+I'm good at writing bad code	我擅长写烂代码
+I'm sorry... :(	对不起... :(
+In Soviet Russia, exception throws YOU!	在苏联，是异常抛出您！
+Invalid Error	无效错误
+It can only be attributable to human error	这只能归咎于人为失误
+It's CRASHENING!	正在崩坏！
+It's dangerous to go alone. Take this!	一个人去很危险。拿着这个！
+It's now safe to turn off your computer	现在可以安全地关闭计算机了
+I've got a bad feeling about this	我有种不祥的预感
+Let's see how far this infinite loop goes...	来看看这个死循环能跑多远...
+Man the Lifeboats! Women and children first!	上救生艇！妇女儿童先走！
+No error occurred	未发生错误
+No errors found, restarting computer	未发现错误，正在重启计算机
+Now deleting all files. Goodbye	正在删除所有文件。再见
+Nuclear launch detected!	检测到核弹发射！
+OH NOES! TEH ERROR!	噢不！出错啦！
+OS: 	OS: 
+Pinky says that you're the new hope. Bear that in mind.	Pinky 说你是新的希望。记住这一点。
+Platform: 	平台: 
+Random error appears from north	随机错误从北方出现
+Security Alert – Moving cursor is not as safe as you thought	安全警报 – 移动光标并不像你想的那么安全
+SELECT * FROM Win32_VideoController	SELECT * FROM Win32_VideoController
+SELECT Caption FROM Win32_OperatingSystem	SELECT Caption FROM Win32_OperatingSystem
+Shameful display!	真是丢人现眼！
+Something happened	有事情发生了
+That doesn't seem to work	那样好像行不通
+The Device is Error	设备即错误
+The God Of Exceptions Demands MORE Exceptions!	异常之神要求更多异常！
+The operation completed successfully	操作已成功完成
+This function is only available in the retail version of Ultimate Doom Builder	此功能仅在 Ultimate Doom Builder 的零售版中可用
+This is a horrible day for you, and of course, the world	这对你来说是很糟糕的一天，当然，对世界也是
+This time, it’s the human’s fault	这次是人类的错
+UDB: R	UDB: R
+Uh oh, you're screwed	呃哦，你完蛋了
+Ultimate Doom Builder proudly presents:	Ultimate Doom Builder 自豪地呈献：
+User Error. Please Replace User	用户错误。请更换用户
+WARNING: PROGRAMMING BUG IN GZDB!	警告：GZDB 中存在编程错误！
+Well, you ran into something and the game is over	好吧，你撞上了什么东西，游戏结束了
+What you spend years building may be destroyed overnight; build it anyway	你花数年建造的东西可能一夜之间被摧毁；但还是要建造它
+What, what, what, what, what, what, what, what, what, what?	什么，什么，什么，什么，什么，什么，什么，什么，什么，什么？
+What's that? Chicken?	那是什么？鸡？
+Windows 10 is here! RUN!	Windows 10 来了！快跑！
+Worship me, and I may yet be merciful... then again, maybe not.	崇拜我，我也许还会仁慈... 不过也说不准。
+Yep, we have bugs	是的，我们有 bug
+You are making progress. I'm afraid that's something I can't allow to happen	你正在取得进展。恐怕我不能允许这种事发生
+You are making progress. That's not OK	你在取得进展。这可不行
+You aren't expected to understand this	不指望你能看懂这个
+YOU CAN’T DO THAT!	你不能那么做！
+YOU DIED	你死了
+You feel strange...	你感到奇怪...
+You picked up the Random Exception.	你捡到了随机异常。
+You really screwed up this time!	这次你彻底搞砸了！
+You. Shall. Not. Pass!!!	你. 休. 想. 通过!!!
+Your empty is full!	你的空虚已满！
+Any activation	任意激活方式
+Invalid preset: no flags or action selected!	无效预设：未选择标志（Flags）或动作（Action）！
+Invalid preset: no flags, action or activation type selected!	无效预设：未选择标志（Flags）、动作（Action）或激活类型！
+Preset matches "	预设匹配 "
+ and 	 和 
+ linedefs	 条线段
+Edit 	编辑 
+Edit Linedefs (	编辑线段 (
+Linedef action must be between 	线段动作必须介于 
+Linedef tag must be between 	线段标签必须介于 
+  could not be found.	  无法找到。
+ (32-bit)	 (32 位)
+ (64-bit)	 (64 位)
+ (edit area) at 	 (编辑区域) 位于 
+ [2D]	 [2D]
+ [3D]	 [3D]
+ active	 已激活
+ at 	 位于 
+ preset	 个预设
+ presets	 个预设
+ Press '	 按 '
+' to toggle.	' 切换。
+": file does not exist!	": 文件不存在！
+": only WAD files can be loaded this way!	": 只能以这种方式加载 WAD 文件！
+&1  	&1  
+) - 	) - 
+) at 	) 位于 
+<body bgcolor="#666666">	<body bgcolor="#666666">
+<div style="padding-left:60px; padding-right:60px; padding-top:20px; padding-bottom:20px;">	<div style="padding-left:60px; padding-right:60px; padding-top:20px; padding-bottom:20px;">
+<table bgcolor="#FFFFFF" width="100%" border="0" cellspacing="6" cellpadding="6" style="font-family: 'Trebuchet MS',georgia,Verdana,Sans-serif;">	<table bgcolor="#FFFFFF" width="100%" border="0" cellspacing="6" cellpadding="6" style="font-family: 'Trebuchet MS',georgia,Verdana,Sans-serif;">
+<td><div align="center">	<td><div align="center">
+Always show vertices is 	始终显示顶点为 
+Auto removal of unused sidedef textures is 	自动移除未使用的侧面贴图为 
+Cannot open "	无法打开 "
+Changed enhanced rendering	已更改增强渲染
+Changed event line visibility	已更改事件线可见性
+Changed full brightness	已更改完全亮度
+Classic rendering is 	经典渲染为 
+Comment icons are 	注释图标为 
+Dynamic grid size is 	动态网格大小为 
+Enhanced rendering effects are 	增强渲染效果为 
+Event lines are now 	事件线现在为 
+Failed to save screenshot: 	保存截图失败: 
+Fixed things scale is 	固定物件缩放为 
+Fog rendering is 	雾渲染为 
+Full brightness is now 	完全亮度现在为 
+Grid rendering is 	网格渲染为 
+Huh? Where did Settings folder go?..	咦？设置文件夹跑哪去了？..
+I swear it was here: "	我发誓它刚才还在这里: "
+InvokeTaggedAction used on an unexpected control.	InvokeTaggedAction 被用于意外的控件。
+Joined sectors splitting is 	合并扇区的拆分为 
+Redo 	重做 
+Screenshot saved to "	截图已保存到 "
+Screenshots save path "	截图保存路径 "
+Shortcut reference saved to "	快捷键参考已保存到 "
+Sky rendering is 	天空渲染为 
+Snap to geometry is 	吸附到几何体为 
+Snap to grid is 	吸附到网格为 
+The file '	文件 '
+Undo 	撤销 
+Visual vertices are 	视觉模式顶点为 
+yyyy.MM.dd HH-mm-ss.fff	yyyy.MM.dd HH-mm-ss.fff
+" is already in use by another map or data lump in the source WAD file. Saving your map with this name will cause conflicting data lumps in the WAD file. Do you want to continue?	" 已被源 WAD 文件中的另一个地图或数据块（Lump）占用。用此名称保存地图会在 WAD 文件中造成数据块冲突。是否继续？
+: at least one resource doesn't exist!	: 至少有一个资源不存在！
+Cannot 	无法 
+change map settings	更改地图设置
+create map	创建地图
+Please enter a level name for your map.	请为您的地图输入关卡名称。
+Please select a game configuration to use for editing your map.	请选择用于编辑地图的游戏配置（Game Configuration）。
+Please select a script type to use for editing your map.	请选择用于编辑地图的脚本类型。
+The game configuration you selected uses a different file format than your current map. Because your map was not designed for this format it may cause the map to work incorrectly in the game. Do you want to continue?	您选择的游戏配置使用的文件格式与当前地图不同。由于您的地图并非为该格式设计，可能导致地图在游戏中运行异常。是否继续？
+The map name "	地图名 "
+Cannot open map: at least one resource doesn't exist!	无法打开地图: 至少有一个资源不存在！
+Could not open the WAD file for reading. Please make sure the file you selected is valid and is not in use by any other application.	无法读取 WAD 文件。请确认所选文件有效，且未被其他应用程序占用。
+Could not open the WAD file: The file does not exist.	无法打开 WAD 文件: 文件不存在。
+Please select a map to load for editing.	请选择要加载编辑的地图。
+You are about to load a map without selecting any resources. Textures, flats and sprites may not be shown correctly or may not show up at all. Do you want to continue?	您即将在未选择任何资源的情况下加载地图。贴图（Texture）、平面贴图（Flat）和精灵可能无法正确显示，甚至完全不显示。是否继续？
+ (default)	 (默认)
+ samples	 个采样
+{0} minute	{0} 分钟
+Brightness Levels	亮度级别
+Ceiling Textures	天花板贴图
+Dark theme	深色主题
+Floor Textures	地板贴图
+Light theme	浅色主题
+Select a Folder to Save Screenshots Into	选择保存截图的文件夹
+Shift and Control	Shift 和 Control
+Use current settings	使用当前设置
+When enabled, the opening brace \r\nwill be placed on a new line when\r\ninserting a snippet or reformatting\r\nthe text.\r\n\r\nTechnical side: when enabled, $LB\r\nmarkers in snippets will be replaced \r\nwith newline characters, otherwise \r\nthey will be replaced with tabs/spaces.	启用后，插入片段或重新格式化\r\n文本时，左花括号\r\n将被放到\r\n新的一行。\r\n\r\n技术说明：启用后，$LB\r\n标记将被替换为换行符，\r\n否则将被替换为\r\n制表符/空格。
+Doom WAD Files (*.wad;*.iwad)|*.wad;*.iwad	Doom WAD 文件 (*.wad;*.iwad)|*.wad;*.iwad
+Please select a valid directory resource.	请选择有效的目录资源。
+Please select a valid PK3, PKE, or PK7 File resource.	请选择有效的 PK3、PKE 或 PK7 文件资源。
+Please select a valid WAD File resource.	请选择有效的 WAD 文件资源。
+Use the option above to enforce strictly loading texture patches from between P_START and P_END marker lumps only. This can solve lump name conflicts, but old WAD files do not always adhere to this rule.	使用上方选项可强制仅从 P_START 与 P_END 标记数据块之间加载贴图补丁。这可解决数据块名称冲突，但旧 WAD 文件并不总是遵循此规则。
+Exit code: 	退出代码: 
+There were errors during the execution of the external commands.	执行外部命令时发生错误。
+ occurrence	 处匹配
+ of "	 的 "
+" with "	" 替换为 "
+All opened tabs	所有打开的标签页
+Can't find any occurrence of "	找不到任何匹配项 "
+Current tab	当前标签页
+Unsupported tab type	不支持的标签页类型
+ sectors	 个扇区
+Edit Sectors (	编辑扇区 (
+Sector effect must be between 	扇区效果必须介于 
+Sector tag must be between 	扇区标签必须介于 
+Applied only when the sector is affected by either Fade or MAPINFO fogdensity/outsidefogdensity.\r\nSets an explicit fog density for the sector, overriding the default calculation from the light level.\r\nValue range is 0-510, 0 meaning that the default is to be used, 2 equalling the density\r\nof a light level of 250, and 255 equalling the density of a light level of 0.	仅当扇区受淡出（Fade）或 MAPINFO 的 fogdensity/outsidefogdensity 影响时生效。\r\n为扇区设置明确的雾密度，覆盖根据亮度计算出的默认值。\r\n取值范围为 0-510：0 表示使用默认值，2 相当于亮度 250 的密度，\r\n255 相当于亮度 0 的密度。
+Click on a cell in Sectors, Linedefs or Things column to select map elements with given tag.\r\nRight click to open Properties form for map elements with given tag.\r\nClick or press F2 in the Label cells to edit tag labels.	点击扇区、线段或物件列中的单元格，可选择具有给定标签（Tag）的地图元素。\r\n右键单击可为具有给定标签的地图元素打开属性窗口。\r\n在标签（Label）列中点击或按 F2 可编辑标签文本。
+ doesn't have TextureSet!	 没有 TextureSet！
+All Texture Sets	所有贴图集
+Browse 	浏览 
+Expected ResourceTextureSet, but got null...	应为 ResourceTextureSet，但得到 null...
+selectedset required!	需要 selectedset！
+Unsupported ImageBrowserItemType	不支持的 ImageBrowserItemType
+Double-click to include this texture	双击以包含此贴图
+ things	 个物件
+Edit Things (	编辑物件 (
+Thing action must be between 	物件动作必须介于 
+Thing tag must be between 	物件标签必须介于 
+Thing type must be between 	物件类型必须介于 
+(any category)	(任意类别)
+Apply always	始终应用
+Apply in Classic modes only	仅在经典模式（Classic Modes）中应用
+Apply in Visual modes only	仅在视觉模式（Visual Mode）中应用
+ vertices	 个顶点
+Edit Vertices (	编辑顶点 (
+Resource warnings and errors	资源警告与错误
+When there are errors or warning while (re)loading the resources	在（重新）加载资源时出现错误或警告时弹出的通知
+Blockmap Explorer	块图浏览器（Blockmap Explorer）
+Toasts related to Blockmap Explorer mode	与块图浏览器模式相关的通知弹窗
+Visual sloping	视觉倾斜
+Toasts related to visual sloping	与视觉倾斜操作相关的通知弹窗
+Change map element index	更改地图元素索引
+Toasts related to changing the index of map elements	与更改地图元素索引相关的通知弹窗
+Toasts related to Nodes Viewer Mode	与节点查看器模式相关的通知弹窗
+Reject Explorer	拒绝表浏览器（Reject Explorer）
+Toasts related to Reject Explorer mode	与拒绝表浏览器模式相关的通知弹窗
+Sound propagation mode	声音传播模式
+Toasts related to sound propagation mode	与声音传播模式相关的通知弹窗
+Stair Sector Builder Mode starting failed	楼梯扇区生成器模式启动失败
+When no linedefs or sectors are selected when entering Stair Sector Builder Mode	进入楼梯扇区生成器模式时未选中线段（Linedef）或扇区（Sector）
+Nodes Viewer Mode	节点查看器模式（Nodes Viewer）
+Notifications related to autosaving	与自动保存相关的通知弹窗
+3D Floor Mode	3D 地板模式（3D Floor Mode）
+Automap Mode	自动地图模式（Automap Mode）
+Blockmap Explorer Mode	块图浏览器模式（Blockmap Explorer Mode）
+Bridge Mode	桥接模式（Bridge Mode）
+Ceiling Align Mode	天花板对齐模式（Ceiling Align Mode）
+Drag Things	拖动物件（Drag Things）
+Draw Curve Mode	绘制曲线模式（Draw Curve Mode）
+Draw Ellipse Mode	绘制椭圆模式（Draw Ellipse Mode）
+Draw Grid Mode	绘制网格模式（Draw Grid Mode）
+Draw Lines Mode	绘制线段模式（Draw Lines Mode）
+Draw Rectangle Mode	绘制矩形模式（Draw Rectangle Mode）
+Draw Slopes Mode	绘制倾斜模式（Draw Slopes Mode）
+Edit Selection Mode	编辑选择模式（Edit Selection Mode）
+Find and Replace Mode	查找替换模式（Find and Replace Mode）
+Floor Align Mode	地板对齐模式（Floor Align Mode）
+Linedefs Mode	线段模式（Linedefs Mode）
+Make Sectors Mode	创建扇区模式（Make Sectors Mode）
+Map Analysis Mode	地图分析模式（Map Analysis Mode）
+Sectors Mode	扇区模式（Sectors Mode）
+Sound Environment Mode	声音环境模式（Sound Environment Mode）
+Stair Sector Builder Mode	阶梯扇区构建器模式（Stair Sector Builder Mode）
+Things Mode	物件模式（Things Mode）
+Vertices Mode	顶点模式（Vertices Mode）
+Visplane Explorer	Visplane 浏览器（Visplane Explorer）
+Visual Mode	视觉模式（Visual Mode）
+Comments	注释
+Draw Grid	绘制网格
+Draw Settings	绘制设置
+Help	帮助
+Scripts	脚本
+Sound Environments	声音环境
+Tag Explorer	标签浏览器
+Nothing selected.	未选择任何内容。
+Opened Map	打开地图
+Align linedef	对齐线段
+Align sector linedefs	对齐扇区线段
+Align thing	对齐物件
+Align vertex	对齐顶点
+Apply 'lightfog' flag	应用 'lightfog' 标志
+Apply camera rotation to things	将摄像机旋转应用到物件
+Arch between slope handles	在坡度手柄之间生成拱形
+Build stair sectors	构建阶梯扇区
+Change Sound Environment Settings	更改声音环境设置
+Change linedef index	更改线段索引
+Change slope	更改坡度
+Change texture offsets	更改贴图偏移
+Change texture rotation	更改贴图旋转
+Change texture scale	更改贴图缩放
+Change thing angle	更改物件角度
+Change thing height	更改物件高度
+Change thing pitch	更改物件俯仰
+Change thing roll	更改物件翻滚
+Change thing scale	更改物件缩放
+Change vertex height	更改顶点高度
+Change wall scale	更改墙面缩放
+Clear vertex height offset	清除顶点高度偏移
+Clone-drag thing	克隆拖动物件
+Create back sidedef	创建背面侧面
+Create front sidedef	创建正面侧面
+Create middle texture	创建中部贴图
+Create sidedefs	创建侧面
+Curve draw	绘制曲线
+Delete linedef	删除线段
+Delete obsolete thing	删除过时物件
+Delete slope	删除斜面
+Delete sound environment thing	删除声音环境物件
+Delete texture	删除贴图
+Delete thing	删除物件
+Delete unknown thing	删除未知物件
+Delete vertex	删除顶点
+Dissolve linedef	溶解线段
+Dissolve vertex	溶解顶点
+Drag slope vertex	拖动斜面顶点
+Drag thing	拖动物件
+Draw slope	绘制斜面
+Duplicate 3D floor control sectors before pasting	粘贴前复制 3D 地板控制扇区
+Edit obsolete thing	编辑过时物件
+Edit unknown thing	编辑未知物件
+Flip linedef	翻转线段
+Flip sector linedefs	翻转扇区线段
+Flip sidedef	翻转侧面
+Gradient brightness	亮度渐变
+Gradient ceiling heights	天花板高度渐变
+Gradient floor heights	地板高度渐变
+Grid draw	绘制网格
+Import Terrain	导入地形
+Insert prefab	插入预制件
+Insert sound environment thing	插入声音环境物件
+Insert thing	插入物件
+Insert vertex	插入顶点
+Invalid sector correction	修正无效扇区
+Line draw	绘制线段
+Linedef flags change	更改线段标志
+Linedefs gradient brightness	线段亮度渐变
+Make Sector	创建扇区
+Match Brightness	匹配亮度
+Merge vertices	合并顶点
+Missing flat correction	修正缺失平面贴图
+Missing texture correction	修正缺失贴图
+Modify 3D floors	修改 3D 地板
+Move thing	移动物件
+Paste sector properties	粘贴扇区属性
+Paste texture offsets	粘贴贴图偏移
+Paste thing properties	粘贴物件属性
+Paste vertex properties	粘贴顶点属性
+Relocate 3D floor control sectors	重定位 3D 地板控制扇区
+Remove back sidedef	移除背面侧面
+Remove lower-unpegged setting	移除下部不钉住设置
+Remove unknown texture	移除未知贴图
+Remove unused texture	移除未使用贴图
+Remove upper-unpegged setting	移除上部不钉住设置
+Reset local texture offsets, scale and brightness	重置局部贴图偏移、缩放和亮度
+Reset plane slope	重置平面坡度
+Reset thing scale	重置物件缩放
+Reset thing scale, pitch and roll	重置物件缩放、俯仰和翻滚
+Rotate thing	旋转物件
+Set comment	设置注释
+Set default thing flags	设置默认物件标志
+Set lower-unpegged setting	设置下部不钉住
+Set up slope data sector	设置斜面数据扇区
+Set upper-unpegged setting	设置上部不钉住
+Slope between slope handles	在坡度手柄之间生成斜面
+Snap map elements to grid	对齐地图元素到网格
+Split linedef	分割线段
+Toggle "Not shown on automap" linedef flag	切换线段标志“不在自动地图上显示”
+Toggle "Not shown on textured automap" sector flag	切换扇区标志“不在贴图自动地图上显示”
+Toggle "Shown as 1-sided on automap" linedef flag	切换线段标志“在自动地图上显示为单面”
+Toggle Linedef Sound Blocking	切换线段隔音
+Toggle Slope	切换斜面
+Toggle Sound Zone Boundary	切换声音区域边界
+Unknown flat correction	修正未知平面贴图
+Unknown linedef action correction	修正未知线段动作
+Unknown linedef action removal	移除未知线段动作
+Unknown sector effect correction	修正未知扇区效果
+Unknown sector effect removal	移除未知扇区效果
+Unknown texture correction	修正未知贴图
+Unknown thing action correction	修正未知物件动作
+Unknown thing action removal	移除未知物件动作
+Action arguments	动作参数
+Activation	激活方式
+Alpha	透明度
+Bottom wall color	下部墙面颜色
+Brightness	亮度
+Ceiling alpha	天花板透明度
+Ceiling color	天花板颜色
+Ceiling portal alpha	天花板传送门透明度
+Ceiling portal render style	天花板传送门渲染样式
+Ceiling render style	天花板渲染样式
+Ceiling slope	天花板坡度
+Ceiling terrain	天花板地形
+Ceiling texture	天花板贴图
+Ceiling texture offsets	天花板贴图偏移
+Ceiling texture rotation	天花板贴图旋转
+Ceiling texture scale	天花板贴图缩放
+Conversation ID	对话 ID
+Damage amount	伤害量
+Damage interval	伤害间隔
+Damage leakiness	伤害泄漏
+Damage type	伤害类型
+Desaturation	去饱和度
+Fill color	填充颜色
+Float bob phase	浮动相位
+Floor alpha	地板透明度
+Floor color	地板颜色
+Floor portal alpha	地板传送门透明度
+Floor portal render style	地板传送门渲染样式
+Floor render style	地板渲染样式
+Floor slope	地板坡度
+Floor terrain	地板地形
+Floor texture	地板贴图
+Floor texture offsets	地板贴图偏移
+Floor texture rotation	地板贴图旋转
+Floor texture scale	地板贴图缩放
+Fog density	雾密度
+Gravity	重力
+Health multiplier	生命值倍率
+Lock number	锁定编号
+Lower texture offsets	下部贴图偏移
+Lower texture scale	下部贴图缩放
+Middle texture offsets	中部贴图偏移
+Middle texture scale	中部贴图缩放
+Pitch	俯仰
+Render style	渲染样式
+Roll	翻滚
+Scale	缩放
+Score	分数
+Sound sequence	声音序列
+Sprites color	精灵颜色
+Tags	标签
+Texture offset X	贴图偏移 X
+Texture offset Y	贴图偏移 Y
+Top wall color	上部墙面颜色
+Upper texture offsets	上部贴图偏移
+Upper texture scale	上部贴图缩放
+Vertex ceiling height	顶点天花板高度
+Vertex floor height	顶点地板高度
+Z-height	Z 高度
+Check invalid sectors	检查无效扇区
+Check line references	检查线段引用
+Check map size	检查地图尺寸
+Check missing activations	检查缺失的激活方式
+Check missing flats	检查缺失的平面贴图
+Check missing textures	检查缺失的贴图
+Check off-grid vertices	检查未对齐网格的顶点
+Check overlapping lines	检查重叠的线段
+Check overlapping vertices	检查重叠的顶点
+Check unconnected vertices	检查未连接的顶点
+Check stuck things	检查卡住的物件
+Check texture alignment	检查贴图对齐
+Check unknown actions/effects	检查未知动作/效果
+Check unknown flats	检查未知平面贴图
+Check unknown ACS scripts	检查未知 ACS 脚本
+Check unknown textures	检查未知贴图
+Check unknown things	检查未知物件
+Check unused textures	检查未使用的贴图
+Check unused things	检查未使用的物件
+Any Texture or Flat	任意贴图或平面贴图
+Any UDMF Field	任意 UDMF 字段
+Linedef Flags	线段标志
+Linedef Index	线段索引
+Linedef Sector Reference	线段扇区引用
+Linedef Tag	线段标签
+Linedef Thing Reference	线段物件引用
+Linedef Action and Arguments	线段动作与参数
+Linedef UDMF Field	线段 UDMF 字段
+Sector Flat (Ceiling)	扇区平面贴图（天花板）
+Sector Height (Ceiling)	扇区高度（天花板）
+Sector Effect	扇区效果
+Sector Flags	扇区标志
+Sector Flat (Any)	扇区平面贴图（任意）
+Sector Flat (Floor)	扇区平面贴图（地板）
+Sector Height (Floor)	扇区高度（地板）
+Sector Index	扇区索引
+Sector Tag	扇区标签
+Sector UDMF Field	扇区 UDMF 字段
+Sidedef Flags	侧面标志
+Sidedef Texture (Lower)	侧面贴图（下部）
+Sidedef Texture (Middle)	侧面贴图（中部）
+Sidedef Index	侧面索引
+Sidedef Texture (Any)	侧面贴图（任意）
+Sidedef UDMF Field	侧面 UDMF 字段
+Sidedef Texture (Upper)	侧面贴图（上部）
+Thing Action and Arguments	物件动作与参数
+Thing Angle	物件角度
+Thing Flags	物件标志
+Thing Index	物件索引
+Thing Sector Reference	物件扇区引用
+Thing Tag	物件标签
+Thing Thing Reference	物件物件引用
+Thing Type	物件类型
+Thing UDMF Field	物件 UDMF 字段
+Vertex Index	顶点索引
+Vertex UDMF Field	顶点 UDMF 字段
+Render Fog (Visual mode)	渲染雾（视觉模式）
+Render Sky (Visual mode)	渲染天空（视觉模式）
+Classic Rendering (Visual mode)	经典渲染（视觉模式）
+Check obsolete things	检查过时物件
+Check polyobjects	检查多段物件（Polyobject）
+Check very short linedefs	检查过短的线段
+Sound Propagation Mode	声音传播模式（Sound Propagation Mode）
+{\\rtf1 Press {\\b F1} to show help for current editing mode}	{\\rtf1 \\u25353? {\\b F1} \\u26597?\\u30475?\\u24403?\\u21069?\\u32534?\\u36753?\\u27169?\\u24335?\\u30340?\\u24110?\\u21161?}

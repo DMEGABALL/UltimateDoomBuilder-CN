@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>GZDoom Builder 功能</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="gz_title">
+  <h1>在地板和天花板上自动对齐贴图（UDMF）</h1>
+</div>
+<div id="contents">
+  <h2>地板和天花板</h2>
+  <p>“<strong>自动对齐贴图</strong>”动作可作用于地板和天花板。其工作方式如下：<br />
+    - 从高亮的扇区中选取距离 3D 光标位置最近的线段。<br />
+    - 根据与 3D 光标的距离，选择该线段的起点或终点顶点作为贴图偏移的起始点。<br />
+    - 如果所有选中的地板/天花板的贴图与某个高亮的地板/天花板相匹配，则它们都会被对齐到该线段。<br />
+  - 贴图的垂直和水平缩放会从高亮的地板/天花板复制到选中的地板/天花板。</p>
+  <table border="0" cellspacing="3" cellpadding="3">
+    <tr>
+      <td>之前：</td>
+      <td>之后（1）：</td>
+    </tr>
+    <tr>
+      <td><img src="floor_align_00.jpg"/></td>
+      <td><img src="floor_align_01.jpg"/></td>
+    </tr>
+    <tr>
+      <td>之后（2）：</td>
+      <td>之后（3）：</td>
+    </tr>
+    <tr>
+      <td><img src="floor_align_02.jpg" alt=""/></td>
+      <td><img src="floor_align_03.jpg" alt=""/></td>
+    </tr>
+  </table>
+  <p>你也可以在线段模式中，使用 <strong>线段 -&gt; 对齐贴图</strong>菜单中提供的“<strong>将天花板贴图对齐到背面</strong>”、“<strong>将天花板贴图对齐到正面</strong>”、“<strong>将地板贴图对齐到背面</strong>”和“<strong>将地板贴图对齐到正面</strong>”动作，将地板和天花板对齐到选中的线段。</p>
+  <br />
+  <h2>斜面</h2>
+  <p>“<strong>自动对齐贴图</strong>”动作可作用于斜面。贴图会对齐到使用“Plane align (slope)”动作（181）的线段。<br />
+  <table border="0" cellspacing="3" cellpadding="3">
+    <tr>
+      <td>之前：</td>
+      <td>之后：</td>
+    </tr>
+    <tr>
+      <td><img src="slopealign1.jpg" alt="" width="274" height="400" /></td>
+      <td><img src="slopealign2.jpg" alt="" width="284" height="400" /></td>
+    </tr>
+  </table></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>关于编译器配置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>关于编译器配置</h1>
+</div>
+<div id="contents">
+  <p>在编辑器中使用脚本编译器和节点构建器（nodebuilder）需要编译器配置。<br />
+    编译器配置从放置在 "Compilers" 目录或其子目录中的 *.cfg 文件加载。</p>
+  <h2>脚本编译器配置：</h2>
+  典型的脚本编译器配置由单个块组成：
+  </p>
+  <h3>"Compilers" 块：</h3>
+  定义编译器使用哪些文件。
+  名为 "program" 的设置定义要运行哪个 .exe。
+  "interface" 设置定义用于处理和错误反馈的内部接口（目前唯一有效的值是 "AccCompiler"）。其余设置都是所需的文件（设置名称无关紧要）。
+  </p>
+  <p><strong>示例：</strong>
+  <pre>
+compilers
+{
+	zdoom_acc
+	{
+		interface = "AccCompiler";
+		program = "acc.exe";
+		zcommon = "zcommon.acs";
+		zdefs = "zdefs.acs";
+		zspecial = "zspecial.acs";
+		zwvars = "zwvars.acs";
+	}
+}
+</pre>
+  </p>
+  <h2>节点构建器配置：</h2>
+  典型的节点构建器配置由两个块组成：
+  </p>
+  <h3>"Compilers" 块：</h3>
+  定义编译器使用哪些文件。<br />
+  名为 "program" 的设置定义要运行哪个 .exe。<br />
+  "interface" 设置定义用于处理和错误反馈的内部接口（目前唯一有效的值是 "NodesCompiler"）。
+  </p>
+  <p><strong>示例：</strong>
+  <pre>
+compilers
+{
+	zdbsp
+	{
+		interface = "NodesCompiler";
+		program = "zdbsp.exe";
+	}
+}
+</pre>
+  </p>
+  <h3>"Nodebuilders" 块：</h3>
+  定义为 "compilers" 块中节点构建器提供的各种预设（随后你可以在<a href="w_gameconfigurations.html">游戏配置窗口</a>中选择使用哪些）。<strong>注意：</strong>此处定义的节点构建器配置键名必须在所有节点构建器中唯一！
+  建议键名以编译器名称开头，后接下划线和一个特定名称。&quot;compiler&quot; 设置必须引用一个已存在的编译器，但不一定非得是同一配置文件中定义的编译器。<br />
+  <br />
+  "<strong>parameters</strong>" 设置支持以下通配符：
+  <ul style="list-style-type:none;">
+    <li>"%FI" - 输入文件路径。</li>
+    <li>"%FO" - 输出文件路径。</li>
+  </ul>
+  <strong>示例：</strong>
+  <pre>
+nodebuilders
+{
+	zdbsp_normal
+	{
+		title = "ZDBSP - Normal (no reject)"; // 在游戏配置窗口中显示的名称
+		compiler = "zdbsp"; // 必须与 "compiler" 块中定义的节点构建器块名称匹配
+		parameters = "-c -o%FO %FI"; // 命令行参数
+	}
+}
+</pre>
+  </p>
+</div>
+</body>
+

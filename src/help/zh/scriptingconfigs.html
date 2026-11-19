@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>关于脚本配置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>关于脚本配置</h1>
+</div>
+<div id="contents">
+  <p>脚本配置用于在<a href="w_scripteditor.html">脚本编辑器</a>中提供代码高亮（Highlight）和代码补全。<br />
+    脚本配置从放置在 "Scripting" 目录中的 *.cfg 文件加载。</p>
+  <h2>脚本编译器设置：</h2>
+  <br />
+  <b class="fat">compiler</b> (string)<br />
+  要使用的<a href="scriptingconfigs.html">脚本编译器</a>的名称。<br />
+  <br />
+  <b class="fat">parameters</b> (string)<br />
+  传递给<a href="scriptingconfigs.html">脚本编译器</a>的命令行参数。
+  支持以下通配符：
+  <ul style="list-style-type:none;">
+    <li>"%FI" - 输入文件路径。</li>
+    <li>"%FO" - 输出文件路径。</li>
+    <li>"%FS" - 源文件。</li>
+    <li>"%PT" - 临时目录路径。</li>
+    <li>"%PS" - 源路径。</li>
+  </ul>
+  <b class="fat">resultlump</b> (string)<br />
+  编译结果应存放到的 lump 名称。<br />
+  <br />
+  <br />
+  <h2>脚本编辑器设置：</h2>
+  <br />
+  <b class="fat">description</b> (string)<br />
+  显示在<a href="w_scripteditor.html">脚本编辑器</a>&quot;New File&quot; 下拉菜单中的脚本类型名称。<br />
+  <br />
+  <b class="fat">codepage</b> (integer)<br />
+  Scintilla 控件将使用的代码页。<br />
+  <br />
+  <b class="fat">extensions</b> (string)<br />
+  与此配置关联的文件扩展名列表，以逗号分隔。<br />
+  <br />
+  <b class="fat">casesensitive</b> (boolean)<br />
+  该脚本类型是否区分大小写？默认值为 <strong>true</strong>。<br />
+  <br />
+  <b class="fat">insertcase</b> (int)<br />
+  0 - 常规，1 - 小写，2 - 大写。默认值为 <strong>0</strong>。<br />
+  <br />
+  <b class="fat">lexer</b> (integer)<br />
+  指定 Scintilla 控件将使用的词法分析器类型。<br />
+  可能的值有：1 - 纯文本；3 - CPP 风格，区分大小写；6 - Perl 风格；18 - Pascal 风格；35 - CPP 风格，不区分大小写。<br />
+  <br />
+  <b class="fat">functionopen</b> (string)<br />
+  用作函数起始花括号的字符。<br />
+  <br />
+  <b class="fat">functionclose</b> (string)<br />
+  用作函数结束花括号的字符。  <br />
+  <br />
+  <b class="fat">argumentdelimiter</b> (string)<br />
+  用作函数参数分隔符的字符。  <br />
+  <br />
+  <b class="fat">terminator</b> (string)<br />
+  用作表达式终止符的字符。  <br />
+  <br />
+  <b class="fat">keywordhelp</b> (string) - <span class="red">仅限 GZDB</span>。<br />
+  用于显示关键字帮助的 URL。&quot;%K&quot; 占位符将被替换为调用关键字帮助（F1）时文本光标所在位置的单词文本。<br />
+  <br />
+  <b class="fat">snippetsdir</b> (string) - <span class="red">仅限 GZDB</span>。<br />
+  &quot;Snippets&quot; 目录内的目录名称，其中存放当前脚本配置的代码片段。<br />
+  <br />
+  <b class="fat">scripttype</b> (string) - <span class="red">仅限 GZDB</span>。<br />
+  将当前脚本配置标记为 GZDB 能够识别的脚本类型之一。可能的值有 &quot;UNKNOWN&quot;（默认）、&quot;ACS&quot;、&quot;MODELDEF&quot;、&quot;DECORATE&quot;、&quot;GLDEFS&quot;、&quot;SNDSEQ&quot;、&quot;MAPINFO&quot;、&quot;VOXELDEF&quot;、&quot;TEXTURES&quot;、&quot;ANIMDEFS&quot;、&quot;REVERBS&quot;、&quot;TERRAIN&quot;、&quot;X11R6RGB&quot;、&quot;CVARINFO&quot;、&quot;SNDINFO&quot;、&quot;LOCKDEFS&quot;、&quot;MENUDEF&quot;、&quot;SBARINFO&quot; 和 &quot;USDF&quot;。<br />
+  <h2>&quot;keywords&quot; 块：</h2>
+  <br />
+  定义要高亮并为其显示代码补全的关键字列表。
+  每个关键字的定义形式为
+  <pre>Keyword = "Keyword description";</pre>
+  &quot;Keyword&quot; 是脚本中使用的单词，&quot;Keyword description&quot; 提供有关关键字的附加信息，例如函数参数，或关于该函数及其参数作用的提示。
+  <p><strong>示例：</strong>
+  <pre>
+keywords
+{
+	CanRaiseActor = "bool CanRaiseActor(int tid)\nChecks to see if the actor or actors with the specified tid are viable for resurrection.\nIf tid is 0, the check is done on the activator of the script.";
+}
+</pre>
+  </p>
+  <h2>&quot;constants&quot; 块：</h2>
+  <br />
+  定义要高亮并为其显示代码补全的常量列表。
+  <p><strong>示例：</strong>
+  <pre>
+constants
+{
+	AAPTR_DEFAULT;
+	AAPTR_FRIENDPLAYER;
+	AAPTR_GET_LINETARGET;
+	AAPTR_MASTER;
+	AAPTR_NULL;
+}
+</pre>
+  </p>
+</div>
+</body>

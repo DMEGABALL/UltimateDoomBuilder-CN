@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>游戏配置 - 线段设置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>游戏配置 - 线段设置</h1>
+</div>
+<div id="contents">
+  <p> <span class="big">常规设置：</span><br />
+    <br />
+    <b class="fat">generalizedlinedefs</b> (boolean)<br />
+    设为 <b>true</b> 以支持通用线段动作。这会使 <b>gen_linedeftypes</b> 结构成为必需项。默认值为 <b>false</b>。<br />
+    <br />
+    <b class="fat">linedefflags</b> (structure)<br />
+    列出可在线段上设置的选项。对于使用数值标志的地图格式，所选选项的值会相加，形成最终的线段标志值（因此每个选项应使用自己的位）。请注意，在使用数值标志时，线段的激活标志也包含在同一个值中（参见 <b>linedefactivations</b>）。<br />
+    数值标志示例：
+  <pre>
+linedefflags
+{
+	1 = "Impassable";
+	2 = "Block Monster";
+	4 = "Double Sided";
+	8 = "Upper Unpegged";
+	16 = "Lower Unpegged";
+	32 = "Secret";
+	64 = "Block Sound";
+}
+</pre>
+  <br />
+  命名标志示例：
+  <pre>
+linedefflags
+{
+	blocking = "Impassable";
+	blockmonsters = "Block monster";
+	twosided = "Doublesided";
+	dontpegtop = "Upper unpegged";
+	dontpegbottom = "Lower unpegged";
+	secret = "Secret";
+	blocksound = "Block sound";
+}
+</pre>
+  <br />
+  <b class="fat">linedefactivations</b> (structure)<br />
+  这提供了关于线段如何被激活的选项列表。用户只能选择其中一项。对于使用数值标志的地图格式，该值是线段标志值的一部分，并且应拥有自己的一段位范围。要将这些位与线段标志选项区分开，请使用 <b>linedefactivationsfilter</b> 设置。对于使用命名标志的地图格式，只需为这些设置使用名称即可。<br />
+  <br />
+  数值标志示例：
+  <pre>
+linedefactivations
+{
+	0 = "Player walks over";
+	1024 = "Player presses Use";
+	2048 = "Monster walks over";
+	3072 = "Projectile hits";
+	4096 = "Player bumps";
+	5120 = "Projectile flies over";
+}
+</pre>
+  <br />
+  <b class="fat">linedefactivationsfilter</b> (integer)<br />
+  用于将 <b>linedefactivations</b> 的位与 <b>linedefflags</b> 的位分隔开的位掩码值。在使用数值线段标志的地图格式中，这是必需项，因为这些位在地图数据中共享同一个整数线段标志值。对于使用命名标志的地图格式，此设置将被忽略。<br />
+  <br />
+  <b class="fat">linedefrenderstyles</b> (structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+  列出可在线段上设置的渲染样式。<br />
+  <br />
+  示例：
+  <pre>        
+linedefrenderstyles
+{
+	translucent = "Translucent";
+	add = "Additive";
+}
+</pre>
+  <br />
+  <b class="fat">linedefflagstranslation</b> (structure)<br />
+  这是命名（UDMF）线段标志与你的配置所使用的数值线段标志（包括线段激活标志，如果存在）之间的转换表。对于所有不使用 UDMF 地图格式的游戏配置，此结构都是必需项；而在使用 UDMF 地图格式的游戏配置中则不应存在。Doom Builder 使用此转换来正确处理复制/粘贴与预制件（它们都会与 UDMF 格式相互转换）。设置名称应为非 UDMF 的标志。如果你的游戏配置使用数值标志的地图格式，则设置名称应为数值。设置的值必须是等效的 UDMF 标志名称。值可以加上 <b>!</b> 前缀，表示该值应被取反（例如，如果要转换值为 '!raisable' 的设置 32，则位值 32 的存在会将 'raisable' 设为 <b>false</b>）。<br />
+  <br />
+  数值标志示例：
+  <pre>
+linedefflagstranslation
+{
+	1 = "blocking";
+	2 = "blockmonsters";
+	4 = "twosided";
+	8 = "dontpegtop";
+	16 = "dontpegbottom";
+	32 = "secret";
+	64 = "blocksound";
+	512 = "repeatspecial";
+	1024 = "playeruse";
+	2048 = "monstercross";
+	3072 = "impact";
+	4096 = "playerpush";
+	5120 = "missilecross";
+	8192 = "monsteractivate";
+}
+</pre>
+  <br />
+  <span class="big">线段动作定义：</span><br />
+  <br />
+  
+  <b class="fat">title</b> (string)<br />
+  此线段动作的名称。<br />
+  <br />
+  
+  <b class="fat"><a name="actionid" id="actionid"></a>id</b> (string) - <span class="red">仅 GZDB</span>。<br />
+  在 <a href="w_thingedit.html">物件</a>或 <a href="w_linedefedit.html">线段编辑</a>窗口中按下 &quot;Action Help&quot; 按钮时，用于显示帮助页面的名称（与 <strong>actionspecialhelp</strong> 属性配合使用）。<br />
+  <br />
+  
+  <b class="fat">prefix</b> (string)<br />
+  线段动作前缀（&quot;WR&quot;、&quot;SR&quot;、&quot;GR&quot; 等）。仅可用于 Doom 格式的线段定义。<br />
+  <br />
+  
+  <b class="fat">requiresactivation</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+  此线段动作需要激活标志。当此属性设为 true 时，如果用户选择了此线段动作而未设置任何激活标志，将会显示警告。<br />
+  默认值为 <strong>true</strong>。<br />
+  <strong>示例：</strong>
+  <pre>1
+{
+    title = "Polyobj Start Line";
+    <span class="blue">requiresactivation = false;</span>
+} 
+</pre>
+<br />
+<span class="big">线段动作参数定义：</span><br />
+参见 <a href="gc_argumentsettings.html">动作参数设置</a>。
+  </p>
+</div>
+</body>

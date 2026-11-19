@@ -1,0 +1,16 @@
+# 统一换行符，避免 Windows / GitHub 之间出现整文件差异
+* text=auto
+
+*.cs    text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+*.tsv   text eol=lf
+*.md    text eol=lf
+*.cfg   text eol=crlf
+
+*.exe   binary
+*.dll   binary
+*.pdb   binary
+*.chm   binary
+*.png   binary
+*.ico   binary

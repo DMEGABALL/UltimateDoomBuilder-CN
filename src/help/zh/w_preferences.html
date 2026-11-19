@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>首选项窗口</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" /></head>
+<body>
+	
+	
+	
+	<div id="title"><h1>首选项窗口</h1></div>
+	
+	<div id="contents">
+	<p>
+		首选项窗口提供适用于 Doom Builder 的选项，与您选择编辑的游戏配置或地图无关。您可以从「工具」菜单打开此窗口，或使用默认按键 F5。这些选项分类在不同的选项卡中；
+	  <h2>界面</h2>
+		此选项卡包含一些与界面相关的选项。
+		<h3>默认视图：</h3>
+		此设置指定在打开或创建新地图时希望使用的默认视图模式。
+		<h3>预览图尺寸：</h3>
+		编辑器中以及<a href="w_imagesbrowser.html">图像浏览器</a>中所有预览图的尺寸。较小的预览图占用更少的系统内存。
+		<h3>自动滚动速度：</h3>
+		在执行某些动作（例如绘制和拖动）时，当您将鼠标移向边缘，Doom Builder 可以自动滚动工作区。使用此设置可设定要使用的滚动速度。将滑块完全拖到最左侧即可关闭自动滚动。
+      <h3>顶点缩放系数 <span class="red">（仅 GZDB）</span>：</h3>
+        控制经典模式和视觉模式中顶点控制柄的大小。
+        <h3>最近文件最大数量 <span class="red">（仅 GZDB）</span>：</h3>
+        控制「文件」菜单中显示的最近文件数量。
+		<h3>脚本编辑器<b>始终位于主窗口之上</b>：</h3>
+		如果您希望脚本编辑器即使没有获得焦点也浮动在<a href="w_mainwindow.html">主窗口</a>上方，请勾选此复选框。
+        <h3><a href="gzdb/features/all_modes/synch_camera.html">在 2D 与 3D 模式之间同步相机位置</a> <span class="red">（仅 GZDB）</span>：</h3>
+        启用后，当您离开视觉模式时，GZDoom Builder 会将 2D 模式居中到视觉相机的位置；当您从 2D 模式切换到视觉模式时，会将视觉相机放置在光标位置（除非您的地图中已有视觉模式相机物件）。
+	    <h3>视觉模式：</h3>
+		此区域包含若干用于<a href="e_visualmode.html">视觉模式</a>的设置。为提升性能，您可以考虑减小<b>视距</b>设置。
+		
+	  <h2>控制</h2>
+		这里用于配置键盘和鼠标快捷键。左侧列出 Doom Builder 中的所有<a href="actions.html">动作</a>，并在其旁边显示当前的鼠标或按键组合。选择一个动作即可在右侧查看该动作的摘要。按下任意按键组合可将其设置给该动作，或从下拉框中选择一种特殊的鼠标组合。在其下方，您可以看到还有哪些其他动作共用相同的按键组合，以便检查可能存在的冲突。请注意，不同编辑模式中使用的动作可以安全地共用同一按键组合。
+		
+		<h2>外观</h2>
+		在此选项卡上，您可以更改一些与视觉外观相关的设置。在选项卡的顶部和左侧，您可以更改<a href="w_mainwindow.html">工作区</a>中使用的颜色，并设置<a href="w_scripteditor.html">脚本编辑器</a>的字体及其他选项。
+        
+        <h3>可通行线段透明度：</h3>
+		此选项控制可通行线段的透明程度。0% 表示完全不透明，与不可通行线段相同。可通行或不可通行可以通过线段设置来指定，但编辑器会自动为单面线段设置该标志，并在双面线段上移除它。
+		<h3>贴图与平面贴图亮度：</h3>
+		使用此设置可以提高贴图和平面贴图的亮度。当您在白底上查看贴图，或使用较暗的显示器时，这会很有用。
+        <h3>渲染动态光源的最大数量 <span class="red">（仅 GZDB）</span>：</h3>
+		让您选择在视觉模式中渲染多少个动态光源。当开启动态光源渲染时，减小此值可提升性能。可能的取值为 [1..32]。
+        <h3>动态光源大小 <span class="red">（仅 GZDB）</span>：</h3>
+		此选项模仿 GZDoom 的「light size」选项。
+        <h3>动态光源强度 <span class="red">（仅 GZDB）</span>：</h3>
+		此选项模仿 GZDoom 的「light intensity」选项。
+        
+        <h3>方形物件：</h3>
+		Doom 中的物件使用方形进行碰撞检测，您可以开启此选项，以便在经典编辑模式（2D）中更好地查看物件的包围盒。
+        <h3>高质量显示渲染：</h3>
+		此选项通过使用像素着色器模型 2.0 来改善显示效果，同时为经典编辑模式（2D）添加抗锯齿。关闭此设置可能会提升性能（这也会让工作区呈现更复古的 Doom Builder 1.68 外观）。当不支持像素着色器模型 2.0 时，Doom Builder 会自动关闭此设置并禁用此选项。
+        <h3>经典模式中的双线性过滤：</h3>
+		为所有经典编辑模式（2D）启用双线性贴图过滤。双线性贴图过滤可在放大时消除大块方形锯齿，但也可能使画面显得模糊。
+	  <h3>视觉模式中的双线性过滤：</h3>
+		为所有视觉编辑模式（3D）启用双线性贴图过滤。双线性贴图过滤可在放大时消除大块方形锯齿，但也可能使画面显得模糊。
+        <h3>加载 GZDoom 光源定义 <span class="red">（仅 GZDB）</span>：</h3>
+		启用后，将加载 GZDoom 内置的 GLDEFS 动态光源定义。<br />
+		<span class="red">警告：</span>如果已加载地图，则更改此选项后需要重新加载资源才能应用更改。
+        <h3>在视觉模式中缩放模型 <span class="red">（仅 GZDB）</span>：</h3>
+		启用后，视觉模式中模型的高度将缩小 15%，以模仿 GZDoom 的渲染方式。
+		<h3>图像浏览器中的黑色背景：</h3>
+		开启此选项可在<a href="w_imagesbrowser.html">图像浏览器</a>中使用黑色背景。
+        <h3>在视觉模式中始终显示选区 <span class="red">（仅 GZDB）</span>：</h3>
+		启用后，即使「显示高亮」模式已关闭，选中的表面也会在视觉模式中高亮显示（Doom Builder 2 的行为）。
+        <h3>在经典模式中标记 3D 地板 <span class="red">（仅 GZDB）</span>：</h3>
+		启用后，带有 3D 地板的扇区的线段将使用「3D Floors」颜色标记。
+        
+        <h2>外观</h2>
+        <h3>默认扇区设置 <span class="red">（仅 GZDB）</span>：</h3>
+		允许您修改绘制新扇区时使用的设置。这些设置可以通过<a href="gzdb/features/classic_modes/drawsettingspanel.html">绘制设置面板</a>覆盖。
+        <h3>在新创建的线段上自动对齐贴图 <span class="red">（仅 GZDB）</span>：</h3>
+        启用后，将对绘制几何体后创建的侧面应用自动贴图对齐。
+        <h3>如果选区有任何部分位于地图边界之外，则不移动选区 <span class="red">（仅 GZDB）</span>：</h3>
+        启用后，无法拖动地图边界之外的几何体。禁用后，几何体将被移动到地图边界之内，在此过程中很可能会破坏扇区形状（Doom Builder 2 的行为）。
+        <h3><a href="gzdb/features/all_modes/synch_selection.html">在视觉模式与经典模式之间同步选区</a> <span class="red">（仅 GZDB）</span></h3>
+	</p>
+	</div>
+</body>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>物件属性窗口</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>物件属性窗口</h1></div>
+	
+	<div id="contents">
+	<p>
+		此对话框允许你编辑物件的所有属性。当选中多个物件时，如果某些字段在所选元素之间有所不同，这些字段可能会显示为灰色或空白。在灰色或空白字段中设置值将应用于整个选择。
+		
+		<h2>属性</h2>
+		在此选项卡的左侧，你可以选择<b>物件类型</b>。可以从列表中选择，或在列表下方的字段中输入类型编号。如果该物件类型存在于游戏配置中，还会显示关于该物件类型的已知信息。<br />
+		<br />
+		在右侧，你可以更改物件的<b>设置</b>。可用的设置取决于你使用的游戏配置。其下方，你可以更改<b>角度</b>。在 Hexen 和 UDMF 格式中，你还可以指定物件的<b>Z 高度</b>。Z 高度通常相对于扇区地板，但对于某些物件，Z 高度是绝对值（请参阅源端口文档）。
+
+		<h2>动作</h2>
+		此选项卡仅在 Hexen 和 UDMF 格式中可用。你可以设置用于引用此物件的物件<b>标签</b>。其下方是<b>动作</b>区域，可让你设置由该物件执行的特殊动作（对于怪物，通常是在其死亡时）。请注意，某些物件会使用动作参数作为自身的属性，对这些物件设置动作可能会产生意外的结果（请参阅源端口文档）。
+		
+		<h2>自定义</h2>
+		此选项卡允许你编辑物件上的自定义字段。仅在 UDMF 格式中可用。更多信息请参见<a href="w_customfields.html">自定义字段编辑器</a>。
+	</p>
+	</div>
+</body>

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>模板</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title"><h1>块图浏览器模式</h1></div>
+	
+	<div id="contents">
+	<p>
+		此模式让你查看地图的块图（Blockmap）。在 Doom 和 Hexen 格式中可用<br>
+		<b>菜单路径：</b>模式 -&gt; 块图浏览器模式<br>
+		<b>默认按键：</b>无。<br>
+		<br>
+		关于地图块图的信息，以及当前高亮的块，将显示在该模式的停靠面板中。<br>
+		<br>
+		按住 Shift 会显示当前高亮块的所有共享块。
+	</p>
+	<p>
+		停靠面板显示以下信息：<br>
+		<br>
+		<b>块信息</b><br>
+		显示关于当前高亮块的信息。
+		<ul>
+			<li>列：列</li>
+			<li>行：行</li>
+			<li>偏移量（字节）：块列表从 BLOCKMAP 块起始处开始的偏移量，以字节为单位</li>
+			<li>是否为子列表：该块是否指向块列表中的子列表，即该偏移量是否指向块列表中第一个线段索引</li>
+			<li>块中的线段数：该块中的线段数量</li>
+		</ul>
+		<b>块图信息</b>
+		显示关于整个块图的信息。
+		<ul>
+			<li>列数：列的总数</li>
+			<li>行数：行的总数</li>
+			<li>总块数：块的总数（列数 * 行数）</li>
+			<li>唯一块数：唯一块的数量（总块数减去通过复用块而节省的块数）</li>
+			<li>不在任何块中的线段数：未出现在任何块中的线段数量</li>
+			<li>块大小：BLOCKMAP 块的大小，以字节为单位</li>
+			<li>偏移列表结束位置：头部加上偏移列表结束的位置，以字节为单位</li>
+		</ul>
+		<b>可疑偏移量</b><br>
+		如果偏移列表中存在可疑的偏移量，将显示一条消息。它还会显示一个复选框，启用后会高亮所有被视为可疑的块。<br>
+		如果偏移量指向块的头部或偏移列表内部，则该块被视为可疑。
+	</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>游戏配置 - 基础设置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+	<h1>游戏配置 - 基础设置</h1>
+</div>
+<div id="contents">
+	<p> <b class="fat">type</b> (string)<br />
+		这表示配置的类型，用于防止误用其他配置。必须始终为字符串 "Doom Builder 2 Game Configuration"。<br />
+		<br />
+		<b class="fat">game</b> (string)<br />
+		在 Doom Builder 中为您的游戏配置显示的名称。<br />
+		默认值为 <b>"&lt;unnamed game&gt;"</b>。<br />
+		<br />
+		<b class="fat">enabledbydefault</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+		此游戏配置默认可用。您可以使用<a href="w_gameconfigurations.html">游戏配置窗口</a>启用和禁用游戏配置。<br />
+		默认值为 <b>false</b>。<br />
+		<br />
+		<b class="fat">actionspecialhelp</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		用于显示动作特殊帮助的 URL。&quot;<strong>%K</strong>&quot; 通配符将被<a href="gc_linedefsettings.html#actionid">动作定义</a>中定义的 <strong>id</strong> 属性替换。<br />
+		<br />
+		<b class="fat">thingclasshelp</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		在「物件编辑」窗体中点击物件类名时要打开的 URL。&quot;<strong>%K</strong>&quot; 通配符将被物件定义中定义的 <strong>classname</strong> 属性或 DECORATE actor 名称替换。<br />
+		<br />
+		<b class="fat">basegame</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		表示当前配置基于哪个游戏。用于加载特定于游戏的 GLDEFS lump（DOOMDEFS、HTICDEFS、HEXNDEFS 或 STRFDEFS）。<br />
+		<b>可能的值：</b>&quot;Doom&quot;、&quot;Heretic&quot;、&quot;Hexen&quot;、&quot;Strife&quot; 或 &quot;Chex&quot;。<br />
+		如果未设置，则不会加载特定于游戏的 lump。<br />
+		<br />
+		<b class="fat">engine</b> (string)<br />
+		游戏引擎/源代码移植版名称。它被用作 UDMF 地图格式接口的 UDMF 命名空间。目前没有其他作用。<br />
+		<br />
+		<b class="fat">defaultlumpname</b> (string)<br />
+		创建新地图并选择此配置时建议使用的默认 lump 名称。<br />
+		<br />
+		<b class="fat">testparameters</b> (string)<br />
+		用于启动测试游戏引擎的默认参数。可用参数占位符请参阅<a href="w_gameconfigurations.html">游戏配置窗口</a>。<br />
+		<br />
+		<b class="fat">testshortpaths</b> (boolean)<br />
+		设置为 <b>true</b> 可默认使用 MSDOS 8.3 格式的路径和文件名。用户仍可在<a href="w_gameconfigurations.html">游戏配置窗口</a>中更改此设置。<br />
+		默认值为 <b>false</b>。<br />
+		<br />
+		<b class="fat">defaultsavecompiler</b> (string)<br />
+		用作保存地图时所使用编译器默认设置的<a href="scriptingconfigs.html">节点构建器编译器配置结构</a>的名称。用户仍可在<a href="w_gameconfigurations.html">游戏配置窗口</a>中更改此设置。<br />
+		<br />
+		<b class="fat">defaulttestcompiler</b> (string)<br />
+		用作测试地图时所使用编译器默认设置的<a href="scriptingconfigs.html">节点构建器编译器配置结构</a>的名称。用户仍可在<a href="w_gameconfigurations.html">游戏配置窗口</a>中更改此设置。<br />
+		<br />
+		<b class="fat">defaultscriptcompiler</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		用作编译地图脚本时所使用脚本编译器默认设置的<a href="scriptingconfigs.html">脚本编译器配置文件</a>的名称。用户仍可在<a href="w_mapoptions.html">地图选项窗口</a>中更改此设置。<br />
+		<br />
+		<b class="fat">skills</b> (structure)<br />
+		这定义了用户在使用此游戏引擎/项目时可用的难度选项。此结构中的设置应为数字，值为字符串（难度等级的描述性名称）。<br />
+		<br />
+		<strong>示例：</strong>
+	<pre>
+skills
+{
+	1 = "I'm too young to die";
+	2 = "Hey, not too rough";
+	3 = "Hurt me plenty";
+	4 = "Ultra-Violence";
+	5 = "Nightmare!";
+}
+</pre>
+	<br />
+	<b class="fat">damagetypes</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		内置伤害类型的空格分隔列表。此列表会与从 DECORATE 解析出的 DamageTypes 合并。<br />
+		<br />
+		<strong>示例：</strong>
+	<pre>
+damagetypes = "None BFGSplash Drowning Slime";
+</pre>
+	<br />
+	<b class="fat">internalsoundnames</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		内置逻辑声音名称的空格分隔列表。当这些名称未在 SNDINFO 中绑定到实际声音时，不会触发编辑器警告。<br />
+		<br />
+		<strong>示例：</strong>
+	<pre>
+internalsoundnames = "*death *xdeath *wimpydeath *crazydeath *burndeath";
+</pre>
+	<br />
+    <b class="fat">ignoredextensions</b> (string) - <span class="red">仅 GZDB</span>。<br />
+		文件扩展名的空格分隔列表。加载 PK3/PK7/目录资源时，将忽略具有这些扩展名的文件。<br />
+		<br />
+		<strong>示例：</strong>
+	<pre>
+ignoredextensions = "wad pk3 pk7 bak backup1 backup2 backup3 zip rar 7z";
+</pre>
+<br />
+<b class="fat">ignoreddirectories</b> (string) - <span class="red">仅 GZDB</span>。<br />
+	目录名称的空格分隔列表。加载 PK3/PK7/目录资源时，将忽略这些目录名称。这仅适用于顶层目录。<br />
+	<br />
+	<strong>示例：</strong>
+	<pre>
+ignoreddirectories = ".svn .git";
+</pre>
+<br />
+	<b class="fat">linetagindicatesectors</b> (boolean)<br />
+	当为 <b>true</b> 时，Doom Builder 会在高亮某条线段时高亮具有相同标签编号的扇区。这只对 Doom 格式的地图真正有用，因为 Hexen 格式和 UDMF 格式的线段上没有单一的标签（在这些格式中，线段动作的参数可以是标签，这同样可以用于高亮扇区）。<br />
+	默认值为 <b>false</b>。<br />
+	<br />
+	<b class="fat">singlesidedflag</b> (integer or string)<br />
+	此设置让 Doom Builder 知道表示只有一侧的线段的<a href="gc_linedefflags.html">线段标志</a>。当 Doom Builder 将一条线改为单面时，会在线段上设置此标志值；当线变为双面时，会从线段上移除此标志。插件也可以使用此信息对线段执行操作。对于使用数字标志的地图格式（Doom 和 Hexen），这必须是整数标志值。对于使用命名标志的地图格式（UDMF），这必须是指示标志名称的字符串。<br />
+	<br />
+	<b class="fat">doublesidedflag</b> (integer or string)<br />
+	此设置让 Doom Builder 知道表示有两个侧面的线段的<a href="gc_linedefflags.html">线段标志</a>。当 Doom Builder 将一条线改为双面时，会在线段上设置此标志值；当线变为单面时，会从线段上移除此标志。插件也可以使用此信息对线段执行操作。对于使用数字标志的地图格式（Doom 和 Hexen），这必须是整数标志值。对于使用命名标志的地图格式（UDMF），这必须是指示标志名称的字符串。<br />
+	<br />
+	<b class="fat">impassableflag</b> (integer or string)<br />
+	此设置让 Doom Builder 知道表示阻挡玩家和怪物的线段的<a href="gc_linedefflags.html">线段标志</a>。Doom Builder 使用此信息为线段指定特殊颜色，插件可以使用此信息执行与阻挡声音线相关的操作。对于使用数字标志的地图格式（Doom 和 Hexen），这必须是指定「不可通行」标志值的整数。对于使用命名标志的地图格式（UDMF），这必须是指示「不可通行」标志名称的字符串。<br />
+    <br />
+	<b class="fat">leftboundary</b> (integer)<br />
+	地图左边界。<br />
+	默认值为 <b>-32768</b>。<br />
+    <br />
+	<b class="fat">rightboundary</b> (integer)<br />
+	地图右边界。<br />
+	默认值为 <b>32767</b>。<br />
+    <br />
+	<b class="fat">topboundary</b> (integer)<br />
+	地图上边界。<br />
+	默认值为 <b>32767</b>。<br />
+    <br />
+	<b class="fat">bottomboundary</b> (integer)<br />
+	地图下边界。<br />
+	默认值为 <b>-32768</b>。<br />
+    <br />
+	<b class="fat">safeboundary</b> (integer) - <span class="red">仅 GZDB</span>。<br />
+	被「检查地图尺寸」<a href="e_mapanalysis.html">错误检查</a>视为安全的最大地图包围盒尺寸。将此值设为 <b>0</b> 可禁用该检查。<br />
+	默认值为 <b>32767</b>。<br />
+	<br />
+	<b class="fat">defaultwalltexture</b> (string) - <span class="red">仅 GZDB</span>。<br />
+	创建新扇区时用于侧面的贴图名称。<br />
+	默认值为 <b>"STARTAN"</b>。<br />
+	<br />
+	<b class="fat">defaultfloortexture</b> (string) - <span class="red">仅 GZDB</span>。<br />
+	创建新扇区时用于地板的平面贴图名称。<br />
+	默认值为 <b>"FLOOR0_1"</b>。<br />
+	<br />
+	<b class="fat">defaultceilingtexture</b> (string) - <span class="red">仅 GZDB</span>。<br />
+	创建新扇区时用于天花板的平面贴图名称。<br />
+	默认值为 <b>"CEIL1_1"</b>。<br />
+	<br />
+	<b class="fat">makedoortrack</b> (string)<br />
+	制作门时用于墙壁的贴图名称。<br />
+	默认值为 <b>"-"</b>（无贴图）。<br />
+	<br />
+	<b class="fat">makedoordoor</b> (string) - <span class="red">仅 GZDB</span>。<br />
+	制作门时用作门贴图的贴图名称。<br />
+	默认值为 <b>"-"</b>（无贴图）。<br />
+	<br />
+	<b class="fat">makedoorceil</b> (string) - <span class="red">仅 GZDB</span>。<br />
+	制作门时用作门天花板贴图的贴图名称。<br />
+	默认值为 <b>"-"</b>（无贴图）。<br />
+	<br />
+	<b class="fat">makedooraction</b> (integer)<br />
+	制作门时要放在线条上的线段动作编号。<br />
+	<br />
+	<b class="fat">makedoorarg#</b> (0 .. 4) (integer)<br />
+	制作门时要放在线条上的线段动作编号的参数。<br />
+	<br />
+	<b class="fat">doomlightlevels</b> (boolean)<br />
+	将此设置为 <b>false</b> 可在 Doom Builder 中使用线性光照。通常 Doom Builder 使用对 Doom 光照等级的模拟。<br />
+	默认值为 <b>true</b>。<br />
+	<br />
+	<b class="fat">doomthingrotationangles</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+	当设置为 <b>true</b> 时，与更改物件角度相关的编辑器动作会将结果角度吸附到 45 度的增量。<br />
+	默认值为 <b>false</b>。<br />
+	<br />
+	<b class="fat">localsidedeftextureoffsets</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+	当设置为 <b>true</b> 时，启用编辑器内对侧面（Sidedef）上/中/下贴图独立偏移的支持。仅影响 UDMF 地图格式。<br />
+	默认值为 <b>false</b>。<br />
+	<br />
+	<b class="fat">start3dmode</b> (integer)<br />
+	Doom Builder 用于在地图中保存视觉模式相机位置的物件类型编号。Doom Builder 会在地图中放置一个该类型的物件，并在您在视觉模式中移动时随之移动它。<br />
+	<br />
+	<b class="fat">skyflatname</b> (string)<br />
+	被解释为天空（表示没有天花板）的平面贴图名称。Doom Builder 和插件可以将此信息用于各种用途。<br />
+	默认值为 <b>"F_SKY1"</b>。<br />
+	<br />
+	<b class="fat">defaultskytextures</b> (structure) - <span class="red">仅 GZDB</span>。<br />
+	定义原版地图使用的地图名称与天空贴图名称之间的关系。<br />
+	<br />
+	<strong>示例：</strong>
+	<pre>
+defaultskytextures
+{
+	SKY1 = "MAP01,MAP02,MAP03,MAP04,MAP05";
+	SKY2 = "MAP12,MAP13,MAP14,MAP15,MAP16";
+	SKY3 = "MAP21,MAP22,MAP23,MAP24,MAP25";
+}
+</pre>
+	<br />
+	<b class="fat">longtexturenames</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+	启用对长（> 8 个字符）贴图名称的支持。GZDoom Builder 使用此设置来限制用户界面中的输入字段，并检查资源中贴图名称的有效性。此设置应仅对 UDMF 游戏配置启用。启用此设置会使地图与 Doom Builder 2 不兼容，并可能在 Slade 3 中导致问题。这并不能决定地图文件格式中对贴图名称的实际限制。<br />
+	默认值为 <b>false</b>。<br />
+	<br />
+    <b class="fat">sidedefcompressionignoresaction</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+    当设置为 true 时，无论线段动作或标签为何，都会压缩侧面（DB2 行为，当目标源代码移植版不反压缩侧面时可能引发问题）。<br />
+    当设置为 false 时，属于带有动作或非零标签的线条的侧面在压缩侧面时将被跳过。<br />
+    默认值为 <b>false</b>。<br />
+	</p>
+    <b class="fat">filetitlestyle</b> (string)<br />
+    定义加载的目录或 PK3/PK7/PKE 资源中的长文件名如何转换为 lump 名称。<br />
+    可能的值有：<br />
+	<ul>
+	<li><b>"default"</b> - 移除扩展名，然后保留其余名称<br /></li>
+	<li><b>"zdoom"</b> - 移除扩展名，然后保留其余名称的前 8 个字符<br /></li>
+	<li><b>"eternityengine"</b> - 移除第一个点之后的所有内容（包括该点），然后保留其余名称的前 8 个字符<br /></li>
+	</ul>
+
+    默认值为 <b>"default"</b>。<br />
+	</p>	
+</div>
+</body>

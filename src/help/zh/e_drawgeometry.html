@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>绘制几何模式</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>绘制几何模式</h1></div>
+	
+	<div id="contents">
+	<p>
+		此编辑模式允许你绘制几何体。在希望放置顶点的位置单击鼠标左键（<b>LMB</b>）即可绘制线条。根据工具栏按钮的状态，你接下来绘制的顶点会吸附到网格和/或附近的几何体。按住 Shift 和/或 Control 可以更改此行为。当你绘制到第一个已绘制的顶点（形成闭合多边形）或按下鼠标右键（<b>RMB</b>）时，绘制就会结束。<br />
+		<br />
+		与旧版编辑器不同，你不必按特定方式绘制，例如顺时针绘制或绘制完整多边形。在绘制与现有几何体相邻的扇区时，也无需沿着现有线条行进。编辑器会处理绘制时交叉的线条，分割你跨过的扇区，并在需要时创建新扇区。<br />
+		<br />
+		此编辑模式是经典（2D）编辑模式之一。此模式是易变的，这意味着当地图保存或关闭时，此模式会返回上一个稳定模式，并接受或放弃你的预览更改。你可以在任意经典模式中按 <b>Control+D</b> 进入此模式。
+		
+		<h2>默认控制</h2>
+		<table border="0" cellspacing="6" width="90%">
+		<tr>
+			<td width="150" valign="top"><b>Control+D</b></td>
+			<td>启动此绘制模式（可从任意经典模式使用）。</td>
+		</tr>
+		<tr>
+			<td width="150" valign="top"><b>Enter</b></td>
+			<td>接受并应用更改，然后返回上一个模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Escape</b></td>
+			<td>放弃更改并返回上一个模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Backspace</b></td>
+			<td>移除最后绘制的顶点。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="鼠标左键">LMB</b></td>
+			<td>在鼠标光标处放置顶点以绘制新线条。结合 Shift 和/或 Control 可更改吸附行为。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b title="鼠标右键">LMB</b></td>
+			<td>结束并应用绘制，然后返回上一个编辑模式。</td>
+		</tr>
+		</table>
+	</p>
+	</div>
+</body>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>游戏配置 - 资源设置</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>游戏配置 - 资源设置</h1></div>
+	
+	<div id="contents">
+	<p>
+		<b class="fat">decorategames</b> (string)<br />
+		在此填入要支持的 DECORATE 角色所属的游戏名称。只有游戏名称包含在该字符串中的 DECORATE 角色才会被加载。如果未设置此项，则不会加载 DECORATE lump。<br />
+		<br />
+		<strong>示例：</strong>
+<pre>
+decorategames = "heretic raven";
+</pre>
+		<br />
+		<b class="fat">mixtexturesflats</b> (boolean)<br />
+		当此项设为 <b>true</b> 时，Doom Builder 将允许在墙上使用平面贴图、在地板上使用贴图。贴图与平面贴图混合时会优先考虑其原本用途。对于贴图来说，这意味着贴图会覆盖同名的平面贴图；对于平面贴图来说，这意味着平面贴图会覆盖同名的贴图。默认值为 <b>false</b>。<br />
+		<br />
+		<b class="fat">defaulttexturescale</b> (decimal)<br />
+		在缩放比例未知时贴图所用的缩放。这是一个标量值：0.5 表示原始尺寸的一半、分辨率的两倍。默认值为 1.0。<br />
+		<br />
+		<b class="fat">defaultflatscale</b> (decimal)<br />
+		在缩放比例未知时平面贴图所用的缩放。这是一个标量值：0.5 表示原始尺寸的一半、分辨率的两倍。默认值为 1.0。<br />
+		<br />
+		<b class="fat">scaledtextureoffsets</b> (boolean)<br />
+		决定贴图偏移使用世界坐标（不受贴图缩放影响）还是贴图坐标。设为 <b>true</b> 以使用贴图坐标。默认值为 <b>false</b>。<br />
+		<br />
+		<b class="fat">textures</b> (structure)<br />
+		此设置列出标记 lump 的名称，这些标记指示 Doom Builder 应加载的贴图列表的起点和终点。每个范围都必须有单独的结构，结构名称无关紧要。范围必须包含 'start' 设置和 'end' 设置，其值必须是起始与结束 lump 的名称 (string)。请注意，PNAMES、TEXTURE1 和 TEXTURE2 lump 不需要写入游戏配置，只要存在就会始终被加载。<br />
+		<br />
+		<strong>示例：</strong>
+<pre>
+textures
+{
+	zdoom1
+	{
+		start = "TX_START";
+		end = "TX_END";
+	}
+}
+</pre>
+		<br />
+		<b class="fat">patches</b> (structure)<br />
+		此设置列出标记 lump 的名称，这些标记指示 Doom Builder 应加载的补丁列表的起点和终点。每个范围都必须有单独的结构，结构名称无关紧要。范围必须包含 'start' 设置和 'end' 设置，其值必须是起始与结束 lump 的名称 (string)。请注意，Doom Builder 不会加载所有补丁，只加载贴图所使用的那些。<br />
+		<br />
+		<strong>示例：</strong>
+<pre>
+patches
+{
+	standard1
+	{
+		start = "P_START";
+		end = "P_END";
+	}
+	
+	standard2
+	{
+		start = "PP_START";
+		end = "PP_END";
+	}
+}
+</pre>
+		<br />
+		<b class="fat">sprites</b> (structure)<br />
+		此设置列出标记 lump 的名称，这些标记指示 Doom Builder 应加载的精灵列表的起点和终点。每个范围都必须有单独的结构，结构名称无关紧要。范围必须包含 'start' 设置和 'end' 设置，其值必须是起始与结束 lump 的名称 (string)。请注意，Doom Builder 不会加载所有精灵，只加载<a href="gc_thingsettings.cfg">物件</a>所使用的那些。<br />
+		<br />
+		<strong>示例：</strong>
+<pre>
+sprites
+{
+	standard1
+	{
+		start = "S_START";
+		end = "S_END";
+	}
+}
+</pre>
+		<br />
+		<b class="fat">flats</b> (structure)<br />
+		此设置列出标记 lump 的名称，这些标记指示 Doom Builder 应加载的平面贴图列表的起点和终点。每个范围都必须有单独的结构，结构名称无关紧要。范围必须包含 'start' 设置和 'end' 设置，其值必须是起始与结束 lump 的名称 (string)。<br />
+		<br />
+		<strong>示例：</strong>
+<pre>
+flats
+{
+	standard1
+	{
+		start = "F_START";
+		end = "F_END";
+	}
+}
+</pre>
+		<br />
+		<b class="fat">colormaps</b> (structure)<br />
+		此设置列出标记 lump 的名称，这些标记指示 Doom Builder 应加载的颜色映射列表的起点和终点。每个范围都必须有单独的结构，结构名称无关紧要。范围必须包含 'start' 设置和 'end' 设置，其值必须是起始与结束 lump 的名称 (string)。<br />
+		<br />
+		<strong>示例：</strong>
+<pre>
+colormaps
+{
+	standard1
+	{
+		start = "C_START";
+		end = "C_END";
+	}
+}
+</pre>
+		<br />
+
+		
+	</p>
+	</div>
+</body>

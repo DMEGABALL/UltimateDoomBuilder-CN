@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>关于编译器配置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="gz_title">
+  <h1>编译 GZDoom Builder</h1>
+</div>
+<div id="contents">
+  <h2>必需的软件：</h2>
+  <ul>
+    <li>
+    Visual C# 2008 Express Edition 或更新版本，并支持 .net Framework 3.5。你可以从 <a href="http://msdn.microsoft.com/vstudio/express/">http://msdn.microsoft.com/vstudio/express/</a> 免费下载它。或者，你也可以使用支持 .net Framework 3.5 的 Visual Studio 2008 或更新版本。</li>
+  </ul>
+  
+  <h2>可选的软件：</h2>
+  <ul>
+    <li>Git 命令行客户端（<a href="https://git-scm.com/">https://git-scm.com/</a>）。</li>
+    <li>TortoiseGit（<a href="https://tortoisegit.org/">https://tortoisegit.org/</a>）。</li>
+    <li>7-zip 压缩软件（<a href="www.7-zip.org">www.7-zip.org</a>）。</li>
+    <li>Inno Setup 5 或更新版本（<a href="http://www.jrsoftware.org/isinfo.php">http://www.jrsoftware.org/isinfo.php</a>）。</li>
+    <li>Microsoft HTML Help 编译器（<a href="http://www.microsoft.com/en-us/download/details.aspx?id=21138">http://www.microsoft.com/en-us/download/details.aspx?id=21138</a>）。</li>
+    <li>SlimDX Developer SDK（<a href="http://slimdx.org/download.php">http://slimdx.org/download.php</a>）。</li>
+    <li>DirectX SDK（<a href="https://www.microsoft.com/en-us/download/details.aspx?id=6812">https://www.microsoft.com/en-us/download/details.aspx?id=6812</a>）。</li>
+  </ul>
+  
+  <h2>获取源代码：</h2>
+  GZDoom Builder 的源代码托管在 GitHub 上（<a href="https://github.com/m-x-d/GZDoom-Builder">https://github.com/m-x-d/GZDoom-Builder</a>）。
+  <h2>快速入门指南：</h2>
+  本指南假定你使用的是 <strong>Visual Studio 2008</strong> / <strong>Visual C# 2008 Express Edition</strong> 以及 <strong>TortioseGit</strong>。
+  <ol>
+    <li>创建一个空文件夹，在其上单击右键，然后从上下文菜单中选择“<strong>GIT Clone...</strong>”。</li>
+    <li>在“<strong>URL</strong>”字段中输入“<strong>https://github.com/m-x-d/GZDoom-Builder.git</strong>”，单击“确定”，然后等待源代码下载完成。</li>
+    <li>在 Visual Studio 中打开“<strong>Builder.sln</strong>”，确认它可以编译并运行（单击绿色的“<strong>Play</strong>”按钮，或按 <strong>F5</strong>）。
+      <ul>
+      <li>如果 Visual Studio 报告 Builder 项目中缺少 <strong>SlimDX</strong> 引用，你需要手动重新添加它。操作方法：在“解决方案资源管理器”的“引用”中删除 SlimDX，右键单击 Builder 项目并选择“<strong>添加引用</strong>”。在“.NET”选项卡中，选择 SlimDX（.net 2.0，x86 版本）。</li>
+      <li>你可以忽略关于缺少 <strong>JetBrains.Profiler.Core.Api</strong> 引用的警告。除非你选择启用了性能分析器的生成目标（或者你可以使用 dotTrace Performance，如果你有权限访问它），否则一切都应该能正常生成。</li>
+      </ul>
+    </li>
+    <li>如果你打算将所做更改提交到 GZDoom Builder 的主仓库，建议先在 GitHub 上 fork GZDoom Builder，进行更改，然后提交 Pull Request。</li>
+  </ol>
+  <h2>批处理文件：</h2>
+GZDB 源代码附带了若干批处理文件，可用于自动编译和打包编辑器。首次运行某个批处理文件之前，请务必打开它，并检查保存软件路径的变量是否指向正确的目录。这些变量总是位于文件顶部附近、信息块之后。
+<ul>
+  <li><strong>Clean Rebuild.bat</strong> - 删除项目缓存文件，然后以 Release 模式编译项目。<br />需要 Visual C# Express Edition / Visual Studio。</li><br />
+  <li><strong>Compile Help.bat</strong> - 编译“Build\Refmanual.chm”。帮助源文件位于“Help”目录中。<br />需要 Microsoft HTML Help 编译器。</li><br />
+  <li><strong>Make Release.bat</strong> - 删除项目缓存文件，将项目版本号设置为与最新的 SVN 修订版本一致，以 Release 模式编译项目，生成“Build\Changelog.txt”，编译“Build\Refmanual.chm”，创建安装程序并将其放入“Release”文件夹。<br />
+  需要 Git 命令行客户端、Visual C# Express Edition / Visual Studio、Microsoft HTML Help 编译器以及 Inno Setup 5。</li><br />
+  <li><strong>Make GIT Build.bat</strong> - 删除项目缓存文件，将项目版本号设置为与 master 分支中的提交数量一致，以 Release 模式编译项目，生成“Build\Changelog.txt”，编译“Build\Refmanual.chm”，将该构建打包为 7-zip 压缩包并将其放入“GIT_Build”文件夹。<br />
+  需要 Git 命令行客户端、Visual C# Express Edition / Visual Studio、Microsoft HTML Help 编译器以及 7-zip 压缩软件。</li>
+</ul>
+</div>
+</body>
+</html>

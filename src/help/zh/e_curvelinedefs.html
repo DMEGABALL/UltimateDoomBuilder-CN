@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>曲线线段模式</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>曲线线段模式</h1></div>
+	
+	<div id="contents">
+	<p>
+		此模式会显示一个小对话框，你可以用它从一条线段或多条线段创建曲线。这些线段将被分割成若干较短的线段，共同构成曲线。虽然此模式会显示对话框，你仍可使用主界面，并在地图上缩放或移动视图。<br />
+		<br />
+		曲线线段编辑模式是经典（2D）编辑模式之一。此模式是易变的，这意味着当地图保存或关闭时，此模式会返回上一个稳定模式，并接受或放弃你的预览更改。你可以通过<a href="e_linedefs.html">线段模式</a>进入此模式。
+		
+		<h2>默认控制</h2>
+		<table border="0" cellspacing="6" width="90%">
+		<tr>
+			<td width="150" valign="top"><b>Enter</b></td>
+			<td>接受并应用更改，然后返回上一个模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Escape</b></td>
+			<td>放弃更改并返回上一个模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Ctrl + Mousewheel</b></td>
+			<td>增加/减少分割顶点数。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>LMB + Drag</b></td>
+			<td>更改曲线的距离（未设置固定圆弧曲线时）。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>RMB + Drag</b></td>
+			<td>更改曲线的角度。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Ctrl + Alt + RMB + Drag</b></td>
+			<td>设置固定圆弧曲线后，在更改曲线角度的同时增加/减少分割顶点数，以保持一致圆弧曲线</td>
+		</tr>
+		</table>
+	</p>
+	</div>
+</body>

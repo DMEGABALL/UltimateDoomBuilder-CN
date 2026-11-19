@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>GZDoom Builder 功能</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+    <style type="text/css">
+<!--
+.style1 {
+	color: #990000;
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title">
+	  <h1>代码片段</h1>
+</div>
+	
+<div id="contents">
+<div style="float:right; padding-left:10px;"><br /><img src="snippets1.jpg"/></div>
+  <p>在脚本编辑器中，你可以使用和创建代码片段（Code Snippets），它们是可重复使用的小段代码块，可以插入到代码中你需要的位置。</p>
+  <p><strong>使用代码片段：</strong><br />
+  要使用某个片段，请从下拉菜单中选择它。<br />
+  或者，输入片段的名称（或将光标置于已有片段的末尾），然后按 <strong>Tab</strong> 键将其展开。<br /><br />
+  <strong>示例：</strong>要创建 while 循环，请输入“<strong>while</strong>”，然后按 <strong>Tab</strong> 键：<br />
+  <img style="padding-right:16px;" src="snippets_expand1.jpg"/><img src="snippets_expand2.jpg"/></p>
+  <p><strong>创建新的代码片段：</strong><br />
+  代码片段是存放在 [GZDB]\Snippets\[category] 中的纯文本文件，所以你只需在那里新建一个文本文件，并向其中添加所需的代码即可。<br />
+  你可以使用以下几种特殊标记：</p>
+  <ul>
+    <li><strong>[EP]</strong>（Entry Point，插入点）- 插入片段后光标将放置的位置。</li>
+    <li><strong>[LB]</strong>（Line Break，换行）
+  - 当启用“<strong>在代码片段中使用 Allman 风格大括号</strong>”（位于 首选项 -&gt; 外观 -&gt; 脚本编辑器）设置时，它们会被转换为换行符；未启用时则转换为一个空格字符。
+  </ul>
+  <span class="style1">警告：</span>片段文件名不得包含空格。
+  <p><strong>为自定义脚本配置创建新的代码片段：</strong><br />
+  要向一个尚没有任何现有片段的脚本配置（脚本编辑器中的“插入代码片段”下拉列表处于禁用状态）添加片段，你需要：</p>
+  <ol>
+    <li>在“Snippets”文件夹内新建一个文件夹（例如“[GZDB]\Snippets\Decorate”）。</li>
+    <li>向你要使用片段的脚本配置中添加“<strong>snippetsdir</strong>”参数，并将其设置为你刚刚创建的文件夹名称（例如 <strong>snippetsdir = &quot;Decorate&quot;;</strong>）。</li>
+    <li>将片段添加到你所创建的文件夹中。</li>
+  </ol>
+</div>
+</body>
+</html>

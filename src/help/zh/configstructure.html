@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>配置语法</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>配置语法</h1></div>
+	
+	<div id="contents">
+	<p>
+		与 Doom Builder 配合使用的所有配置都遵循特定且结构化的语法。这些配置均为纯文本格式，可用任意纯文本编辑器编辑。配置中的每个设置都采用以下形式：
+	</p>
+<pre>
+settingname = value;
+</pre>
+	<p>以下是一些示例：</p>
+<pre>
+doublesidedflag = 4;
+defaulttexturescale = 1.0f;
+scaledtextureoffsets = true;
+gamename = "Doom";
+</pre>
+	<p>
+	设置名称和值有以下几条规则：
+	<ul>
+		<li>设置名称不得包含空格、制表符、换行符、点或（反）斜杠。
+		<li>设置名称在配置中，或在其所在的结构中必须唯一。
+		<li>小数值必须包含一个小数点，并以 '<b>f</b>' 结尾。
+		<li>布尔设置可使用关键字 <b>true</b> 和 <b>false</b>。
+		<li>字符串（文本）必须以双引号（<b>&quot;</b>）开头，并以双引号结尾。要在字符串中包含双引号，请在其前面加上反斜杠（<b>\&quot;</b>）。要在字符串中使用反斜杠，也请在其前面加上反斜杠。
+	</ul>
+	有些设置不需要值，仅凭其存在或缺失就足够了。这种情况如下所示：
+	</p>
+<pre>
+enablelighting;
+</pre>
+	<p>
+		可以使用双斜杠（<b>//</b>）插入 C 风格的单行注释，使用 <b>/*</b> 和 <b>*/</b> 插入块注释。Doom Builder 会完全忽略这些注释。你可以在配置文件中写下自己最疯狂的梦想！
+	</p>
+	
+	
+	
+	<h2>结构</h2>
+	<p>
+		配置中还可以包含<b>结构</b>。可以把它们看作拥有自己命名空间的一组设置。结构以名称开始，并用左花括号（<b>{</b>）开启。在结构末尾用右花括号（<b>}</b>）闭合。通常会用单个制表符缩进结构内的设置，以便更容易看出这些设置属于某个结构。下面是包含设置的结构示例：
+	</p>
+<pre>
+winningnumbers
+{
+	car = 55;
+	washmachine = 40;
+	tools = 30;
+}
+</pre>
+	<p>
+		Doom Builder 常在可能存在多组设置的情况下使用结构。结构的名称也可以只是一个数字，这样结构就能描述某个特定索引编号的信息。以下是这种情况的示例：
+	</p>
+<pre>
+things
+{
+	1
+	{
+		name = "Player 1 start";
+		color = "green";
+	}
+	
+	2
+	{
+		name = "Player 2 start";
+		color = "green";
+	}
+	
+	138
+	{
+		name = "Hideous monster";
+		color = "red";
+	}
+}
+</pre>
+	请注意，在某些结构中，设置和结构的顺序很重要。
+	
+	
+	
+	<h2>包含</h2>
+	<p>
+		有些配置（例如游戏配置）可能会变得非常庞大且复杂，而有些配置在许多设置上共享相同的值。例如，Eternity 是一个继承了 Doom 和 Boom 特性并在此之上加以扩展的游戏引擎。这正是从其他配置文件包含片段变得有用的地方。借助 <b>include</b> 功能，我们可以先插入 Doom 的特性，然后插入（并可能覆盖）Boom 的特性，再添加 Eternity 的特性。这样就不必重写其他配置中已有的所有 Doom 和 Boom 特性。<br />
+		<br />
+		include 函数接受两个参数。第一个（必需）是文件名（相对于当前文件的路径），第二个（可选）是要包含的结构名称。如果未给出第二个参数，则会包含整个文件。以下示例展示了这种 include 函数的写法：
+	</p>
+<pre>
+include("commonsettings.cfg");
+include("extras.cfg", "skills");
+</pre>
+	<p>
+		下面几个示例展示了在包含会覆盖同名设置等内容时会产生什么结果。这些示例中我们将包含一个名为 &quot;extras.cfg&quot; 的文件，其中包含以下设置：
+	</p>
+<pre>
+maxtexturenamelength = 8;
+skyflatname = "F_SKY1";
+
+options
+{
+	1 = "Low";
+	2 = "Medium";
+	3 = "High";
+}
+</pre>
+	<p>
+		此示例展示了 include 函数如何包含整个文件。这是最基本的 include：
+	</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+include("extras.cfg");
+</pre>
+	<p>结果：</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+maxtexturenamelength = 8;
+skyflatname = "F_SKY1";
+
+options
+{
+	1 = "Low";
+	2 = "Medium";
+	3 = "High";
+}
+</pre>
+	<p>
+		以下示例展示了如何包含 extras.cfg 中的单个结构。请注意，只包含结构的内容，而不包含结构容器本身！
+	</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+include("extras.cfg", "options");
+</pre>
+	<p>结果：</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+1 = "Low";
+2 = "Medium";
+3 = "High";
+</pre>
+	<p>
+		如果我们希望把包含的设置放入某个结构中，就必须把 include 函数放在希望包含这些设置的结构里。参见以下示例：
+	</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+options
+{
+	0 = "None";
+	
+	include("extras.cfg", "options");
+	
+	4 = "Ultra";
+}
+</pre>
+	<p>结果：</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+options
+{
+	0 = "None";
+	
+	1 = "Low";
+	2 = "Medium";
+	3 = "High";
+	
+	4 = "Ultra";
+}
+</pre>
+	<p>
+		以下示例演示了如何通过使用相同的设置名称来覆盖值。它还表明这并不会改变各项的顺序。某项首次被定义的位置（无论是通过包含还是直接书写）就是它最终所在的位置。参见此示例：
+	</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+options
+{
+	0 = "None";
+	
+	include("extras.cfg", "options");
+	
+	2 = "Average";
+	4 = "Ultra";
+}
+</pre>
+	<p>结果：</p>
+<pre>
+thingflags
+{
+	1 = "Easy";
+	2 = "Medium";
+	4 = "Hard";
+}
+
+options
+{
+	0 = "None";
+	
+	1 = "Low";
+	2 = "Average";
+	3 = "High";
+	
+	4 = "Ultra";
+}
+</pre>
+	<p>
+		请注意，设置 &quot;2&quot;（&quot;Average&quot;）的定义并未移动已定义的 &quot;2&quot;（&quot;Medium&quot;），而只是把它的值改为 &quot;Average&quot;。
+	</p>
+	</div>
+</body>

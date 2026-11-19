@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>游戏配置窗口</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>游戏配置窗口</h1></div>
+	
+	<div id="contents">
+	<p>
+		游戏配置（Game Configuration）窗口可从「工具」菜单打开，或使用默认按键 F6。在此窗口左侧，您可以选择要更改其设置的游戏配置。在右侧的选项卡中选择您要更改的内容。
+		
+		<h2>资源</h2>
+		这是将在所有其他资源之前加载的资源列表。您应在此处添加 IWAD 以及其他与项目相关的资源，以便它们在使用此游戏配置制作的每个地图中都自动加载。这些资源将从上到下最先于任何其他资源加载。您可以拖动资源项来更改它们的顺序。另请参阅<a href="w_resourceoptions.html">资源选项窗口</a>。
+		
+		<h2>节点构建器</h2>
+		构建 BSP 树以及 BLOCKMAP、REJECT 等其他附加信息，有助于优化游戏内性能，对于大多数较旧的源代码移植版和原版 Doom 而言甚至是必需的。您可以在此处选择在特定情况下要运行的节点构建器（Nodebuilder）以及要使用的设置。您可以选择在保存地图时和测试地图时要运行的节点构建器。请查阅您所使用的源代码移植版的文档，以了解需要哪种节点构建器以及哪些设置。高级用户可能希望通过编写<a href="nodebuilderconfiguration.html">节点构建器配置</a>来添加更具体的设置。
+		
+		<h2>测试</h2>
+		无论编辑器工作得多么出色，在源代码移植版中测试地图的外观和性能都是必不可少的。您可以在此处选择用于测试的源代码移植版以及要使用的参数。您还可以设置默认难度等级，但也可以方便地从<a href="w_mainwindow.html">主窗口</a>工具栏中的测试下拉菜单中更改。通常您不需要指定自定义参数（默认参数应该就能正常工作），但高级用户可能希望更改这些参数。<br />
+		<br />
+		以下特殊占位符可用于参数中：
+		<table border="0" cellspacing="6" width="90%">
+		<tr>
+			<td width="50" valign="top"><b>%F</b></td>
+			<td>包含待测试地图的 WAD 文件。注意：这是一个临时文件，而不是您打开或保存的文件。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%WP</b></td>
+			<td>包含完整路径的 IWAD 资源文件。这是资源列表中找到的第一个（最靠上的）IWAD 文件。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%WF</b></td>
+			<td>仅 IWAD 资源文件名，不包含路径。这是资源列表中找到的第一个（最靠上的）IWAD 文件。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%L</b></td>
+			<td>在<a href="w_mapoptions.html">地图选项窗口</a>中设置的地图 lump 名称。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%L1</b></td>
+			<td>地图 lump 名称中找到的第一个数字（如<a href="w_mapoptions.html">地图选项窗口</a>中所设置）。用于 -warp 参数。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%L2</b></td>
+			<td>地图 lump 名称中找到的第二个数字（如<a href="w_mapoptions.html">地图选项窗口</a>中所设置）。用于 -warp 参数。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%AP</b></td>
+			<td>除第一个 IWAD 之外的所有资源文件，包含完整路径。资源之间以空格分隔；当此占位符被引号括起（<b>"%AP"</b>）时，引号会为每个资源重复一次。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%S</b></td>
+			<td>用于测试的难度编号。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>%NM</b></td>
+			<td>当您选择不带怪物进行测试时为 <b>-nomonsters</b>，否则为空。</td>
+		</tr>
+		</table>
+		当勾选<b>使用短路径和文件名（MSDOS 8.3 格式）</b>复选框时，上述所有输出文件名和/或路径的占位符都将使用与 MSDOS 兼容的短版本。
+		
+		<h2>贴图</h2>
+		您可以将贴图分组到称为贴图集（Texture Sets）的类别中。有一些固定的贴图集会自动出现在浏览器中（例如「全部」集以及每个资源对应的集），您也可以在此处创建自定义贴图集。您还可以使用<b>复制</b>和<b>粘贴</b>按钮将贴图集从一个游戏配置复制到另一个游戏配置。使用<b>添加默认集</b>按钮可以添加游戏配置提供的默认贴图集（如果有）。有关创建自己的贴图集的更多信息，请参阅<a href="w_textureset.html">贴图集窗口</a>。
+		
+		<h2>模式</h2>
+		在此处您可以选择使用所选游戏配置进行编辑时可用的<a href="editingmodes.html">编辑模式</a>。当安装了替换某些编辑模式的插件，或仅为特定源代码移植版添加编辑模式的插件时，这会很有用。请注意，某些编辑模式可能需要同一插件中的其他编辑模式才能协同工作。安装插件后，您应查阅随附的文档，了解此处应进行哪些更改。仅推荐高级用户使用。
+	</p>
+	</div>
+</body>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>GZDoom Builder 功能</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../default.css" media="screen" title="Default" />
+    <style type="text/css">
+<!--
+.style1 {
+	color: #990000;
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title"><h1>常见问题</h1></div>
+	
+	<div id="contents">
+    <p><strong>问：</strong>我收到了大量“<strong>Unable to find the DECORATE class '[some actor]' to inherit from, while parsing '[some other actor]:[DoomEdNum]</strong>”警告。出了什么问题？<br />
+      <strong>答：</strong>当某个 DECORATE 角色继承自另一个角色，而后者既未在游戏配置中定义，也未在任何已包含的资源中定义时，就会发生这种情况。<br />
+      <span class="style1">如果你使用的是 (G)ZDoom：</span><br />
+      要解决此问题，请将“<strong>(g)zdoom.pk3</strong>”添加为地图资源。添加时不要忘记勾选“<strong>Exclude from testing parameters</strong>”复选框，否则 (G)ZDoom 将无法加载你的地图。“<strong>(g)zdoom.pk3</strong>”可以在 (G)ZDoom 文件夹中找到。<br />
+      <span class="style1">如果你使用的是 Zandronum：</span><br />
+      要解决此问题，请将“<strong>zandronum.pk3</strong>”添加为地图资源。如果你要使用 Skulltag 怪物，还需要添加“<strong>skulltag_actors.pk3</strong>”和“<strong>skulltag_data.pk3</strong>”。添加其中任何一个时都不要忘记勾选“<strong>Exclude from testing parameters</strong>”复选框，否则 Zandronum 将无法加载你的地图。“<strong>zandronum.pk3</strong>”和“<strong>skulltag_actors.pk3</strong>”可以在 Zandronum 文件夹中找到。你需要自行寻找“<strong>skulltag_data.pk3</strong>”。</p><br />
+    <p><strong>问：</strong>在 GLDEFS 中定义的动态光源（Dynamic Light）在视觉模式（Visual Mode）中未渲染 / 我收到了大量“<strong>Light declaration not found for light '[light name]' ('[source]', line [n])</strong>”警告。出了什么问题？<br />
+      <strong>答：</strong>GZDoom Builder 不包含 GZDoom/Zandronum 的 GLDEFS 光源定义。<br />
+      <span class="style1">如果你使用的是 GZDoom：</span><br />
+      要消除这些错误，请将“<strong>lights.pk3</strong>”添加为地图资源。“<strong>lights.pk3</strong>”可以在 GZDoom 文件夹中找到。<br />
+      <span class="style1">如果你使用的是 Zandronum：</span><br />
+      要消除这些错误，请将“<strong>zandronum.pk3</strong>”添加为地图资源。添加时不要忘记勾选“<strong>Exclude from testing parameters</strong>”复选框，否则 Zandronum 将无法加载你的地图。“<strong>zandronum.pk3</strong>”可以在 Zandronum 文件夹中找到。</p><br />
+    <p><strong>问：</strong>我不喜欢 GZDB 在视觉模式中渲染扇区墙壁时使用的“假对比度”（<a href="http://zdoom.org/wiki/Fake_contrast">zdoom.org/wiki/Fake_contrast</a>）。如何禁用它？<br />
+      <strong>答：</strong>GZDB 的视觉模式会模拟 (G)ZDoom 的默认渲染偏好（在 (G)ZDoom 中，“选项 -&gt; 显示选项 -&gt; 使用假对比度”默认处于“开启”状态）。你可以通过在 MAPINFO 的“map”或“defaultmap”定义中添加“evenlighting”或“smoothlighting”属性来改变这种行为。关于 GZDB 支持的 MAPINFO 属性的更多信息可以在<a href="text_lumps.html#mapinfo">此处</a>找到。</p>
+</div>
+</body>
+</html>

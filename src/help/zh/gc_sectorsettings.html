@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>游戏配置 - 扇区设置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>游戏配置 - 扇区设置</h1>
+</div>
+<div id="contents">
+  <p><b class="fat">generalizedsectors</b> (boolean)<br />
+    设置为 <b>true</b> 以支持泛化扇区效果。这会使 <b>gen_sectortypes</b> 结构成为必需。默认值为 <b>false</b>。<br />
+    <br />
+    <b class="fat">sectorflags</b> (structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+    列出可在扇区上设置的选项。<br />
+    <br />
+    <b class="fat">ceilingportalflags</b> (structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+    列出可在扇区天花板传送门上设置的选项。<br />
+	<br />
+    <b class="fat">floorportalflags</b> (structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+    列出可在扇区地板传送门上设置的选项。<br />
+	<br />
+    <b class="fat">sectorrenderstyles </b>(structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+    列出可在扇区上设置的渲染样式。<br />
+    <br />
+    示例：
+  <pre>        
+sectorrenderstyles
+{
+	translucent = "Translucent";
+	add = "Additive";
+}
+</pre>
+ <br />
+    <b class="fat">sectorportalrenderstyles </b>(structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+    与 <b class="fat">sectorrenderstyles</b> 相同，但用于地板/天花板传送门。<br />
+    <br />
+  <b class="fat">sectorbrightness</b> (structure)<br />
+  此结构向 Doom Builder 提供一组最常见的扇区亮度级别。Doom Builder 将使用这些级别来快速增加/减少亮度。该结构必须包含亮度级别的数字设置名称。这些设置不需要值，任何值都会被 Doom Builder 忽略。<br />
+  <br />
+  示例：
+  <pre>
+sectorbrightness
+{
+	96;
+	64;
+	32;
+	0;
+}
+</pre>
+  <br />
+  <b class="fat">gen_sectortypes</b> (structure)<br />
+  泛化扇区类型在此结构中描述。当 <b>generalizedsectors</b> 设置为 <b>true</b> 时，此结构是必需的。每个选项都应有一个结构。结构的名称显示为选项说明。每个选项结构应包含一个用于可用选项的设置。设置名称必须是数值，该数值会与其他选项中所选项的值一起加到最终的扇区效果值上（因此最终的扇区效果值是每个选项中所选项的总和）。该设置必须具有包含要显示的选项说明的字符串值。<br />
+  <br />
+  示例：
+  <pre>
+gen_sectortypes
+{
+	secret
+	{
+		0 = "No";
+		128 = "Yes";
+	}
+	
+	friction
+	{
+		0 = "Disabled";
+		256 = "Enabled";
+	}
+	
+	wind
+	{
+		0 = "Disabled";
+		512 = "Enabled";
+	}
+}
+</pre>
+  <br />
+  <b class="fat">sectortypes</b> (structure)<br />
+  这是用户可从中选择的所有可用扇区效果的简单列表。设置名称必须是数字（扇区效果编号），值必须是包含要显示的说明的字符串。<br />
+  <br />
+  示例：
+  <pre>
+sectortypes
+{
+	0 = "Normal";
+	1 = "Light Blinks (randomly)";
+	2 = "Light Blinks (2 Hz)";
+	3 = "Light Blinks (1 Hz)";
+	4 = "Damage -10 or 20% health and Light Blinks (2 Hz)";
+	5 = "Damage -5 or 10% health";
+	7 = "Damage -2 or 5% health";
+	8 = "Light Glows (1+ sec)";
+	9 = "Secret";
+}
+</pre>
+  <br />
+  </p>
+</div>
+</body>

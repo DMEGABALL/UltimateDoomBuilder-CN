@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>扇区模式</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body onresize="autoadjustheight('classiccontrols')">
+	
+	
+	
+	<div id="title"><h1>扇区模式</h1></div>
+	
+	<div id="contents">
+	<p>
+		在此模式下，你可以编辑地图中的扇区。每个扇区都由围绕它的侧面（即线段的两侧）构成。拖动扇区即可移动它们，并将其吸附到<a href="w_gridsetup.html">网格</a>和其他几何体。按住 Shift 和/或 Control 可以禁用对网格和几何体的吸附。你还可以使用工具栏上的按钮创建楼梯或渐变亮度。<br />
+		<br />
+		选择扇区的顺序对编辑模式的某些功能很重要；只要你停留在会保持扇区选中的编辑模式中，该顺序就会保持不变。选择扇区时，顺序会以数字形式显示在扇区中。<br />
+		<br />
+		扇区编辑模式是经典（2D）编辑模式之一。
+		
+		<h2>默认控制</h2>
+		<table border="0" cellspacing="6" width="90%">
+		<tr>
+			<td width="150" valign="top"><b>S</b></td>
+			<td>从任意其他经典编辑模式切换到此模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Insert</b></td>
+			<td>启动<a href="e_drawgeometry.html">绘制几何模式</a>。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Delete</b></td>
+			<td>删除选中的扇区及关联的侧面。删除位于较大扇区内部的扇区时，会在该扇区中形成一个洞（或“柱子”）。如果你希望移除扇区而不形成空白区域，请改用<a href="e_linedefs.html">线段模式</a>来删除线条。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>J</b></td>
+			<td>将选中的扇区连接成一个扇区。第一个选中扇区的属性将被保留。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+J</b></td>
+			<td>合并选中的扇区，使其成为一个扇区。这与连接相同，区别在于会自动移除选中扇区之间的线条。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+D</b></td>
+			<td>从选中或高亮的扇区创建门。这将显示一个对话框，允许你为门选择贴图和平面贴图。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>G</b></td>
+			<td>从第一个选中的扇区到最后一个选中的扇区生成渐变亮度级别。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+ScrollDown</b></td>
+			<td>将选中或高亮扇区的天花板降低 8 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+ScrollUp</b></td>
+			<td>将选中或高亮扇区的天花板升高 8 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+G</b></td>
+			<td>从第一个选中的扇区到最后一个选中的扇区生成渐变天花板高度。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+ScrollDown</b></td>
+			<td>将选中或高亮扇区的地板降低 8 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+ScrollUp</b></td>
+			<td>将选中或高亮扇区的地板升高 8 个地图像素。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Control+G</b></td>
+			<td>从第一个选中的扇区到最后一个选中的扇区生成渐变地板高度（楼梯）。</td>
+		</tr>
+		</table>
+		<iframe src="classiccontrols.html" frameborder="0" width="100%" id="classiccontrols" scrolling="no" onload="autoadjustheight('classiccontrols')"></iframe>
+	</p>
+	</div>
+</body>

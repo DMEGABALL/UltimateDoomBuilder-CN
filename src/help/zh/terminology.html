@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>术语</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>术语</h1></div>
+	
+	<div id="contents">
+	<p>
+		<h2>资源（Resource）</h2>
+		一个文件或目录，贴图、平面贴图、精灵图以及其他信息从中读取，供地图编辑过程使用。Doom Builder 支持将 WAD 文件、PK3 文件和目录作为资源。
+		
+		<h2>WAD</h2>
+		WAD 文件是数据的集合，其中可以包含贴图、精灵图、声音，也可以包含地图。这是 Doom 最常用的资源类型。WAD 文件可以是 <b>IWAD</b>（Internal WAD，内部 WAD），它包含运行游戏所需的全部数据而无需任何附加 WAD 文件；也可以是 <b>PWAD</b>（Patch WAD，补丁 WAD），它只包含你希望改动的数据（例如仅包含一张新地图和一些贴图，而不改动声音或精灵图）。Doom 始终需要一个 IWAD，并可选择性地加载一个或多个 PWAD。
+		
+		<h2>PK3</h2>
+		PK3 文件实际上是一个 ZIP 文件，其中包含具有特定结构的目录。在某些 Doom 源端口中，它可用于替代 WAD 文件，并且由于经过压缩，其体积比 WAD 文件更小。Doom Builder 可以将 PK3 文件作为资源读取，但为了获得更好的性能，建议你解压 PK3 文件（保持目录结构）并将该目录添加为资源。有关更多信息，请参阅<a href="http://zdoom.org/wiki/Using_ZIPs_as_WAD_replacement" target="_blank">使用 ZIP 替代 WAD</a>。
+		
+		<h2>元素（Element）</h2>
+		地图由顶点、线段、侧面、扇区和物件组成。它们都是地图中的元素，各自拥有自己的一套属性。某些元素与其他元素相互连接：一条线段总是连接两个顶点，并拥有一个或两个侧面。一个侧面总是连接到一个扇区，而一个扇区拥有一个或多个侧面。
+		
+		<h2>顶点（Vertex）</h2>
+		这是地图中最简单的元素。顶点是地图上的一个点，具有 X 和 Y 坐标。
+		
+		<h2>线段（Linedef）</h2>
+		这是地图几何结构中连接两个顶点的一条线。每一面墙和每个扇区边界都必须有线段。线段可以带有一个动作（Action），当玩家推墙或走过该线时触发。线段有正面（右侧）和背面（左侧），可以各自附着一个侧面。正面应当始终附着侧面，但如果该线段是一面背后空无一物（虚空）的墙，则它不应有背面。
+		
+		<h2>侧面（Sidedef）</h2>
+		侧面定义线段某一侧的外观，以及它构成哪个扇区。侧面拥有上、中、下三张贴图，根据扇区的高度，有时会需要用到其中某些贴图，它们共用同一套贴图偏移量。
+		
+		<h2>扇区（Sector）</h2>
+		扇区定义地图上的一块区域。它具有地板和天花板的属性，并可以带有环境特效。扇区的形状由侧面及其所在的线段定义，应当始终是一个封闭区域或多个封闭区域。不过也存在例外情况：有些作者会利用 Doom 引擎的特性，使用非封闭扇区来制造特殊效果。
+		
+		<h2>物件（Thing）</h2>
+		物件基本上就是地图中任何不属于几何结构的对象。它们可以是装饰物、物品、怪物、玩家起始点，甚至可以是让源端口在该位置执行某些操作的指示物。物件具有 X 和 Y 坐标，在 Hexen 格式中它们还具有 Z 坐标（通常相对于扇区地板）。
+	</p>
+	</div>
+</body>

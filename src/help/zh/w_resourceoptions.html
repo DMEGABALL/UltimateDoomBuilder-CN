@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>资源选项窗口</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>资源选项窗口</h1></div>
+	
+	<div id="contents">
+	<p>
+		使用此对话框窗口浏览资源，并更改有关如何使用该资源的任何选项。Doom Builder 支持 3 种类型的资源：
+		
+		<h2>WAD 文件</h2>
+		这是 Doom 中最常见的资源。您可以在 <a href="http://doom.wikia.com/wiki/WAD" target="_blank">Doom Wiki</a> 上找到有关 WAD 格式的更多信息。当勾选<b>仅为此文件严格加载 P_START 与 P_END 之间的补丁</b>复选框时，Doom Builder 会按照 id Software 的本意，仅从该 WAD 文件中 P_START 与 P_END lump 之间的范围严格加载补丁 lump，以此解决贴图补丁冲突；但大多数源代码移植版并不要求这样做（因此，较旧的地图中存在不在 P_START 与 P_END 之间的贴图补丁 lump）。<br />
+		
+		<h2>目录</h2>
+		Doom Builder 可以通过多种方式从目录加载资源。该目录应使用 PK3 目录结构（更多信息请参阅 <a href="http://www.zdoom.org/wiki/Using_ZIPs_as_WAD_replacement" target="_blank">ZDoom Wiki</a>），但您也可以开启<b>将目录根目录中的图像作为贴图/平面贴图加载</b>选项，从而简单地将其中的图像作为贴图或平面贴图加载。
+		
+		<h2>PK3 文件</h2>
+		PK3 文件是压缩的目录结构，可被多个源代码移植版用作 WAD 文件的替代品。更多信息请参阅 <a href="http://www.zdoom.org/wiki/Using_ZIPs_as_WAD_replacement" target="_blank">ZDoom Wiki</a>。
+		
+	</p>
+	</div>
+</body>

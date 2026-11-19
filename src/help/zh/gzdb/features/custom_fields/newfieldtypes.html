@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>GZDoom Builder 功能</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="gz_title">
+  <h1>新的自定义字段类型</h1>
+</div>
+<div id="contents">
+	<p><b class="fat">字节角（Byte Angle）</b><br />
+    可以方便地设置<a href="http://zdoom.org/wiki/Definitions#Byte_angles">字节角（byte angle）</a>。<br />
+  <p><b class="fat">整数（随机）（Integer (random)）</b><br />
+    在给定的最小值和最大值之间随机选取一个整数值。要使用它，请将 UDMF 字段类型改为“整数（随机）”，然后按 'min max' 的格式输入一个值。<br />
+    <strong>技术说明：</strong>此字段类型被视为“虚拟”类型，因为它无法保存到地图中，所以在编辑窗口中单击“确定”后，它会被转换为“整数”类型。<br />
+    <strong>示例：</strong><br />
+    此处，字段 'user_test' 将被添加到所有选中的地图元素中，并且在所有这些元素中，该字段都会有一个 1 到 123 之间的随机值：</p>
+  <p><img src="randomint.jpg" alt="" width="329" height="56" /></p><br />
+  <p><b class="fat">小数（随机）（Decimal (random)）</b><br />
+    与“整数（随机）”相同，但用于小数值。<br />
+</div>
+</body>
+</html>

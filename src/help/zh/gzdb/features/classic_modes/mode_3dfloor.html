@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>模板</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title"><h1>3D 地板模式</h1></div>
+	
+	<div id="contents">
+	<p>
+此模式让你管理 3D 地板。在 Hexen 格式和 UDMF 中可用<br>
+<b>菜单路径：</b>模式 -&gt; 3D 地板模式<br>
+<b>动作类别：</b>3D 地板插件。<br>
+<b>默认按键：</b>无。<br>
+
+<table border="0" cellspacing="3" cellpadding="3">
+  <tr>
+    <th>动作</th>
+	<th>默认按键</th>
+	<th>界面按钮</th>
+	<th>说明</th>
+  </tr>
+  <tr>
+    <td>3D 地板编辑模式</td>
+	<td><i>无</i></td>
+    <td><img align="texttop" src="ThreeDFloorIcon.png" /></td>
+	<td>进入 3D 地板编辑模式</td>
+  </tr>
+  <tr>
+    <td>向下循环高亮的 3D 地板</td>
+	<td>Shift+ScrollDown</td>
+    <td><i>无</i></td>
+	<td>在高亮扇区中存在的 3D 地板之间向下循环</td>
+  </tr>
+  <tr>
+    <td>向上循环高亮的 3D 地板</td>
+	<td>Shift+ScrollUp</td>
+    <td><i>无</i></td>
+	<td>在高亮扇区中存在的 3D 地板之间向上循环</td>
+  </tr>
+  <tr>
+    <td>选择 3D 地板控制扇区</td>
+	<td>Shift+S</td>
+    <td><i>无</i></td>
+	<td>选择高亮 3D 地板的控制扇区</td>
+  </tr> 
+  <tr>
+    <td>重新定位 3D 地板控制扇区</td>
+	<td><i>无</i></td>
+    <td>文字按钮</td>
+	<td>将 3D 地板控制扇区重新定位到控制扇区区域的当前位置</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+	<td><i>无</i></td>
+    <td><img align="texttop" src="" /></td>
+	<td></td>
+  </tr>
+  
+</table>
+
+<h1>控制扇区区域</h1>
+
+进入 3D 地板模式后，你会看到一个绿色方块：<br>
+
+<img src="csa.png" /><br>
+
+这就是控制扇区区域（Control Sector Area，CSA）。所有 3D 地板控制扇区都会创建在此区域中。如果 CSA 中没有足够的空间，你将无法创建更多 3D 地板。<br>
+
+<h2>修改控制扇区区域</h2>
+
+你可以调整 CSA 的大小并移动它。调整大小的方法是按住鼠标右键拖动边缘或角。移动的方法是先将光标指向 CSA 内部，然后按住鼠标右键拖动它。<br>
+
+<h2>标签范围</h2>
+
+你可以定义一组应用于 3D 地板控制扇区的标签范围。方法是将光标指向 CSA 内部，然后按下鼠标右键。这将打开以下对话框：<br>
+<br>
+<img src="csaoptions.png" /><br>
+<br>
+要设置要使用的标签范围，请先勾选 <i>Use tag range</i>（使用标签范围）复选框，然后设置所需的首个和最后一个标签。<b>注意：</b>如果标签用完，你将无法创建更多 3D 地板。<br>
+
+<h1>管理 3D 地板</h1>
+
+3D 地板模式的用法与扇区模式类似。你可以选择或取消选择扇区，但当你编辑它们时（默认：鼠标右键），会弹出 3D 地板编辑对话框：<br>
+<br>
+<img src="no3dfloors.png" /><br>
+<br>
+要添加新的 3D 地板，请按下任意一个 *Add 3D floor* 按钮。执行此操作后，窗口中会显示一个控件，让你设置该 3D 地板的属性。左侧的绿色条表示该 3D 地板是新添加的。<br>
+<br>
+<b>注意：</b>你可以在同一批扇区中拥有许多 3D 地板。只需反复按下 <b>Add 3D floor</b>（添加 3D 地板）按钮。<br>
+<br>
+<img src="new3dfloor.png" /><br>
+<br>
+在左侧，你可以设置 3D 地板的底部（控制扇区地板）高度和贴图、边缘贴图以及顶部（控制扇区天花板）高度和贴图。边缘高度（即厚度）会自动计算。<br>
+<br>
+中间部分让你设置常用属性，例如 3D 地板的类型和标志，以及它的 alpha 值和 3D 地板<i>下方</i>的亮度。它还会显示控制扇区的标签，以及一个用于编辑控制扇区所有属性的按钮。<br>
+<br>
+右侧会显示一个扇区列表。此列表指示该 3D 地板应用到了哪些扇区。当前选中的扇区显示在顶部，当前未选中的扇区灰显在底部。你可以勾选或取消勾选选中的扇区，以向该扇区应用 3D 地板或从中移除 3D 地板。<br>
+<br>
+最右侧有几个按钮，用于加速常见的工作流程：
+
+<table border="0" cellspacing="3" cellpadding="3">
+  <tr>
+    <th>按钮</th>
+	<th>动作</th>
+  </tr>
+  <tr>
+    <td>Duplicate（复制）</td>
+	<td>创建该 3D 地板的精确副本，并将其添加到所有已勾选的扇区</td>
+  </tr>
+  <tr>
+    <td>Split（拆分）</td>
+    <td>为每个已勾选的扇区创建一个新的 3D 地板，使每个扇区都拥有各自独立的 3D 地板</td>
+  </tr>
+  <tr>  
+    <td>Detach（分离）</td>
+    <td>创建该 3D 地板的副本，将已勾选的扇区从源 3D 地板中移除，并添加到新创建的 3D 地板中</td>
+  </tr>
+  <tr>  
+    <td>Check all（全部勾选）</td>
+    <td>勾选所有扇区，将 3D 地板应用到它们</td>
+  </tr>
+  <tr>  
+    <td>Uncheck all（全部取消勾选）</td>
+    <td>取消勾选所有扇区，从它们中移除 3D 地板</td>
+  </tr>	
+</table>
+
+<h1>使用停靠面板</h1>
+
+该插件附带一个用于 3D 地板编辑模式的停靠面板。如有必要，请按下停靠面板顶部的 <img src="DockerExpand.png" /> 图标，确保停靠面板始终处于展开状态。进入 3D 地板编辑模式时，默认会选中该停靠面板。<br>
+<br>
+高亮一个扇区时，停靠面板会显示该扇区中 3D 地板的基本信息：<br>
+<br>
+<img src="docker1.png" /><br>
+<br>
+你可以使用 <i>向上循环高亮的 3D 地板</i>（默认：Shift+ScrollUp）和 <i>向下循环高亮的 3D 地板</i>（默认：Shift+ScrollDown）动作，在停靠面板中的 3D 地板之间循环。左侧的绿色条会指示当前高亮的是哪个 3D 地板。高亮 3D 地板应用到的所有扇区都会以绿色调显示。<br>
+<br>
+<img src="docker2.png" /><br>
+<br>
+你可以使用 <i>选择 3D 地板控制扇区</i>动作（默认：Shift+S）来选择高亮 3D 地板的控制扇区。如果你想为这个 3D 地板应用斜面，这会很有用。
+
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>线段模式</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body onresize="autoadjustheight('classiccontrols')">
+	
+	
+	
+	<div id="title"><h1>线段模式</h1></div>
+	
+	<div id="contents">
+	<p>
+		使用此模式，你可以编辑地图中的线段。每条线段都有一个正面（右侧）和背面（左侧），它们构成扇区的边界。在此模式下，你可以通过线段编辑侧面属性。拖动线段即可移动它们，并将其吸附到<a href="w_gridsetup.html">网格</a>和其他几何体。按住 Shift 和/或 Control 可以禁用对网格和几何体的吸附。<br />
+		<br />
+		线段编辑模式是经典（2D）编辑模式之一。
+		
+		<h2>默认控制</h2>
+		<table border="0" cellspacing="6" width="90%">
+		<tr>
+			<td width="150" valign="top"><b>L</b></td>
+			<td>从任意其他经典编辑模式切换到此模式。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Insert</b></td>
+			<td>启动<a href="e_drawgeometry.html">绘制几何模式</a>。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Delete</b></td>
+			<td>删除选中的线段。请注意，这可能会破坏你的扇区。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>F</b></td>
+			<td>翻转线段并更改侧面，使其保持正确的位置。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+F</b></td>
+			<td>将侧面翻转到线段的另一侧。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+S</b></td>
+			<td>在距离鼠标位置最近的线段位置用新顶点分割该线段。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+1</b></td>
+			<td>仅保留单面线段处于选中状态。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+2</b></td>
+			<td>仅保留双面线段处于选中状态。</td>
+		</tr>
+		<tr>
+			<td valign="top"><b>Shift+C</b></td>
+			<td>启动<a href="e_curvelinedefs.html">曲线线段模式</a>，用选中或高亮的线段制作曲线。</td>
+		</tr>
+		</table>
+		<iframe src="classiccontrols.html" frameborder="0" width="100%" id="classiccontrols" scrolling="no" onload="autoadjustheight('classiccontrols')"></iframe>
+	</p>
+	</div>
+</body>

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>增强的标签支持</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #990000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+
+<div id="gz_title">
+  <h1>增强的标签支持</h1>
+</div>
+<div id="contents">
+  <h2><strong>新标签与未使用标签：</strong></h2>
+  <p><img src="tags_newlabel.jpg" /><br />
+    可以使用两种方法为地图元素分配新标签。<br />
+    按下&quot;<strong>New</strong>&quot;按钮会查找一个尚未被任何地图元素或任何需要标签的动作参数使用的标签编号（经典 Doom Builder 2 的行为）。<br />
+    按下&quot;<strong>Unused</strong>&quot;按钮会查找一个尚未被当前类型的任何地图元素使用的标签编号（例如，如果在编辑线段对话框中按下该按钮，则会查找尚未被地图中任何线段使用的编号）。</p>
+  <h2><strong>相对设置标签：</strong></h2>
+  <p>你可以输入&quot;<strong>++N</strong>&quot;或&quot;<strong>--N</strong>&quot;作为标签，以将标签增加或减少 <strong>N</strong>。</p>
+  <h2><strong>设置标签范围：</strong></h2>
+  <p>当选中多个地图元素时，你可以输入&quot;<strong>&gt;=N</strong>&quot;或&quot;<strong>&lt;=N</strong>&quot;作为标签来设置标签范围。<br />
+    <strong>示例：</strong>要为选中的扇区设置从 10 开始依次递增的标签，请输入&quot;<strong>&gt;=10</strong>&quot;作为标签并按下<strong> OK </strong>按钮：<br />
+    <img src="incremental_tags1.jpg" /><br />
+    <br />
+    结果：<br />
+    <img src="incremental_tags2.jpg" /><br />
+    <br />
+    <span class="style1">警告：</span>以这种方式设置标签范围时，不会检查所设置的标签是否已在地图中使用。如果你需要该功能，请使用<strong> Tag Range </strong>插件来设置标签范围。</p>
+  <h2><strong>增强的标签支持：</strong></h2>
+  <table width="100%" border="0" cellspacing="3" cellpadding="3">
+    <tr>
+      <td valign="top">如果某个标签已在地图中使用，你可以从列表中选择它：
+        </p></td>
+      <td><img src="tags_dropdown.jpg" alt="" width="398" height="400" /></td>
+    </tr>
+    <tr>
+      <td valign="top"><p>这也适用于动作参数。这种情况下只会显示相关的标签（例如，如果参数是扇区标签，则下拉列表中只会显示扇区标签）。<br />
+          <strong>如有需要，你也可以手动输入标签编号。</strong></p></td>
+      <td><img src="tags_action_arg.jpg" alt="" width="400" height="329" /></td>
+    </tr>
+  </table>
+  <h2><strong>标签名称</strong>：</h2>
+  <p>你可以为标签添加名称。这可以通过几种方式完成：<br />
+    1. 如果你在标签选择器中输入任意文本，则会查找一个未使用的标签编号，并将你的文本作为名称分配给该标签（这对动作参数无效）。
+  <p><img src="tags_newlabel.jpg" />
+  <p>2. 你可以使用<strong>标签统计对话框</strong>查看地图中使用的所有标签，并查看和编辑标签名称（如果有为标签分配名称）：
+  <p><img src="tags_view1.jpg" alt="" width="264" height="399" /><br />
+    <br />
+    <img src="tags_table.jpg" alt="" />
+  <p>双击&quot;<strong>Label</strong>&quot;列中的值可编辑标签名称。<br />
+    双击 Sectors、Linedefs 或 Things 单元格可选中地图元素，右键单击可打开其属性。<br />
+    所有列都可以排序。
+  <p>标签名称支持自动补全。开始输入标签名称即可显示自动补全列表：
+  <p><img src="tags_autocomplete.jpg" alt="" width="356" height="400" />
+  <p>当排序模式设置为&quot;By Tag&quot;时，标签名称将显示在<strong>标签浏览器</strong>中：
+  <p><img src="tags_tagexplorer.jpg" alt="" width="285" height="311" /> 
+</div>
+</body>

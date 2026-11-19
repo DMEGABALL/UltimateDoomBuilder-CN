@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>关于编译器配置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="gz_title">
+	<h1>命令行参数</h1>
+</div>
+<div id="contents">
+	<h2>用法：</h2>
+	所有命令行参数均不区分大小写。<br />
+	<br />
+	<b class="fat">GZBuilder.exe [wadfile] [-map mapname] [-cfg configname] [-delaywindow] [-nosettings]
+	[-strictpatches] [-portable] [-resource wad|dir|pk3 [roottextures] [rootflats]
+	[strictpatches] [notest] resourcename]</b>
+	<h2>参数：</h2>
+	<br />
+	<b class="fat">wadfile</b><br />
+	这是 GZDoom Builder 启动后立即加载的 .WAD 文件。除非同时使用了 <strong>-map</strong> 和 <strong>-cfg</strong>，否则将显示地图选项对话框。<br />
+	<p><b class="fat">-map &quot;mapname&quot;</b><br />
+		&quot;mapname&quot; 是地图名称（地图头 lump 名称），例如 <strong>MAP01</strong> 或 <strong>E1M1</strong>。<br />
+		指定后，将指明要从指定 wad 文件中加载的地图。<br />
+		与 <strong>-cfg</strong> 组合使用，以提供跳过地图选项对话框所需的信息。
+	<p><b class="fat">-delaywindow</b><br />
+		这会延迟显示主界面窗口，直到从命令行参数进行的自动地图加载完成，并且程序尚未终止。<br />这对于可用于执行批处理任务的插件很有用，此类情况下不希望显示主界面窗口。<br />如果插件在地图加载时完成其操作并立即终止应用程序，则主窗口根本不会显示。
+	<p>
+		<b class="fat">-nosettings</b><br />
+		指定此参数时，GZDoom Builder 将不会加载你的偏好设置或游戏配置设置，而是使用默认设置。<br />你不会丢失原有的设置，但指定此参数后，你的设置不会被保存。<br />
+		<br />
+		<b class="fat">-portable</b> - <span class="red">仅限 GZDB。</span><br />
+		编辑器将以便携模式启动。它将使用程序目录中的 &quot;UDBuilder.cfg&quot;，而不是 &quot;%LocalAppData%\Doom Builder\UDBuilder.cfg&quot; 中的那个来进行程序设置和保存。日志与崩溃报告文件也将在程序目录中创建。<br />
+	<h2>以下参数仅在同时存在 &quot;wadfile&quot; 和 &quot;-map&quot; 参数时使用</h2>
+	它们复制了可在<a href="w_openmapoptions.html">打开地图窗口</a>中设置的选项。<br />
+	<br />
+	<b class="fat">-strictpatches</b><br />
+	指定此参数以强制仅从 P_START
+	与 P_END 标记 lump 之间严格加载贴图补丁。这可以解决 lump 名称冲突，但旧 WAD 文件
+	并不总是遵守此规则。<br />
+	<br />
+	<b class="fat">-cfg &quot;game_configuration.cfg&quot;</b><br />
+	<b class="fat">-config &quot;game_configuration.cfg&quot;</b><br />
+	编辑器在加载地图时将使用指定的游戏配置文件。<br />
+	不要包含路径，所有游戏配置都必须位于 &quot;Configurations&quot; 子文件夹中。<br />
+	<br />
+	<b class="fat">-resource &lt;resource type&gt; [flags] &quot;path\to\resource&quot;</b><br />
+	添加一个地图资源。请注意，这些资源会追加到根据所选游戏配置自动加载的资源之中。<br />
+	<strong>资源类型</strong>（必需）：&quot;wad&quot;、&quot;dir&quot; 或 &quot;pk3&quot;。<br />
+	<strong>标志</strong>（可选）：
+	<ul>
+		<li><strong>ROOTTEXTURES</strong> - 将资源根目录中的图像作为贴图加载（仅限目录/pk3 资源）。</li>
+		<li><strong>ROOTFLATS</strong> - 将资源根目录中的图像作为平面贴图加载（仅限目录/pk3 资源）。</li>
+		<li><strong>STRICTPATCHES</strong> - 对补丁使用严格规则（仅限 wad 资源）。</li>
+		<li><strong>NOTEST</strong> - 将此资源排除在测试参数之外。</li>
+	</ul>
+	<h2>示例：</h2>
+	以下命令在 GZDoom Builder 初始化后加载文件 "Ubermegawad.wad" 并显示
+	地图选项对话框：
+	<pre>
+GZBuilder.exe "C:\Games\Doom\My Maps\Ubermegawad.wad"
+</pre>
+	与上例相同，但这次不显示地图选项对话框，而是使用 Doom 2 游戏配置立即加载地图 MAP23：
+	<pre>
+GZBuilder.exe "C:\Games\Doom\My Maps\Ubermegawad.wad" -map MAP23 -cfg "Doom_Doom2Doom.cfg"
+</pre>
+	与上例相同，但使用某个 GZDoom 游戏配置，并添加 wad 文件资源和 PK3 文件资源：
+	<pre>
+GZBuilder.exe "C:\Games\Doom\My Maps\Ubermegawad.wad" -map MAP23 -cfg "GZDoom_DoomUDMF.cfg"
+               -resource pk3 notest "C:\GZDoom\gzdoom.pk3"
+               -resource wad strictpatches "C:\Games\Doom\gothtextures.wad"
+               -resource pk3 "C:\Games\Doom\hardmonsters.pk3"
+</pre>
+</div>
+</body>

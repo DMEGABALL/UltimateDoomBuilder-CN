@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>GZDoom Builder 功能</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title">
+	  <h1>地形导入器</h1>
+	</div>
+	
+	<div id="contents">
+    <p>此模式允许你从 Wavefront .obj 模型创建扇区。<br />
+      <b>菜单路径：</b>文件 -&gt; 导入 -&gt; Wavefront .obj 作为地形。<br>
+      <b>动作类别：</b>工具。<br />
+      <b>默认按键：</b>无。</p>
+    <p><strong>用法：</strong><br />
+      在你喜欢的 3D 建模软件（<a href="http://www.blender.org/">Blender</a>、<a href="http://www.earthsculptor.com/">Earth Sculptor</a> 或任何其他能够以 Wavefront .obj 格式保存或导出模型的软件）中创建地形模型<br />
+      使用 <strong>文件 -&gt; 导入 -&gt; Wavefront .obj 作为地形</strong>动作将其作为扇区导入。模型中的每个多边形都会转换为一个扇区。</p>
+      <strong>设置：</strong><img style="float:right" src="import_terrain_settings.jpg"/><br />
+      <em>缩放：</em>不言自明。默认为 1.0。<br />
+      <em>向上轴：</em>应与创建地形模型时所用 3D 建模软件中的垂直轴一致。<br />
+      <em>斜面地形：</em>启用后，该模式将使用 UDMF 中的地板顶点高度偏移（&quot;ZFloor&quot;）或顶点斜面地板（1504）物件来生成斜面地形。无论此设置如何，该模式还会将每个新扇区的地板高度设置为其所基于的多边形的平均高度。<br />
+      <br />
+      <strong>限制：</strong><br />
+      模型应已三角化。<br />
+      从顶部观察时，多边形不应相互重叠。<br />
+      <p><img src="terrain1.jpg" alt="" width="842" height="722" /></p>
+    <p><img src="terrain2.jpg" alt="" width="842" height="632" /></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>地图选项窗口</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+	
+	
+	
+	<div id="title"><h1>地图选项窗口</h1></div>
+	
+	<div id="contents">
+	<p>
+		此对话框窗口可让你更改一些应用于整张地图以及地图加载方式的选项。你可以从“编辑”菜单访问它，或使用默认按键 F2。在顶部，你可以选择编辑此地图时要使用的<b>游戏配置</b>。请注意，切换到不同文件格式的配置可能会导致地图中的信息丢失，甚至可能损坏地图。游戏配置字段下方是<b>关卡名称</b>字段。你可以在这里输入用于在 WAD 文件中存储地图的 lump 名称。Doom 1 地图的关卡名称示例可以是 E2M3，表示该地图属于第 2 章第 3 关。Doom 2 地图的示例是 MAP03，即第 3 关。
+		
+		<h2>资源</h2>
+		资源区域可让你指定编辑此地图时加载哪些资源。<b>仅为此文件严格加载 P_START 与 P_END 之间的 patch</b>复选框作用于你正在编辑的 wad 文件（即你的地图所在的文件）。勾选此项后，Doom Builder 会严格按照 id Software 的本意，仅从 P_START 与 P_END 这两个 lump 之间加载 patch lump 来解决贴图 patch 冲突，但大多数源端口并不需要这样做（因此，较旧的地图会有不在 P_START 与 P_END 之间的贴图 patch lump）。<br />
+		<br />
+		在资源列表中，你可以看到所有将被加载的资源。Doom Builder 会把来自游戏配置的项以灰色显示在列表顶部，因为它们总是最先加载。你可以根据游戏配置在<a href="w_gameconfigurations.html">游戏配置窗口</a>中更改所加载的资源。你可以拖动资源项（来自游戏配置的项除外）来更改它们的顺序。另请参见<a href="w_resourceoptions.html">资源选项窗口</a>。
+	</p>
+	</div>
+</body>

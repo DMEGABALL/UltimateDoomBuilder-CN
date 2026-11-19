@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>游戏配置 - 物件设置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>游戏配置 - 物件设置</h1>
+</div>
+<div id="contents">
+  <p> <span class="big">常规设置：</span><br />
+    <br />
+    <b class="fat">defaultthingflags</b> (structure)<br />
+    此项定义了插入第一个新物件时，其默认标志应当是什么。在使用数值物件标志的地图格式中，此结构中的设置应为要设置的数值标志。在使用命名标志的地图格式中，这些设置必须是所要设置的标志的名称。设置的值是可选的，并且会被 Doom Builder 忽略。<br />
+    <br />
+    数值标志示例：
+  <pre>defaultthingflags
+{
+  1;
+  2;
+  4;
+  32;
+}
+</pre>
+  <br />
+  命名标志示例：
+  <pre>defaultthingflags
+{
+  skill1;
+  skill2;
+  skill3;
+  single;
+  coop;
+}
+</pre>
+  <br />
+  <b class="fat">thingrenderstyles </b>(structure) - <span class="red">仅 GZDB，仅 UDMF</span>。<br />
+  列出可在物件上设置的渲染样式。<br />
+  <br />
+  示例：
+  <pre>        
+thingrenderstyles
+{
+  normal = "Normal";
+  translucent = "Translucent";
+  soultrans = "Translucent (Lost Soul)";
+  translucentstencil = "Translucent (stencil)";
+  add = "Additive";
+  subtract = "Subtractive";
+  stencil = "Stencil";
+  fuzzy = "Fuzzy";
+  optfuzzy = "Fuzzy/Shadow (uses r_drawfuzz CVAR)";
+  none = "None";
+}
+</pre>
+  <br />
+  <span class="big">物件分类定义：</span><br />
+  这些设置可用于物件分类定义的内部。<br />
+  <span class="blue">说明：</span>在 GZDB 中物件分类可以嵌套。<br />
+  <br />
+  <b class="fat">sorted</b> (integer) [0 .. 1]<br />
+  设为 1 时，此分类中的项目将按标题排序。<br />
+  <br />
+  <span class="big"><a name="catdefs" id="catdefs"></a>物件与物件分类定义：</span><br />
+  这些设置既可用于物件分类定义，也可用于物件定义。<br />
+  <br />
+  <b class="fat">color</b> (integer) [0 .. 19]<br />
+  设置此分类中物件所使用的颜色。<br />
+  可能的值为：
+  <ul>
+    <li>&nbsp;&nbsp;0 - <span style="color:#696969">&#9608;</span> 深灰色；</li>
+    <li>&nbsp;&nbsp;1 - <span style="color:#4169E1">&#9608;</span> 蓝色；</li>
+    <li>&nbsp;&nbsp;2 - <span style="color:#228B22">&#9608;</span> 绿色；</li>
+    <li>&nbsp;&nbsp;3 - <span style="color:#20B2AA">&#9608;</span> 青色；</li>
+    <li>&nbsp;&nbsp;4 - <span style="color:#B22222">&#9608;</span> 红色；</li>
+    <li>&nbsp;&nbsp;5 - <span style="color:#9400D3">&#9608;</span> 洋红色；</li>
+    <li>&nbsp;&nbsp;6 - <span style="color:#B8860B">&#9608;</span> 棕色；</li>
+    <li>&nbsp;&nbsp;7 - <span style="color:#C0C0C0">&#9608;</span> 灰色；</li>
+    <li>&nbsp;&nbsp;8 - <span style="color:#808080">&#9608;</span> 浅灰色；</li>
+    <li>&nbsp;&nbsp;9 - <span style="color:#00BFFF">&#9608;</span> 浅蓝色；</li>
+    <li>10 - <span style="color:#32CD32">&#9608;</span> 浅绿色；</li>
+    <li>11 - <span style="color:#AFEEEE">&#9608;</span> 浅青色；</li>
+    <li>12 - <span style="color:#FF6347">&#9608;</span> 浅红色；</li>
+    <li>13 - <span style="color:#EE82EE">&#9608;</span> 浅洋红色；</li>
+    <li>14 - <span style="color:#FFFF00">&#9608;</span> 黄色；</li>
+    <li>15 - <span style="color:#F5F5F5">&#9608;</span> 白色；</li>
+    <li>16 - <span style="color:#FFB6C1">&#9608;</span> 粉色；</li>
+    <li>17 - <span style="color:#FF8C00">&#9608;</span> 浅橙色；</li>
+    <li>18 - <span style="color:#BDB76B">&#9608;</span> 浅棕色（<strong>默认</strong>）；</li>
+    <li>19 - <span style="color:#DAA520">&#9608;</span> 橙色；</li>
+  </ul>
+  <p><b class="fat">arrow</b> (integer) [0 .. 1]<br />
+    设为 1 时，物件的朝向将在经典模式与视觉模式中显示为箭头。<br />
+    <br />
+    <b class="fat">renderstyle</b> (string)<br />
+    设置此分类或物件的渲染样式。参见 <a href="http://www.zdoom.org/wiki/Actor_properties#RenderStyle">zdoom.org/wiki/Actor_properties#RenderStyle</a>。<br />
+    默认值为<strong> &quot;Normal&quot;</strong>。<br />
+    <br />
+    <b class="fat">alpha</b> (decimal) [0.0f .. 1.0f]<br />
+    设置此分类或物件的 alpha 值。<br />
+    默认值为<strong> &quot;1.0f&quot;</strong>。<br />
+    <br />
+    <b class="fat">title</b> (string)<br />
+    设置此分类或物件的标题。<br />
+    <br />
+    <b class="fat">sprite</b> (string)<br />
+    设置渲染此物件或此分类中的物件时所使用的精灵图形。这应是带完整名称的精灵名（不含文件扩展名），例如 &quot;CPOSA2&quot;。<br />
+    你也可以使用「Sprites」目录中的图像：在图像名（不含扩展名）前加上 &quot;internal:&quot; 前缀，例如 &quot;internal:Actor&quot;。<br />
+    <br />
+    <b class="fat">width</b> (integer)<br />
+    设置渲染物件时所使用的宽度（经典模式与视觉模式）。<br />
+    默认值为 <strong>10</strong>。<br />
+    <br />
+    <b class="fat">height</b> (integer)<br />
+    设置渲染物件时所使用的高度（经典模式与视觉模式）。<br />
+    默认值为 <strong>20</strong>。<br />
+    <br />
+    <b class="fat">hangs</b> (integer) [0 .. 1]<br />
+    设为 1 时，在视觉模式中该物件将对齐到天花板，而不是地板。<br />
+    <br />
+    <b class="fat">blocking</b> (integer) [0 .. 2]<br />
+    设置物件的阻挡模式。此值用于检查卡住的物件。<br />
+    可能的值为：
+  <ul>
+    <li>0 - 不阻挡。</li>
+    <li>1 - 完全阻挡。</li>
+    <li>2 - 真实高度（True-Height）。</li>
+  </ul>
+  <b class="fat">error</b> (integer) [0 .. 2]<br />
+  设置用于此物件的卡住物件错误检查模式。 <br />
+  可能的值为：
+  <ul>
+    <li>0 - 不检查此物件。</li>
+    <li>1 - 检查物件是否位于地图几何体之外。</li>
+    <li>2 - 检查物件是否位于地图几何体之外，或是否卡在另一个物件内部。</li>
+  </ul>
+  默认值为<strong> 1</strong>。<br />
+  <br />
+  <b class="fat">fixedsize</b> (boolean)<br />
+  设为 true 时，物件将在经典模式与视觉模式中渲染为无尺寸。<br />
+  <br />
+  <b class="fat">fixedrotation</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+  设为 true 时，在使用编辑选择模式旋转物件时，物件的朝向不会被改变。<br />
+  <br />
+  <b class="fat">absolutez</b> (boolean)<br />
+  设为 true 时，在视觉模式中物件的垂直位置将被用作绝对值，而不是相对于地板/天花板的距离。<br />
+  <br />
+  <b class="fat">spritescale</b> (decimal)<br />
+  可用于修改视觉模式中渲染的精灵缩放。<br />
+  默认值为<strong> &quot;1.0f&quot;</strong>。<br />
+  <br />
+  <span class="big">物件定义：</span><br />
+  这些设置可用于物件定义的内部。<br />
+  <br />
+  <b class="fat">locksprite</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+  设为 true 时，即使此物件的 DECORATE 角色定义中包含不同的精灵，也将使用游戏配置中设置的精灵。<br />
+  <br />
+  <b class="fat">class</b> (string) - <span class="red">仅 GZDB</span>。<br />
+  设置与此物件对应的 DECORATE 类名。内部用于将模型和动态光源附加到给定物件，以及在 DECORATE 解析器中查找要继承的角色类。<br />
+  <strong>示例：</strong>
+  <pre>3001
+{
+  title = "Imp";
+  sprite = "TROOA2A8";
+  <span class="blue">class = "DoomImp";</span>
+}</pre>
+<br />
+  <b class="fat">locksprite</b> (boolean) - <span class="red">仅 GZDB</span>。<br />
+  设为 true 时，即使此物件的 DECORATE 角色定义中包含不同的精灵，也将使用游戏配置中设置的精灵。<br />
+  <br />
+  <b class="fat">flagsrename</b> (structure) - <span class="red">仅 GZDB</span>。<br />
+  允许为每种受支持的地图格式中的特定物件指定自定义标志名称。<br />
+  <strong>示例：</strong>
+  <pre>9998
+{
+  title = "Actor enters sector";
+  class = "SecActEnter";
+  <span class="blue">flagsrename
+  {
+    DoomMapSetIO
+    {
+      8 = "Monsters activate";
+    }
+    HexenMapSetIO
+    {
+      8 = "Monsters activate";
+      16 = "Projectiles activate";
+      8192 = "Players can't activate";
+      16384 = "Activate once only";
+    }
+    UniversalMapSetIO
+    {
+      ambush = "Monsters activate";
+      dormant = "Projectiles activate";
+      strifeally = "Players can't activate";
+      standing = "Activate once only";
+    }
+  }</span>
+}</pre>
+<br />
+<span class="big">物件参数定义：</span><br />
+参见 <a href="gc_argumentsettings.html">动作参数设置</a>。
+  </p>
+</div>
+</body>

@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>游戏配置 - 线段设置</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css" media="screen" title="Default" />
+</head>
+<body>
+
+<div id="title">
+  <h1>游戏配置 - 动作参数设置</h1>
+</div>
+<div id="contents">
+  <p> <b class="fat">title</b> (string)<br />
+    设置此参数的标题。<br />
+    参数标题也可以在 <a href="gc_decoratekeys.html#argtitle">DECORATE</a> 中设置。<br />
+    <br />
+    <b class="fat"><a name="argtooltip" id="argtooltip"></a>tooltip</b> (string) - <span class="red">仅 GZDB</span><br />
+    允许为<a href="gc_thingsettings.html#argtooltip">物件</a>或线段参数定义指定显示的提示文本。可以使用换行符（"\n"）来格式化文本。<br />
+    参数提示也可以在 <a href="gc_decoratekeys.html#argtooltip">DECORATE</a> 中设置。<br />
+    <strong>示例：</strong> </p>
+  <pre>arg1
+{
+    title = "Mirror Polyobj Number";
+    <span class="blue">tooltip = "Polyobject that will mirror\nthis one's movements.";</span>
+}</pre>
+  <br />
+  <b class="fat"><a name="argtype" id="argtype"></a>type</b> (integer)<br />
+  设置此参数的类型。这会改变 <a href="w_linedefedit.html">线段</a>与 <a href="w_thingedit.html">物件编辑</a>窗口中参数输入框的行为。<br />
+  参数类型也可以在 <a href="gc_decoratekeys.html#argtype">DECORATE</a> 中设置。<br />
+  <strong>支持的值有：</strong><br />
+  <br />
+  <ul style="list-style-type:none">
+    <li>0 = 整数（默认）</li>
+    <li>4 = 动作特殊</li>
+    <li>5 = 扇区效果</li>
+    <li>8 = 角度（度）</li>
+    <li>10 = XXRRGGBB 颜色</li>
+    <li>11 = 枚举选项</li>
+    <li>12 = 枚举位</li>
+    <li>13 = 扇区标签</li>
+    <li>14 = 物件标签</li>
+    <li>15 = 线段标签</li>
+    <li>22 = 字节角度（<span class="red">仅 GZDB</span>）</li>
+    <li>23 = 物件半径（<span class="red">仅 GZDB</span>）</li>
+    <li>24 = 物件高度（<span class="red">仅 GZDB</span>）</li>
+	<li>25 = 多段体编号（<span class="red">仅 GZDB</span>）</li>
+	<li>26 = 枚举选项 + 枚举位（<span class="red">仅 GZDB</span>）</li
+  >
+  </ul>
+  <p><b class="fat">targetclasses</b> (string) - <span class="red">仅 GZDB</span><br />
+    设置后，参数下拉列表中将只显示属于给定类的物件。仅在参数 <strong>type</strong> 为 14 时使用。<br />
+    该值可以是单个物件类名，或以逗号分隔的物件类名列表：<br />
+  <pre>
+arg0
+{
+    title = &quot;MapSpot Tag&quot;;
+    type = 14;
+    <span class="blue">targetclasses = &quot;MapSpot,MapSpotGravity&quot;;</span>
+}
+</pre>
+  <p><b class="fat">enum</b> (structure or string)<br />
+    提供用于显示此参数的预定义值列表。仅在参数 <strong>type</strong> 为 11 或 12 时使用。<br />
+    该值可以是预定义枚举的名称：<br />
+  <pre>
+arg0
+{
+    title = &quot;Volume&quot;;
+    type = 11;
+    <span class="blue">enum = &quot;sound_volume&quot;;</span>
+}
+</pre>
+  也可以是显式定义：<br />
+  <pre>
+arg0
+{
+    title = "Apply to";
+    type = 11;
+    <span class="blue">enum
+    {
+        0 = "Floor and Ceiling";
+        1 = "Ceiling";
+        2 = "Floor";
+    }</span> 
+}
+</pre>
+  枚举也可以在 <a href="gc_decoratekeys.html#argenum">DECORATE</a> 中设置。<br />
+  
+  <p><b class="fat">renderstyle</b> (string) - <span class="red">仅 GZDB</span><br />
+    允许指定用于显示此参数值的渲染形状。支持的值有：<br />
+	<ul>
+	<li>&quot;<strong>Rectangle</strong>&quot;。参数值用作矩形尺寸。</li>
+  	<li>&quot;<strong>Circle</strong>&quot;。参数值用作圆形半径。</li>
+  	</ul>
+  渲染形状可通过"<strong><a href="gzdb/features/general/rendering_toolbar.html">Toggle Event Lines</a></strong>"动作/菜单按钮切换。<br />
+  目前渲染形状仅支持物件参数。<br />目前渲染形状仅在经典模式中显示。</p>
+  <p><b class="fat">rendercolor</b> (integer) - <span class="red">仅 GZDB</span><br />
+    允许指定渲染形状所使用的颜色。支持的值有十六进制颜色（如 &quot;<strong>FF0000</strong>&quot;）、HTML 格式的十六进制颜色（如 &quot;<strong>#F00</strong>&quot; 或 &quot;<strong>#FF0000</strong>&quot;）或颜色名称（如 &quot;<strong>Red</strong>&quot;）。<br />
+    默认情况下，渲染形状将使用事件线<a href="w_preferences.html">编辑器颜色</a>。<br />
+    此属性必须与 &quot;<b class="fat">renderstyle</b>&quot; 属性配合使用。</p>
+	
+	<p><b class="fat">minrange</b> (integer) - <span class="red">仅 GZDB</span><br />
+  	允许指定渲染形状的最小范围。<br />
+  	默认情况下，最小范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+    此属性必须与 &quot;<b class="fat">renderstyle</b>&quot; 属性配合使用。</p>
+	
+	<p><b class="fat">minrangecolor</b> (integer) - <span class="red">仅 GZDB</span><br />
+		允许指定渲染最小范围形状时使用的颜色。支持的值有十六进制颜色（如 &quot;<strong>FF0000</strong>&quot;）、HTML 格式的十六进制颜色（如 &quot;<strong>#F00</strong>&quot; 或 &quot;<strong>#FF0000</strong>&quot;）或颜色名称（如 &quot;<strong>Red</strong>&quot;）。<br />
+默认情况下，最小范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+    此属性必须与 &quot;<b class="fat">renderstyle</b>&quot; 和 &quot;<b class="fat">minrange</b>&quot; 属性配合使用。</p>
+	
+	<p><b class="fat">maxrange</b> (integer) - <span class="red">仅 GZDB</span><br />
+  	允许指定渲染形状的最大范围。<br />
+  	默认情况下，最大范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+    此属性必须与 &quot;<b class="fat">renderstyle</b>&quot; 属性配合使用。</p>
+	
+	<p><b class="fat">maxrangecolor</b> (integer) - <span class="red">仅 GZDB</span><br />
+		允许指定渲染最大范围形状时使用的颜色。支持的值有十六进制颜色（如 &quot;<strong>FF0000</strong>&quot;）、HTML 格式的十六进制颜色（如 &quot;<strong>#F00</strong>&quot; 或 &quot;<strong>#FF0000</strong>&quot;）或颜色名称（如 &quot;<strong>Red</strong>&quot;）。<br />
+默认情况下，最大范围形状将使用指示<a href="w_preferences.html">编辑器颜色</a>。<br />
+    此属性必须与 &quot;<b class="fat">renderstyle</b>&quot; 和 &quot;<b class="fat">maxrange</b>&quot; 属性配合使用。</p>
+	
+<p><b class="fat">flags</b> (structure or string) - <span class="red">仅 GZDB</span><br />
+    提供用于显示此参数的预定义位标志值列表。仅在参数 <strong>type</strong> 为 26 时使用。<br />
+    该值可以是预定义枚举的名称，也可以是显式定义。<br />
+	<strong>示例：</strong>
+	<pre>
+	arg4
+	{
+		title = "Flags";
+		type = 26;
+		<span class="green">// 一次只能选择一个枚举值</span>
+		enum
+		{
+			0 = "Don't copy anything";
+			1 = "Copy floor texture, remove sector special";
+			2 = "Copy floor texture";
+			3 = "Copy floor texture and special";
+		}
+		<span class="green">// 可以选择任意数量的标志值</span>
+		<span class="blue">flags
+		{
+			4 = "Use numeric model if set, trigger model if not";
+			8 = "Raise floor if set, lower it if not";
+			16 = "Inflict crushing damage";
+		}</span>
+	}</pre>
+  <br />
+  <b class="fat">default</b> (integer) - <span class="red">仅 GZDB</span><br />
+  设置物件或线段参数定义的默认值。<br />
+  默认值也可以在 <a href="gc_decoratekeys.html#argdefault">DECORATE</a> 中设置。<br />
+  <strong>示例：</strong>  </p>
+  <pre>9038
+{
+    title = "ColorSetter";
+    arg0
+    {
+        title = "Red";
+        <span class="blue">default = 255;</span>
+    }
+}</pre>
+  </p>
+</div>
+</body>

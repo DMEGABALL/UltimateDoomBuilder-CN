@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	
+	<title>GZDoom Builder 功能</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../../default.css" media="screen" title="Default" />
+    <script type="text/javascript" src="../../../scripts.js"></script>
+</head>
+<body>
+	
+	
+	
+	<div id="gz_title"><h1>事件线</h1></div>
+	
+	<div id="contents">
+    <p>事件线可以通过<a href="../general/rendering_toolbar.html">渲染工具栏</a>上的图标打开或关闭，也可以使用“<strong>Toggle Event lines</strong>”动作。<br />
+		事件线的颜色可在<strong>Preferences -&gt; Appearance</strong>中更改。</p>
+    <p>启用事件线后会发生以下几件事：</p>
+    1. 在 2D 模式下，会向当前高亮项（Highlight）的所有动作目标绘制箭头：
+    <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="Show image"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="event_lines1.jpg" alt="" /></div>
+
+   <br /> 2. 在经典模式和视觉模式（Visual Mode）下，会显示巡逻点与插值点之间的连接顺序：
+    <input class="spoilerbutton" type="button" onclick="ToggleSpoiler(this);" href="javascript:void(0);" value="Show image"/>
+          <div style="display: none; margin: 0px; padding: 6px; border: 1px inset;"><img src="event_lines2.jpg" alt="" /></div>
+          <br />3. 在 2D 模式下，会连接相互对应的多面体起点（Polyobject Start Spot）和多面体锚点（Polyobject Anchor）。
+</div>
+</body>

@@ -406,3 +406,742 @@ Wind West (Medium)	风向西（中）
 Wind West (Strong)	风向西（强）
 Wind West (Weak)	风向西（弱）
 Yellow Hue	黄色色调
+0: Blue Team	0: 蓝队
+0: Compatibility (use game's default mode)	0: 兼容模式（使用游戏默认模式）
+0: Don't scroll	0: 不滚动
+0: East	0: 东
+0: Never	0: 从不
+0: No delay	0: 无延迟
+0: No skewing	0: 不倾斜
+0: South very fast	0: 南，很快
+0: West very fast	0: 西，很快
+1 Minute	1 分钟
+1: Align to this sidedef's sector floor	1: 对齐到此侧面所在扇区的地板
+1: Doom mode, no slowdown when crushing	1: Doom 模式，挤压时不减速
+1: Red Team	1: 红队
+105: 3 Seconds	105: 3 秒
+105: Lift wait	105: 升降台等待
+128: Don't scroll	128: 不滚动
+128: Turbo	128: 极快
+128: Very fast	128: 很快
+128: West	128: 西
+140: 4 Seconds	140: 4 秒
+15 Seconds	15 秒
+150: Doom default	150: Doom 默认
+150: Door Wait	150: 门等待
+16: 2 Seconds	16: 2 秒
+16: Fast	16: 快
+16: Fast, CCW	16: 快，逆时针
+-16: Fast, CW	-16: 快，顺时针
+16: Normal	16: 正常
+16: Slow	16: 慢
+16: South fast	16: 南，快
+16: Very slow	16: 很慢
+16: West fast	16: 西，快
+160: East very slow	160: 东，很慢
+160: North very slow	160: 北，很慢
+160: Southwest	160: 西南
+175: 5 Seconds	175: 5 秒
+192: East slow	192: 东，慢
+192: North slow	192: 北，慢
+192: South	192: 南
+2 Seconds	2 秒
+2: Align to this sidedef's sector ceiling	2: 对齐到此侧面所在扇区的天花板
+2: Green Team	2: 绿队
+2: Hexen mode (stop when crushing)	2: Hexen 模式（挤压时停止）
+2: Slow	2: 慢
+2: Slow, CCW	2: 慢，逆时针
+-2: Slow, CW	-2: 慢，顺时针
+20 Seconds	20 秒
+210: 6 Seconds	210: 6 秒
+224: East normal	224: 东，正常
+224: North normal	224: 北，正常
+224: Southeast	224: 东南
+24: 3 Seconds	24: 3 秒
+240: 30 seconds	240: 30 秒
+240: East fast	240: 东，快
+240: North fast	240: 北，快
+245: 7 Seconds	245: 7 秒
+25 Seconds	25 秒
+255: Constant Rotation	255: 持续旋转
+256: East very fast	256: 东，很快
+256: North very fast	256: 北，很快
+280: 8 Seconds	280: 8 秒
+3: Align to other sidedef's sector floor	3: 对齐到另一侧面所在扇区的地板
+3: Doom mode, slowdown when crushing	3: Doom 模式，挤压时减速
+3: Gold Team	3: 金队
+315: 9 Seconds	315: 9 秒
+32: 4 Seconds	32: 4 秒
+32: Fast	32: 快
+32: Lift/Fast	32: 升降台/快
+32: Normal	32: 正常
+32: Northeast	32: 东北
+32: Slow	32: 慢
+32: South normal	32: 南，正常
+32: Turbo	32: 极快
+32: Turbo, CCW	32: 极快，逆时针
+-32: Turbo, CW	-32: 极快，顺时针
+32: West normal	32: 西，正常
+34: 4 seconds	34: 4 秒
+35: 1 Second	35: 1 秒
+350: 10 Seconds	350: 10 秒
+3D floor border	3D 地板边界
+4: Align to other sidedef's sector ceiling	4: 对齐到另一侧面所在扇区的天花板
+4: Animated	4: 动画
+4: Black Team	4: 黑队
+4: Normal	4: 正常
+4: Normal, CCW	4: 正常，逆时针
+-4: Normal, CW	-4: 正常，顺时针
+40: 5 Seconds	40: 5 秒
+48: 6 Seconds	48: 6 秒
+5: White Team	5: 白队
+56: 7 Seconds	56: 7 秒
+6: Orange Team	6: 橙队
+64: 8 Seconds	64: 8 秒
+64: Fast	64: 快
+64: Normal	64: 正常
+64: North	64: 北
+64: South slow	64: 南，慢
+64: Turbo	64: 极快
+64: West slow	64: 西，慢
+69: 9 seconds	69: 9 秒
+7: Purple Team	7: 紫队
+70: 2 Seconds	70: 2 秒
+72: 9 Seconds	72: 9 秒
+8: 1 second	8: 1 秒
+8: 1 Second	8: 1 秒
+8: Slow	8: 慢
+80: 10 Seconds	80: 10 秒
+96: Fast	96: 快
+96: Northwest	96: 西北
+96: South very slow	96: 南，很慢
+96: West very slow	96: 西，很慢
+Abaddon	阿巴顿
+Abaddon Shot	阿巴顿弹
+Actors drop with floor	角色随地板下落
+Add	叠加
+Additive	叠加
+Additive Shaded	叠加着色
+Additive Stencil	叠加模板
+Affrit	阿弗里特
+AKYYA0	AKYYA0
+All keys	全部钥匙
+Amazon Armor	亚马逊护甲
+Ammo Satchel	弹药袋
+Amulet Of Warding	守护护符
+Any blue key	任意蓝色钥匙
+Any Green key	任意绿色钥匙
+Any key	任意钥匙
+Any Purple key	任意紫色钥匙
+Any red key	任意红色钥匙
+Any yellow key	任意黄色钥匙
+Arachnotron	机械蜘蛛
+Arachnotron Plasma Bolt	机械蜘蛛等离子弹
+Arch-Vile	执政官
+Armor Bonus	护甲奖励
+Armored Flemoidus	装甲弗莱莫斯
+Armour Bonus	护甲奖励
+Arrow	箭
+ASHCA0	ASHCA0
+Axe key	斧头钥匙
+Back	后面
+Backpack	背包
+Bag of Holding	次元袋
+Banishment Device	放逐装置
+Baron Fireball	男爵火球
+Baron Of Hell	地狱男爵
+Barrel	桶
+Base Key (Front)	基地钥匙（正面）
+BBALA0	BBALA0
+BCRYA0	BCRYA0
+Beaker	烧瓶
+Beastling	小野兽
+Belphegor	贝尔菲格
+Belphegor Shot	贝尔菲格弹
+Berserk Pack	狂暴药剂
+BFG	BFG
+BFG 10K	BFG 10K
+BFG 10K Shot	BFG 10K 弹
+BFG explosion	BFG 爆炸
+BFG impact	BFG 冲击
+BFG Shot	BFG 弹
+Bipedicus Shot	双足怪弹
+BKEYA0	BKEYA0
+BKYYA0	BKYYA0
+Blade	刀刃
+Block all of the above	阻挡以上全部
+Block creatures	阻挡生物
+Block floating creatures	阻挡漂浮生物
+Block hitscan attacks	阻挡即时命中攻击
+Block use action	阻挡使用动作
+Blood	血
+Blood Demon	血魔
+Blood Pool 1	血池 1
+Blood Pool 2	血池 2
+Blood Pool 3	血池 3
+Bloodscourge Grip	血灾握柄
+Bloodscourge Haft	血灾杖杆
+Bloodscourge Jewel	血灾宝石
+Bloody Axe	血腥斧
+BLTKA0	BLTKA0
+Blue Armor	蓝色护甲
+Blue Armour	蓝色护甲
+Blue Crystal Key	蓝色水晶钥匙
+Blue Flag	蓝旗
+Blue Flem key	蓝色弗莱莫钥匙
+Blue Glitter Generator	蓝色闪光发生器
+Blue key	蓝色钥匙
+Blue Key	蓝色钥匙
+Blue key card	蓝色钥匙卡
+Blue Mana	蓝色法力
+Blue skull key	蓝色骷髅钥匙
+BlueCard	蓝色钥匙卡
+BlueSkull	蓝色骷髅钥匙
+Boom Friction	Boom 摩擦
+Boom Push / Pull	Boom 推/拉
+Boots of Speed	速度之靴
+Box Of Ammo	弹药盒
+Box Of Bullets	子弹盒
+Box Of Rockets	火箭弹盒
+Box Of Shells	霰弹盒
+Brains	大脑
+Brass Key	黄铜钥匙
+Breaking grid	破坏网格
+Bridge	桥
+BSKUA0	BSKUA0
+BSKUB0	BSKUB0
+Bullet Puff	子弹烟雾
+Buried Reiver	埋藏掠夺者
+Burried spike	埋藏的尖刺
+Cacodemon	巨型恶魔
+Cacodemon Shot	巨型恶魔弹
+Cacolantern	南瓜恶魔
+Cacolantern Shot	南瓜恶魔弹
+Candy #1	糖果 #1
+Candy #2	糖果 #2
+Candy #3	糖果 #3
+Car door	车门
+Car hood	汽车引擎盖
+Castle key	城堡钥匙
+Catacomb Key	地下墓穴钥匙
+Cave key	洞穴钥匙
+Ceiling levels of front and back sectors are different	前后扇区的天花板高度不同
+Cell	能量电池
+Centaur	半人马
+Chaingun	链枪
+Chaingun Guy	链枪兵
+Chainsaw	电锯
+Chaos Serpent Shot	混沌巨蛇弹
+CHAPA0	CHAPA0
+Chapel Key	礼拜堂钥匙
+Chicken	鸡
+CHNDA0	CHNDA0
+CKYYA0	CKYYA0
+Claw Orb	爪球
+Clip	弹夹
+Clip Of Bullets	子弹夹
+Clock Gear (bronze and steel)	钟表齿轮（青铜与钢）
+Clock Gear (bronze)	钟表齿轮（青铜）
+Clock Gear (steel and bronze)	钟表齿轮（钢与青铜）
+Clock Gear (steel)	钟表齿轮（钢）
+Close Open	关闭再打开
+Close Stay	关闭后保持
+Combined Mana	混合法力
+Computer Map	电脑地图
+Copy texture and type; numeric model	复制纹理与类型；数字模型
+Copy texture and type; trigger model	复制纹理与类型；触发模型
+Copy texture, preserve type; numeric model	复制纹理、保留类型；数字模型
+Copy texture, preserve type; trigger model	复制纹理、保留类型；触发模型
+Copy texture, zero type; numeric model	复制纹理、类型清零；数字模型
+Copy texture, zero type; trigger model	复制纹理、类型清零；触发模型
+Core Key	核心钥匙
+Crate of Missiles	导弹箱
+CRD1A0	CRD1A0
+CRD2A0	CRD2A0
+Critter	小生物
+Crush	挤压
+Crushing Firemace Sphere	挤压火锤球
+Crystal Vial	水晶瓶
+Cyberdemon	机械恶魔
+Cycloptis Commonus	普通独眼怪
+Cycloptis shot	独眼怪弹
+Daemon Codex	恶魔法典
+Dark Bishop	黑暗主教
+Dark Imp	黑暗小恶魔
+Dark Imp Shot	黑暗小恶魔弹
+Dark Servant	黑暗仆从
+Dart	飞镖
+Default	默认
+Demon	恶魔
+Dirt #1	泥土 #1
+Dirt #2	泥土 #2
+Dirt #3	泥土 #3
+Dirt #4	泥土 #4
+Dirt #5	泥土 #5
+Dirt #6	泥土 #6
+Disc of Repulsion	排斥圆盘
+Disciple of D'Sparil	迪斯帕瑞尔信徒
+Disciple Shot	信徒弹
+Disciple Summon	信徒召唤
+Disintegration	瓦解
+Doom Sphere	Doom 之球
+Down to lowest	降至最低
+Down to Lowest Ceiling	降至最低天花板
+Down to nearest	降至最近处
+Down to Nearest Floor	降至最近地板
+Down Up	下降再上升
+Down, Wait, Up, Stay	下降、等待、上升、保持
+Dragon Claw	龙爪
+Dragonclaw Ripper	龙爪撕裂者
+Dragonskin Bracers	龙皮护腕
+Drain Rune	汲取符文
+Dripping flesh	滴血肉块
+Drop with floor	随地板下落
+D'Sparil alone	仅迪斯帕瑞尔
+D'Sparil on Chaos Serpent	迪斯帕瑞尔骑混沌巨蛇
+D'Sparil Shot	迪斯帕瑞尔弹
+D'Sparil Teleportation Spot	迪斯帕瑞尔传送点
+Dungeon key	地牢钥匙
+Echidna	艾奇德娜
+Electricity	电击
+Emerald key	翡翠钥匙
+Emerald planet #1	翡翠星球 #1
+Emerald planet #2	翡翠星球 #2
+Emerald Planet 1	翡翠星球 1
+Emerald Planet 2	翡翠星球 2
+Enchanted Shield	附魔盾牌
+End god mode	结束无敌模式
+End level	结束关卡
+Energy Cell	能量电池
+Energy Cell Pack	能量电池组
+Energy Orb	能量球
+Energy Pack	能量包
+Energy Pod	能量荚
+Entropy Thrower	熵能喷射器
+Environmental Suit	环保防护服
+Ethereal Arrows	虚灵箭
+Ethereal Axe	虚灵斧
+Ethereal Crossbow	虚灵弩
+Ethereal Quiver	虚灵箭袋
+Ettin	双头怪
+Exit	出口
+Explosive Barrel	爆炸桶
+Factory Key	工厂钥匙
+Falcon Shield	猎鹰盾
+Falling	下落
+Falling Follower	坠落的追随者
+False	否
+Feather	羽毛
+Fire Gargoyle	火焰石像鬼
+Fire key	火焰钥匙
+Fire Mace	火焰钉锤
+Fireball	火球
+Firemace Sphere	火锤球
+First Aid Kit	急救包
+Flame Mask	火焰面具
+Flaming Barrel	燃烧桶
+Flechette	飞镖弹
+Flem mine	弗莱莫地雷
+Flembomination	弗莱莫憎恶
+Flembrane	弗莱莫膜
+Flemoid Larva	弗莱莫幼虫
+Flemoid power strand	弗莱莫能量束
+Flemoidus Bipedicus	双足弗莱莫斯
+Flemoidus Commonus	普通弗莱莫斯
+Flemoidus Maximus	巨型弗莱莫斯
+Flies	苍蝇
+Floor levels of front and back sectors are different	前后扇区的地板高度不同
+Flower	花
+Follower	追随者
+Forever	永久
+Front	前面
+Frost	冰霜
+FUBRA0	FUBRA0
+FUSLA0	FUSLA0
+Fuzzy	模糊
+Fuzzy/Shadow (uses r_drawfuzz CVAR)	模糊/阴影（使用 r_drawfuzz CVAR）
+Gargoyle	石像鬼
+Gargoyle Shot	石像鬼弹
+Gauntlets of the Necromancer	死灵法师护手
+Ghost Golem	幽灵魔像
+Ghost Nitrogolem	幽灵硝化魔像
+Ghost Warrior	幽灵战士
+Glaive Seal	长刀封印
+Glass shard	玻璃碎片
+Glass shard #1	玻璃碎片 #1
+Glass shard #10	玻璃碎片 #10
+Glass shard #2	玻璃碎片 #2
+Glass shard #3	玻璃碎片 #3
+Glass shard #4	玻璃碎片 #4
+Glass shard #5	玻璃碎片 #5
+Glass shard #6	玻璃碎片 #6
+Glass shard #7	玻璃碎片 #7
+Glass shard #8	玻璃碎片 #8
+Glass shard #9	玻璃碎片 #9
+Glitter Bridge	闪光桥
+GLOBA0	GLOBA0
+GOIDA0	GOIDA0
+Gold Key	金钥匙
+Golem	魔像
+Golem Shot	魔像弹
+Governor's Key	总督钥匙
+Green Armor	绿色护甲
+Green Armour	绿色护甲
+Green Chaos Serpent	绿色混沌巨蛇
+Green key	绿色钥匙
+Green Key	绿色钥匙
+Green key card	绿色钥匙卡
+Green Keycard	绿色钥匙卡
+Green Mana	绿色法力
+Green Pax Pox key	绿色帕克斯钥匙
+Grenade	手榴弹
+Grenade Belt	手榴弹带
+Grenade Blast	手榴弹爆炸
+Grenade Launcher	榴弹发射器
+Grid obstacle	网格障碍
+Guts	内脏
+Hack Bridge	破解桥
+Hammer of Retribution	报应之锤
+Hand Grenade	手榴弹
+HANDA0	HANDA0
+Haste Rune	急速符文
+Hazard	危险物
+Healing Mushroom	治疗蘑菇
+Health Bonus	生命奖励
+Heart of D'Sparil	迪斯帕瑞尔之心
+Hectebus	赫克特巴斯
+Hell Knight	地狱骑士
+Hell Staff	地狱法杖
+High Jump Rune	高跳符文
+Highest neighbor	最高相邻扇区
+Hit	击中
+Holy Relic	圣物
+Horn key	兽角钥匙
+HornRodFX1	HornRodFX1
+Huge healing mushroom	巨型治疗蘑菇
+HYDRA0	HYDRA0
+Ice Shard	冰碎片
+Ice Shards Spell	冰碎片法术
+Icon of the Defender	守护者圣像
+ID Badge	ID 徽章
+ID Card	ID 卡
+Imp	小恶魔
+Imp Fireball	小恶魔火球
+Impossible	不可能
+Inter-level or game-ending teleporter	关卡间或结束游戏的传送器
+Intra-level teleporter	关卡内传送器
+Invisibility Sphere	隐身球
+Invulnerability Sphere	无敌球
+Iron Lich	铁巫妖
+Iron Lich Ice Shot	铁巫妖冰弹
+Iron Lich Whirlwind	铁巫妖旋风
+KEY1A0	KEY1A0
+KEY2A0	KEY2A0
+KEY3A0	KEY3A0
+KEY4A0	KEY4A0
+KEY5A0	KEY5A0
+KEY6A0	KEY6A0
+KEY7A0	KEY7A0
+KEY8A0	KEY8A0
+KEY9A0	KEY9A0
+KEYAA0	KEYAA0
+KEYBA0	KEYBA0
+Krater of Might	力量之杯
+KY1GA0	KY1GA0
+KY2SA0	KY2SA0
+KY3BA0	KY3BA0
+Larce Cell	大型能量电池
+Large Firemace Sphere	大型火锤球
+Large Flame	大火焰
+Large temporary flame	大型临时火焰
+Launched Grenade	发射的手榴弹
+Lava	岩浆
+Leather Armor	皮甲
+Liber Obscura	暗黑之书
+Light-Amp Goggles	增光护目镜
+Locked door	上锁的门
+Lord Snotfolus	斯诺特弗勒斯领主
+Lost Soul	迷失灵魂
+Lower	降低
+Lowest neighbor	最低相邻扇区
+Mace Sphere	钉锤球
+Mace Sphere Pile	钉锤球堆
+Main Crossbow Shot	主弩箭
+Mancubus	肥球
+Mancubus Shot	肥球弹
+Map Scroll	地图卷轴
+Massacre!	屠杀！
+Mauler Key	重锤钥匙
+Max Armor Bonus	最大护甲奖励
+Max Health Bonus	最大生命奖励
+Maximus shot	巨子弹
+Medkit	医疗包
+Megasphere	超级球
+Melee hit	近战命中
+Mesh Armor	网甲
+Metal Armor	金属护甲
+Middle	中间
+Military ID	军人证件
+Mine	地雷
+Mine Key	矿场钥匙
+MINEA0	MINEA0
+Minigun	机枪
+Mini-Missiles	小型导弹
+Morph Ovum	变形蛋
+Morph Ovum Shot	变形蛋弹
+Moving Floor	移动地板
+Mutant Soldier	变异士兵
+Mystic Urb	神秘瓮
+Mystic Urn	神秘瓮
+NDF Armor	NDF 护甲
+Nearest neighbor	最近相邻扇区
+New Key 5	新钥匙 5
+Nitrogolem	硝化魔像
+No attack	不攻击
+No delay	无延迟
+No Falling Damage	无坠落伤害
+No respawn	不重生
+No Respawn	不重生
+No texture or type change	不更改纹理或类型
+Off	关
+On	开
+One of each color	每种颜色各一
+One-sided wall	单面墙
+Open Close	打开再关闭
+Open Stay	打开后保持
+Ophidian	蛇怪
+Ophidian Blue Shot	蛇怪蓝弹
+Ophidian Yellow Shot	蛇怪黄弹
+ORACA0	ORACA0
+Oracle Key	神谕钥匙
+Oracle Pass	神谕通行证
+Orange tree	橙树
+Order Key	教团钥匙
+Pain Elemental	痛苦元素
+Paint chip	油漆碎片
+Perpetual raise	持续上升
+Perpetual Raise	持续上升
+Phage	噬菌体
+Phage Shot	噬菌体弹
+Phantasmal brown chaos serpent	幻影棕色混沌巨蛇
+Phantasmal centaur	幻影半人马
+Phantasmal ettin	幻影双头怪
+Phantasmal green chaos serpent	幻影绿色混沌巨蛇
+Phasing Zorcher Pack	相位佐彻包
+Phoenix Rod	凤凰杖
+PhoenixFX1	PhoenixFX1
+PhoenixRodAmmo	凤凰杖弹药
+PhoenixRodHefty	凤凰杖重型弹药
+Plasma Bolt	等离子弹
+Plasma Gun	等离子枪
+Plasma rifle	等离子步枪
+Platform	平台
+Platinum Helm	白金头盔
+Pod	荚
+Pod Generator	荚发生器
+Poison	毒
+Poison Dart	毒镖
+Porkalator	变猪器
+Porkalator Shot	变猪器弹
+Portal line	传送门线
+Power Key 1	能量钥匙 1
+Power Key 2	能量钥匙 2
+Power Key 3	能量钥匙 3
+Predator	掠食者
+Predator Shot	掠食者弹
+Prison Key	监狱钥匙
+Prison Pass	监狱通行证
+PROCA0	PROCA0
+Prosperity Rune	繁荣符文
+Purple key	紫色钥匙
+Purple key card	紫色钥匙卡
+Purple Keycard	紫色钥匙卡
+Purple Pax Pox key	紫色帕克斯钥匙
+Quadrumpus	夸德伦普斯
+Quartz Flask	石英瓶
+Quietus Blade	寂灭之刃
+Quietus Crossguard	寂灭护手
+Quietus Hilt	寂灭剑柄
+Radiation Suit	防辐射服
+Rage Rune	狂怒符文
+Railgun	轨道枪
+Raised spike	升起的尖刺
+Random Powerup	随机强化道具
+RCRYA0	RCRYA0
+Red Armor	红色护甲
+Red Crystal Key	红色水晶钥匙
+Red Flag	红旗
+Red Flem key	红色弗莱莫钥匙
+Red Glitter Generator	红色闪光发生器
+Red key card	红色钥匙卡
+Red skull key	红色骷髅钥匙
+RedCard	红色钥匙卡
+RedSkull	红色骷髅钥匙
+Reflection Rune	反射符文
+Regeneration Rune	再生符文
+Reiver	掠夺者
+Reiver fireball sparks	掠夺者火球火花
+Relative offset	相对偏移
+Resistance Rune	抗性符文
+Retail Version Only	仅限零售版
+Revenant	亡灵
+Ring of Invincibility	无敌指环
+Ripper Ball	撕裂球
+RKEYA0	RKEYA0
+Rock debris #1	岩石碎片 #1
+Rock debris #2	岩石碎片 #2
+Rock debris #3	岩石碎片 #3
+Rocket (Ammo)	火箭弹（弹药）
+Rocket (Projectile)	火箭弹（抛射物）
+Rocket explosion	火箭爆炸
+Rocket impact	火箭冲击
+Rocket Launcher	火箭发射器
+RSKUA0	RSKUA0
+RSKUB0	RSKUB0
+Ruby planet	红宝石星球
+Ruby Planet	红宝石星球
+Rusted key	生锈的钥匙
+Sabreclaw	剑爪怪
+Sapphire planet #1	蓝宝石星球 #1
+Sapphire planet #2	蓝宝石星球 #2
+Sapphire Planet 1	蓝宝石星球 1
+Sapphire Planet 2	蓝宝石星球 2
+Scripted Marine	脚本陆战队员
+Secondary Crossbow Shot	副弩箭
+Secret door	秘密门
+Security Key	安保钥匙
+Serpent Staff	巨蛇法杖
+Set	设置
+Severed Hand	断手
+Shaded	着色
+Shadow	阴影
+Shadow Armor	暗影护甲
+Shadow Sphere	暗影球
+Shells	霰弹
+Shortest lower texture	最短下沿纹理
+Shotgun	霰弹枪
+Shotgun Guy	霰弹枪兵
+Sigil of the Magus	法师印记
+SIGNA0	SIGNA0
+Silver Key	银钥匙
+Silver key	银钥匙
+Silver Shield	银盾
+Skew to back-sector ceiling slope	倾斜至后扇区天花板斜面
+Skew to back-sector floor slope	倾斜至后扇区地板斜面
+Skew to front-sector ceiling slope	倾斜至前扇区天花板斜面
+Skew to front-sector floor slope	倾斜至前扇区地板斜面
+SkullRodAmmo	骷髅杖弹药
+SkullRodHefty	骷髅杖重型弹药
+Slaughtaur	杀戮半人马
+Slime	黏液
+Small bush	小灌木
+Small Firemace Sphere	小型火锤球
+Small Flame	小火焰
+Small Goldwand Shot	小型金杖弹
+Small temporary flame	小型临时火焰
+Soda #1	汽水 #1
+Soda #2	汽水 #2
+Soda #3	汽水 #3
+Soul Sphere	灵魂球
+Spectre	幽灵
+Spider Mastermind	蜘蛛首脑
+Splash	溅射
+Spread Rune	扩散符文
+SSG Guy	超级霰弹枪兵
+Statue of David	大卫雕像
+Statue of King Tut	图坦卡门雕像
+Statue of Ramses	拉美西斯雕像
+Statue of the Chex Warrior	切克斯战士雕像
+Statue of the Thinker	沉思者雕像
+Stealth Arachnotron	隐形机械蜘蛛
+Stealth Arch-Vile	隐形执政官
+Stealth Baron	隐形男爵
+Stealth Cacodemon	隐形巨型恶魔
+Stealth Chaingun Guy	隐形链枪兵
+Stealth Demon	隐形恶魔
+Stealth Hell Knight	隐形地狱骑士
+Stealth Imp	隐形小恶魔
+Stealth Mancubus	隐形肥球
+Stealth Revenant	隐形亡灵
+Stealth Shotgun Guy	隐形霰弹枪兵
+Stealth Zombieman	隐形丧尸兵
+Steel key	钢钥匙
+Stencil	模板
+Stimpack	兴奋剂
+Strength Rune	力量符文
+Stridicus	斯特里迪库斯
+Strife railing	Strife 栏杆
+Subtractive	减色
+Suicide	自杀
+Super Cycloptis	超级独眼怪
+Super Shotgun	超级霰弹枪
+Swamp key	沼泽钥匙
+Swamp Stalker	沼泽潜行者
+Swamp Stalker Boss	沼泽潜行者首领
+Telefrag	传送击杀
+Temp Large Flame	临时大火焰
+Thrown Grenade	投掷的手榴弹
+Time Bomb of the Ancients	远古定时炸弹
+Time Freeze Sphere	时间冻结球
+Timon's Axe	泰蒙之斧
+Tiny Volcano Blast	微型火山爆发
+Tire	轮胎
+TIREB0	TIREB0
+Tome of Power	力量之书
+Tomed Crossbow Shot	强化弩箭
+Tomed Goldwand Shot	强化金杖弹
+Torch	火炬
+TPASA0	TPASA0
+Tracer	曳光弹
+Translucent	半透明
+Translucent (Lost Soul)	半透明（迷失灵魂）
+Translucent Stencil	半透明模板
+TRASA0	TRASA0
+TRASF0	TRASF0
+TRASL0	TRASL0
+Travel Passcard	旅行通行卡
+True	是
+Turbo Sphere	极速球
+Two-sided wall	双面墙
+Ultra goggles	超级护目镜
+Undead Warrior	亡灵战士
+Unexplored secret wall	未探索的秘密墙
+Unknown	未知
+Up by Value, Stay	按指定值上升、保持
+Up Stay	上升后保持
+Upper	上层
+Volcano	火山
+Volcano Blast	火山爆发
+Wall not seen yet	尚未看见的墙
+Wall with special non-door action	带非门特殊动作的墙
+Wand Crystal	法杖水晶
+Wand Geode	法杖晶洞
+WAREA0	WAREA0
+Warehouse Key	仓库钥匙
+Water	水
+Water drip	水滴
+Waterfall Sound	瀑布声
+Wendigo	温迪戈
+Weredragon	龙人
+Weredragon Shot	龙人弹
+White Flag	白旗
+Wind Sound	风声
+Wings of Wrath	愤怒之翼
+Wolf SS Soldier	党卫军士兵
+Wood shard	木碎片
+Wraithverge Crescent	怨灵之怒·新月
+Wraithverge Cross	怨灵之怒·十字
+Wraithverge Handle	怨灵之怒·柄
+Yellow Flem key	黄色弗莱莫钥匙
+Yellow key	黄色钥匙
+Yellow Key	黄色钥匙
+Yellow key card	黄色钥匙卡
+Yellow Pax Pox key	黄色帕克斯钥匙
+Yellow skull key	黄色骷髅钥匙
+YellowCard	黄色钥匙卡
+YellowSkull	黄色骷髅钥匙
+YKEYA0	YKEYA0
+Yorick's skull	约里克的头骨
+YSKUA0	YSKUA0
+YSKUB0	YSKUB0
+Zombieman	丧尸兵

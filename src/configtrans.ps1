@@ -64,7 +64,15 @@ $blocks = @(
     "linedefflags", "sectorflags", "thingflags", "linedefactivations", "skills",
     "linedefflags_udmf", "sectorflags_udmf", "thingflags_udmf",
     "sectortypes", "thingtypes",
-    "gen_linedeftypes", "gen_sectortypes", "gen_sectortypes_udmf", "gen_thingtypes"
+    "gen_linedeftypes", "gen_sectortypes", "gen_sectortypes_udmf", "gen_thingtypes",
+    "enums", "enums_action2", "enums_chex", "enums_chex3", "enums_doom", "enums_harmony",
+    "enums_heretic", "enums_hexen", "enums_notdoom", "enums_strife",
+    "teams", "keys", "automapstyle",
+    "door_speeds", "flat_speeds", "plat_speeds", "polyobj_speeds", "scroll_speeds",
+    "sector_scroll_speeds_x", "sector_scroll_speeds_y", "stair_speeds",
+    "linedefrenderstyles", "sectorrenderstyles", "thingrenderstyles",
+    "sectorportalrenderstyles", "renderstyleceiling", "renderstylefloor",
+    "renderstyles", "floorrenderstyles", "ceilingrenderstyles"
 )
 $valueRegex = [regex]'^(\s*[^=""]*\s*=\s*")([^"]*)("\s*;.*)$'
 $titleRegex = [regex]'^(\s*title\s*=\s*")([^"]*)("\s*;.*)$'

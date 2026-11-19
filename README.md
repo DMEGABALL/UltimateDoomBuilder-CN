@@ -2,14 +2,14 @@
 
 | 项目 | 说明 |
 |---|---|
-| 汉化版本 | **v1.3.0** |
+| 汉化版本 | **v1.3.1** |
 | 适用版本 | Ultimate Doom Builder R4333（3.0.0.4333，64 位） |
-| 发布名称 | `UltimateDoomBuilder-CN-v1.3.0-R4333` |
+| 发布名称 | `UltimateDoomBuilder-CN-v1.3.1-R4333` |
 | 上游源码 | <https://github.com/UltimateDoomBuilder/UltimateDoomBuilder>（commit `bfb9653`） |
 | 许可协议 | GNU GPL v3（与原项目一致） |
 | 项目性质 | 非官方社区汉化，与 UDB 官方无关 |
 
-> 版本号规则：`v1.3.0` 是**汉化包自身**的版本，`R4333` 是所基于的 **UDB 上游版本**。两者一一对应，升级上游时汉化版本号另行递增。
+> 版本号规则：`v1.3.1` 是**汉化包自身**的版本，`R4333` 是所基于的 **UDB 上游版本**。两者一一对应，升级上游时汉化版本号另行递增。
 
 > 上游目前最新版本为 R4336。本汉化基于已完整验证的 **R4333**；如需用于更新版本，请参照「[适配新版 UDB](#适配新版-udb)」流程，词典未覆盖的新文本会保持英文。
 
@@ -32,9 +32,9 @@
 
 | 文件 | 内容 | 体积 |
 |---|---|---|
-| `UltimateDoomBuilder-CN-v1.3.0-R4333-win64.zip` | 程序本体，解压即用（含汉化参考手册） | 约 14 MB |
-| `UltimateDoomBuilder-CN-v1.3.0-R4333-src.zip` | 汉化源码：词典、工具链、手册工程、原始备份 | 约 21 MB |
-| `UltimateDoomBuilder-CN-v1.3.0-R4333-manual-mobile.html` | 手机版参考手册（单文件、离线可用） | 约 5.7 MB |
+| `UltimateDoomBuilder-CN-v1.3.1-R4333-win64.zip` | 程序本体，解压即用（含汉化参考手册） | 约 14 MB |
+| `UltimateDoomBuilder-CN-v1.3.1-R4333-src.zip` | 汉化源码：词典、工具链、手册工程、原始备份 | 约 21 MB |
+| `UltimateDoomBuilder-CN-v1.3.1-R4333-manual-mobile.html` | 手机版参考手册（单文件、离线可用） | 约 5.7 MB |
 
 > 手机版手册也可以直接在线看：<https://dmegaball.github.io/UltimateDoomBuilder-CN/>（GitHub Pages，由 `docs/index.html` 生成）。
 
@@ -157,9 +157,9 @@ src\restore.cmd "D:\path\to\Ultimate Doom Builder"
 
 - 界面词典条目 **2367** 条（`translate.tsv`）；
 - 配置标题（动作/物件/分类名）**2874** 条（`config-titles.tsv`）；
-- 配置选项（UDMF 标志、扇区效果、泛化选项）**408** 条（`config-values.tsv`）；
-- 程序集内实际替换 **3866** 处（主程序 1946 处，插件 1920 处）；
-- 游戏配置显示文本 **6649** 处（60 个 `.cfg` 文件）；
+- 配置选项（UDMF 标志、扇区效果、泛化选项、枚举下拉）**1147** 条（`config-values.tsv`）；
+- 程序集内实际替换 **3874** 处（主程序 1953 处，插件 1921 处）；
+- 游戏配置显示文本 **7989** 处（62 个 `.cfg` 文件）；
 - 替换内嵌 `Actions.cfg` **14** 个。
 
 > 游戏配置中的动作名、物件名、扇区效果名、UDMF 标志等显示文本现已全部汉化（见 `src\config-titles.tsv`、`src\config-values.tsv`），仅保留游戏/引擎专有名词（如 `Polyobject`、`BFG9000`）。

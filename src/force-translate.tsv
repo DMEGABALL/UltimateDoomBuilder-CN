@@ -55,3 +55,10 @@ Set lower-unpegged setting.	已设置下部不钉住。
 Set upper-unpegged setting.	已设置上部不钉住。
 Removed lower-unpegged setting.	已移除下部不钉住设置。
 Removed upper-unpegged setting.	已移除上部不钉住设置。
+Click to enter a comment...	点击以输入注释...
+Front side custom fields	正面自定义字段
+Back side custom fields	背面自定义字段
+Unable to load prefab.	无法加载预制件。
+Unable to load prefab. See log file for error details.	无法加载预制件。详见日志文件。
+Unknown clipboard data format!	未知的剪贴板数据格式！
+Selected linedef already points in the right direction!	选中的线段方向已经正确！

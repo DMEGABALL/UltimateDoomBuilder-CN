@@ -126,14 +126,18 @@ class Apply
                         if (ins.OpCode.Code != Code.Ldstr) continue;
                         string v = ins.Operand as string;
                         if (v == null) continue;
-                        string ctx = ContextOf(ins);
-                        if (ctx == "SKIP") continue;
-                        string zh;
-                        if (!dict.TryGetValue(v, out zh))
+                        string zh = null;
+                        bool forced = false;
+                        if (force != null) forced = force.TryGetValue(v, out zh);
+                        if (!forced)
                         {
-                            if (force != null && force.TryGetValue(v, out zh)) { /* use forced translation */ }
-                            else if (ctx == "FONT" && v == "Microsoft Sans Serif") zh = "Microsoft YaHei UI";
-                            else continue;
+                            string ctx = ContextOf(ins);
+                            if (ctx == "SKIP") continue;
+                            if (!dict.TryGetValue(v, out zh))
+                            {
+                                if (ctx == "FONT" && v == "Microsoft Sans Serif") zh = "Microsoft YaHei UI";
+                                else continue;
+                            }
                         }
                         if (zh == v) continue;
                         ins.Operand = zh;

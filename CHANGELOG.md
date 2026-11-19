@@ -1,5 +1,18 @@
 # 更新日志 / Changelog
 
+## v1.3.1（2026-11-19）
+
+补齐编辑线段对话框中的下拉选项与占位文本。
+
+- **锁定编号**下拉：`keys` 枚举（红色/蓝色/黄色钥匙卡、骷髅钥匙、任意钥匙等）；
+- **渲染样式**下拉：`thingrenderstyles` / `sectorrenderstyles` / `sectorportalrenderstyles` 等；
+- 其它枚举型下拉：队伍、速度档位、滚动方向等，共 **766** 条；
+- **注释页**占位文字 `Click to enter a comment...` → `点击以输入注释...`；
+- **自定义页**弹窗标题 `Front side custom fields` / `Back side custom fields` → 正面/背面自定义字段；
+- 说明：自定义字段列表中的 `alpha`、`renderstyle`、`user_*` 等是 UDMF 字段名（写入地图的键），保持原文。
+
+统计：配置显示文本 **7989 处**（62 个文件），程序集替换 **3874** 处。
+
 ## v1.3.0（2026-11-19）
 
 游戏配置数据全量汉化。

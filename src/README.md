@@ -33,6 +33,10 @@ src/
 │  ├─ scan.cs             导出字符串并标注用途（筛查漏译）
 │  ├─ toasts.cs           导出通知（Toast）标题与描述
 │  └─ build.cmd           使用系统自带 csc.exe 编译
+├─ manual/                手机版手册生成器（C#）
+│  ├─ ManualBuilder.cs    把手册 HTML 打包成单文件（图片内联、响应式布局）
+│  ├─ build.cmd / build.ps1   编译并生成 ..\..\docs\index.html
+│  └─ ManualBuilder.exe   编译产物
 ├─ tools/                 预编译工具与 Mono.Cecil
 │  ├─ apply.exe
 │  ├─ setres.exe
@@ -67,6 +71,9 @@ powershell -ExecutionPolicy Bypass -File configtrans.ps1 -AppDir ..\app -Revert
 
 :: 重新编译参考手册（需要 HTML Help Workshop）
 help\build.cmd
+
+:: 生成手机版单文件手册（输出 ..\..\docs\index.html）
+manual\build.cmd
 ```
 
 `apply.cmd` / `restore.cmd` 是纯 ASCII 入口，实际逻辑在对应的 `.ps1`（UTF-8 BOM）中，以便正确显示中文提示。执行策略通过 `-ExecutionPolicy Bypass` 绕过，不修改系统设置。

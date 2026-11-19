@@ -34,8 +34,27 @@
 |---|---|---|
 | `UltimateDoomBuilder-CN-v1.2.1-R4333-win64.zip` | 程序本体，解压即用（含汉化参考手册） | 约 14 MB |
 | `UltimateDoomBuilder-CN-v1.2.1-R4333-src.zip` | 汉化源码：词典、工具链、手册工程、原始备份 | 约 21 MB |
+| `UltimateDoomBuilder-CN-v1.2.1-R4333-manual-mobile.html` | 手机版参考手册（单文件、离线可用） | 约 5.7 MB |
+
+> 手机版手册也可以直接在线看：<https://dmegaball.github.io/UltimateDoomBuilder-CN/>（GitHub Pages，由 `docs/index.html` 生成）。
 
 发布包由仓库中的 `app/` 与 `src/` 原样打包（源码包附带 `LICENSE`）。不下载压缩包时，也可以直接克隆仓库使用 `app/Builder.exe`。
+
+## 手机版参考手册
+
+CHM 只能在 Windows 上查看，因此另外生成了一份**单文件 HTML**：`docs/index.html`（发布时命名为 `…-manual-mobile.html`）。
+
+- 所有页面、图片、样式都内联在一个文件里，**离线可用**，拷到手机即可用浏览器打开；
+- 手机端为抽屉式目录 + 正文卡片布局，表格可横向滑动，图片自适应宽度；
+- 支持目录搜索、上一页 / 下一页、`#/页面@锚点` 深链接、记住上次阅读位置；
+- 桌面浏览器打开时自动变为左侧目录的宽屏布局；
+- 在线版：<https://dmegaball.github.io/UltimateDoomBuilder-CN/>
+
+重新生成（修改 `src\help\zh\` 后）：
+
+```bat
+src\manual\build.cmd
+```
 
 ## 目录结构
 
@@ -57,11 +76,13 @@ udb/
 │  ├─ hints/             # 已汉化的内嵌 Hints.cfg（模式帮助提示）
 │  ├─ help/              # 参考手册汉化工程（HTML + hhp + 编译脚本）
 │  ├─ patcher/           # 补丁工具的 C# 源码与编译脚本
+│  ├─ manual/            # 手机版手册生成器（C#，输出 docs/index.html）
 │  ├─ tools/             # 预编译工具（apply / setres / extract / scan）
 │  ├─ backup/            # 原始英文版二进制、配置与手册备份（用于还原）
 │  ├─ apply.cmd          # 应用汉化
 │  ├─ restore.cmd        # 还原英文版
 │  └─ extract-strings.cmd # 从程序集导出字符串（适配新版本）
+├─ docs/                 # 手机版参考手册（GitHub Pages 源，index.html）
 ├─ README.md
 ├─ CHANGELOG.md          # 更新日志
 ├─ VERSION               # 汉化包版本号

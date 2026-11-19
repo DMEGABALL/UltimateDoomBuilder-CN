@@ -11,6 +11,10 @@ dist/
 *.zip
 *.7z
 
+# 手机版手册：仅 docs/index.html 入库，其余本地副本忽略
+docs/*.html
+!docs/index.html
+
 # 系统 / 编辑器
 Thumbs.db
 desktop.ini

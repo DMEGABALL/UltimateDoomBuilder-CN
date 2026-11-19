@@ -233,7 +233,80 @@ class ManualBuilder
         string selfId = PageId(rel);
         body = Regex.Replace(body, @"href=""([^""]+)""", m => RewriteLink(m.Groups[1].Value, selfId, dir));
 
+        // 修正未闭合标签（原版手册中部分页面缺少 </table>，会把后续页面吞进表格）
+        string leftover;
+        body = BalanceTags(body, out leftover);
+        if (leftover.Length > 0)
+            Console.WriteLine("  补全标签: " + rel + " -> " + leftover);
+
         return "<section class=\"page\" id=\"p-" + selfId + "\"><h1 class=\"page-title\">" + Esc(pageTitle) + "</h1>" + body + "</section>\n";
+    }
+
+    static readonly HashSet<string> VoidTags = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+    {
+        "area","base","br","col","embed","hr","img","input","link","meta","param","source","track","wbr"
+    };
+
+    // 逐页平衡标签：丢弃多余结束标签，补全缺失的结束标签
+    static string BalanceTags(string html, out string leftoverTags)
+    {
+        var stack = new List<string>();
+        var sb = new StringBuilder(html.Length + 64);
+        var rx = new Regex(@"<[^>]*>");
+        int last = 0;
+
+        foreach (Match m in rx.Matches(html))
+        {
+            sb.Append(html, last, m.Index - last);
+            last = m.Index + m.Length;
+
+            string tag = m.Value;
+            if (tag.StartsWith("<!--"))
+            {
+                sb.Append(tag);
+                continue;
+            }
+
+            var mm = Regex.Match(tag, @"^<\s*(/?)\s*([a-zA-Z][a-zA-Z0-9]*)");
+            if (!mm.Success)
+            {
+                sb.Append(tag);
+                continue;
+            }
+
+            bool closing = mm.Groups[1].Value == "/";
+            string name = mm.Groups[2].Value.ToLowerInvariant();
+
+            if (!closing)
+            {
+                sb.Append(tag);
+                bool selfClosed = tag.TrimEnd().EndsWith("/>") || VoidTags.Contains(name);
+                if (!selfClosed) stack.Add(name);
+            }
+            else
+            {
+                int idx = stack.LastIndexOf(name);
+                if (idx < 0) continue; // 多余的结束标签，直接丢弃
+                while (stack.Count - 1 > idx)
+                {
+                    sb.Append("</" + stack[stack.Count - 1] + ">");
+                    stack.RemoveAt(stack.Count - 1);
+                }
+                sb.Append(tag);
+                stack.RemoveAt(stack.Count - 1);
+            }
+        }
+
+        sb.Append(html, last, html.Length - last);
+
+        var missing = new List<string>();
+        for (int i = stack.Count - 1; i >= 0; i--)
+        {
+            sb.Append("</" + stack[i] + ">");
+            missing.Add(stack[i]);
+        }
+        leftoverTags = string.Join(",", missing);
+        return sb.ToString();
     }
 
     static string InlineFrame(string src, string dir)
